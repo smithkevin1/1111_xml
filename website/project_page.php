@@ -27,9 +27,7 @@
 
         <article class="project">
 
-<header>
-
-
+          <header>
             <?php
             $proj = $_GET['proj'];
             $id = $_GET['id'];
@@ -42,14 +40,12 @@
               echo '<p>No student selected, please return to <a href=\'./students.php\'>Project Page</a>.</p>';
             }   ?>
             <p>
-
               <a href='p1.php?xml=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View XML Source</a>
               <a href='p1.php?transformed=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Formatted File</a>
               <!-- <a href='p1.php?annotated=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Annotated File</a> FIGURING OUT XSLT 2.0 w/ php-->
-
-</p>
-</header>
-<section>
+            </p>
+          </header>
+          <section>
               <?php
                 $proj = $_GET['proj'];
                 $id = $_GET['id'];

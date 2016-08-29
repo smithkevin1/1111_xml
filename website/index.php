@@ -25,8 +25,8 @@
                 <h1 class="title">AWD 3302: Project Files</h1>
                 <nav>
                     <ul>
-                        <li><a href="http://su16awd.kevingeraldsmith.com">Course Site</a></li>
-                        <li><a href="http://su16awd.kevingeraldsmith.com/projects/crib_sheet.php">Element List</a></li>
+                        <li><a href="#">Course Site</a></li>
+                        <li><a href="http://fa16.kevingeraldsmith.com/crib_sheet.php">Element List</a></li>
                     </ul>
                 </nav>
             </header>
@@ -53,42 +53,9 @@
                 </article>
                 <aside>
                     <h3>Project page</h3>
-                    <p>This is a project page for AWD3302. As you complete individual writing projects 1-3, this page will be populated with links to the transformed views of the XML documents that you push to GitHub.</p>
+                    <p>This is a project page for ENGW1111. As you complete individual writing projects, this page will be populated with links to the transformed views of the XML documents that you push to GitHub.
+                    </p>
                 </aside>
-                <article>
-
-                      <header>
-                        <h2>Project 2</h1>
-                      </header>
-                      <section>
-                        <p>
-                          <ul class="students">
-                            <?php
-                            $proj=2;
-                            include('list_students.php')
-                            ?>
-                          </ul>
-                        </p>
-                  </section>
-                </article>
-
-<article>
-                <header>
-                  <h2>Project 3</h1>
-                </header>
-                <section>
-                  <p>
-                    <ul class="students">
-                      <?php
-                      $proj=3;
-                      include('list_students.php')
-                      ?>
-                    </ul>
-                  </p>
-            </section>
-          </article>
-
-
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
