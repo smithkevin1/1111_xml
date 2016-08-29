@@ -35,13 +35,13 @@
             if(isset($_GET['id'])) {
               $_GET['id'];
               echo '<h4>Student id: ' . $id . '</h4>';
-              echo '<p>To select another student or project, return to the <a href=\'./students.php\'>Project Page</a>.<p>';
+              echo '<p>To select another student or project, return to the <a href=\'./index.php\'>Project Page</a>.<p>';
             } else {
-              echo '<p>No student selected, please return to <a href=\'./students.php\'>Project Page</a>.</p>';
+              echo '<p>No student selected, please return to <a href=\'./index.php\'>Project Page</a>.</p>';
             }   ?>
             <p>
-              <a href='p1.php?xml=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View XML Source</a>
-              <a href='p1.php?transformed=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Formatted File</a>
+              <a href='project_page.php?xml=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View XML Source</a>
+              <a href='project_page.php?transformed=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Formatted File</a>
               <!-- <a href='p1.php?annotated=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Annotated File</a> FIGURING OUT XSLT 2.0 w/ php-->
             </p>
           </header>

@@ -58,6 +58,11 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    background-color: #f16529;
+}
+
+div.main-container {
+  background-color: white;
 }
 
 .wrapper {
@@ -157,74 +162,52 @@ nav a:hover {
 #text {
   margin-bottom: 2em;
 }
-
-
 div.xsl_v2
 {
-
   -webkit-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.47);
   -moz-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.47);
   box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.47);
   padding: 10px 30px;
   background-color: #eeeeee;
-
-
-
 }
-
+div.xsl_v1
+{
+  width: 100%;
+}
+pre.prettyprint {
+    font-size: .8em;
+}
 article h2.assign_title {
   text-align: center;
   color: black;
   padding: 1em;
-}
-
-span.italics {
-  font-style: italic;
-}
-
-div.xsl_v1
-{
-  width: 100%;
-
-}
-
-pre.prettyprint {
-    font-size: .8em;
-
 }
 .main h2 {
 font-size: 1.6em;
 margin: 10px;
   color: #e44d26;
 }
-
 .students a, .students a:visited {
   font-size: 1.2em;
   font-weight: bold;
   text-decoration: none;
   color: black;
-
 }
-
 .students a:hover {
   text-decoration: none;
   color: grey;
 }
-
 article ul.students {
   list-style: none;
   margin-left: 30px;
 }
-
 footer ul, footer a {
 font-size: 1.1em;
   list-style: none;
   text-decoration: none;
   color: white;
   margin-left: 10px;
-
 }
-
 footer a:hover {
   text-decoration: none;
   color: #ffccb3;
@@ -269,14 +252,10 @@ sup {
     transform: translateX(-50%);
 }
 /* Dynamic vertical centering */
-
-
 [data-tooltip-position="bottom"]:before {
     top: 100%;
     margin-top: 6px;
 }
-
-
 /* Tooltip arrow styling/placement */
 [data-tooltip]:after {
     content: '';
@@ -298,15 +277,24 @@ sup {
     border-width: 0 6px 6px;
     border-bottom-color: #000;
 }
-
 /* Show the tooltip when hovering */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after {
     display: block;
     z-index: 50;
 }
+/* Custom styles for formatted XML documents */
+span.italics {
+  font-style: italic;
+}
 
+span.underline {
+  text-decoration: underline;
+}
 
+span.bold {
+  font-weight: bold;
+}
 
 figure {
     display: block;
@@ -326,95 +314,6 @@ figure figcaption {
     font-style: italic;
     font-size: smaller;
 }
-
-span.italics {
-  font-style: italic;
-}
-
-span.underline {
-  text-decoration: underline;
-}
-
-span.bold {
-  font-weight: bold;
-}
-
-#blog_post {
-  padding: 2em;
-  margin-bottom: 1em;
-  border: 1px dotted black;
-  background-color: white;
-}
-
-#fsb_rpt #tbl_contents ul {
-  list-style-type: upper-roman;
-}
-
-#fsb_rpt #tbl_contents ul ul li {
-  list-style-type: none;
-}
-
-#fsb_rpt {
-  margin: 5em auto;
-  max-width: 900px;
-}
-#fsb_rpt div {
-    padding: 2em;
-    margin-bottom: 1em;
-    border: 1px dotted black;
-    background-color: white;
-}
-
-#proposal {
-  margin: 5em auto;
-  max-width: 900px;
-}
-#proposal div {
-    padding: 2em;
-    margin-bottom: 1em;
-    border: 1px dotted black;
-    background-color: white;
-}
-
-#proposal #intro.page h3::first-letter {
-  text-transform: capitalize;
-}
-
-
-
-
-
-#cover_letter {
-  margin: 5em auto;
-  max-width: 900px;
-  padding: 2em;
-  margin-bottom: 1em;
-  border: 1px dotted black;
-  background-color: white;
-}
-
-#cover_letter div.header {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 1em auto;
-}
-
-#cover_letter div.header ul {
-  float: left;
-  padding: 5em 0;
-  width: 100%;
-  min-width: 200px;
-}
-
-#cover_letter p.closing {
-  padding-bottom: 5em;
-}
-
-#cover_letter
-
-
-
 
 /* ==========================================================================
    Media Queries
