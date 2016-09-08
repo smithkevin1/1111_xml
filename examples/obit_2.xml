@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newspaper>
+    <page type="front"> ... </page> ... <page type="Death Notices">
+        <entry>
+            <title><name><surname>Wetzel</surname>,
+                        <firstName>Ruth</firstName><middleName>Ida</middleName>
+                    <nickName>“Ruthie”</nickName></name></title>
+            <p><age>74</age>, of <place>Glenview</place>, also of <place>Chicago</place>,
+                    <place>Winnetka</place>, <place>Skokie</place> &amp; <place>Eagle River
+                    WI</place>, passed away <date type="death">Aug 28</date> with family by her side
+                after a 6 year battle with <cause>Cancer</cause>. <job>Ruth worked in Food Service
+                    managing lunchrooms at Niles North &amp; New Trier High Schools.</job>
+                <family>She is survived by son Jim Wetzel, son-in-law Lance Lawson, brother Richard
+                    Sack (sister-in-law Kathy) &amp; beloved nieces/nephews. She was preceded in
+                    death by husband Richard "Dick" Wetzel and parents Herman &amp; Mathilde
+                    Sack.</family>
+                <service>A Memorial Reception will be held in her honor The Women's Athletic Club of
+                    Chicago Wed Sept 7, 5-8 pm.</service>
+                <donation>A life long supporter of PBS - in lieu of flowers donations can me made to
+                    WTTW Chicago.</donation></p>
+        </entry>
+        <entry>
+            <title>Woelfel, Laverne</title>
+            <p>Laverne Woelfel, 82, of Wallingford, formerly of Chicago, died peacefully Wednesday,
+                July 27, 2016. She was the wife of the late Donald Woelfel.</p>
+            <p>Relatives and friends are invited to attend a graveside service in St. Benedict
+                Cemetery, 4600 W. 135th St. Crestwood on Saturday, September 3, 2016 at 11:00 a.m.
+                For a complete obituary, please visit www.wallingfordfh.com</p>
+        </entry> ... </page>
+    <page type="classifieds"> ... </page> ... </newspaper>

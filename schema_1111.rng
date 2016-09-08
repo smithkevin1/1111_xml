@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grammar 
-    xmlns="http://relaxng.org/ns/structure/1.0"
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
     datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
-    
+
     <!-- MACROS -->
     <define name="macro.paraContent">
         <zeroOrMore>
             <choice>
                 <text/>
-                <!--<ref name="model.phrase"/>
-                <ref name="model.inter"/>-->
-
+                <ref name="model.phrase"/>                
                 <ref name="model.global"/>
             </choice>
         </zeroOrMore>
@@ -20,7 +17,7 @@
     <!-- global attributes -->
     <define name="att.global.attributes">
         <ref name="att.global.rendition.attributes"/>
-        <ref name="att.global.linking.attributes"/>
+        <!--<ref name="att.global.linking.attributes"/>-->
         <ref name="att.global.responsibility.attributes"/>
         <ref name="att.global.attribute.xmlid"/>
         <ref name="att.global.attribute.n"/>
@@ -83,31 +80,31 @@
         </optional>
     </define>
     <define name="att.global.rendition.attributes">
-        <ref name="att.global.rendition.attribute.rend"/>
+        <ref name="att.global.rendition.attribute.style"/>
     </define>
-    <define name="att.global.rendition.attribute.rend">
+    <define name="att.global.rendition.attribute.style">
         <optional>
-            <attribute name="rend">
-                <a:documentation>(rendition) indicates how the element in question should be
-                    rendered or presented in the source text.</a:documentation>
+            <attribute name="style">
+                <a:documentation>(style) indicates how the element in question should be
+                    rendered or presented in the output text.</a:documentation>
                 <list>
                     <oneOrMore>
-                        <data type="token">
-                            <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-                        </data>
+                        <value>italic</value>
+                        <value>underline</value>
+                        <value>bold</value>
                     </oneOrMore>
                 </list>
             </attribute>
         </optional>
     </define>
     <define name="att.global.responsibility.attributes">
-        <ref name="att.global.responsibility.attribute.resp"/>
+        <ref name="att.global.responsibility.attribute.who"/>
     </define>
-    <define name="att.global.responsibility.attribute.resp">
+    <define name="att.global.responsibility.attribute.who">
         <optional>
-            <attribute name="resp">
-                <a:documentation>(responsible party) indicates the agency responsible for the
-                    intervention or interpretation, for example a docAuthor or peer reviewer. Be
+            <attribute name="who">
+                <a:documentation>(who) indicates the party responsible for the
+                    intervention or interpretation, for example an instructor or peer reviewer. Be
                     sure to use your xml:id</a:documentation>
                 <list>
                     <oneOrMore>
@@ -121,7 +118,7 @@
     <!-- for @type and @subtype -->
     <define name="att.typed.attributes">
         <ref name="att.typed.attribute.type"/>
-        <ref name="att.typed.attribute.subtype"/>
+        <!--<ref name="att.typed.attribute.subtype"/>-->
     </define>
     <define name="att.typed.attribute.type">
         <optional>
@@ -152,7 +149,30 @@
             <data type="anyURI"/>
         </attribute>
     </define>
-
+    <!-- other attributes -->
+    <define name="att.source">
+        <attribute name="source">
+            <a:documentation>provides a pointer to the bibliographical source from which a quotation
+                or citation is drawn.</a:documentation>
+            <list>
+                <oneOrMore>
+                    <data type="anyURI"/>
+                </oneOrMore>
+            </list>
+        </attribute>
+    </define>
+    <define name="att.review.type">
+        <optional>
+            <attribute name="type">
+                <a:documentation>(type of reviewer) suggested values are 'peer' or
+                    'instructor'</a:documentation>
+                <choice>
+                    <value>peer</value>
+                    <value>instructor</value>
+                </choice>
+            </attribute>
+        </optional>
+    </define>
     <!-- CONTENT MODELS -->
     <define name="model.global">
         <choice>
@@ -182,6 +202,11 @@
             <ref name="listBibl"/>
         </choice>
     </define>
+    <define name="model.phrase">
+        <choice>
+            <ref name="citation"/>
+        </choice>
+    </define>
     <!-- ELEMENT DEFINITIONS -->
     <define name="note">
         <element name="note">
@@ -204,8 +229,7 @@
                     <ref name="model.global"/>
                 </choice>
             </zeroOrMore>
-            <!--<ref name="att.global.attributes"/>
-            <ref name="att.typed.attributes"/>-->
+            <ref name="att.global.attribute.xmlid"/>
             <empty/>
         </element>
     </define>
@@ -224,10 +248,10 @@
             <ref name="att.typed.attributes"/>  -->
         </element>
     </define>
-    <define name="version">
-        <element name="version">
+    <define name="citation">
+        <element name="citation">
             <text/>
-            <ref name="att.global.attribute.n"/>
+            <ref name="att.source"/>
         </element>
     </define>
     <define name="author">
@@ -235,7 +259,7 @@
             <text/>
             <ref name="att.global.attribute.xmlid"/>
         </element>
-        
+
     </define>
     <define name="title">
         <element name="title">
@@ -260,6 +284,15 @@
             </zeroOrMore>
         </element>
     </define>
+    <define name="reviewer">
+        <element name="reviewer">
+            <optional>
+                <text/>
+            </optional>
+            <ref name="att.review.type"/>
+            <ref name="att.global.attribute.xmlid"/>
+        </element>
+    </define>
     <define name="report">
         <element name="report">
             <zeroOrMore>
@@ -267,21 +300,26 @@
                     <ref name="model.divPart"/>
                 </choice>
             </zeroOrMore>
-            <ref name="att.typed.attributes"/>
+            <ref name="att.review.type"/>
+            <ref name="att.global.responsibility.attribute.who"/>
         </element>
     </define>
     <define name="docReview">
         <element name="docReview">
-            <zeroOrMore>
+            <oneOrMore>
                 <choice>
-                    <ref name="report"/>
                     <ref name="model.global"/>
+                    <group>
+                        <ref name="reviewer"/>
+                        <ref name="report"/>
+                    </group>
                 </choice>
-            </zeroOrMore>
+            </oneOrMore>
         </element>
     </define>
     <define name="docFoot">
         <element name="docFoot">
+            <ref name="title"/>
             <ref name="model.biblLike"/>
         </element>
     </define>
@@ -298,21 +336,15 @@
                 <interleave>
                     <ref name="title"/>
                     <ref name="author"/>
-                    <oneOrMore>
-                        <ref name="version"/>
-                    </oneOrMore>
                     <zeroOrMore>
                         <ref name="model.global"/>
                     </zeroOrMore>
                 </interleave>
             </group>
-
-
-
         </element>
     </define>
-    <define name="DOC">
-        <element name="DOC">
+    <define name="essay">
+        <element name="essay">
             <group>
                 <ref name="docHead"/>
                 <ref name="body"/>
@@ -325,6 +357,11 @@
             </group>
             <ref name="att.global.attributes"/>
             <ref name="att.typed.attributes"/>
+        </element>
+    </define>
+    <define name="DOC">
+        <element name="DOC">
+            <ref name="essay"/>
         </element>
     </define>
 

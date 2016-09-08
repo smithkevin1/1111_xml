@@ -22,21 +22,18 @@
         <![endif]-->
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">AWD 3302: Project Files</h1>
+                <h1 class="title">ENGW 1111: Project Files</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">Course Site</a></li>
+                        <li><a href="https://plus.google.com/u/0/communities/106709277499047293434">Course Site</a></li>
                         <li><a href="http://fa16.kevingeraldsmith.com/crib_sheet.php">Element List</a></li>
                     </ul>
                 </nav>
             </header>
         </div>
-
         <div class="main-container">
             <div class="main wrapper clearfix">
-
                 <article>
-
                       <header>
                         <h2>Project 1</h1>
                       </header>
@@ -64,10 +61,8 @@
                 <h3></h3>
             </footer>
         </div>
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
-
         <script src="js/main.js"></script>
     </body>
 </html>

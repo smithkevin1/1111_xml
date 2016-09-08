@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/kevinsmith/repos/1111_xml/schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<DOC>
+    <essay>
+        <docHead>
+            <title>Sample Essay</title>
+            <author xml:id="smi_01">Kevin G. Smith</author>
+        </docHead>
+        <body>
+            <div>
+                <p>The first genre‑based analysis was done by John Swales in 1981. He investigated
+                    48 research article (RA) introductions from different fields of science and
+                    presented his findings in the work “aspects of Article Introductions”, offering
+                    a four‑move model. Swales claims that article introductions have the structure
+                    within which a series of moves (parts) appear in a predictable order <citation
+                        source="#Swales">(Swales 244)</citation>. Each move consists of several
+                    steps. In 1990, Swales offered a revised model consisting of three moves, urged
+                    by some criticisms that it was difficult to differentiate between Move 1 and
+                    Move 2. However, it is debatable whether the 3‑move model solves this problem. I
+                    would argue that the choice between 3-move and 4-move model primarily depends on
+                    the discipline in which the genre is applied.</p>
+
+                <p>There have been numerous attempts to investigate research article introductions
+                    in different scientific fields such as physics, medicine, engineering, biology
+                    etc <citation source="#Duvall">(Duvall)</citation>. However, I have not found
+                    any attempt of a detailed analysis of RA introductions in economics. The only
+                    article regarding this issue is that by Dudley‑Evans and Henderson dealing with
+                    the change in economics writing from <note who="#smi_01">test note</note>1881 to
+                    1980. They have identified three periods: (1) 1881 to 1925, (2) 1935 to 1957 and
+                    (3) 1961 to 198O, but only a small number of articles was examined (10, 5 and 7
+                    respectively).</p>
+            </div>
+        </body>
+        <docFoot>
+            <title>Works Cited</title>
+            <listBibl>
+                <bibl xml:id="Dolby">Dolby, Nadine. “Research in Youth Culture and Policy: Current
+                    Conditions and Future Directions.” Social Work and Society: The International
+                    Online-Only Journal, vol. 6, no. 2, 2008,
+                    www.socwork.net/sws/article/view/60/362. Accessed 20 May 2016.</bibl>
+                <bibl xml:id="Duvall">Duvall, John N. "The (Super)Marketplace of Images: Television
+                    as Unmediated Mediation in DeLillo's White Noise." Arizona Quarterly, vol. 50,
+                    no. 3, 1994, pp. 127-53. Print.</bibl>
+                <bibl xml:id="Swales">Swales, John. Genre Analysis. Penguin, 1987. Print.</bibl>
+            </listBibl>
+        </docFoot>
+        <docReview>
+            <reviewer type="peer" xml:id="id_here"> of Reviewer</reviewer>
+            <report type="peer" who="#id_here">
+                <p>Peer review report will go here.</p>
+            </report>
+            <reviewer type="instructor" xml:id="smi_01">Kevin Smith</reviewer>
+            <report type="instructor" who="#smi_01">
+                <p>Instructor comments will go here.</p>
+            </report>
+        </docReview>
+    </essay>
+</DOC>
