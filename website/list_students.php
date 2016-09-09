@@ -45,26 +45,3 @@ elseif(isset($_GET['proj'])) {
   <li><a href=\'project_page.php?id=we.sp&proj=' .$proj. '\'>Spencer Webb</a></li>';
   }
 ?>
-dh.mo
-
-ga.ar
-
-ho.wa
-
-ho.jo
-
-ko.di
-
-li.em
-
-lo.va
-
-mi.as
-
-ro.dy
-
-sa.jh
-
-to.fr
-
-we.sp
