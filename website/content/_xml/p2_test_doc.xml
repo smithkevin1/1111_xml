@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--the second line in the document associates the schema, so be sure not to change it-->
+<DOC>
+    <docHead>
+        <!--required header includes metadata about the assignment (title, author, version)-->
+        <title>Title of Assignment</title>
+        <author xml:id="your_id_here">Your name here</author>
+        <version n="num_of_version" date="2016-01-01"/>
+    </docHead>
+    
+    <blog_post>
+        <visual type="photo" url="http://i.imgur.com/4mpc3zN.png">Dog meme</visual>
+        <background><note type="peer" xml:id=""></note></background>
+        <answer><ref type="supplement" url="http://su16awd.kevingeraldsmith.com">Course site</ref></answer>
+        <sources></sources>
+    </blog_post>
+    
+    <pub_init_proposal>
+        <cover_page>
+            <title>Sample Public Initiative Proposal</title>
+            <author>Kevin G. Smith</author>
+            <submit_date>2016-01-01</submit_date>
+            <audience>This text is part of the audience element.</audience>
+        </cover_page>
+        <tbl_cont>
+            <section n="1">First section</section>
+        </tbl_cont>
+        <intro type="abstract">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </intro>
+        <background>
+            <p><crnt_cond></crnt_cond></p>
+            <p><subj_hist></subj_hist></p>
+        </background>
+        <purpose>
+            <p></p>
+        </purpose>
+        <approach type="">
+            <p></p>
+        </approach>
+        <feasibility type="">
+            <p></p>
+        </feasibility>
+        <conclu>
+            <p></p>
+        </conclu>
+        <references>
+            <citation style="">Sample citations</citation>
+        </references>
+    </pub_init_proposal>
+    
+    <fsb_rpt>
+        <page type="ttl">
+            <title>Test Title</title>
+            <contributors>
+                Fefdnfowfmpwefmk
+            </contributors>
+            <date>2015-01-01</date>
+        </page>
+        <page type="tbl_contents">
+            <sect n="1">
+                Listed sections in TOC
+            </sect>
+            <sect n="1">
+                Another one
+            </sect>
+        </page>
+        <page type="fsb">
+            <fsb_hlgt type="econ">Test paragraph </fsb_hlgt>
+        </page>
+    </fsb_rpt>
+    
+    <cover_letter>
+        <header>
+            <name>John Doe</name>
+            <contact_info>
+                <!-- One or More Contact -->
+                <contact type="address">123 Lane 11111 DC</contact>
+                <contact type="phone"> 1-800-999-9999 </contact>
+                <contact type="email"> jdoe@fakeMail.net </contact>
+            </contact_info>
+        </header>
+        <greeting>Hello Jane Doe,</greeting>
+        <intro_para>
+            <intent type="purpose">I am interested in the Simulation Engineering job at ABC
+                Widgets.</intent>
+            <intent type="connection"><!-- Optional --> After talking with you at the Knowledge
+                University job fair</intent> , I became interested in the job.
+            <reason><!-- Optional --> I have enjoyed my past work with Simulation Engineering in
+                the past</reason> and <proposition>I think I will fit well with ABC Widgets culture
+                    and bring all the necessary abilities to go above and beyond my job
+                    requirements.</proposition>
+        </intro_para>
+        <para_background>
+            <!-- One or More -->
+            <experience type="work">I bring previous experience with C++ from my work at 123
+                Consulting. I used C++ while contributing to their weather simulation and improved
+                their computing efficiency with it.</experience>
+            <experience type="personal">I have also improved my ability in Java while working on a
+                chess program in my spare time.</experience>
+            <experience type="school">I gained communication skills from my work as a TA at
+                Knowledge University. I often had to explain technial info in many different
+                ways.</experience>
+        </para_background>
+        <para_closing>
+            <compatability>I think I will fit in well with the start up culture of ABC
+                Widgets.</compatability>
+            <next_step>I hope you will call me at 1-800-999-9999 so we can discuss the next step in
+                the hiring process.</next_step>
+        </para_closing>
+        <signature>
+            <salutation>Sincerely,</salutation>
+            <name>John Doe</name>
+        </signature>
+    </cover_letter>
+    
+    <docReview>
+        <reviewer type="peer" xml:id="peer_id_here"/>
+        <report type="peer" resp="#peer_id_here">
+            <p>Peer review report will appear here.</p>
+        </report>
+        <reviewer type="instructor" xml:id="kgs"/>
+        <report type="instructor" resp="#kgs">
+            <p>Comments on assignment will appear here.</p>
+        </report>
+    </docReview>
+</DOC>

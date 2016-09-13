@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--the second line in the document associates the schema, so be sure not to change it-->
+<DOC>
+    <docHead>
+        <!--required header includes metadata about the assignment (title, author, at least one version element)-->
+        <title>Example Annotated Bibliography</title>
+        <author xml:id="s01">Kevin Smith</author>
+        <version n="1" date="2016-07-10"/>
+    </docHead>
+
+
+    <annotated_bib>
+        <problem_stmt>This is a sample problem statement; required element, according to the project
+            1 prompt.<note type="instructor" resp="#kgs">this is a sample instructor note</note></problem_stmt>
+
+        <citation n="1" style="APA"><author n="1">Waite, L. J.</author>, <author n="2"
+                >Goldschneider, F. K.</author>, &amp; <author n="3">Witsberger, C.</author> (1986).
+                <title level="a">Nonfamily living and the erosion of traditional family orientations
+                among young adults</title>. <title level="j">American Sociological
+            Review</title>, 51 (4), 541-554. </citation>
+        <annotation>
+            <background type="author">The authors, researchers at the Rand Corporation and Brown
+                University,</background>
+            <summary type="approach">use data from the National Longitudinal Surveys of Young Women
+                and Young Men to test their hypothesis that nonfamily living by young adults alters
+                their attitudes, values, plans, and expectations, moving them away from their belief
+                in traditional sex roles.</summary>
+            <summary type="general">They find their hypothesis strongly supported in young females,
+                while the effects were fewer in studies of young males. Increasing the time away
+                from parents before marrying increased individualism, self-sufficiency, and changes
+                in attitudes about families.</summary>
+            <relevance type="value_stmt">In contrast, an earlier study by Williams cited below shows
+                no significant gender differences in sex role attitudes as a result of nonfamily
+                living.</relevance>
+            <relevance type="application">This debate in the sociological literature is important
+                for anyone seeking to historicize the “family values” debate of the 1980s and 90s in
+                the U.S.</relevance>
+        </annotation>
+
+        <citation style="IEEE" n="2"><author n="1">A. Paul</author>. (1987, Oct.). “<title level="a"
+                >Electrical properties of flying machines</title>.” <title level="j">Flying
+                Machines</title>. [Online]. 38(1), pp. 778-998. Available:
+            www.flyingmachjourn/properties/fly.edu [Dec. 1, 2003]. </citation>
+        <annotation> This book, <background type="author">co-authored by notable economist and
+                social theorist (Rifkin)</background>, <summary type="general"><q>lifts the cloak of
+                    secrecy from genetic experiments</q> and explores, among other things, <q>who is
+                    performing the research and who profits from it</q> (12).</summary>
+            <summary type="interpretation">It's clearly anti-genetic engineering; its chapter titles
+                give a good idea of the direction and flavor of the book, for example, "Eugenics,"
+                "Eliminating 'Bad' Genes," "Bio-Futures," "Scientists and Corporation." Though the
+                book is dated, the debates surrounding gene therapy at the time of the book’s
+                publication are remarkably similar to today.</summary>
+            <relevance type="application">This book looks as if it is an appropriate source for the
+                social arguments from the political left wing.</relevance>
+        </annotation>
+
+    </annotated_bib>
+
+
+
+    <docReview>
+        <reviewer type="instructor" xml:id="kgs"/>
+        <report type="instructor" resp="#kgs">
+            <p>Comments on assignment will appear here.</p>
+        </report>
+    </docReview>
+</DOC>
