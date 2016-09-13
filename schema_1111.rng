@@ -214,8 +214,17 @@
                 information or comment upon the text</a:documentation>
             <optional>
                 <ref name="att.global.attributes"/>
-                <ref name="att.typed.attributes"/>
             </optional>
+            <attribute name="type">
+                <a:documentation>must specify whether the note is @type peer or
+                    instructor</a:documentation>
+                <choice>
+                    <value>peer</value>
+                    <a:documentation>this note is written from a peer</a:documentation>
+                    <value>instructor</value>
+                    <a:documentation>this note is from the instructor</a:documentation>
+                </choice>
+            </attribute>
             <text/>
         </element>
     </define>
