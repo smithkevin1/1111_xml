@@ -5,6 +5,7 @@
         <docHead>
             <title>Sample Essay</title>
             <author xml:id="sm.ke">Kevin G. Smith</author>
+            <date>02/26/2017</date>
         </docHead>
         <body>
             <div>
@@ -19,13 +20,13 @@
                     Move 2. However, it is debatable whether the 3‑move model solves this problem. I
                     would argue that the choice between 3-move and 4-move model primarily depends on
                     the discipline in which the genre is applied.</p>
-
+                
                 <p>There have been numerous attempts to investigate research article introductions
                     in different scientific fields such as physics, medicine, engineering, biology
                     etc <citation source="#Duvall">(Duvall)</citation>. However, I have not found
                     any attempt of a detailed analysis of RA introductions in economics. The only
                     article regarding this issue is that by Dudley‑Evans and Henderson dealing with
-                    the change in economics writing from <note who="#smi_01">test note</note>1881 to
+                    the change in economics writing from <note type="instructor" who="#smi.ke">test note</note>1881 to
                     1980. They have identified three periods: (1) 1881 to 1925, (2) 1935 to 1957 and
                     (3) 1961 to 198O, but only a small number of articles was examined (10, 5 and 7
                     respectively).</p>
@@ -44,15 +45,15 @@
                 <bibl xml:id="Swales">Swales, John. Genre Analysis. Penguin, 1987. Print.</bibl>
             </listBibl>
         </docFoot>
-        <docReview>
-            <reviewer type="peer" xml:id="id_here"> of Reviewer</reviewer>
-            <report type="peer" who="#id_here">
-                <p>Peer review report will go here.</p>
-            </report>
-            <reviewer type="instructor" xml:id="smi_01">Kevin Smith</reviewer>
-            <report type="instructor" who="#smi_01">
-                <p>Instructor comments will go here.</p>
-            </report>
-        </docReview>
     </essay>
+    <docReview>
+        <reviewer type="peer" xml:id="id_here"> of Reviewer</reviewer>
+        <report type="peer" who="#id_here">
+            <p>Peer review report will go here.</p>
+        </report>
+        <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
+        <report type="instructor" who="#smi.ke">
+            <p>Instructor comments will go here.</p>
+        </report>
+    </docReview>
 </DOC>

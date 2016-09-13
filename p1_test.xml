@@ -5,6 +5,7 @@
         <docHead>
             <title>Sample Essay</title>
             <author xml:id="sm.ke">Kevin G. Smith</author>
+            <date>02/26/2017</date>
         </docHead>
         <body>
             <div>
@@ -44,6 +45,7 @@
                 <bibl xml:id="Swales">Swales, John. Genre Analysis. Penguin, 1987. Print.</bibl>
             </listBibl>
         </docFoot>
+    </essay>
         <docReview>
             <reviewer type="peer" xml:id="id_here"> of Reviewer</reviewer>
             <report type="peer" who="#id_here">
@@ -54,5 +56,4 @@
                 <p>Instructor comments will go here.</p>
             </report>
         </docReview>
-    </essay>
 </DOC>

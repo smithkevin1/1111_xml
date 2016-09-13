@@ -275,6 +275,11 @@
             <text/>
         </element>
     </define>
+    <define name="date">
+        <element name="date">
+            <text/>
+        </element>
+    </define>   
     <define name="p">
         <element name="p">
             <a:documentation>(paragraph) a division of text indicating a
@@ -345,6 +350,7 @@
                 <interleave>
                     <ref name="title"/>
                     <ref name="author"/>
+                    <ref name="date"/>
                     <zeroOrMore>
                         <ref name="model.global"/>
                     </zeroOrMore>
@@ -360,9 +366,6 @@
                 <optional>
                     <ref name="docFoot"/>
                 </optional>
-                <zeroOrMore>
-                    <ref name="docReview"/>
-                </zeroOrMore>
             </group>
             <ref name="att.global.attributes"/>
             <ref name="att.typed.attributes"/>
@@ -371,6 +374,9 @@
     <define name="DOC">
         <element name="DOC">
             <ref name="essay"/>
+            <zeroOrMore>
+                <ref name="docReview"/>
+            </zeroOrMore>
         </element>
     </define>
 

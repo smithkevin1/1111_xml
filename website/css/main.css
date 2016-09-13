@@ -158,9 +158,15 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#essay {
+  padding: 4em;
+  margin: 2em;
+  border: 1px dotted black;
+  background-color: white;
+}
 
 #text {
-  margin-bottom: 2em;
+
 }
 div.xsl_v2
 {
@@ -284,6 +290,20 @@ sup {
     z-index: 50;
 }
 /* Custom styles for formatted XML documents */
+#head {
+  height: 5em;
+}
+ul.right-just {
+  float: right;
+  display: block;
+  list-style-type: none;
+
+}
+
+#essay h1 {
+  text-align: center;
+}
+
 span.italics {
   font-style: italic;
 }

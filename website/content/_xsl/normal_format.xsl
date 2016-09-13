@@ -19,12 +19,15 @@
             </body>
         </html>
     </xsl:template>-->
-
+    <xsl:template match="essay">
+        <div id="essay"><xsl:apply-templates/></div>
+    </xsl:template>
     <xsl:template match="DOC/essay/docHead">
         <div id="head">
-            <h3>Title: <xsl:value-of select="./title"/></h3>
-            <h3>Author: <xsl:value-of select="./author"/></h3>
+            <div><ul class="right-just"><li><xsl:value-of select="./author"/></li>
+            <li><xsl:value-of select="./date"/></li></ul></div>
         </div>
+        <h1><xsl:value-of select="./title"/></h1>
     </xsl:template>
 
     <xsl:template match="body">
@@ -37,6 +40,9 @@
         <div id="{$attribute-value}">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+    <xsl:template match="essay//div/p">
+        <p><xsl:apply-templates/></p>
     </xsl:template>
 
     <xsl:template match="DOC//citation">
@@ -82,9 +88,11 @@
 
     <xsl:template match="docFoot">
         <div id="footer">
-            <h3><xsl:value-of select="./title"/></h3>
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+    <xsl:template match="docFoot/title">
+        <h3><xsl:apply-templates/></h3>
     </xsl:template>
     <xsl:template match="listBibl">
         <div id="references">
