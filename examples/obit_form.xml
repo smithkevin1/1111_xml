@@ -1,44 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<newspaper>
-    <page type="front"> 
-        
-        ... 
-    
-    </page> 
-    
-    ... 
-    
+
+<DOC>
     <page type="Death Notices">
-        <entry>
+        <obit>
             <title>Wetzel, Ruth Ida “Ruthie”</title>
-            <p>74, of Glenview, also of Chicago, Winnetka, Skokie &amp;
-                Eagle River WI, passed away Aug 28 with family by her side after a 6 year battle
-                with Cancer. Ruth worked in Food Service managing lunchrooms at Niles North &amp;
-                New Trier High Schools. She is survived by son Jim Wetzel, son-in-law Lance Lawson,
-                brother Richard Sack (sister-in-law Kathy) &amp; beloved nieces/nephews. She was
-                preceded in death by husband Richard "Dick" Wetzel and parents Herman &amp; Mathilde
-                Sack. A Memorial Reception will be held in her honor The Women's Athletic Club of
-                Chicago Wed Sept 7, 5-8 pm. A life long supporter of PBS - in lieu of flowers
-                donations can me made to WTTW Chicago.</p>
-        </entry>
-        <entry>
+            <p>74, of Glenview, also of Chicago, Winnetka, Skokie &amp; Eagle River WI, passed away
+                Aug 28 with family by her side after a 6 year battle with Cancer. Ruth worked in
+                Food Service managing lunchrooms at Niles North &amp; New Trier High Schools. She is
+                survived by son Jim Wetzel, son-in-law Lance Lawson, brother Richard Sack
+                (sister-in-law Kathy) &amp; beloved nieces/nephews. She was preceded in death by
+                husband Richard "Dick" Wetzel and parents Herman &amp; Mathilde Sack. A Memorial
+                Reception will be held in her honor The Women's Athletic Club of Chicago Wed Sept 7,
+                5-8 pm. A life long supporter of PBS - in lieu of flowers donations can me made to
+                WTTW Chicago.</p>
+        </obit>
+
+        <obit>
             <title>Woelfel, Laverne</title>
             <p>Laverne Woelfel, 82, of Wallingford, formerly of Chicago, died peacefully Wednesday,
                 July 27, 2016. She was the wife of the late Donald Woelfel.</p>
             <p>Relatives and friends are invited to attend a graveside service in St. Benedict
                 Cemetery, 4600 W. 135th St. Crestwood on Saturday, September 3, 2016 at 11:00 a.m.
                 For a complete obituary, please visit www.wallingfordfh.com</p>
-        </entry> 
-        
-        ... 
-    
+        </obit>
+
     </page>
-    <page type="classifieds"> 
-        
-        ... 
-    
-    </page> 
-    
-    ... 
-    
-</newspaper>
+
+    <page type="Death Notices">
+        <obit>
+            <name>Wetzel, Ruth Ida “Ruthie”</name>
+            <p><age>74</age>, of <residence>Glenview, also of Chicago, Winnetka, Skokie &amp; Eagle
+                    River WI,</residence> passed away <date_of_death>Aug 28</date_of_death> with
+                family by her side after a <cause_of_death>6 year battle with
+                    Cancer</cause_of_death>. <employment>Ruth worked in Food Service managing
+                    lunchrooms at Niles North &amp; New Trier High Schools.</employment>
+                <family>She is survived by son Jim Wetzel, son-in-law Lance Lawson, brother Richard
+                    Sack (sister-in-law Kathy) &amp; beloved nieces/nephews. She was preceded in
+                    death by husband Richard "Dick" Wetzel and parents Herman &amp; Mathilde
+                    Sack.</family>
+                <service>A Memorial Reception will be held in her honor The Women's Athletic Club of
+                    Chicago Wed Sept 7</service>, 5-8 pm. A life long supporter of PBS - <gift>in
+                    lieu of flowers donations can me made to WTTW Chicago.</gift></p>
+        </obit>
+
+        <obit>
+            <name>Woelfel, Laverne</name>
+            <p><name>Laverne Woelfel</name>, <age>82</age>, of <residence>Wallingford, formerly of
+                    Chicago,</residence>
+                <date_of_death>died peacefully Wednesday, July 27, 2016</date_of_death>. <family>She
+                    was the wife of the late Donald Woelfel.</family></p>
+            <p><service>Relatives and friends are invited to attend a graveside service in St.
+                    Benedict Cemetery, 4600 W. 135th St. Crestwood on Saturday, September 3, 2016 at
+                    11:00 a.m.</service> For a complete obituary, please visit
+                www.wallingfordfh.com</p>
+        </obit>
+    </page>
+
+    <page type="Death Notices">
+        <obit>
+            <title>Wetzel, Ruth Ida “Ruthie”</title>
+            <p>74, of Glenview, also of Chicago, Winnetka, Skokie &amp; Eagle River WI, <description
+                    type="death">passed away</description> Aug 28 <description type="death">with
+                    family by her side</description> after a <description type="illness">6 year
+                    battle with Cancer</description>. Ruth worked in Food Service managing
+                lunchrooms at Niles North &amp; New Trier High Schools. She is survived by son Jim
+                Wetzel, son-in-law Lance Lawson, brother Richard Sack (sister-in-law Kathy) &amp;
+                beloved nieces/nephews. <description type="death">She was preceded in
+                    death</description> by husband Richard "Dick" Wetzel and parents Herman &amp;
+                Mathilde Sack. A Memorial Reception will be held in her honor The Women's Athletic
+                Club of Chicago Wed Sept 7, 5-8 pm. A life long supporter of PBS - in lieu of
+                flowers donations can me made to WTTW Chicago.</p>
+        </obit>
+
+        <obit>
+            <title>Woelfel, Laverne</title>
+            <p>Laverne Woelfel, 82, of Wallingford, formerly of Chicago, <description type="death"
+                    >died peacefully</description> Wednesday, July 27, 2016. She was the wife of the
+                late Donald Woelfel.</p>
+            <p>Relatives and friends are invited to attend a graveside service in St. Benedict
+                Cemetery, 4600 W. 135th St. Crestwood on Saturday, September 3, 2016 at 11:00 a.m.
+                For a complete obituary, please visit www.wallingfordfh.com</p>
+        </obit>
+
+    </page>
+
+    <page type="Death Notices">
+        <obit>
+            <title>Wetzel, Ruth Ida “Ruthie”</title>
+            <p>74, of Glenview, also of Chicago, Winnetka, Skokie &amp; Eagle River WI, passed away
+                Aug 28 with <family who="general">family</family> by her side after a 6 year battle
+                with Cancer. Ruth worked in Food Service managing lunchrooms at Niles North &amp;
+                New Trier High Schools. She is survived by son <family who="child">Jim
+                    Wetzel</family>, son-in-law <family who="child" type="in-law">Lance
+                    Lawson</family>, brother <family who="sibling">Richard Sack</family>
+                (sister-in-law <family who="sibling" type="in-law">Kathy</family>) &amp; beloved
+                    <family who="general" type="extended">nieces/nephews</family>. She was preceded
+                in death by husband <family who="spouse">Richard "Dick" Wetzel</family> and parents
+                    <family who="parent">Herman</family> &amp; <family who="parent">Mathilde
+                    Sack</family>. A Memorial Reception will be held in her honor The Women's
+                Athletic Club of Chicago Wed Sept 7, 5-8 pm. A life long supporter of PBS - in lieu
+                of flowers donations can me made to WTTW Chicago.</p>
+        </obit>
+
+        <obit>
+            <title>Woelfel, Laverne</title>
+            <p>Laverne Woelfel, 82, of Wallingford, formerly of Chicago, died peacefully Wednesday,
+                July 27, 2016. She was the wife of the late <family who="spouse">Donald
+                    Woelfel</family>.</p>
+            <p><family who="general">Relatives</family> and friends are invited to attend a
+                graveside service in St. Benedict Cemetery, 4600 W. 135th St. Crestwood on Saturday,
+                September 3, 2016 at 11:00 a.m. For a complete obituary, please visit
+                www.wallingfordfh.com</p>
+        </obit>
+
+    </page>
+</DOC>
