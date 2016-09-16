@@ -12,7 +12,8 @@
             <body><h1>Modeling Exercise</h1>
                 <div>
                     <xsl:for-each select="page">
-                        <div><h2>Death Notices (example <xsl:number count="page"/>)</h2>
+                        <div><hr/>
+                            <h2>Death Notices (example <xsl:number count="page"/>)</h2>
                             <xsl:apply-templates/></div>
                     </xsl:for-each>
                     
