@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/RTE/repos/3302_xml/examples/abstract_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<abstract>
+    <title></title>
+    <author></author>
+    <text>
+        <setting type="s1">text</setting>
+        <conclusion type=""></conclusion>
+        <gap type=""></gap>
+        <purpose type=""></purpose>
+        <methodology type=""></methodology>
+        <results type=""></results>
+        <conclusion type=""></conclusion>
+    </text>
+</abstract>

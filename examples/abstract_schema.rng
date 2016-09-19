@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="abstract">
+            <!-- This schema is directly adapted as an example from Feltrim, Valéria D. et al, "Analysis of the rhetorical structure of computer science abstracts in Portuguese." Accessed 2/28/2016 here: http://ucrel.lancs.ac.uk/publications/CL2003/papers/feltrim.pdf -->
+            <element name="title">
+                <text/>
+            </element>
+            <element name="author">
+                <text/>
+            </element>
+            <element name="text">
+                <interleave>
+                    <oneOrMore>
+                        <element name="setting">
+                            <a:documentation>(setting up the research) indicates information that is
+                                necessary to understand the present research</a:documentation>
+                            <attribute name="type">
+                                <choice>
+                                    <value>s1</value>
+                                    <a:documentation> s1: Arguing about the topic
+                                        prominence</a:documentation>
+                                    <value>s2</value>
+                                    <a:documentation>s2: Familiarizing terms, objects, or
+                                        processes</a:documentation>
+                                    <value>s3</value>
+                                    <a:documentation> s3: Introducing the research topic from the
+                                        research area </a:documentation>
+                                </choice>
+                            </attribute>
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                    <oneOrMore>
+                        <element name="gap">
+                            <a:documentation>(gap in research) indicates text that explains the
+                                'gap' in previous research</a:documentation>
+                            <attribute name="type">
+                                <choice>
+                                    <value>g1</value>
+                                    <a:documentation>g1: Citing
+                                        problems/difficulties</a:documentation>
+                                    <value>g2</value>
+                                    <a:documentation>g2: Citing needs/requirements</a:documentation>
+                                    <value>g3</value>
+                                    <a:documentation>g3: Citing the absence of previous
+                                        research</a:documentation>
+                                </choice>
+                            </attribute>
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                    <oneOrMore>
+                        <element name="purpose">
+                            <a:documentation>(purpose for research) indicates the desired outcome(s)
+                                of the present research</a:documentation>
+                            <attribute name="type">
+                                <choice>
+                                    <value>p1</value>
+                                    <a:documentation>p1: Indicating the main purpose </a:documentation>
+                                    <value>p2</value>
+                                    <a:documentation>p2: Specifying the purpose</a:documentation>
+                                    <value>p3</value>
+                                    <a:documentation>p3: Introducing more purposes</a:documentation>
+                                </choice>
+                            </attribute>
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                    <oneOrMore>
+                        <element name="methodology">
+                            <attribute name="type">
+                                <choice>
+                                    <value>m1</value>
+                                    <a:documentation>m1: Listing criteria or
+                                        conditions</a:documentation>
+                                    <value>m2</value>
+                                    <a:documentation>m2: Citing/Describing materials and
+                                        methods</a:documentation>
+                                    <value>m3</value>
+                                    <a:documentation>m3: Justifying choices for methods and
+                                        materials research</a:documentation>
+                                </choice>
+                            </attribute>
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                    <oneOrMore>
+                        <element name="results">
+                            <attribute name="type">
+
+
+
+                                <choice>
+                                    <value>r1</value>
+                                    <a:documentation>r1: Describing the artefact</a:documentation>
+                                    <value>r2</value>
+                                    <a:documentation>r2: Presenting/Indicating
+                                        results</a:documentation>
+                                    <value>r3</value>
+                                    <a:documentation>r3: Commenting/discussing on the
+                                        results</a:documentation>
+                                </choice>
+                            </attribute>
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                    <oneOrMore>
+                        <element name="conclusion">
+                            <attribute name="type">
+
+
+
+                                <choice>
+                                    <value>c1</value>
+                                    <a:documentation>c1: Presenting conclusions</a:documentation>
+                                    <value>c2</value>
+                                    <a:documentation>c2: Presenting contributions/value of
+                                        research</a:documentation>
+                                    <value>c3</value>
+                                    <a:documentation>c3: Presenting recommendation</a:documentation>
+                                </choice>
+                            </attribute>
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                </interleave>
+            </element>
+        </element>
+    </start>
+</grammar>
