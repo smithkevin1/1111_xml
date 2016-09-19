@@ -8,7 +8,7 @@
         <zeroOrMore>
             <choice>
                 <text/>
-                <ref name="model.phrase"/>                
+                <ref name="model.phrase"/>
                 <ref name="model.global"/>
             </choice>
         </zeroOrMore>
@@ -85,8 +85,8 @@
     <define name="att.global.rendition.attribute.style">
         <optional>
             <attribute name="style">
-                <a:documentation>(style) indicates how the element in question should be
-                    rendered or presented in the output text.</a:documentation>
+                <a:documentation>(style) indicates how the element in question should be rendered or
+                    presented in the output text.</a:documentation>
                 <list>
                     <oneOrMore>
                         <value>italic</value>
@@ -103,9 +103,9 @@
     <define name="att.global.responsibility.attribute.who">
         <optional>
             <attribute name="who">
-                <a:documentation>(who) indicates the party responsible for the
-                    intervention or interpretation, for example an instructor or peer reviewer. Be
-                    sure to use your xml:id</a:documentation>
+                <a:documentation>(who) indicates the party responsible for the intervention or
+                    interpretation, for example an instructor or peer reviewer. Be sure to use your
+                    xml:id</a:documentation>
                 <list>
                     <oneOrMore>
                         <data type="anyURI"/>
@@ -211,7 +211,7 @@
     <define name="note">
         <element name="note">
             <a:documentation>contains a note made on the text intended to provide additional
-                information or comment upon the text</a:documentation>
+                information or comment upon the text [requires @type attribute and suggested @who attribute]</a:documentation>
             <optional>
                 <ref name="att.global.attributes"/>
             </optional>
@@ -259,12 +259,15 @@
     </define>
     <define name="citation">
         <element name="citation">
+            <a:documentation>(in-text citation) an in-text citation [requires @source attribute
+                corresponding to the @xml:id of a bibl element]</a:documentation>
             <text/>
             <ref name="att.source"/>
         </element>
     </define>
     <define name="author">
         <element name="author">
+            <a:documentation>author of text</a:documentation>
             <text/>
             <ref name="att.global.attribute.xmlid"/>
         </element>
@@ -272,14 +275,16 @@
     </define>
     <define name="title">
         <element name="title">
+            <a:documentation>title of document</a:documentation>
             <text/>
         </element>
     </define>
     <define name="date">
         <element name="date">
+            <a:documentation>date of publication or composition</a:documentation>
             <text/>
         </element>
-    </define>   
+    </define>
     <define name="p">
         <element name="p">
             <a:documentation>(paragraph) a division of text indicating a
@@ -291,15 +296,21 @@
     </define>
     <define name="div">
         <element name="div">
+            <a:documentation>(division of text) arbitrary division of text [optional @type element]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.divPart"/>
                 </choice>
             </zeroOrMore>
+            <optional>
+                <ref name="att.typed.attribute.type"/>
+            </optional>
         </element>
     </define>
     <define name="reviewer">
         <element name="reviewer">
+            <a:documentation>name of reviewer [requires @type attribute (value of either
+                'instructor' or 'peer') and @xml:id equal to reviewer's ID]</a:documentation>
             <optional>
                 <text/>
             </optional>
@@ -309,6 +320,9 @@
     </define>
     <define name="report">
         <element name="report">
+            <a:documentation>(report) a report on the text by someone other than the document author
+                [requires @type attribute (value of either 'instructor' or 'peer') and @who
+                attribute equal to corresponding @xml:id)</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.divPart"/>
@@ -320,6 +334,8 @@
     </define>
     <define name="docReview">
         <element name="docReview">
+            <a:documentation>(document review section) section of document where peer review and
+                instructor reports are located</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="model.global"/>
@@ -333,12 +349,16 @@
     </define>
     <define name="docFoot">
         <element name="docFoot">
+            <a:documentation>(document footer) footer for essay; contains a title element and a list
+                of bibliographic citations.</a:documentation>
             <ref name="title"/>
             <ref name="model.biblLike"/>
         </element>
     </define>
     <define name="body">
         <element name="body">
+            <a:documentation>main body for essay; contains one or more div
+                elements</a:documentation>
             <zeroOrMore>
                 <ref name="model.divLike"/>
             </zeroOrMore>
@@ -346,6 +366,8 @@
     </define>
     <define name="docHead">
         <element name="docHead">
+            <a:documentation>(document header) contains metadata about the document (title, author,
+                date)</a:documentation>
             <group>
                 <interleave>
                     <ref name="title"/>
@@ -360,6 +382,7 @@
     </define>
     <define name="essay">
         <element name="essay">
+            <a:documentation>container element for essay genre</a:documentation>
             <group>
                 <ref name="docHead"/>
                 <ref name="body"/>
@@ -373,6 +396,7 @@
     </define>
     <define name="DOC">
         <element name="DOC">
+            <a:documentation>root element for all ENGW1111 assignments</a:documentation>
             <ref name="essay"/>
             <zeroOrMore>
                 <ref name="docReview"/>
