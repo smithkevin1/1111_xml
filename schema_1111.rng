@@ -9,6 +9,7 @@
             <choice>
                 <text/>
                 <ref name="model.phrase"/>
+                <ref name="model.inter"/>
                 <ref name="model.global"/>
             </choice>
         </zeroOrMore>
@@ -207,11 +208,25 @@
             <ref name="citation"/>
         </choice>
     </define>
+    <define name="model.inter">
+        <choice>
+            <ref name="model.listLike"/>
+            <ref name="model.qLike"/>
+        </choice>
+    </define>
+    <define name="model.listLike">
+        <ref name="list"/>
+    </define>
+    <define name="model.qLike">
+        <ref name="q"/>
+    </define>
+    
     <!-- ELEMENT DEFINITIONS -->
     <define name="note">
         <element name="note">
             <a:documentation>contains a note made on the text intended to provide additional
-                information or comment upon the text [requires @type attribute and suggested @who attribute]</a:documentation>
+                information or comment upon the text [requires @type attribute and suggested @who
+                attribute]</a:documentation>
             <optional>
                 <ref name="att.global.attributes"/>
             </optional>
@@ -257,6 +272,30 @@
             <ref name="att.typed.attributes"/>  -->
         </element>
     </define>
+    <define name="q">
+        <element name="q">
+            <a:documentation>(quote) indicates quoted text, can incude a citation element for
+                attribution.</a:documentation>
+            <ref name="macro.paraContent"/>
+            <optional>
+                <ref name="citation"/>
+            </optional>
+        </element>
+    </define>
+    <define name="item">
+        <element name="item">
+            <a:documentation>(item) a member of a list</a:documentation>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="list">
+        <element name="list">
+            <a:documentation>(list) a group of item elements</a:documentation>
+            <oneOrMore>
+                <ref name="item"/>
+            </oneOrMore>
+        </element>
+    </define>
     <define name="citation">
         <element name="citation">
             <a:documentation>(in-text citation) an in-text citation [requires @source attribute
@@ -275,7 +314,7 @@
     </define>
     <define name="title">
         <element name="title">
-            <a:documentation>title of document</a:documentation>
+            <a:documentation>title of document or section, where appropriate</a:documentation>
             <text/>
         </element>
     </define>
@@ -296,14 +335,21 @@
     </define>
     <define name="div">
         <element name="div">
-            <a:documentation>(division of text) arbitrary division of text [optional @type element]</a:documentation>
+            <a:documentation>(division of text) arbitrary division of text [optional @type
+                element]</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="model.divPart"/>
+                    <ref name="model.inter"/>
                 </choice>
             </zeroOrMore>
             <optional>
                 <ref name="att.typed.attribute.type"/>
+                <attribute name="title">
+                    <a:documentation>title of the textual division (e.g. Introduction, Conclusion,
+                        etc.)</a:documentation>
+                    <text/>
+                </attribute>
             </optional>
         </element>
     </define>
@@ -326,6 +372,7 @@
             <zeroOrMore>
                 <choice>
                     <ref name="model.divPart"/>
+                    <ref name="model.inter"/>
                 </choice>
             </zeroOrMore>
             <ref name="att.review.type"/>

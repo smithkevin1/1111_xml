@@ -6,7 +6,7 @@
     <author>John Canny</author>
     <text>
         <setting type="s1">This paper describes a computational approach to edge
-            detection.</setting>
+            detection.</setting><setting type=""></setting>
         <gap type="g2">The success of the approach depends on the definition of a comprehensive set
             of goals for the computation of edge points. These goals must be precise enough to
             delimit the desired behavior of the detector while making minimal assumptions about the
