@@ -20,14 +20,26 @@
         </html>
     </xsl:template>-->
     <xsl:template match="essay">
-        <div id="essay"><xsl:apply-templates/></div>
+        <div id="essay">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="DOC/essay/docHead">
         <div id="head">
-            <div><ul class="right-just"><li><xsl:value-of select="./author"/></li>
-            <li><xsl:value-of select="./date"/></li></ul></div>
+            <div>
+                <ul class="right-just">
+                    <li>
+                        <xsl:value-of select="./author"/>
+                    </li>
+                    <li>
+                        <xsl:value-of select="./date"/>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <h1><xsl:value-of select="./title"/></h1>
+        <h1>
+            <xsl:value-of select="./title"/>
+        </h1>
     </xsl:template>
 
     <xsl:template match="body">
@@ -36,21 +48,33 @@
         </div>
     </xsl:template>
     <xsl:template match="body/div">
-        <xsl:variable name="attribute-value" select="./@type"/>
+        <xsl:variable name="attribute-value" select="./@title"/>
         <div id="{$attribute-value}">
+            <xsl:if test="./@title = true()">
+                <h4>
+                    <xsl:value-of select="./@title"/>
+                </h4>
+            </xsl:if>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="essay//div/p">
-        <p><xsl:apply-templates/></p>
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
 
     <xsl:template match="DOC//citation">
-        <a href="{@source}"><xsl:apply-templates/></a>
+        <a class="cit" href="{@source}">
+            <xsl:apply-templates/>
+        </a>
+    </xsl:template>
+    <xsl:template match="essay//q">
+        "<xsl:apply-templates/>"
     </xsl:template>
 
 
-<!--    <xsl:template match="DOC//title[not(parent::blog_post)]">
+    <!--    <xsl:template match="DOC//title[not(parent::blog_post)]">
         <xsl:choose>
             <xsl:when test="./@level = 'a'">
                 <xsl:apply-templates/>
@@ -92,7 +116,9 @@
         </div>
     </xsl:template>
     <xsl:template match="docFoot/title">
-        <h3><xsl:apply-templates/></h3>
+        <h3>
+            <xsl:apply-templates/>
+        </h3>
     </xsl:template>
     <xsl:template match="listBibl">
         <div id="references">
@@ -100,8 +126,12 @@
         </div>
     </xsl:template>
     <xsl:template match="bibl">
-        <li id="{@xml:id}"><xsl:apply-templates/></li>
+        <li class="hanging_indent" id="{@xml:id}">
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
+
+
     <xsl:template match="DOC//style">
         <xsl:if test="@type = 'italics'">
             <span class="italics">
@@ -119,7 +149,7 @@
             </span>
         </xsl:if>
     </xsl:template>
- 
+
     <!-- This section processes the reviews/end notes for the document -->
     <xsl:template match="docReview">
         <div id="reviews">

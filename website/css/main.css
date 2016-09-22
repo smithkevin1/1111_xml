@@ -297,11 +297,35 @@ ul.right-just {
   float: right;
   display: block;
   list-style-type: none;
-
 }
 
-#essay h1 {
+div#essay h1 {
   text-align: center;
+  font-size: 1.25em;
+}
+
+div#essay {
+  font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+#essay li {
+  list-style-type: none;
+}
+
+a.cit {
+  color: #2d5986;
+  text-decoration: none;
+}
+a.cit:visited {
+  color: #2d5986;
+}
+a.cit:hover {
+  color: #660000;
+}
+
+.hanging_indent {
+  padding-left: 45px ;
+  text-indent: -45px ;
 }
 
 span.italics {
@@ -334,6 +358,8 @@ figure figcaption {
     font-style: italic;
     font-size: smaller;
 }
+
+
 
 /* ==========================================================================
    Media Queries

@@ -220,7 +220,7 @@
     <define name="model.qLike">
         <ref name="q"/>
     </define>
-    
+
     <!-- ELEMENT DEFINITIONS -->
     <define name="note">
         <element name="note">
@@ -274,11 +274,11 @@
     </define>
     <define name="q">
         <element name="q">
-            <a:documentation>(quote) indicates quoted text, can incude a citation element for
-                attribution.</a:documentation>
+            <a:documentation>(quote) indicates quoted text; for quoted material, should be
+                accompanied by a citation element.</a:documentation>
             <ref name="macro.paraContent"/>
             <optional>
-                <ref name="citation"/>
+                <ref name="att.typed.attribute.type"/>
             </optional>
         </element>
     </define>
