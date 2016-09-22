@@ -359,7 +359,36 @@ figure figcaption {
     font-size: smaller;
 }
 
+/*
+Custom styles for annotated XML documents
+*/
+span.format
+{
+  color: red;
+}
 
+span.main
+{
+  color: blue;
+}
+
+#legend {
+  display: block;
+  width: 25%;
+  height: auto;
+}
+#legend li {
+  height: 1em;
+}
+
+#legend li.format
+{
+  color: red;
+}
+
+#legend li.main {
+  color: blue;
+}
 
 /* ==========================================================================
    Media Queries

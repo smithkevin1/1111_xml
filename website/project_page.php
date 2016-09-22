@@ -42,7 +42,7 @@
             <p>
               <a href='project_page.php?xml=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View XML Source</a>
               <a href='project_page.php?transformed=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Formatted File</a>
-              <!-- <a href='p1.php?annotated=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Annotated File</a> FIGURING OUT XSLT 2.0 w/ php-->
+              <a href='project_page.php?annotated=true&id=<?php echo $id ?>&proj=<?php echo $proj ?>'>View Annotated File</a>
             </p>
           </header>
           <section>
