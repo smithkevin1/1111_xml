@@ -70,7 +70,7 @@
         </a>
     </xsl:template>
     <xsl:template match="essay//q">
-        "<xsl:apply-templates/>"
+        &#147;<xsl:apply-templates/>&#148;
     </xsl:template>
 
 

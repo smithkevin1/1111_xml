@@ -21,10 +21,10 @@
                     shows the differences in the communities these restaurants are trying to create
                     and the customers they are trying to serve. BelaRoma's main purpose is to serve
                     takeout and delivery food to on-the-go students, while Sicily's restaurant
-                    serves a sit-down clientele. Though Sicily's Italian Restaurant and BelaRoma
+                    serves a sit-down clientele. <claim type="main">Though Sicily's Italian Restaurant and BelaRoma
                     Deli are both restaurants that offer Italian style dining, as demonstrated by
                     their menus, the fact that they represent different communities is evident in
-                    the layout, pricing, and language of their menus.</p>
+                    the layout, pricing, and language of their menus.</claim></p>
             </div>
             <div>
                 <p>Sicily's and BelaRoma, while being very different types of restaurants, share
@@ -45,12 +45,12 @@
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl xml:id="BelaRoma">“BelaRoma Deli Menu.” Scenes of Writing, written by Amy
+                <bibl xml:id="BelaRoma">“BelaRoma Deli Menu.” <style type="italics">Scenes of Writing</style>, written by Amy
                     Devitt, Mary Jo Reiff, and Anis Bawarshi, Pearson, 20014, pp. 85-90.</bibl>
                 <bibl xml:id="Duvall">Duvall, John N. "The (Super)Marketplace of Images: Television
-                    as Unmediated Mediation in DeLillo's White Noise." Arizona Quarterly, vol. 50,
+                    as Unmediated Mediation in DeLillo's White Noise." <style type="italics">Arizona Quarterly</style>, vol. 50,
                     no. 3, 1994, pp. 127-53.</bibl>
-                <bibl xml:id="Swales">Swales, John. Genre Analysis. Penguin, 1987.</bibl>
+                <bibl xml:id="Swales">Swales, John. <style type="italics">Genre Analysis</style>. Penguin, 1987.</bibl>
             </listBibl>
         </docFoot>
     </essay>

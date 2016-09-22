@@ -206,6 +206,7 @@
     <define name="model.phrase">
         <choice>
             <ref name="citation"/>
+            <ref name="style"/>
         </choice>
     </define>
     <define name="model.inter">
@@ -221,7 +222,51 @@
         <ref name="q"/>
     </define>
 
-    <!-- ELEMENT DEFINITIONS -->
+    <!-- GENRE ANALYSIS ESSAY ELEMENT DEFINITIONS -->
+    <define name="model.essay">
+        <oneOrMore>
+            <choice>
+                <ref name="claim"/>
+                <ref name="pattern"/>
+                <ref name="p"/>
+            </choice>
+        </oneOrMore>
+    </define>
+    <define name="claim">
+        <element name="claim">
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.essay"/>
+                </choice>
+            </oneOrMore>
+            <ref name="att.typed.attribute.type"/>
+        </element>
+    </define>
+    <define name="pattern">
+        <element name="pattern">
+            <a:documentation>(generic pattern) indicates an identifiable trait, characteristic,
+                and/or example of a pattern within a genre [requires @type
+                attribute]</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.essay"/>
+                </choice>
+            </oneOrMore>
+            <attribute name="type">
+                <choice>
+                    <value>format</value>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+
+
+    <!-- GENERAL ELEMENT DEFINITIONS -->
     <define name="note">
         <element name="note">
             <a:documentation>contains a note made on the text intended to provide additional
@@ -243,14 +288,31 @@
             <text/>
         </element>
     </define>
+    <define name="style">
+        <element name="style">
+            <a:documentation>(style/rendition) indicates a segment of text that should be styled in
+                a particular way that is otherwise not marked up [required @type attribute e.g.,
+                'italics', 'bold', 'underline']</a:documentation>
+            <ref name="macro.paraContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>italics</value>
+                    <value>bold</value>
+                    <value>underline</value>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
+        </element>
+    </define>
     <define name="bibl">
         <element name="bibl">
             <a:documentation>(bibliographic citation) contains a bibliographic
                 citation.</a:documentation>
             <zeroOrMore>
                 <choice>
-                    <text/>
-                    <ref name="model.global"/>
+                    <ref name="macro.paraContent"/>
                 </choice>
             </zeroOrMore>
             <ref name="att.global.attribute.xmlid"/>
@@ -328,7 +390,12 @@
         <element name="p">
             <a:documentation>(paragraph) a division of text indicating a
                 paragraph.</a:documentation>
-            <ref name="macro.paraContent"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.essay"/>
+                </choice>
+            </zeroOrMore>
             <ref name="att.global.attributes"/>
             <ref name="att.typed.attributes"/>
         </element>
