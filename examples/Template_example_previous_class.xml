@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--the second line in the document associates the schema, so be sure not to change it-->
+<DOC>
+    <docHead>
+        <!--required header includes metadata about the assignment (title, author, version)-->
+        <title>Title of Assignment</title>
+        <author xml:id="your_id_here">Your name here</author>
+        <version n="num_of_version" date="2016-01-01"/>
+        <!--note that the date must be YYYY-MM-DD for the document to be valid-->
+    </docHead>
+    
+    <annotated_bib>
+        <problem_stmt>
+            <!--problem statement here-->
+        </problem_stmt>
+        <citation style=""></citation>
+        <annotation>
+            <background type="">
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="">
+                <!-- can include <q> element(s) for quoted material -->      
+            </summary>
+            <relevance type="">    
+            </relevance>
+        </annotation>
+    </annotated_bib>
+    
+    
+    <docReview>
+        <reviewer type="instructor" xml:id="kgs"/>
+        <report type="instructor" resp="#kgs">
+            <p>Comments on assignment will appear here.</p>
+        </report>
+    </docReview>
+</DOC>
