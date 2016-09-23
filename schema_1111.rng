@@ -234,6 +234,7 @@
     </define>
     <define name="claim">
         <element name="claim">
+            <a:documentation>(interpretive claim) indicates a claim made based on evidence presented or to be presented in an essay [requires @type attribute]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -309,7 +310,7 @@
     <define name="bibl">
         <element name="bibl">
             <a:documentation>(bibliographic citation) contains a bibliographic
-                citation.</a:documentation>
+                citation</a:documentation>
             <zeroOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -322,7 +323,7 @@
     <define name="listBibl">
         <element name="listBibl">
             <a:documentation>(bibliographic list) contains a list of bibliographic
-                citations.</a:documentation>
+                citations</a:documentation>
             <choice>
                 <oneOrMore>
                     <choice>
@@ -337,7 +338,7 @@
     <define name="q">
         <element name="q">
             <a:documentation>(quote) indicates quoted text; for quoted material, should be
-                accompanied by a citation element.</a:documentation>
+                accompanied by a citation element</a:documentation>
             <ref name="macro.paraContent"/>
             <optional>
                 <ref name="att.typed.attribute.type"/>
@@ -402,7 +403,7 @@
     </define>
     <define name="div">
         <element name="div">
-            <a:documentation>(division of text) arbitrary division of text [optional @type
+            <a:documentation>(division of text) arbitrary division of text [optional @title
                 element]</a:documentation>
             <zeroOrMore>
                 <choice>
