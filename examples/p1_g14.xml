@@ -41,35 +41,39 @@
                 <ref>http://doi.org/10.1126/scitranslmed.aac7328</ref>
         </citation>
         <annotation>
-            <background type="author">The primary author of this paper, Beata Jarosiewicz, is a
-                professor at Brown University's Department of Neuroscience, who has, in her career,
-                contributed to or produced 18 publications, garnering nearly 800 citations thus far,
-                and is renowned for her work using biotechnology and neuroscience to investigate
-                ways to use and optimize brain-computer interfaces (BCIs).
-                <!-- can include <q> element(s) for quoted material -->
-            </background>
-            <summary type="general">Jarosiewicz, et. al., sought to demonstrate that the
-                nonstationarity that is convolved with neural signaling, that normally forces
-                brain-computer interfaces to require frequent recalibration, can be mitigated using
-                software to automatically account for such drift, in a point-and-click model used by
-                tetrapalegic patients. <!-- can include <q> element(s) for quoted material -->
-            </summary>
-            <summary type="approach">The investigators used technological innovations, namely:
-                    <q>tracking the statistics of neural activity</q> (neurobiological
-                observations), correction for velocity bias (computer engineering), and
-                recalibration of the decoder using data inferred from the user's past actions
-                (computer engineering) to develop software that extends the time that BCIs can
-                function properly before needing to be manually recalibrated.<note type="instructor"
-                    >I appreciate the close attention to discipline-specific methods in the approach
-                    section, it helps me a lot (as an outsider in all of these fields)</note>
-                <!-- can include <q> element(s) for quoted material -->
-            </summary>
-            <relevance type="application">The innovations made through this investigation can be
-                applied to a wider range of devices, not merely point-and-click oriented BCIs. This
-                will further enable the viable use of intracortical BCIs that patients needing
-                restoration of independent communication and other assistive devices depend on, and
-                lay the groundwork for more optimized methods of accounting for nonstationarities.
-            </relevance>
+            <p>
+                <background type="author">The primary author of this paper, Beata Jarosiewicz, is a
+                    professor at Brown University's Department of Neuroscience, who has, in her
+                    career, contributed to or produced 18 publications, garnering nearly 800
+                    citations thus far, and is renowned for her work using biotechnology and
+                    neuroscience to investigate ways to use and optimize brain-computer interfaces
+                    (BCIs). <!-- can include <q> element(s) for quoted material -->
+                </background>
+                <summary type="general">Jarosiewicz, et. al., sought to demonstrate that the
+                    nonstationarity that is convolved with neural signaling, that normally forces
+                    brain-computer interfaces to require frequent recalibration, can be mitigated
+                    using software to automatically account for such drift, in a point-and-click
+                    model used by tetrapalegic patients.
+                    <!-- can include <q> element(s) for quoted material -->
+                </summary>
+                <summary type="approach">The investigators used technological innovations, namely:
+                        <q>tracking the statistics of neural activity</q> (neurobiological
+                    observations), correction for velocity bias (computer engineering), and
+                    recalibration of the decoder using data inferred from the user's past actions
+                    (computer engineering) to develop software that extends the time that BCIs can
+                    function properly before needing to be manually recalibrated.<note
+                        type="instructor">I appreciate the close attention to discipline-specific
+                        methods in the approach section, it helps me a lot (as an outsider in all of
+                        these fields)</note>
+                    <!-- can include <q> element(s) for quoted material -->
+                </summary>
+                <relevance type="application">The innovations made through this investigation can be
+                    applied to a wider range of devices, not merely point-and-click oriented BCIs.
+                    This will further enable the viable use of intracortical BCIs that patients
+                    needing restoration of independent communication and other assistive devices
+                    depend on, and lay the groundwork for more optimized methods of accounting for
+                    nonstationarities. </relevance>
+            </p>
         </annotation>
         <!-- Source 2-->
         <citation n="2" style="APA"><author n="1">Hwang, H.-J.</author>, <author>Ferreria, V. Y.,
@@ -79,28 +83,30 @@
             <title level="j">Scientific Reports</title>, 5, 15890.
                 <ref>http://doi.org/10.1038/srep15890</ref></citation>
         <annotation>
-            <background type="source">At the time of publication, Hwang was a postdoctoral
-                researcher at the Machine Learning Group of the Berlin Institute of Technology (TU
-                Berlin), and the supporting authors were members of the Neurotechnology Group of TU
-                Berlin. These groups are highly prolific, contributing a dozen or more journal
-                publications, conference papers, and book materials each year. </background>
-            <summary type="general">Most Brain Computer Interfaces (BCIs) function using the visual
-                system of patients, often requiring individuals to gaze at elements of a display to
-                provide a signal to the computer. This study seeks to introduce a BCI model that
-                does not require voluntary gaze, to help patients who are visually paralyzed or
-                suffer a similar injury or deficit. </summary>
-            <summary type="approach">The study takes the engineering process approach of finding a
-                gap in current technology, in this case a lack of BCIs that are usable by patients
-                with ocular dysfunction, and innovates a novel paradigm in which patients attend to
-                one of three stimuli presented to their closed eyelids. Understanding
-                neurobiological phenomenon associated with attention, and usnig electrical
-                engineering to modify existing technology, the researchers were able to come up with
-                a novel solution. </summary>
-            <relevance type="application">The investigation demonstrated significantly effective use
-                of the novel paradigm with patients for whom use of standard BCI devices are not
-                possible or effective, and was the first to do so using this method. As a result,
-                technology has been adapted to aid individuals who were previously unable to be
-                helped. </relevance>
+            <p>
+                <background type="source">At the time of publication, Hwang was a postdoctoral
+                    researcher at the Machine Learning Group of the Berlin Institute of Technology
+                    (TU Berlin), and the supporting authors were members of the Neurotechnology
+                    Group of TU Berlin. These groups are highly prolific, contributing a dozen or
+                    more journal publications, conference papers, and book materials each year. </background>
+                <summary type="general">Most Brain Computer Interfaces (BCIs) function using the
+                    visual system of patients, often requiring individuals to gaze at elements of a
+                    display to provide a signal to the computer. This study seeks to introduce a BCI
+                    model that does not require voluntary gaze, to help patients who are visually
+                    paralyzed or suffer a similar injury or deficit. </summary>
+                <summary type="approach">The study takes the engineering process approach of finding
+                    a gap in current technology, in this case a lack of BCIs that are usable by
+                    patients with ocular dysfunction, and innovates a novel paradigm in which
+                    patients attend to one of three stimuli presented to their closed eyelids.
+                    Understanding neurobiological phenomenon associated with attention, and usnig
+                    electrical engineering to modify existing technology, the researchers were able
+                    to come up with a novel solution. </summary>
+                <relevance type="application">The investigation demonstrated significantly effective
+                    use of the novel paradigm with patients for whom use of standard BCI devices are
+                    not possible or effective, and was the first to do so using this method. As a
+                    result, technology has been adapted to aid individuals who were previously
+                    unable to be helped. </relevance>
+            </p>
         </annotation>
         <!-- Source 3-->
         <citation n="3" style="APA"><author n="1">McClay, W. A.</author>, <author>Yadav, N., Ozbek,
@@ -111,28 +117,31 @@
                 <ref>http://doi.org/10.3390/brainsci5040419</ref>
         </citation>
         <annotation>
-            <background type="author">The primary team contributing to this work is based out of
-                Northeastern University in conjunciton with the Lawrence Livermore National
-                Laboratory. Northeastern is a highly prolific private research university<note
-                    type="instructor">recently reclassified as a Research-1 institution, in
-                    fact</note> that encourages groundbreaking technological advancement research,
-                and the LLNL is widely recognized as being committed to seeking engineering
-                solutions to nationally-scoped problems. </background>
-            <summary type="general">Understanding that advances in technology have allowed for
-                better handling of big data, the investigators have developed a BCI that utilizes
-                Hadoop (a library of big data processing programs) to distinguish distinctive
-                thought actions using magnetoencepholography (MEG) in a demonstration of flight
-                visualization, where the user's thoughts of left or right are used to turn a virtual
-                aircraft in that direction. </summary>
-            <summary type="approach">By combining computer engineering and computer science methods
-                with principles of neurobiology, the investigators have developed a system that can
-                pick out specific thoughts using a non-invasive technique. </summary>
-            <relevance type="application">The basis of this BCI technology can be used to translate
-                user thought into specific actions like keyboard or mouse button presses, and the
-                history of the user's input can be stored and analyzed using Hadoop to both access
-                the information later for observation, and to ultimately perform comprehensive
-                post-hoc analyses or calculations. These advances pave the way for further
-                integration of big data computation and BCI technology.</relevance>
+            <p>
+                <background type="author">The primary team contributing to this work is based out of
+                    Northeastern University in conjunciton with the Lawrence Livermore National
+                    Laboratory. Northeastern is a highly prolific private research university<note
+                        type="instructor">recently reclassified as a Research-1 institution, in
+                        fact</note> that encourages groundbreaking technological advancement
+                    research, and the LLNL is widely recognized as being committed to seeking
+                    engineering solutions to nationally-scoped problems. </background>
+                <summary type="general">Understanding that advances in technology have allowed for
+                    better handling of big data, the investigators have developed a BCI that
+                    utilizes Hadoop (a library of big data processing programs) to distinguish
+                    distinctive thought actions using magnetoencepholography (MEG) in a
+                    demonstration of flight visualization, where the user's thoughts of left or
+                    right are used to turn a virtual aircraft in that direction. </summary>
+                <summary type="approach">By combining computer engineering and computer science
+                    methods with principles of neurobiology, the investigators have developed a
+                    system that can pick out specific thoughts using a non-invasive technique. </summary>
+                <relevance type="application">The basis of this BCI technology can be used to
+                    translate user thought into specific actions like keyboard or mouse button
+                    presses, and the history of the user's input can be stored and analyzed using
+                    Hadoop to both access the information later for observation, and to ultimately
+                    perform comprehensive post-hoc analyses or calculations. These advances pave the
+                    way for further integration of big data computation and BCI
+                    technology.</relevance>
+            </p>
         </annotation>
         <!-- Source 4-->
         <citation n="4" style="APA"><author n="1">Minev, I. R.</author>, <author>Musienko, P.,
@@ -143,32 +152,37 @@
                 <ref>http://doi.org/10.1126/science.1260318</ref>
         </citation>
         <annotation>
-            <background type="source">The Center for Neuroprosthetics of the Ecole Polytechnique
-                Fédérale de Lausanne (EPFL) is a Switzerland-based research organization with
-                notable sponsors including the International Foundation for Research in Paraplegia
-                and Medtronic. It is involved in an array of cutting-edge research endeavors with
-                bases in neuroscience and biomedical engineering.</background>
-            <summary type="general">Working from the challenge that stiff neural-integrated devices
-                often don't interface well with soft biological systems<note type="instructor">what
-                    is a 'soft biologica; system? maybe a quick example here</note> over extended
-                periods of time, the researchers developed a neural implant with properties similar
-                to dura mater, the membrane that covers brain and spinal cord tissue<note
-                    type="instructor">I see, literally 'soft'. That makes sense</note>. The
-                resulting construct has been demonstrated to be durable with regards to stretch
-                cycles, chemical injections, and electrical stimulation, allowing it to be viable in
-                an array of different tissue areas and treatment/function scenarios. </summary>
-            <summary type="approach">The research team has integrated neurobiological scientific
-                knowledge with materials science and electrical engineering innovations to create
-                implants that better integrate with biological tissue, improving on previous devices
-                that were previously made of stiffer, less bio-friendly materials.</summary>
-            <relevance type="application">The advances made by this group establish technological
-                innovations that will allow others in the future to use similar techniques,
-                materials, and methodologies to continue to develop solutions to the problems
-                touched on by this work. The implants were demonstrated to function both to extract
-                neural activity in behaving animals, as well as restoring locomotion to animals
-                suffering from spinal cord paralysis with electrochemical inputs. Thus, continued
-                study of these materials will allow for devices that can extract neural activity and
-                provide supplemental inputs to paralyzed systems.</relevance>
+            <p>
+                <background type="source">The Center for Neuroprosthetics of the Ecole Polytechnique
+                    Fédérale de Lausanne (EPFL) is a Switzerland-based research organization with
+                    notable sponsors including the International Foundation for Research in
+                    Paraplegia and Medtronic. It is involved in an array of cutting-edge research
+                    endeavors with bases in neuroscience and biomedical engineering.</background>
+                <summary type="general">Working from the challenge that stiff neural-integrated
+                    devices often don't interface well with soft biological systems<note
+                        type="instructor">what is a 'soft biologica; system? maybe a quick example
+                        here</note> over extended periods of time, the researchers developed a
+                    neural implant with properties similar to dura mater, the membrane that covers
+                    brain and spinal cord tissue<note type="instructor">I see, literally 'soft'.
+                        That makes sense</note>. The resulting construct has been demonstrated to be
+                    durable with regards to stretch cycles, chemical injections, and electrical
+                    stimulation, allowing it to be viable in an array of different tissue areas and
+                    treatment/function scenarios. </summary>
+                <summary type="approach">The research team has integrated neurobiological scientific
+                    knowledge with materials science and electrical engineering innovations to
+                    create implants that better integrate with biological tissue, improving on
+                    previous devices that were previously made of stiffer, less bio-friendly
+                    materials.</summary>
+                <relevance type="application">The advances made by this group establish
+                    technological innovations that will allow others in the future to use similar
+                    techniques, materials, and methodologies to continue to develop solutions to the
+                    problems touched on by this work. The implants were demonstrated to function
+                    both to extract neural activity in behaving animals, as well as restoring
+                    locomotion to animals suffering from spinal cord paralysis with electrochemical
+                    inputs. Thus, continued study of these materials will allow for devices that can
+                    extract neural activity and provide supplemental inputs to paralyzed
+                    systems.</relevance>
+            </p>
         </annotation>
         <!-- Source 5-->
         <citation n="5" style="APA"><author n="1">Gibson, R. M.</author>, <author n="2">Chennu,
@@ -179,28 +193,30 @@
                 <ref>http://doi.org/10.1016/j.clinph.2013.11.034</ref>
         </citation>
         <annotation>
-            <background type="source">The Brain and Mind Institute of Western University is a
-                distinguished institution that focuses on an integrative approach to neuroscience,
-                incorporating an array of different disciplines' perspectives to address challenges
-                facing the field. </background>
-            <summary type="general">The work in this publication centers on testing whether
-                sensorimotor rhythms that result from motor imagery are more distinguishable via
-                electroencepholography if the actions are more complex and are familiar to the user,
-                such as requesting a pianist to imagine playing a complicated piece of music.
-                Through study with healthy volunteer subjects, the research has found that EEG
-                responses are indeed more reliably classified when motor imagery actions are complex
-                and familiar.</summary>
-            <summary type="approach">This research is based in a scientific method approach of
-                testing a hypothesis based off of other conclusions in the field, and integrates
-                cognitive neuroscience, EEG technology, and computational analytics to find ways to
-                optimize reliable signal classification in EEG scenarios. </summary>
-            <relevance type="application">As a result of this research, Brain-Computer Interfaces
-                can serve more effectively when decoding the intentions of the user when the motor
-                imagery used is more complex and/or are familiar to the user. This study will
-                therefore improve the ability for the intentions of individuals who are unable to
-                communicate normally to be interpreted by BCIs, and assist in the overall goal of
-                the discipline to utilize less invasive technologies such as EEG and its eventual
-                descendents.</relevance>
+            <p>
+                <background type="source">The Brain and Mind Institute of Western University is a
+                    distinguished institution that focuses on an integrative approach to
+                    neuroscience, incorporating an array of different disciplines' perspectives to
+                    address challenges facing the field. </background>
+                <summary type="general">The work in this publication centers on testing whether
+                    sensorimotor rhythms that result from motor imagery are more distinguishable via
+                    electroencepholography if the actions are more complex and are familiar to the
+                    user, such as requesting a pianist to imagine playing a complicated piece of
+                    music. Through study with healthy volunteer subjects, the research has found
+                    that EEG responses are indeed more reliably classified when motor imagery
+                    actions are complex and familiar.</summary>
+                <summary type="approach">This research is based in a scientific method approach of
+                    testing a hypothesis based off of other conclusions in the field, and integrates
+                    cognitive neuroscience, EEG technology, and computational analytics to find ways
+                    to optimize reliable signal classification in EEG scenarios. </summary>
+                <relevance type="application">As a result of this research, Brain-Computer
+                    Interfaces can serve more effectively when decoding the intentions of the user
+                    when the motor imagery used is more complex and/or are familiar to the user.
+                    This study will therefore improve the ability for the intentions of individuals
+                    who are unable to communicate normally to be interpreted by BCIs, and assist in
+                    the overall goal of the discipline to utilize less invasive technologies such as
+                    EEG and its eventual descendents.</relevance>
+            </p>
         </annotation>
     </annotated_bib>
 
