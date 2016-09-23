@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema_3302.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--the second line in the document associates the schema, so be sure not to change it-->
+<DOC>
+    <docHead>
+        <!--required header includes metadata about the assignment (title, author, version)-->
+        <title>Project 1 - Annotated Bibliography</title>
+        <author xml:id="g14">Ben Gincley</author>
+        <version n="3" date="2016-07-13"/>
+        <!--note that the date must be YYYY-MM-DD for the document to be valid-->
+    </docHead>
+
+    <annotated_bib>
+        <problem_stmt>In neural engineering, there currently exist many gaps between current
+            technology available to the public, and where public necessity lies. Demand comes
+            primarily from the clinical sector, wherein individuals suffering from neurodegenerative
+            diseases are left at a deficit in their ability to sense and interact with the world
+            around them. Challenges facing the technology mainly center around decoding the
+            biochemical signals within the central nervous system, encoding information technology
+            into biochemical signals, and creating devices that are able to function within or in
+            tandem with biological systems. Neural engineering as a discipline attempts to close
+            these gaps by taking neurobiological, materials science, biotechnological, and computer
+            science research and designing devices and techniques to integrate technology with
+            neurobiology. Much of the work takes place in pre-clinical and clinical research
+            contexts, and the applied aspect of the discipline is still by-and-large in its infancy,
+            as technology begins to catch up to what is demanded by the applications. Ultimately,
+            the goal of the discipline is to create devices that work seamlessly with biological
+            systems, are non-invasive or biologically integrated, and allow complete restoration of
+            function without loss of fidelity.<note type="instructor">So, as I understand it, your
+                'problem' is the gap between current neural engineering tech available to the public
+                and the demand for said tech? Or is it more broadly the further development of this
+                (relatively) nascent field of research? The question is whether your problem is
+                about development or implementation, I guess.</note>
+        </problem_stmt>
+        <!-- Source 1-->
+        <citation n="1" style="APA"><author n="1">Jarosiewicz, B.</author>, <author>Sarma, A. A.,
+                Bacher, D., Masse, N. Y., Simeral, J. D., Sorice, B., … Hochberg, L.R.</author>,
+                (2015).<title level="a">Virtual typing by people with tetraplegia using a
+                self-calibrating intracortical brain-computer interface</title>. <title level="j">
+                Science Translational Medicine</title>, 7(313), 313ra179.
+                <ref>http://doi.org/10.1126/scitranslmed.aac7328</ref>
+        </citation>
+        <annotation>
+            <background type="author">The primary author of this paper, Beata Jarosiewicz, is a
+                professor at Brown University's Department of Neuroscience, who has, in her career,
+                contributed to or produced 18 publications, garnering nearly 800 citations thus far,
+                and is renowned for her work using biotechnology and neuroscience to investigate
+                ways to use and optimize brain-computer interfaces (BCIs).
+                <!-- can include <q> element(s) for quoted material -->
+            </background>
+            <summary type="general">Jarosiewicz, et. al., sought to demonstrate that the
+                nonstationarity that is convolved with neural signaling, that normally forces
+                brain-computer interfaces to require frequent recalibration, can be mitigated using
+                software to automatically account for such drift, in a point-and-click model used by
+                tetrapalegic patients. <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <summary type="approach">The investigators used technological innovations, namely:
+                    <q>tracking the statistics of neural activity</q> (neurobiological
+                observations), correction for velocity bias (computer engineering), and
+                recalibration of the decoder using data inferred from the user's past actions
+                (computer engineering) to develop software that extends the time that BCIs can
+                function properly before needing to be manually recalibrated.<note type="instructor"
+                    >I appreciate the close attention to discipline-specific methods in the approach
+                    section, it helps me a lot (as an outsider in all of these fields)</note>
+                <!-- can include <q> element(s) for quoted material -->
+            </summary>
+            <relevance type="application">The innovations made through this investigation can be
+                applied to a wider range of devices, not merely point-and-click oriented BCIs. This
+                will further enable the viable use of intracortical BCIs that patients needing
+                restoration of independent communication and other assistive devices depend on, and
+                lay the groundwork for more optimized methods of accounting for nonstationarities.
+            </relevance>
+        </annotation>
+        <!-- Source 2-->
+        <citation n="2" style="APA"><author n="1">Hwang, H.-J.</author>, <author>Ferreria, V. Y.,
+                Ulrich, D., Kilic, T., Chatziliadis, X., Blankertz, B., Treder, M.</author> (2015).
+                <title level="a"> A Gaze Independent Brain-Computer Interface Based on Visual
+                Stimulation through Closed Eyelids.</title>
+            <title level="j">Scientific Reports</title>, 5, 15890.
+                <ref>http://doi.org/10.1038/srep15890</ref></citation>
+        <annotation>
+            <background type="source">At the time of publication, Hwang was a postdoctoral
+                researcher at the Machine Learning Group of the Berlin Institute of Technology (TU
+                Berlin), and the supporting authors were members of the Neurotechnology Group of TU
+                Berlin. These groups are highly prolific, contributing a dozen or more journal
+                publications, conference papers, and book materials each year. </background>
+            <summary type="general">Most Brain Computer Interfaces (BCIs) function using the visual
+                system of patients, often requiring individuals to gaze at elements of a display to
+                provide a signal to the computer. This study seeks to introduce a BCI model that
+                does not require voluntary gaze, to help patients who are visually paralyzed or
+                suffer a similar injury or deficit. </summary>
+            <summary type="approach">The study takes the engineering process approach of finding a
+                gap in current technology, in this case a lack of BCIs that are usable by patients
+                with ocular dysfunction, and innovates a novel paradigm in which patients attend to
+                one of three stimuli presented to their closed eyelids. Understanding
+                neurobiological phenomenon associated with attention, and usnig electrical
+                engineering to modify existing technology, the researchers were able to come up with
+                a novel solution. </summary>
+            <relevance type="application">The investigation demonstrated significantly effective use
+                of the novel paradigm with patients for whom use of standard BCI devices are not
+                possible or effective, and was the first to do so using this method. As a result,
+                technology has been adapted to aid individuals who were previously unable to be
+                helped. </relevance>
+        </annotation>
+        <!-- Source 3-->
+        <citation n="3" style="APA"><author n="1">McClay, W. A.</author>, <author>Yadav, N., Ozbek,
+                Y., Haas, A., Attias, H. T., Nagarajan, S. S.</author> (2015). <title level="a">A
+                Real-Time Magnetoencephalography Brain-Computer Interface Using Interactive 3D
+                Visualization and the Hadoop Ecosystem.</title>
+            <title level="j">Brain Sciences</title>, 5(4), 419–440.
+                <ref>http://doi.org/10.3390/brainsci5040419</ref>
+        </citation>
+        <annotation>
+            <background type="author">The primary team contributing to this work is based out of
+                Northeastern University in conjunciton with the Lawrence Livermore National
+                Laboratory. Northeastern is a highly prolific private research university<note
+                    type="instructor">recently reclassified as a Research-1 institution, in
+                    fact</note> that encourages groundbreaking technological advancement research,
+                and the LLNL is widely recognized as being committed to seeking engineering
+                solutions to nationally-scoped problems. </background>
+            <summary type="general">Understanding that advances in technology have allowed for
+                better handling of big data, the investigators have developed a BCI that utilizes
+                Hadoop (a library of big data processing programs) to distinguish distinctive
+                thought actions using magnetoencepholography (MEG) in a demonstration of flight
+                visualization, where the user's thoughts of left or right are used to turn a virtual
+                aircraft in that direction. </summary>
+            <summary type="approach">By combining computer engineering and computer science methods
+                with principles of neurobiology, the investigators have developed a system that can
+                pick out specific thoughts using a non-invasive technique. </summary>
+            <relevance type="application">The basis of this BCI technology can be used to translate
+                user thought into specific actions like keyboard or mouse button presses, and the
+                history of the user's input can be stored and analyzed using Hadoop to both access
+                the information later for observation, and to ultimately perform comprehensive
+                post-hoc analyses or calculations. These advances pave the way for further
+                integration of big data computation and BCI technology.</relevance>
+        </annotation>
+        <!-- Source 4-->
+        <citation n="4" style="APA"><author n="1">Minev, I. R.</author>, <author>Musienko, P.,
+                Hirsch, A., Barraud, Q., Wenger, N., Moraud, E. M., … Lacour, S. P.</author> (2015).
+                <title level="a">Electronic dura mater for long-term multimodal neural
+                interfaces.</title>
+            <title level="j">Science</title>, 347(6218), 159–163.
+                <ref>http://doi.org/10.1126/science.1260318</ref>
+        </citation>
+        <annotation>
+            <background type="source">The Center for Neuroprosthetics of the Ecole Polytechnique
+                Fédérale de Lausanne (EPFL) is a Switzerland-based research organization with
+                notable sponsors including the International Foundation for Research in Paraplegia
+                and Medtronic. It is involved in an array of cutting-edge research endeavors with
+                bases in neuroscience and biomedical engineering.</background>
+            <summary type="general">Working from the challenge that stiff neural-integrated devices
+                often don't interface well with soft biological systems<note type="instructor">what
+                    is a 'soft biologica; system? maybe a quick example here</note> over extended
+                periods of time, the researchers developed a neural implant with properties similar
+                to dura mater, the membrane that covers brain and spinal cord tissue<note
+                    type="instructor">I see, literally 'soft'. That makes sense</note>. The
+                resulting construct has been demonstrated to be durable with regards to stretch
+                cycles, chemical injections, and electrical stimulation, allowing it to be viable in
+                an array of different tissue areas and treatment/function scenarios. </summary>
+            <summary type="approach">The research team has integrated neurobiological scientific
+                knowledge with materials science and electrical engineering innovations to create
+                implants that better integrate with biological tissue, improving on previous devices
+                that were previously made of stiffer, less bio-friendly materials.</summary>
+            <relevance type="application">The advances made by this group establish technological
+                innovations that will allow others in the future to use similar techniques,
+                materials, and methodologies to continue to develop solutions to the problems
+                touched on by this work. The implants were demonstrated to function both to extract
+                neural activity in behaving animals, as well as restoring locomotion to animals
+                suffering from spinal cord paralysis with electrochemical inputs. Thus, continued
+                study of these materials will allow for devices that can extract neural activity and
+                provide supplemental inputs to paralyzed systems.</relevance>
+        </annotation>
+        <!-- Source 5-->
+        <citation n="5" style="APA"><author n="1">Gibson, R. M.</author>, <author n="2">Chennu,
+                S.</author>, <author n="3">Owen, A. M.</author>, <author n="4">Cruse, D.</author>
+            (2014). <title level="a">Complexity and familiarity enhance single-trial detectability
+                of imagined movements with electroencephalography.</title>
+            <title level="j">Clinical Neurophysiology</title>, 125(8), 1556–1567.
+                <ref>http://doi.org/10.1016/j.clinph.2013.11.034</ref>
+        </citation>
+        <annotation>
+            <background type="source">The Brain and Mind Institute of Western University is a
+                distinguished institution that focuses on an integrative approach to neuroscience,
+                incorporating an array of different disciplines' perspectives to address challenges
+                facing the field. </background>
+            <summary type="general">The work in this publication centers on testing whether
+                sensorimotor rhythms that result from motor imagery are more distinguishable via
+                electroencepholography if the actions are more complex and are familiar to the user,
+                such as requesting a pianist to imagine playing a complicated piece of music.
+                Through study with healthy volunteer subjects, the research has found that EEG
+                responses are indeed more reliably classified when motor imagery actions are complex
+                and familiar.</summary>
+            <summary type="approach">This research is based in a scientific method approach of
+                testing a hypothesis based off of other conclusions in the field, and integrates
+                cognitive neuroscience, EEG technology, and computational analytics to find ways to
+                optimize reliable signal classification in EEG scenarios. </summary>
+            <relevance type="application">As a result of this research, Brain-Computer Interfaces
+                can serve more effectively when decoding the intentions of the user when the motor
+                imagery used is more complex and/or are familiar to the user. This study will
+                therefore improve the ability for the intentions of individuals who are unable to
+                communicate normally to be interpreted by BCIs, and assist in the overall goal of
+                the discipline to utilize less invasive technologies such as EEG and its eventual
+                descendents.</relevance>
+        </annotation>
+    </annotated_bib>
+
+
+    <docReview>
+        <reviewer type="instructor" xml:id="kgs"/>
+        <report type="instructor" resp="#kgs">
+            <p>This is really interesting stuff and I enjoyed reading about this area of research.
+                On the whole, I think you did an excellent job on the annotations, particularly with
+                respect to how you outline the approach (very important with a field as complex as
+                this). I was (as you can see by my note) just a bit lost reading your problem
+                statement; perhaps a revision would include just a sentence or so that specifically
+                circumscribes the issue you are taking on in the annotated bib. After reading your
+                annotations, I understand your problem to be a problem of scope. And the research
+                articles you selected all appropriately seek to increase the scope of neural
+                engineering to a wider array of patients and/or clinical situations.</p>
+        </report>
+    </docReview>
+
+</DOC>
