@@ -311,6 +311,7 @@
                 <ref name="genre"/>
                 <ref name="participants"/>
                 <ref name="setting"/>
+                <ref name="situation"/>
                 <ref name="context"/>
                 <ref name="aesthetics"/>
                 <ref name="sim"/>
