@@ -226,19 +226,23 @@
     <!-- definitions from 9/23-27 schema dev -->
     <define name="scene">
         <element name="scene">
-            <a:documentation/>
+            <a:documentation>indicates a scene, a place where rhetorical interaction occurs in order
+                to accomplish shared objective(s)</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="genre">
         <element name="genre">
-            <a:documentation/>
+            <a:documentation>indicates a genre; a way of responding to a situation that repeats
+                itself within a scene</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="situation">
         <element name="situation">
-            <a:documentation/>
+            <a:documentation>indicates the rhetorical interactions happening within a scene,
+                involving participants, subjects, settings and purposes [can include participants
+                and settings tags]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -250,44 +254,52 @@
     </define>
     <define name="participants">
         <element name="participants">
-            <a:documentation/>
+            <a:documentation>indicates participants, the entities that are involved and active in a
+                scene [can appear inside the situation tag]</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="setting">
         <element name="setting">
-            <a:documentation/>
+            <a:documentation>indicates the location and surroundings in which a scene takes place
+                [can appear inside the situation tag]</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="context">
         <element name="context">
-            <a:documentation/>
+            <a:documentation>indicates information provided to better understand a claim, argument,
+                or idea. Typically precedes an idea, claim or argument that warrant background
+                info.</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="aesthetics">
         <element name="aesthetics">
-            <a:documentation/>
+            <a:documentation>indicates aesthetic elements of a composition, including pictures, font
+                styles, colors, other material properties, etc. </a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="sim">
         <element name="sim">
-            <a:documentation/>
+            <a:documentation>(similarities) indicates text that points to similarities between two
+                or more texts </a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
     <define name="diff">
         <element name="diff">
-            <a:documentation/>
+            <a:documentation>(differences) indicates text that points to differences between two or
+                more texts</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
 
     <define name="mainArgument">
         <element name="mainArgument">
-            <a:documentation/>
+            <a:documentation>(main argument) indicates the central argument of an article or
+                essay</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
@@ -309,6 +321,24 @@
     </define>
     <define name="intro">
         <element name="intro">
+            <a:documentation>(introduction) a structural division, contains the text of the
+                introduction of the essay; i.e. an introduction into the material you will be
+                analyzing with some background information; generally the first paragraph or section
+                of an essay</a:documentation>
+            <interleave>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="model.essay.content"/>
+                    </choice>
+                </oneOrMore>
+                <ref name="mainArgument"/>
+            </interleave>
+        </element>
+    </define>
+    <define name="intro.special.para">
+        <!-- not in use; exists in case students want multiple paragraphs w/in intro -->
+        <element name="p">
             <a:documentation/>
             <interleave>
                 <oneOrMore>
@@ -323,7 +353,9 @@
     </define>
     <define name="bodyPara">
         <element name="bodyPara">
-            <a:documentation/>
+            <a:documentation>(body paragraph) a structural division containing a group of related
+                sentences about a particular topic or idea directly relating to the thesis of the
+                essay </a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -334,6 +366,21 @@
     </define>
     <define name="concl">
         <element name="concl">
+            <a:documentation>(conclusion) a structural division containing a summary of everything
+                that was written in the essay thats ends off on a note that makes the reader think;
+                generally written in a short, concise paragraph, and appearing at the end of an
+                essay. </a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.essay.content"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="concl.special.para">
+        <!-- not in use; exists in case students want multiple paragraphs w/in concl -->
+        <element name="p">
             <a:documentation/>
             <oneOrMore>
                 <choice>
@@ -341,7 +388,6 @@
                     <ref name="model.essay.content"/>
                 </choice>
             </oneOrMore>
-
         </element>
     </define>
     <define name="model.essay.structure">
@@ -381,7 +427,7 @@
         <element name="pattern">
             <a:documentation>(generic pattern) indicates an identifiable trait, characteristic,
                 and/or example of a pattern within a genre [requires @type
-                attribute]</a:documentation>
+                attribute; suggested values include: format...]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
