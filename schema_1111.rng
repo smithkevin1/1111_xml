@@ -223,7 +223,137 @@
     </define>
 
     <!-- GENRE ANALYSIS ESSAY ELEMENT DEFINITIONS -->
-    <define name="model.essay">
+    <!-- definitions from 9/23-27 schema dev -->
+    <define name="scene">
+        <element name="scene">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="genre">
+        <element name="genre">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="situation">
+        <element name="situation">
+            <a:documentation/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="participants"/>
+                    <ref name="setting"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="participants">
+        <element name="participants">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="setting">
+        <element name="setting">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="context">
+        <element name="context">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="aesthetics">
+        <element name="aesthetics">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="sim">
+        <element name="sim">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="diff">
+        <element name="diff">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+
+    <define name="mainArgument">
+        <element name="mainArgument">
+            <a:documentation/>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+
+    <define name="model.essay.content">
+        <oneOrMore>
+            <choice>
+                <ref name="scene"/>
+                <ref name="genre"/>
+                <ref name="participants"/>
+                <ref name="setting"/>
+                <ref name="context"/>
+                <ref name="aesthetics"/>
+                <ref name="sim"/>
+                <ref name="diff"/>
+                <ref name="pattern"/>
+            </choice>
+        </oneOrMore>
+    </define>
+    <define name="intro">
+        <element name="intro">
+            <a:documentation/>
+            <interleave>
+                <oneOrMore>
+                    <choice>
+                        <ref name="macro.paraContent"/>
+                        <ref name="model.essay.content"/>
+                    </choice>
+                </oneOrMore>
+                <ref name="mainArgument"/>
+            </interleave>
+        </element>
+    </define>
+    <define name="bodyPara">
+        <element name="bodyPara">
+            <a:documentation/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.essay.content"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="concl">
+        <element name="concl">
+            <a:documentation/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="model.essay.content"/>
+                </choice>
+            </oneOrMore>
+
+        </element>
+    </define>
+    <define name="model.essay.structure">
+        <ref name="intro"/>
+        <oneOrMore>
+            <ref name="bodyPara"/>
+        </oneOrMore>
+        <ref name="concl"/>
+    </define>
+
+    <!--
+    <define name="model.essay.content">
         <oneOrMore>
             <choice>
                 <ref name="claim"/>
@@ -231,19 +361,22 @@
                 <ref name="p"/>
             </choice>
         </oneOrMore>
-    </define>
-    <define name="claim">
+    </define>-->
+
+    <!--    <define name="claim">
         <element name="claim">
-            <a:documentation>(interpretive claim) indicates a claim made based on evidence presented or to be presented in an essay [requires @type attribute]</a:documentation>
+            <a:documentation>(interpretive claim) indicates a claim made based on evidence presented
+                or to be presented in an essay [requires @type attribute]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
-                    <ref name="model.essay"/>
+                    <ref name="model.essay.content"/>
                 </choice>
             </oneOrMore>
             <ref name="att.typed.attribute.type"/>
         </element>
-    </define>
+    </define>-->
+
     <define name="pattern">
         <element name="pattern">
             <a:documentation>(generic pattern) indicates an identifiable trait, characteristic,
@@ -252,7 +385,7 @@
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
-                    <ref name="model.essay"/>
+                    <ref name="model.essay.content"/>
                 </choice>
             </oneOrMore>
             <attribute name="type">
@@ -394,7 +527,6 @@
             <zeroOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
-                    <ref name="model.essay"/>
                 </choice>
             </zeroOrMore>
             <ref name="att.global.attributes"/>
@@ -470,12 +602,12 @@
             <ref name="model.biblLike"/>
         </element>
     </define>
-    <define name="body">
+    <define name="essay.body">
         <element name="body">
             <a:documentation>main body for essay; contains one or more div
                 elements</a:documentation>
             <zeroOrMore>
-                <ref name="model.divLike"/>
+                <ref name="model.essay.structure"/>
             </zeroOrMore>
         </element>
     </define>
@@ -500,7 +632,7 @@
             <a:documentation>container element for essay genre</a:documentation>
             <group>
                 <ref name="docHead"/>
-                <ref name="body"/>
+                <ref name="essay.body"/>
                 <optional>
                     <ref name="docFoot"/>
                 </optional>

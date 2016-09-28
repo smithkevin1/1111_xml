@@ -8,49 +8,50 @@
             <date>02/26/2017</date>
         </docHead>
         <body>
-            <div title="Introduction">
-                <p>College students have many options throughout the city when it comes to Italian
-                    dining. One popular spot near campus is BelaRoma Pizza and Pasta, which caters
-                    to a college crowd and advertises on its menu the restaurant's goal of
-                    <q>Satisfying Your Cravings</q> <citation source="#BelaRoma">("BelaRoma Deli
-                            Menu").</citation> Located further from the campus strip is another
-                    Italian restaurant, Sicily's, that caters more to the larger community and
-                    offers a more formal dining experience. On its menu, you will find a different
-                    advertisement: <q>Silver Platter Award Winner for Best Italian Food.</q> The
-                    differences in the implications of these quotations taken from the menu covers
-                    shows the differences in the communities these restaurants are trying to create
-                    and the customers they are trying to serve. BelaRoma's main purpose is to serve
-                    takeout and delivery food to on-the-go students, while Sicily's restaurant
-                    serves a sit-down clientele. <claim type="main">Though Sicily's Italian Restaurant and BelaRoma
-                    Deli are both restaurants that offer Italian style dining, as demonstrated by
-                    their menus, the fact that they represent different communities is evident in
-                    the layout, pricing, and language of their menus.</claim></p>
-            </div>
-            <div>
-                <p>Sicily's and BelaRoma, while being very different types of restaurants, share
-                    some basic similarities in their menus, reflecting the shared goals of the
-                    restaurant business. <pattern type="format">Each of the menus clearly displays
-                        the restaurant's name in large letters, with a graphic underneath the
-                        title</pattern> to catch the customer's attention ad to make the restaurant
-                    memorable to the customers so that they will keep coming back. <pattern
-                        type="format">When the customers first open the menus, a variety of food
-                        options are revealed, conveniently following the order that they usually are
-                        consumed, with appetizers listed first, followed by main dishes and then
-                        desserts</pattern>. <pattern type="format">Each variety of food is broken
-                        down under different headings, such as "Appetizers" or "Pasta,"</pattern>
-                    thus making the menu easier to read and helping to guide customers as they make
-                    their choices.</p>
-            </div>
+            <intro> College students have many options throughout the city when it comes to Italian
+                dining. One popular spot near campus is BelaRoma Pizza and Pasta, which caters to a
+                college crowd and advertises on its menu the restaurant's goal of <q>Satisfying Your
+                    Cravings</q>
+                <citation source="#BelaRoma">("BelaRoma Deli Menu").</citation> Located further from
+                the campus strip is another Italian restaurant, Sicily's, that caters more to the
+                larger community and offers a more formal dining experience. On its menu, you will
+                find a different advertisement: <q>Silver Platter Award Winner for Best Italian
+                    Food.</q> The differences in the implications of these quotations taken from the
+                menu covers shows the differences in the communities these restaurants are trying to
+                create and the customers they are trying to serve. BelaRoma's main purpose is to
+                serve takeout and delivery food to on-the-go students, while Sicily's restaurant
+                serves a sit-down clientele. <mainArgument>Though Sicily's Italian Restaurant and
+                    BelaRoma Deli are both restaurants that offer Italian style dining, as
+                    demonstrated by their menus, the fact that they represent different communities
+                    is evident in the layout, pricing, and language of their menus.</mainArgument>
+            </intro>
+            <bodyPara> Sicily's and BelaRoma, while being very different types of restaurants, share
+                some basic similarities in their menus, reflecting the shared goals of the
+                restaurant business. <pattern type="format">Each of the menus clearly displays the
+                    restaurant's name in large letters, with a graphic underneath the
+                    title</pattern> to catch the customer's attention ad to make the restaurant
+                memorable to the customers so that they will keep coming back. <pattern
+                    type="format">When the customers first open the menus, a variety of food options
+                    are revealed, conveniently following the order that they usually are consumed,
+                    with appetizers listed first, followed by main dishes and then
+                    desserts</pattern>. <pattern type="format">Each variety of food is broken down
+                    under different headings, such as "Appetizers" or "Pasta,"</pattern> thus making
+                the menu easier to read and helping to guide customers as they make their choices. </bodyPara>
+            <bodyPara> text. </bodyPara>
+            <concl> text. <q>quotey quote</q><citation source="#Swales">(Swales 16)</citation>
+            </concl>
         </body>
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl xml:id="BelaRoma">“BelaRoma Deli Menu.” <style type="italics">Scenes of Writing</style>, written by Amy
-                    Devitt, Mary Jo Reiff, and Anis Bawarshi, Pearson, 20014, pp. 85-90.</bibl>
+                <bibl xml:id="BelaRoma">“BelaRoma Deli Menu.” <style type="italics">Scenes of
+                        Writing</style>, written by Amy Devitt, Mary Jo Reiff, and Anis Bawarshi,
+                    Pearson, 20014, pp. 85-90.</bibl>
                 <bibl xml:id="Duvall">Duvall, John N. "The (Super)Marketplace of Images: Television
-                    as Unmediated Mediation in DeLillo's White Noise." <style type="italics">Arizona Quarterly</style>, vol. 50,
-                    no. 3, 1994, pp. 127-53.</bibl>
-                <bibl xml:id="Swales">Swales, John. <style type="italics">Genre Analysis</style>. Penguin, 1987.</bibl>
+                    as Unmediated Mediation in DeLillo's White Noise." <style type="italics">Arizona
+                        Quarterly</style>, vol. 50, no. 3, 1994, pp. 127-53.</bibl>
+                <bibl xml:id="Swales">Swales, John. <style type="italics">Genre Analysis</style>.
+                    Penguin, 1987.</bibl>
             </listBibl>
         </docFoot>
     </essay>
