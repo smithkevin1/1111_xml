@@ -302,10 +302,19 @@ ul.right-just {
 div#essay h1 {
   text-align: center;
   font-size: 1.25em;
+  margin: 1.5em 0;
 }
 
 div#essay {
   font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+
+div#essay p {
+  line-height: 2.5;
+}
+
+div#essay p.intro, p.bodyPara, p.concl {
+  text-indent: 2.5em;
 }
 
 #essay li {
