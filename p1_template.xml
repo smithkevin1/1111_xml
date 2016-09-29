@@ -8,14 +8,16 @@
             <date></date>
         </docHead>
         <body>
-            <div title="">
-                <p></p>
-            </div>
+            <intro>
+                <mainArgument></mainArgument>
+            </intro>
+            <bodyPara></bodyPara>
+            <concl></concl>
         </body>
         <docFoot>
-            <title/>
+            <title>Works Cited</title>
             <listBibl>
-                <bibl/>
+                <bibl>citation here</bibl>
             </listBibl>
         </docFoot>
     </essay>

@@ -12,6 +12,7 @@
                 <title>
                     <xsl:value-of select="//docHead/title"/>
                 </title>
+                <link rel="stylesheet" type="text/css" href="../website/css/main.css"/>
                 <link rel="stylesheet" type="text/css" href="./website/css/main.css"/>
             </head>
             <body>
@@ -150,6 +151,7 @@
     </xsl:template>
 
     <!-- This section processes the reviews/end notes for the document -->
+
     <xsl:template match="docReview">
         <div id="reviews">
             <xsl:apply-templates select="report"/>

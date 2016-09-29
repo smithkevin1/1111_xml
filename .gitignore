@@ -2,3 +2,4 @@
 *.xpr
 *~
 tmp/
+student_xml/*.html
