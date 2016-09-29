@@ -48,7 +48,8 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="body/div">
+
+    <!--    <xsl:template match="body/div">
         <xsl:variable name="attribute-value" select="./@title"/>
         <div id="{$attribute-value}">
             <xsl:if test="./@title = true()">
@@ -58,9 +59,21 @@
             </xsl:if>
             <xsl:apply-templates/>
         </div>
+    </xsl:template>-->
+
+
+    <xsl:template match="essay/body/intro">
+        <p class="intro">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
-    <xsl:template match="essay//div/p">
-        <p>
+    <xsl:template match="essay/body/bodyPara">
+        <p class="bodyPara">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="essay/body/concl">
+        <p class="concl">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -70,25 +83,9 @@
             <xsl:apply-templates/>
         </a>
     </xsl:template>
-    <xsl:template match="essay//q">
-        &#147;<xsl:apply-templates/>&#148;
-    </xsl:template>
+    <xsl:template match="essay//q"> "<xsl:apply-templates/>" </xsl:template>
 
-
-    <!--    <xsl:template match="DOC//title[not(parent::blog_post)]">
-        <xsl:choose>
-            <xsl:when test="./@level = 'a'">
-                <xsl:apply-templates/>
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="italics">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>-->
-
-    <xsl:template match="DOC//note">
+    <xsl:template match="DOC//note"><!-- template for rollover instructor and peer review notes -->
         <xsl:variable name="attribute-value" select="./@type"/>
         <xsl:choose>
             <xsl:when test="$attribute-value = 'instructor'">
