@@ -194,8 +194,7 @@
         <div id="legend">
             <p>color key:</p>
             <ul>
-                <li class="pattern format">Generic pattern: format</li>
-                <li class="claim main">Claim: main</li>
+                <li class=""></li>
             </ul>
         </div>
     </xsl:template>
@@ -210,6 +209,6 @@
     
     <xsl:template match="essay//claim">
         <span class="claim {@type}"><xsl:apply-templates/></span>
-    </xsl:template>
+    </xsl:template>-->
     
-</xsl:stylesheet>-->
+</xsl:stylesheet>
