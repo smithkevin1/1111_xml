@@ -62,7 +62,8 @@
     </xsl:template>-->
 
 
-    <xsl:template match="essay/body/intro">
+
+    <xsl:template match="essay/body/intro/p">
         <p class="intro">
             <xsl:apply-templates/>
         </p>
@@ -72,12 +73,12 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="essay/body/concl">
+
+    <xsl:template match="essay/body/concl/p">
         <p class="concl">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
     <xsl:template match="DOC//citation">
         <a class="cit" href="{@source}">
             <xsl:apply-templates/>
