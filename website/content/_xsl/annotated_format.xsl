@@ -30,7 +30,7 @@
     </xsl:template>   REACTIVATE AFTER TESTING-->
     
     <xsl:include href="normal_format.xsl"/>
-    
+    <!-- structure -->  
     <xsl:template match="essay//intro">
         <div id="ann_intro">
             <h3>Introduction</h3>
@@ -38,9 +38,6 @@
         </div>
         <h3>Body</h3>
     </xsl:template>
-<!--    <xsl:template match="DOC/essay/body/bodyPara[1]">
-            <xsl:apply-templates/>
-    </xsl:template>-->
     <xsl:template match="essay//concl">
         <div id="ann_concl">
             <h3>Conclusion</h3>
@@ -48,7 +45,10 @@
         </div>
     </xsl:template>
     
-    <!-- END NORMAL FORMAT; BEGIN STYLESHEETS FOR ANNOTATION -->
+    <!-- annotations -->
+    
+    
+    <!-- legend build -->
     <xsl:template name="legend">
         <div id="legend">
             <p>color key:</p>
