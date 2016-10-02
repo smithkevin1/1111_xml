@@ -350,8 +350,7 @@
         <element name="intro">
             <a:documentation>(introduction) a structural division, contains the text of the
                 introduction of the essay; i.e. an introduction into the material you will be
-                analyzing with some background information; generally the first paragraph or section
-                of an essay</a:documentation>
+                analyzing with some background information; [contains one or more ‘p’ (paragraph) elements]</a:documentation>
             <oneOrMore>
                 <ref name="intro.special.para"/>
             </oneOrMore>
@@ -386,7 +385,7 @@
             <a:documentation>(conclusion) a structural division containing a summary of everything
                 that was written in the essay thats ends off on a note that makes the reader think;
                 generally written in a short, concise paragraph, and appearing at the end of an
-                essay. </a:documentation>
+                essay; [contains one or more ‘p’ (paragraph) elements] </a:documentation>
             <oneOrMore>
                 <ref name="concl.special.para"/>
             </oneOrMore>

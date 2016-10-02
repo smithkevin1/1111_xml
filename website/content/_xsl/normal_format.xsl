@@ -43,7 +43,7 @@
         </h1>
     </xsl:template>
 
-    <xsl:template match="body">
+    <xsl:template match="essay/body">
         <div id="text">
             <xsl:apply-templates/>
         </div>

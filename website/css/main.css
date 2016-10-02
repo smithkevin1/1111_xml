@@ -380,6 +380,22 @@ figure figcaption {
 /*
 Custom styles for annotated XML documents
 */
+div#ann_intro {
+  padding: 3em;
+  border: 1px solid;
+  border-radius: 1em 5em;
+}
+
+div#ann_intro::after {
+  content: <h3>"Body"</h3>
+}
+
+div#ann_concl {
+  padding: 3em;
+  border: 1px solid;
+  border-radius: 5em 1em;
+}
+
 span.format
 {
   color: red;
