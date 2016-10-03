@@ -396,33 +396,54 @@ div#ann_concl {
   border-radius: 5em 1em;
 }
 
-span.format
-{
-  color: red;
-}
-
-span.main
-{
-  color: blue;
-}
-
 #legend {
-  display: block;
-  width: 25%;
+  display:block;
+  margin: 0 auto;
+  width: 70%;
   height: auto;
+  padding: 1em;
+  background-color: white;
+  border-radius: 2em;
+}
+#legend p {
+  font-size: 2em;
+  text-decoration: underline;
+  text-align: center;
+}
+#legend ul {
+  margin: 0 auto;
 }
 #legend li {
-  height: 1em;
+  display: block;
+  height: 1.5em;
+  padding-left: .5em;
+  list-style-type:square;
 }
 
-#legend li.format
-{
-  color: red;
-}
-
-#legend li.main {
-  color: blue;
-}
+span.scene {color: #a6cee3;}
+li.scene {background-color: #a6cee3;}
+span.genre {color: #1f78b4;}
+li.genre {background-color: #1f78b4;}
+span.participants {color: #b2df8a;}
+li.participants {background-color: #b2df8a;}
+span.setting {color: #33a02c;}
+li.setting {background-color: #33a02c;}
+span.situation {color: #fb9a99;}
+li.situation {background-color: #fb9a99;}
+span.context {color: #e31a1c;}
+li.context {background-color: #e31a1c;}
+span.aesthetics {color: #fdbf6f;}
+li.aesthetics {background-color: #fdbf6f;}
+span.sim {color: #ff7f00;}
+li.sim {background-color: #ff7f00;}
+span.diff {color: #cab2d6;}
+li.diff {background-color: #cab2d6;}
+span.pattern {color: #6a3d9a;}
+li.pattern {background-color: #6a3d9a;}
+span.argument {color: #cccc00;}
+li.argument {background-color: #cccc00;}
+span.evidence {color: #b15928;}
+li.evidence {background-color: #b15928;}
 
 /* ==========================================================================
    Media Queries

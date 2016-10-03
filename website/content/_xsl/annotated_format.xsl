@@ -3,8 +3,9 @@
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
     <xsl:output method="xml" indent="yes"/>
-    
-    <xsl:template match="DOC"><!-- TEMPORARY TEMPLATE FOR OFFLINE TESTING (REMEMBER TO DELETE) -->
+
+    <!-- <xsl:template match="DOC">
+          TEMPORARY TEMPLATE FOR OFFLINE TESTING (REMEMBER TO DEACTIVATE)
         <html>
             <head>
                 <title>
@@ -20,17 +21,18 @@
                 </div>
             </body>
         </html>
-    </xsl:template> <!-- DELETE AFTER TESTING -->
-    
-   <!-- <xsl:template match="DOC">
+    </xsl:template>
+     DELETE AFTER TESTING -->
+
+    <xsl:template match="DOC">
         <xsl:call-template name="legend"/>
         <div id="contain">
             <xsl:apply-templates/>
         </div>
-    </xsl:template>   REACTIVATE AFTER TESTING-->
-    
+    </xsl:template>   
+
     <xsl:include href="normal_format.xsl"/>
-    <!-- structure -->  
+    <!-- structure -->
     <xsl:template match="essay//intro">
         <div id="ann_intro">
             <h3>Introduction</h3>
@@ -44,30 +46,81 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
+
     <!-- annotations -->
-    
-    
+    <xsl:template match="essay//p//*[not(self::q) and not(self::citation)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}">
+                [<xsl:value-of select="name()"/> (type = <xsl:value-of select="@type"/>): <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}">
+                [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+
+    <xsl:template match="essay//bodyPara//*[not(self::q) and not(self::citation)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}">
+                [<xsl:value-of select="name()"/> (type = <xsl:value-of select="@type"/>): <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}">
+                [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+
     <!-- legend build -->
     <xsl:template name="legend">
         <div id="legend">
-            <p>color key:</p>
             <ul>
-                <li class=""></li>
+                <li class="scene">scene: indicates a scene, a place where rhetorical interaction occurs in order
+                    to accomplish shared objective(s)</li>
+                <li class="genre">genre: indicates a genre; a way of responding to a situation that repeats
+                    itself within a scene</li>
+                <li class="situation">situation: indicates the rhetorical interactions happening within a scene,
+                    involving participants, subjects, settings and purposes [can include participants
+                    and settings tags]</li>
+                <li class="participants">participants: indicates participants, the entities that are involved and active in a
+                    scene [can appear inside the situation tag]</li>
+                <li class="setting">setting: indicates the location and surroundings in which a scene takes place
+                    [can appear inside the situation tag]</li>
+                <li class="context">context: indicates information provided to better understand a claim, argument,
+                    or idea. Typically precedes an idea, claim or argument that warrant background
+                    info</li>
+                <li class="aesthetics">aesthetics: indicates aesthetic elements of a composition, including pictures, font
+                    styles, colors, other material properties, etc.</li>
+                <li class="sim">sim: (similarities) indicates text that points to similarities between two
+                    or more texts [can optionally contain any other essay content elements]</li>
+                <li class="diff">diff: (differences) indicates text that points to differences between two or
+                    more texts [can optionally contain any other essay content elements]</li>               
+                <li class="argument">argument: (interpretive claim/argument) indicates a claim/argument made based on
+                    evidence presented or to be presented in an essay [requires @type attribute, values
+                    of 'main,' 'supporting,' or 'opposing']</li>
+                <li class="evidence">evidence: (evidence) indicates evidence in support of a claim or argument</li>
+                <li class="pattern">pattern: (generic pattern) indicates an identifiable trait, characteristic,
+                    and/or example of a pattern within a genre [requires @type attribute of user-defined
+                    value]</li>
             </ul>
         </div>
     </xsl:template>
-    
+
     <xsl:template match="essay//pattern">
-        <span class="pattern"><xsl:apply-templates/></span>
+        <span class="pattern">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
-    
-<!--    <xsl:template match="essay//pattern">
+
+    <!--    <xsl:template match="essay//pattern">
         <span class="pattern {@type}"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="essay//claim">
         <span class="claim {@type}"><xsl:apply-templates/></span>
     </xsl:template>-->
-    
+
 </xsl:stylesheet>
