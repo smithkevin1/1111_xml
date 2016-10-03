@@ -402,7 +402,7 @@ div#ann_concl {
   width: 70%;
   height: auto;
   padding: 1em;
-  background-color: white;
+
   border-radius: 2em;
 }
 #legend p {
@@ -415,9 +415,15 @@ div#ann_concl {
 }
 #legend li {
   display: block;
-  height: 1.5em;
+  height: auto;
   padding-left: .5em;
   list-style-type:square;
+}
+
+#legend li strong {
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 span.scene {color: #a6cee3;}

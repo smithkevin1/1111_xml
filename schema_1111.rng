@@ -270,7 +270,7 @@
         <element name="context">
             <a:documentation>indicates information provided to better understand a claim, argument,
                 or idea. Typically precedes an idea, claim or argument that warrant background
-                info.</a:documentation>
+                info</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
