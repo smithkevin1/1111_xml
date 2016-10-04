@@ -9,10 +9,12 @@
         </docHead>
         <body>
             <intro>
-                <mainArgument></mainArgument>
+                <p></p>
             </intro>
             <bodyPara></bodyPara>
-            <concl></concl>
+            <concl>
+                <p></p>
+            </concl>
         </body>
         <docFoot>
             <title>Works Cited</title>

@@ -43,7 +43,7 @@
         </h1>
     </xsl:template>
 
-    <xsl:template match="body">
+    <xsl:template match="essay/body">
         <div id="text">
             <xsl:apply-templates/>
         </div>
@@ -62,7 +62,8 @@
     </xsl:template>-->
 
 
-    <xsl:template match="essay/body/intro">
+
+    <xsl:template match="essay/body/intro/p">
         <p class="intro">
             <xsl:apply-templates/>
         </p>
@@ -72,12 +73,12 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="essay/body/concl">
+
+    <xsl:template match="essay/body/concl/p">
         <p class="concl">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
     <xsl:template match="DOC//citation">
         <a class="cit" href="{@source}">
             <xsl:apply-templates/>
@@ -92,18 +93,12 @@
                 <sup>
                     <a href="#" data-tooltip="Instructor note: {text()}"
                         data-tooltip-position="bottom">[i.n.]</a>
-
-                    <!--<span class="{$attribute-value}">K.Smith: <xsl:apply-templates/></span>-->
                 </sup>
             </xsl:when>
             <xsl:when test="$attribute-value != 'instructor'">
-                <xsl:variable name="get_id" select="//docReview/reviewer"/>
                 <sup>
-                    <a href="#" data-tooltip="{$get_id}: {text()}" data-tooltip-position="bottom"
-                        >[p.n.]</a>
+                    <a href="#" data-tooltip="Peer note: {text()}" data-tooltip-position="bottom">[p.n.]</a>
                 </sup>
-                <!--<span class="{$attribute-value}"><xsl:value-of select="//docReview/reviewer"/>: <xsl:apply-templates/></span>-->
-
             </xsl:when>
         </xsl:choose>
     </xsl:template>
