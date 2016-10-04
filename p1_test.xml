@@ -23,35 +23,39 @@
                     covers shows the differences in the communities these restaurants are trying to
                     create and the customers they are trying to serve. BelaRoma's main purpose is to
                     serve takeout and delivery food to on-the-go students, while Sicily's restaurant
-                    serves a sit-down clientele. <argument type="main">Though Sicily's Italian Restaurant and BelaRoma
-                    Deli are both restaurants that offer Italian style dining, as demonstrated by
-                    their menus, the fact that they represent different communities is evident in
-                    the layout, pricing, and language of their menus.</argument></p>
+                    serves a sit-down clientele. <argument type="main">Though Sicily's Italian
+                        Restaurant and BelaRoma Deli are both restaurants that offer Italian style
+                        dining, as demonstrated by their menus, the fact that they represent
+                        different communities is evident in the layout, pricing, and language of
+                        their menus.</argument></p>
             </intro>
             <bodyPara> Sicily's and BelaRoma, while being very different types of restaurants, share
                 some basic similarities in their menus, reflecting the shared goals of the
-                restaurant business.<sim>Each of <evidence>the menus clearly displays the restaurant's name
-                    in large letters, with a graphic underneath the title to catch the customer's
-                    attention ad to make the</evidence> restaurant memorable to the customers so that they will
-                    keep coming back. When the customers first open the menus, a variety of food
-                    options are revealed, conveniently following the order that they usually are
-                    consumed, with appetizers listed first,</sim> followed by main dishes and then
-                desserts. Each variety of food is broken down under different headings, such as
-                "Appetizers" or "Pasta," thus making the menu easier to read and helping to guide
-                customers as they make their choices. </bodyPara>
+                restaurant business.<sim>Each of <evidence>the menus clearly displays the
+                        restaurant's name in large letters, with a graphic underneath the title to
+                        catch the customer's attention ad to make the</evidence> restaurant
+                    memorable to the customers so that they will keep coming back. When the
+                    customers first open the menus, a variety of food options are revealed,
+                    conveniently following the order that they usually are consumed, with appetizers
+                    listed first,</sim> followed by main dishes and then desserts. Each variety of
+                food is broken down under different headings, such as "Appetizers" or "Pasta," thus
+                making the menu easier to read and helping to guide customers as they make their
+                choices. </bodyPara>
             <bodyPara>The language on the menus fit the different price ranges and different
                 clienteles of each restaurant. The use of elevated language in the Sicily's menu
                 reflects the higher prices of its items and the more formal dining experience they
                 provide. There are entrees on the menu at Sicily's such as Zuppa del Giorno and
                 Chicaken Saltimboca. Most of the items on BelaRoma's menu consist of more familiar
-                names like "Spaghetti" and "Reuben." This reflects the difference in types of food
-                and claims to authenticity or ability to specialize in Italian food that each
-                establishment offers as well as the different customers they are trying to attract.
-                Sicily's restaurant is looking for more serious diners who would be interested in
-                trying a menu item named "Linguine Pescatore" while BelaRoma is trying to attract
-                customers--most likely college students--who want to be able to order a "Bacon Swiss
-                Burger" or "Cheese Sticks," in addition to Italian fare. The language of the menus,
-                like the prices, lends a particular atmosphere to the foods offered by each
+                names like "Spaghetti" and "Reuben." <note type="peer" who="#sm.ke">You may want to
+                    explain how these differences reflect "authenticity" and
+                specialization</note>This reflects the difference in types of food and claims to
+                authenticity or ability to specialize in Italian food that each establishment offers
+                as well as the different customers they are trying to attract. Sicily's restaurant
+                is looking for more serious diners who would be interested in trying a menu item
+                named "Linguine Pescatore" while BelaRoma is trying to attract customers--most
+                likely college students--who want to be able to order a "Bacon Swiss Burger" or
+                "Cheese Sticks," in addition to Italian fare. The language of the menus, like the
+                prices, lends a particular atmosphere to the foods offered by each
                 restaurant.</bodyPara>
             <concl>
                 <p>The differences in the menus of BelaRoma Pizza and Pasta and Sicily's Italian
@@ -60,10 +64,10 @@
                     a specific clientele: Sicily's is trying to attract a smaller group of people
                     who are more selctive and who only want Italian food while BelaRoma is trying to
                     appeal to their diverse clientele of mostly college students with many different
-                    eating habits and tastes. <scene>While they share the similar goal of trying to get
-                    people to eat at their establishments and order their food, their strategies in
-                    menu layout, pricing, language, and menu items reflect differences in target
-                    customers.</scene></p>
+                    eating habits and tastes. <scene>While they share the similar goal of trying to
+                        get people to eat at their establishments and order their food, their
+                        strategies in menu layout, pricing, language, and menu items reflect
+                        differences in target customers.</scene></p>
             </concl>
         </body>
         <docFoot>
@@ -85,8 +89,8 @@
         <report type="peer" who="#id_here">
             <p>Peer review report will go here.</p>
         </report>
-        <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
-        <report type="instructor" who="#smi.ke">
+        <reviewer type="instructor" xml:id="sm.ke">Kevin Smith</reviewer>
+        <report type="instructor" who="#sm.ke">
             <p>Instructor comments will go here.</p>
         </report>
     </docReview>
