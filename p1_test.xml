@@ -20,7 +20,7 @@
                     formal dining experience. On its menu, you will find a different advertisement:
                         <q>Silver Platter Award Winner for Best Italian Food.</q></p>
                 <p>The differences in the implications of these quotations taken from the menu
-                    covers shows the differences in the communities these restaurants are trying to
+                    covers shows the differences<q> in the communities</q> these restaurants are trying to
                     create and the customers they are trying to serve. BelaRoma's main purpose is to
                     serve takeout and delivery food to on-the-go students, while Sicily's restaurant
                     serves a sit-down clientele. <argument type="main">Though Sicily's Italian
@@ -85,7 +85,7 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="sm.ke">Kevin Smith</reviewer>
         <report type="peer" who="#id_here">
             <p>Peer review report will go here.</p>
         </report>
