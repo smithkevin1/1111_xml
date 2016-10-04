@@ -48,7 +48,7 @@
     </xsl:template>
 
     <!-- annotations -->
-    <xsl:template match="essay//p//*[not(self::q) and not(self::citation)]">
+    <xsl:template match="essay//p//*[not(self::q) and not(self::citation) and not(self::note)]">
         <xsl:if test="@type = true()">
             <span class="{name()} {@type}">
                 [<xsl:value-of select="name()"/> (type = <xsl:value-of select="@type"/>): <xsl:apply-templates/>]
@@ -61,7 +61,7 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="essay//bodyPara//*[not(self::q) and not(self::citation)]">
+    <xsl:template match="essay//bodyPara//*[not(self::q) and not(self::citation) and not(self::note)]">
         <xsl:if test="@type = true()">
             <span class="{name()} {@type}">
                 [<xsl:value-of select="name()"/> (type = <xsl:value-of select="@type"/>): <xsl:apply-templates/>]
