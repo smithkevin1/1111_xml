@@ -4,17 +4,69 @@
 <DOC>
     <essay>
         <docHead>
-            <title></title>
-            <author xml:id=""></author>
-            <date></date>
+            <title>Types of Movie Reviews</title>
+            <author xml:id="">Dylan Robinson</author>
+            <date>7 October, 2016</date>
         </docHead>
         <body>
             <intro>
-                <p></p>
+                <p>Movie reviews help many people decide on whether or not they should go see a movie 
+                   that they are interested in. With many movies coming out around the same time and the theater 
+                   costing a fair amount of money, many people need to decide on one movie out of a few that they would like to 
+                   go see. Movie reviews help out with this, and with the internet there are now more ways to find 
+                   out if a movie is worth seeing or not. There are still written reviews, but now there are many people 
+                   on websites such as YouTube who create video reviews for movies. <argument type="main">The written review 
+                   and the video review are both part of the same movie review genre, but they have a few key differences 
+                   that separate them.</argument> Video reviews allow the viewer to see exactly how the reviewer 
+                   feels about a movie while written reviews rely on just text to convey the reviewer’s feelings 
+                   about a movie. One way to see these similarities and differences is to look at two reviews of 
+                   the movie “Star Wars: The Force Awakens”, one written by Anthony Lane and a video 
+                   created by Chris Stuckmann. “Star Wars: The Force Awakens” was a highly anticipated movie, 
+                   so a lot of work went into the many reviews made about it.</p>
             </intro>
-            <bodyPara></bodyPara>
+            <bodyPara><sim>Both the written movie review and the video movie review are a part of the <genre>movie review genre and the 
+                even larger review genre which exists because people enjoy sharing their opinions and others like to hear 
+                about those opinions to help them decide if they want the product or not.</genre></sim> <genre>A movie review has one main goal, 
+                to help the reader decide if they want to see the reviewed movie or not. It does this by giving the reviewer’s 
+                personal opinion of the movie and then having the reviewer look at the movie objectively to tell the reader if 
+                it is a well made and well thought out movie or not. The review goes over the actors’ performances, the plot, 
+                the effects and other aspects found in all movies.</genre> Lane talks about how Daisy Ridley <citation source="Lane">“straps 
+                    herself in, swats aside any vestige of Mark Hamill, and takes command of the movie”(Lane)</citation>. These 
+                reviews for “Star Wars: The Force Awakens” also compare the movie to its predecessors. For example, 
+                <citation source="Lane">Anthony Lane compares a scene in the movie where a character uses the Force to pull 
+                    a lightsaber towards them to the scene in “The Empire Strikes Back” when Luke Skywalker does the same 
+                    thing (Lane)</citation>. The movies are also compared in the video review. <citation source="Stuckmann">Stuckmann 
+                        talks about how he loved the movie as much as the original “Star Wars” and more 
+                        than “Return of the Jedi” (Stuckmann)</citation>. 
+                All of this is what the written review and the video review have in common because they are part of the movie 
+                review genre.
+            </bodyPara>
+            <bodyPara>While the written review and the video review both discuss the same topics, they do it in very different ways. 
+                <diff>In the video review, <evidence><citation source="Stuckmann">Stuckmann talks as if he is having a conversation with you. Since you can see him in the video, 
+                you see his facial expressions and can hear his tone of voice as he talks about the movie. It is easy to tell that 
+                he loved the movie and is excited to talk about it, even when he is talking about its flaws. Pictures also show up 
+                in the video to help show what he is talking about during the review (Stuckmann)</citation></evidence>.</diff> With the written review, <diff>Lane 
+                needs to work harder to get his point across. He does not have luxury of his audience being able to hear and see 
+                him talk about the movie, so he need to be much  more descriptive in what he says than Stuckmann needs to in the 
+                video review.</diff> This can be seen when he talks about Adam Driver’s performance. <citation source="Lane">“So well is Driver cast against type 
+                here that evil may turn out to be his type, and so extraordinary are his features, long and quiveringly gaunt, 
+                that even when he removes his headpiece you still believe that you’re gazing at some form of advanced alien” (Lane)</citation>. 
+                Another example is when Lane uses imagery to talk about how cinematic a scene in the movie was. <citation source="Lane">“One battle, in 
+                particular, is a feast for the ears as well as the eyes, for it unfolds in a wintry forest. In addition to the usual 
+                throbbing hum of the weapons, (jazzed up a little for this movie, I fancy), you can hear the sizzle of sabre on 
+                snow, and the slicing hiss as the fighters miss their target and fell surrounding pine trees by mistake” (Lane)</citation>. 
+                <diff>This shows how Lane must resort to using descriptive words and specially structured sentences to convey his feelings 
+                about the movie. He cannot just simply say he loved the movie, that the actors were phenomenal and that the director 
+                did a great job like Stuckmann can get away with in his video review. While Stuckmann just talks about how well 
+                actors performed and how great the film looked, Lane needs to describe what the actors did and exactly what the 
+                film looked like and how cinematic scenes were.</diff>
+            </bodyPara>
             <concl>
-                <p></p>
+                <p><diff>The written review and the video review have big differences. The video review just tells the audience about 
+                    the movie and how the reviewer feels about it while the written review describes how good the movie was to 
+                    convey how the reviewer feels about it.</diff> <sim>But they still both have many similarities. They talk about the same 
+                    topics and try to help their audience decide if they want to see the movie or not.</sim> <genre>Despite their differences, 
+                    both the written review and the video review fit clearly in the movie review genre.</genre></p>
             </concl>
         </body>
         <docFoot>
