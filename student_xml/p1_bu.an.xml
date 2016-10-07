@@ -24,44 +24,56 @@
                             <q>Hearthstone: Heroes of Warcraft</q></context>.</p>
                 <p><context>Hearthstone is a game developed by Blizzard Entertainment, made to be an
                         easy to learn and simple card game for people to play.</context>
-                    <scene>However, this design philosophy to appeal to a casual gaming audience has
-                        spurred the more competitive players across the internet to speak out
-                        against Blizzard's approach to the game, in favor for a more serious
-                        competition to reward more skilled players. <situation>Those who have voiced
-                            their concerns have done so using a very common genre in the gaming
-                            community known as a</situation></scene>
+                    <scene>However, this design philosophy to<note type="peer"> Hearthstone is also
+                            cross platform, which you might want to mention as a part of bringing in
+                            different sources of uptake, such as casual mobile users to the elite
+                            Twitch streamers.</note> appeal to a casual gaming audience has spurred
+                        the more competitive players across the internet to speak out against
+                        Blizzard's approach to the game, in favor for a more serious competition to
+                        reward more skilled players. <situation>Those who have voiced their concerns
+                            have done so using a very common genre in the gaming community known as
+                            a</situation></scene>
                     <genre>gaming article</genre>. <argument type="main">When one analyzes this
                         genre, one can begin to see how their uptake affects both a video game's
                         community and the game they discuss as well.</argument>
                     <q>Three Years In And 'Hearthstone' Still Doesn't Nerf Cards Fast Enough</q> is
-                    a gaming article by Paul Tassi which serves as an excellent example of how this
-                    phenomena occurs.</p>
+                    a gaming article <note type="peer"> I would believe that this example belongs up
+                        there with the introduction of "gaming article." It seems out of place when
+                        it comes after the main argument. It offers you the opportunity to jump
+                        right from main argument to the body paragraph. </note> by Paul Tassi which
+                    serves as an excellent example of how this phenomena occurs.</p>
             </intro>
-            <bodyPara>Looking at Tassi's article, one immediately notice the author's perspective.
-                    <participants>Because of the huge variety of video games available, it is very
-                    typical for the author to be a very passionate player of said game, or of video
-                    games in general, and to write alone.</participants> As such, it is very easy to
-                see reoccurring patterns in many different gaming articles. <aesthetics>Most will be
-                    formatted in a similar way: Simple black text with a white background on a
-                    website available for anyone to read. Most use short paragraphs to quickly
-                    articulate their points, and between these paragraphs are images of the cards or
-                    the game-play being talked about, whether it be directly mentioned or just an
-                    example of whatever topic is at hand.</aesthetics> Also, most will use the
-                game's jargon, <participants>inviting fellow players of the game, meanwhile
-                    excluding those who have never played. As such, they draw relatively the same
-                    audience comprised of fellow competitive players who play and follow the
-                    game.</participants> As with a lot of gaming articles, the article is an opinion
-                piece; combining the personal beliefs of the author and his or her experiences with
-                the game. Specifically, this article's subject is how the developers of Hearthstone,
-                Blizzard, are not doing an adequate enough job with balancing their game. He
-                expresses his frustration about Hearthstone's problems and Blizzard's pattern of
-                changing the game. <q>Eventually, changes were made to specific cards to make those
-                    dominating builds less viable, or destroy them completely, but it took forever
-                    then, and it’s taking forever now, where the problems seem even more obvious
-                    </q><citation source="#Tassi">("Three Years In And 'Hearthstone' Still Doesn't
-                    Nerf Cards Fast Enough"</citation>). Tassi here is clearly quite tired of how
-                Blizzard operates its game and is trying to appeal to the audience that Hearthstone
-                is in desperate need of a change of management if it wishes to keep its player base. </bodyPara>
+            <bodyPara>Looking at Tassi's article, one immediately notice<note type="peer">
+                    (notices)</note> the author's perspective. <participants>Because of the huge
+                    variety of video games available, it is very typical for the author to be a very
+                    passionate player of said game, or of video games in general, and to write
+                    alone.</participants> As such, it is very easy to see reoccurring patterns in
+                many different gaming articles. <aesthetics>Most will be formatted in a similar way:
+                    Simple black text with a white background on a website available for anyone to
+                    read. Most use short paragraphs to quickly articulate their points, and between
+                    these paragraphs are images of the cards or the game-play being talked about,
+                    whether it be directly mentioned or just an example of whatever topic is at
+                    hand.</aesthetics> Also, most will use the game's jargon, <participants>inviting
+                    fellow players of the game, meanwhile excluding those who have never played. As
+                    such, they draw relatively the same audience comprised of fellow competitive
+                        players<note type="peer"> What about those whom want to learn the game who
+                        are casual players.</note> who play and follow the game.</participants> As
+                with a lot of gaming articles, the article is an opinion piece; combining the
+                personal beliefs of the author and his or her experiences with the game.
+                Specifically, this article's subject is how the developers of Hearthstone, Blizzard
+                    <note type="peer">Its Blizzard Inc, correct? </note>, are not doing an adequate
+                enough job with balancing their game. He expresses his frustration about
+                Hearthstone's problems and Blizzard's pattern of changing the game. <q>Eventually,
+                    changes were made to specific cards to make those dominating builds less viable,
+                    or destroy them completely, but it took forever then, and it’s taking forever
+                    now, where the problems seem even more obvious </q><citation source="#Tassi"
+                    >("Three Years In And 'Hearthstone' Still Doesn't Nerf Cards Fast
+                    Enough"</citation>). Tassi here is clearly quite tired of how Blizzard operates
+                its game and is trying to appeal to the audience that Hearthstone is in desperate
+                need of a change of management if it wishes to keep its player base<note type="peer"
+                    > You might want to speak about the uptake that Blizzard might have on an
+                    opinion piece, and why it is difficult to listen to someones opinions online.
+                </note>. </bodyPara>
 
             <bodyPara>But the key to this, and other gaming articles, is the effect it has on the
                 game's community. <situation>Due to the heavily subjective nature of the genre, its
@@ -74,8 +86,9 @@
                 <argument type="supporting">By sharing the article around with friends and other
                     players, soon enough the article becomes a guideline for how the game should
                     continue to develop. This is especially effective during times where the players
-                    are not deriving the much enjoyment from the game or the game has a few glaring
-                    issues hampering it.</argument>
+                    are not deriving the much <note type="peer">deriving the much enjoyment does not
+                        make sense in this case </note>enjoyment from the game or the game has a few
+                    glaring issues hampering it.</argument>
                 <evidence>Hearthstone was at this very point at the time Tassi was writing his
                     article, as he explains, </evidence><q>I like Hearthstone, but I do not like
                     playing games, seeing a class, and knowing there’s about an 80% chance I’m going
@@ -88,10 +101,12 @@
                     be made. Tassi certainly was not the first one to write about this issue,
                     however, but his article really demonstrates the mood and frustration of the
                     community at the time.</evidence> Finally, gaming articles also tie into several
-                different genres, such as <genre>video game reviews, blog posts, forum discussions,
-                    and so on</genre>, as its topics and format are so simple to use and understand.
-                This pervasiveness is a big reason why it is so effective when it comes to reaching
-                out to the audience.</bodyPara>
+                different genres, such as <genre>video game reviews, <note type="peer"> I believe
+                        that Hearthstone is an RNG game, so coin flip does sound like its rooted in
+                        the game mechanics.</note>blog posts, forum discussions, and so on</genre>,
+                as its topics and format are so simple to use and understand. This pervasiveness is
+                a big reason why it is so effective when it comes to reaching out to the
+                audience.</bodyPara>
             <concl>
                 <p>Here is where video games, in recent years, make themselves completely different
                     from any other form of media. <argument type="supporting">At a certain point,
@@ -126,9 +141,40 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="ga.ar"> Name of Reviewer</reviewer>
+        <report type="peer" who="#Arlen Gaba">
+            <p> I understand fully that this is a genre analysis of gaming articles, more
+                specifically non-journalistic gaming opinion pieces posted on the web which generate
+                page views. I understand that there are rhetorical ways in which the genre of gaming
+                article appears online, and what content it covers such as what works and doesn't
+                work in the game. Furthermore, I understand that there was two uptakes present, the
+                developers and the player base, but not the casual crowd. .</p>
+            <p> Critique. The introduction is certainly a good base jump into your material. It's
+                length focuses on the different aspects of the gaming world, esports, competitive
+                players. However esports is your essay apart from the introduction. I am wondering
+                if it serves the purpose of ensuring that the reader understands the level of
+                dedication to the game, and that dedication validates the genre of non-professional
+                gaming article I know you only analyze one user's gaming article, but are there
+                different types of articles, other than opinion pieces? I know that professional
+                pieces that promote and evaluate exist such as IGN. Perhaps if you want to
+                strengthen your argument you might want to draw attention to that fact in your first
+                paragraph where you begin to mention the aesthetics of the opinion article. It would
+                help contrast for whom the article was intended for when you have a vibrant IGN
+                opinion piece vs a diehard user/fan opinion piece. Blizzard as mentioned in the
+                first paragraph uptakes the opinion pieces. Does blizzard have developer blogs, a
+                genre that is directly tied to opinion pieces. It serves as a response, and it also
+                contrasts between what is posted for change and what is actually changed; uptake?
+                Actually your argument about the reception of opinion articles where you mention
+                that some users talk to the developers you should consider how one genre has created
+                another genre, the forum. If you think it would strengthen the interplay between
+                genres in your argument, you might want to add that. I especially like the second
+                paragraphs concluding point about the pervasiveness of the genres and why this genre
+                inspires successful diplomacy. I remember now, that you mention all the other genres
+                that are also inspired by the game in your conclusion, and they all serve a purpose
+                to revise. I think your conclusion is especially strong, since you dissected the
+                purpose of all types of reviews in general. I know your essay is longer than what
+                was prescribed, but you have plenty of evidence and claims and analysis to go
+                without my suggestions. It can be a standalone the way it right now. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
