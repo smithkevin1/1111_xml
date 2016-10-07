@@ -18,6 +18,7 @@
                 caters more to the larger community and offers a more formal dining experience. On
                 its menu, you will find a different advertisement: <q>Silver Platter Award Winner
                     for Best Italian Food.</q> The differences in the implications of these
+<<<<<<< Updated upstream
                 quotations taken from the <genre>menu covers</genre> shows the differences in the
                 communities these restaurants are trying to create and the customers they are trying
                 to serve. BelaRoma's main purpose is to serve takeout and delivery food to on-the-go
@@ -26,6 +27,16 @@
                     restaurants that offer Italian style dining, as demonstrated by their menus, the
                     fact that they represent different communities is evident in the layout,
                     pricing, and language of their menus.</mainArgument>
+=======
+                quotations taken from the menu covers shows the differences in the communities these
+                restaurants are trying to create and the customers they are trying to serve.
+                BelaRoma's main purpose is to serve takeout and delivery food to on-the-go students,
+                while Sicily's restaurant serves a sit-down clientele. </mainArgument>Though Sicily's
+                    Italian Restaurant and BelaRoma Deli are both restaurants that offer Italian
+                    style dining, as demonstrated by their menus, the fact that they represent
+                    different communities is evident in the layout, pricing, and language of their
+                    menus. <mainArgument></mainArgument>
+>>>>>>> Stashed changes
             </intro>
             <bodyPara> <setting>Sicily's and BelaRoma</setting>, while being very different types of restaurants, share
                 some <genre>basic similarities in their menus</genre>, reflecting the shared goals
