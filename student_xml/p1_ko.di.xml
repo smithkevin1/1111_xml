@@ -10,11 +10,11 @@
         </docHead>
         <body>
             <intro>
-                <p>The arrival of fast foods in the 1950s has revolutionized the food industry and
-                    one cannot but thank the king of this domain, Mc Donald’s, for doing so. Over
-                    the past few decades not only have Mc Donald’s dominated the fast food industry
-                    with its delicious and cheap eateries but have also been a major influence in
-                    the establishment of menus as a genre. </p>
+                <p><note type="peer"/>The arrival of fast foods in the 1950s has revolutionized the
+                    food industry and one cannot but thank the king of this domain, Mc Donald’s, for
+                    doing so. Over the past few decades not only have Mc Donald’s dominated the fast
+                    food industry with its delicious and cheap eateries but have also been a major
+                    influence in the establishment of menus as a genre. </p>
             </intro>
             <bodyPara>Genre refers to the typical rhetorical way of responding to a situation that
                 repeatedly occurs within a scene. For example, Mc Donald’s was the first to respond
@@ -28,11 +28,11 @@
                 serving around 68 million customers daily in 119 countries across 36,538 outlets. It
                 is considered that their method of coming up with a different menu for almost every
                 country on the basis of an extensive market research has given them an edge over
-                their rivals.<argument type="main"> For my genre analysis paper, I am going to
-                    compare two separate Mc Donald’s menus and will be analysing their similarities
-                    and differences on the basis of scene, situation and participants</argument>. I
-                will conclude by explaining how is that they have created a new genre called menu,
-                which has indirectly help them be succesful. </bodyPara>
+                their rivals.<argument type="main"> For my genre analysis paper, <note type="peer">
+                        I am going to compare two separate Mc Donald’s menus and will be analysing
+                        their similarities and differences on the basis of scene</note>, situation
+                    and participants.</argument>. I will conclude by explaining how is that they
+                have created a new genre called menu, which has indirectly help them be succesful. </bodyPara>
             <concl>
                 <p/>
             </concl>
@@ -45,9 +45,27 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="id_here">Sa.Jh </reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>Your comparison among this genre becomes very interesting. It pulls the reader more
+                into understanding what exactly makes this genre important and why it exist. The
+                Genre of Menu since to be a topic that once can go deep into it as you have already
+                demonstrated. Not only that, but it makes it even more interesting when you bring
+                the history of it. One thing I would consider looking over is your main argument.
+                Your argument should flow more instead of you telling the reader what you plan on
+                doing. I would advise that you revise your main argument since you're not really
+                expressing you're argument. It is a great aspect to cover, since the comparison and
+                contrast is a very important factor to your paper, but it just goes as a different
+                element. Also remember that your main argument is to be on your intro, this way the
+                reader has a feel of what to expect. So far your paper is great, it just needs some
+                final touches and for you to explain further your main argument and back it up. I
+                would suggest not telling the reader what you plan on doing, but instead just do it.
+                This way the reader will be more intrigued since one does not know what to expect.
+                Since this is a genre that in some way affect a lot of people, it would be a good
+                idea for you to include pros and cons of this genre "Dollar Menu" Since we know that
+                this genre brings a lot of advantages as well as disadvantages. Overall, this is a
+                great genre to consider and it would be great to continue reading it based on what
+                you have so far.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
