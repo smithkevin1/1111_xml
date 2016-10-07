@@ -18,7 +18,7 @@
                     she also mentions that the book is shortlisted for a prize. 
                     Her introductory paragraph is almost a review within the actual review
                     itself, as it gives a quick overview of the book’s timeline, and a brief
-                    description of her thoughts and first impressions.</p>
+                    description of her thoughts and first impressions.<note type="peer" who="#to.fr"> What is your main argument?</note></p> 
             </intro>
             <bodyPara>This particular genre of book reviews exists to help potential readers
                 decide whether they want to read the book themselves. To identify the main idea/plot
@@ -28,15 +28,15 @@
                 to include is some information about the author, which Maslin also includes in her piece. 
                 Including this biographical paragraph on Yanigahara is a tactical rhetorical choice made
                 by Maslin to broaden the reader’s view of the book as a whole, instead of just focusing
-                on the plotline, as some reviews do. However, Maslin includes some critical opinions of
+                on the plotline, as some reviews do <note type="peer" who="#to.fr" > Maybe include an example of a review that just focuses on the plotline</note>. However, Maslin includes some critical opinions of
                 some areas in the book, for example; “her mixing of metaphors makes for a mess. The phantoms
                 that haunt Jude can be hyenas with “snapping, foaming jaws” at one moment, “banshees demanding
                 his attention, snatching and tearing at him with their long, needley fingers” the next.”
-                (Review, Janet Maslin NYT 2015)
+                (Review, Janet Maslin NYT 2015) <note type="peer" who="#to.fr"> What do these opinions add to the review?</note>
             </bodyPara>
             <bodyPara>Something to consider in this genre is the difference between fiction and non-fiction
                 books being reviewed, as the genre can change significantly depending on what type of book
-                it is. The reader and reviewer pay attention to different things, for example with fiction,
+                it is. The reader and reviewer pay attention t-o different things, for example with fiction,
                 more of the review is dedicated to discussing the plot, characters, setting, and use of language.
                 When discussing non-fiction, more focus is given to an author’s main argument and sources.
                 The role for the reader is to read with a purpose, to decide whether to read the book discussed
@@ -45,7 +45,7 @@
                 \the book to another, or compare the writer with another to give an idea of what sort of
                 reading/writing it is. The writer should also put emphasis on the writer’s organization and
                 style, and finally give a conclusion and a recommendation to readers. Another reader role
-                is aimed at giving a librarian a description of a book. These reviews are generally shorter,
+                is aimed at giving a librarian a description of a book<note type="peer">Maybe explain what you mean by this more</note>. These reviews are generally shorter,
                 and only give a description of the book and a short evaluation. The main groups invited to
                 participate in this genre are writers and readers. For writers, those that partake are writers
                 (generally employed by a newspaper, magazine) who’s job it is to review books so that the public
@@ -71,9 +71,21 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="to.fr"> Francheska Torres</reviewer>
+        <report type="peer" who="#to.fr">
+            <p>In this paper, you are analyzing the genre of book reviews and is focusing specifically on 'A Little Life' by Hanya Yanigahara. 
+                You start off by introducing book reviews as a genre, then go on to explain their purpose, and the difference between book review for nonfiction and fiction work. 
+                It is clear to me that you are answering the questions of “Why does this genre exist?” and “Who is invited to use this genre? Who is not? How can you tell?”
+                I do not however see a clearly stated main argument, so I don’t really know what your essay is trying to convey. Using tags might have been helpful for understanding what the main argument is.  
+                Also the lack of transitions from paragraph to paragraph makes the paper be separate chunks of text rather than a flowing essay.
+                I feel like you should probably use more examples to support your claims (even though I don’t know what the claims are). 
+                It looks like the only piece of evidence you have is at the beginning where you wrote “her mixing metaphors…the next”. 
+                Even still with that evidence, I don’t know what they add to the review. 
+                I think that you should probably clean up the bottom of your second body paragraph, it was just very confusing to understand what you were saying. 
+                I know that that’s more of a grammar critique, but it would just be helpful. 
+                Finally, I thought your organization was really good! Your last body paragraph is also really nice. It is concise and makes sense and I can understand what you are trying to say very easily. 
+            
+            </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
