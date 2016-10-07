@@ -5,20 +5,13 @@
     <essay>
         <docHead>
             <title/>
-            <author xml:id="we.sp"/>
+            <author xml:id="we.sp">Spencer Webb</author>
             <date>October 7th, 2016</date>
         </docHead>
         <body>
-<<<<<<< Updated upstream
+
             <intro>
-                <p></p>
-            </intro>
-            <bodyPara></bodyPara>
-            <concl>
-                <p></p>
-            </concl>
-=======
-            <intro>There are two types of listeners when its comes to rap music. There are those who
+                <p>There are two types of listeners when its comes to rap music. There are those who
                 strictly care about the melody, beat, and flow of the music, and those who pay
                 closer attention to the lyrics and message of the music. For a long time, I found
                 myself as being the former type of listener, glazing over the lyrics as I knew the
@@ -34,8 +27,9 @@
                 but generally we are only exposed to those who were the most successful in targeting
                 what people wanted to hear.<mainArgument>Thus we can observe how hip hop scene has
                     shifted in recent years, and from this, make claims about how hip hop fits in
-                    the grander scheme of music as a cultural element.</mainArgument>
+                    the grander scheme of music as a cultural element.</mainArgument></p>
             </intro>
+            
             <bodyPara>When thinking of early influential rap artists, two groups immediately come to
                 mind: N.W.A. and the Wu-Tang Clan. These two groups released two of the most popular
                 albums of the late 80's/early 90's: "Straight Outta Compton" (1988) and "Enter the
@@ -80,8 +74,9 @@
                 Outta Compton" was such a hit. This movie was also influential in re-demonstrating
                 the value of spreading messages through rap, using the N.W.A.'s formation and
                 destruction as one of the most significant examples of the power of music. </bodyPara>
-            <concl>Will add conclusion</concl>
->>>>>>> Stashed changes
+            
+            <concl><p>Will add conclusion</p></concl>
+
         </body>
         <docFoot>
             <title>Works Cited</title>
