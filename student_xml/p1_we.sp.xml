@@ -20,7 +20,8 @@
                 sometimes it isn't. Occasionally they will tell a story that can draw you in just as
                 much as the melody and beat itself. Because of this, the most successful artists are
                 ones that can combine both a powerful or relatable message with an enticing beat.
-                The hip hop/rap genre is unique in that there is no specific route that rappers will
+                The hip hop/rap genre <note type="peer" who="#ro.dy">Is there a difference between rap and hip hop?</note> 
+                is unique in that there is no specific route that rappers will
                 take to become a rapper. Rappers are not often born following an engineering degree.
                 Because of this, much of the style of rap is based on era and what is taken up over
                 decades. There is successful and unsuccessful rap music from all sub-genres of rap,
@@ -52,7 +53,8 @@
                 developed a sound that became recognizable very quickly. It was music that all fans
                 of rap music could enjoy whether they agreed with what was being said or not. For
                 this reason they have maintained a presence in rap culture as a group, making
-                releases even over 21 years later; the beats don't lose relevance like content does.
+                releases even over 21 years later; <note type="peer" who="#ro.dy">Maybe mention one of their newer 
+                    releases as an example</note>the beats don't lose relevance like content does.
                 However, solo work has almost completely taken over group hip hop in today's
                 culture, as with the rise of media and broadcasting, solo work is much more
                 fruitful. It's much easier to present yourself as a solo artist in terms of
@@ -67,7 +69,8 @@
                 listeners can relate to without much difficulty. Now exists behind the scenes
                 employees working day in, day out creating beats and melodies that will be stuck in
                 listener's ears. This, the content, and showmanship all wrapped up in one package
-                give consumers almost the ideal pop/rap icon. This is evident when considering that
+                give <note type="peer" who="#ro.dy">"gives" instead of "give"</note> 
+                consumers almost the ideal pop/rap icon. This is evident when considering that
                 Drake's most recent album "Views" spent over 12 weeks topping the Billboard 200
                 Chart. With a transforming culture shifting towards a greater appreciation of rap
                 music, it's no wonder that the 2015 movie named after N.W.A's biggest hit "Straight
@@ -89,9 +92,28 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="ro.dy">Dylan Robinson</reviewer>
+        <report type="peer" who="#ro.dy">
+            <p>This draft talks about how rap music has changed throughout the years. It talks 
+                about various artists and their influence on the genre. The main argument is clear 
+                and easy to understand. The draft does not answer many of the questions on the 
+                prompt, only really parts of a few. It answers questions such as who is invited 
+                to use the genre, such as groups trying to spread a message like N.W.A. and solo 
+                artists like Drake, where it appears and who the audience is, first being those in 
+                the African American culture and now spreading to a more general audience. The draft 
+                seems to mainly be just about the journey of rap music throughout history and how it 
+                now appeals to more people. I think it could help the paper if you talked more about 
+                the genre of rap music and how it has changed. What exactly was the genre that typical 
+                rap song adhered to in the past and what is it like today? How is Drake’s music 
+                different from N.W.A.’s? Is it just what he talks about or are there completely different 
+                instruments and beats used? How similar and how different are they? You also do not 
+                really use the vocabulary of genre theory that often in your draft. I only noticed it 
+                being used often in the introduction. This could be fixed through just talking more about 
+                what the genre of rap music exactly is as I suggested earlier. Another problem is that 
+                you did not use many of the tags from the schema we developed, though this can easily be 
+                fixed by just going through your paper and looking for what matches up with what tags. 
+                Overall I really liked the draft. It just needs to make more use of the vocabulary of genre 
+                theory and talk more about what exactly the rap music genre is.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
