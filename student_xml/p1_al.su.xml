@@ -35,9 +35,9 @@
                     people who use this genre. There are also the directors and musical engineers
                     who in charge of development and upgrading the elements within the
                     genre.</participants>
-                <citation source="#al.su">Going back to the previously mentioned situation, Lemonade
+                Going back to the previously mentioned situation, Lemonade
                     featured the Somali-English poet Warsaw Shire in one of it’s
-                    chapters.</citation>
+                    chapters.
                 <context>Warsaw Shire uses the genre of Visual Albums to input her own personal
                     situation which many people including Beyoncé related to, this demonstrates how
                     she uses her own uptake of combining her poetry with the sub-genre of
@@ -57,12 +57,12 @@
                 <situation>The use of old tribal dances and contemporary music as an uptake gives
                     the artist a way to demonstrate their background and culture to a much bigger
                     platform of readers.</situation><scene>
-                    <citation source=" #al.su">Beyoncé mixes the two together in the song Sorry by
+                    <citation source=" #Ori">Beyoncé mixes the two together in the song Sorry by
                         performing an old tribal dance called The Sacred Art of Ori, which showed
                         her own culture and background</citation>.</scene>
                 <situation>Last but not least, the use of spoken word and visuals gives a deeper
                     understanding of what the speaker is trying to convey, or the artists’
-                    interpretation of the different speakers they use.</situation><scene> <citation source="#al.su">Beyoncé
+                    interpretation of the different speakers they use.</situation><scene> <citation source="#Malclom">Beyoncé
                     uses an excerpt from a speech given by Malcolm X in May 22, 1962 with visuals of
                     various black women to emphasize the importance of the speech to the black
                     community and especially to black women. </citation></scene></bodyPara>
@@ -92,11 +92,11 @@
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl>Embuscado, Rain. "Artist and Beyoncé Collaborator Laolu Senbanjo Is an
+                <bibl xml:id="Ori">Embuscado, Rain. "Artist and Beyoncé Collaborator Laolu Senbanjo Is an
                     Overnight Media Sensation." Artnet News. N.p., 2016. Web. 07 Oct. 2016.</bibl>
-                <bibl>Hess, Amanda. "Warsan Shire, the Woman Who Gave Poetry to Beyoncé’s
+                <bibl xml:id="Warsan">Hess, Amanda. "Warsan Shire, the Woman Who Gave Poetry to Beyoncé’s
                     ‘Lemonade’." The New York Times. N.p., 27 Apr. 2016. Web. 6 Oct. 2016..</bibl>
-                <bibl>Rodriguez, Mathew. "Here's the Malcolm X Speech About Black Women Beyoncé
+                <bibl xml:id="Malclom">Rodriguez, Mathew. "Here's the Malcolm X Speech About Black Women Beyoncé
                     Sampled in 'Lemonade'" Mic. N.p., 24 Apr. 2016. Web. 07 Oct. 2016.</bibl>
 
             </listBibl>
