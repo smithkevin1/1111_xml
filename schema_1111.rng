@@ -178,7 +178,7 @@
     <define name="model.global">
         <choice>
             <ref name="model.noteLike"/>
-            <!--<ref name="figure"/> hold off on figure for now-->
+            <ref name="figure"/>
         </choice>
     </define>
     <define name="model.divLike">
@@ -284,7 +284,8 @@
     <define name="sim">
         <element name="sim">
             <a:documentation>(similarities) indicates text that points to similarities between two
-                or more texts [can optionally contain any other essay content elements]</a:documentation>
+                or more texts [can optionally contain any other essay content
+                elements]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -296,7 +297,8 @@
     <define name="diff">
         <element name="diff">
             <a:documentation>(differences) indicates text that points to differences between two or
-                more texts [can optionally contain any other essay content elements]</a:documentation>
+                more texts [can optionally contain any other essay content
+                elements]</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.paraContent"/>
@@ -323,7 +325,8 @@
     </define>
     <define name="evidence">
         <element name="evidence">
-            <a:documentation>(evidence) indicates evidence in support of a claim or argument</a:documentation>
+            <a:documentation>(evidence) indicates evidence in support of a claim or
+                argument</a:documentation>
             <ref name="macro.paraContent"/>
         </element>
     </define>
@@ -350,7 +353,8 @@
         <element name="intro">
             <a:documentation>(introduction) a structural division, contains the text of the
                 introduction of the essay; i.e. an introduction into the material you will be
-                analyzing with some background information; [contains one or more ‘p’ (paragraph) elements]</a:documentation>
+                analyzing with some background information; [contains one or more ‘p’ (paragraph)
+                elements]</a:documentation>
             <oneOrMore>
                 <ref name="intro.special.para"/>
             </oneOrMore>
@@ -427,6 +431,14 @@
             </attribute>
         </element>
     </define>
+    <define name="figure">
+        <element name="figure">
+            <a:documentation>element for inline images; content of element is processed as a caption in formatted docs [requires
+                @url attribute with valid url]</a:documentation>
+            <ref name="macro.paraContent"/>
+            <ref name="att.resourced.attribute.url"/>
+        </element>
+    </define>
 
 
     <!-- GENERAL ELEMENT DEFINITIONS -->
@@ -436,7 +448,7 @@
                 information or comment upon the text [requires @type attribute and suggested @who
                 attribute]</a:documentation>
             <optional>
-                <ref name="att.global.attributes"/>
+                <ref name="att.global.responsibility.attribute.who"/>
             </optional>
             <attribute name="type">
                 <a:documentation>must specify whether the note is @type peer or
@@ -478,7 +490,9 @@
                     <ref name="macro.paraContent"/>
                 </choice>
             </zeroOrMore>
-            <ref name="att.global.attribute.xmlid"/>
+            <optional>
+                <ref name="att.global.attribute.xmlid"/>
+            </optional>
             <empty/>
         </element>
     </define>
@@ -526,7 +540,7 @@
             <a:documentation>(in-text citation) an in-text citation [requires @source attribute
                 corresponding to the @xml:id of a bibl element]</a:documentation>
             <text/>
-            <ref name="att.source"/>
+            <optional><ref name="att.source"/></optional>
         </element>
     </define>
     <define name="author">
