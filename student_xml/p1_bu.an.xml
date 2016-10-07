@@ -11,95 +11,109 @@
         </docHead>
         <body>
             <intro>
-                <p>Video games have been an ever growing industry ever since the 1970's with the
-                    release of Atari's <q>Atari 2600</q> in 1977. Ever since then, video games have
-                    been rapidly advancing technology and supplying thousands all around the world
-                    with an immeasurable source of entertainment. Today, video games have finally
-                    begun to launch themselves into the public eye with gamers being able to make a
-                    living off playing the games they love and compete in massive competitions for
-                    millions of dollars in rewards. These competitions, lovingly called
-                        <q>eSports</q> by many, have been the source of serious debate amongst
-                    gamers for the past couple years for many different games. One such game is an
-                    online collectable card game known as <q>Hearthstone: Heroes of
-                    Warcraft</q>.</p>
-                <p>Hearthstone is a game developed by Blizzard Entertainment, made to be an easy to
-                    learn and simple card game for people to play. However, this design philosophy
-                    to appeal to a casual gaming audience has spurred the more competitive players
-                    across the internet to speak out against Blizzard's approach to the game, in
-                    favor for a more serious competition to reward more skilled players. Those who
-                    have voiced their concerns have done so using a very common genre in the gaming
-                    community known as a <genre>gaming article</genre>. <argument type="main">When
-                        one analyzes this genre, one can begin to see how their uptake affects both
-                        a video game's community and the game they discuss as well.</argument> For
-                    this analysis, two such gaming articles have been chosen to analyze to
-                    demonstrate how this genre can have such an effect: <q>Three Years In And
-                        'Hearthstone' Still Doesn't Nerf Cards Fast Enough</q> by Paul Tassi and
-                        <q>Blizzard Is Finally Making Hearthstone Less Random</q> by James
-                    Duggan.</p>
+                <p><context>Video games have been an ever growing industry ever since the 1970's
+                        with the release of Atari's <q>Atari 2600</q> in 1977. Ever since then,
+                        video games have been rapidly advancing technology and supplying thousands
+                        all around the world with an immeasurable source of entertainment. Today,
+                        video games have finally begun to launch themselves into the public eye with
+                        gamers being able to make a living off playing the games they love and
+                        compete in massive competitions for millions of dollars in rewards. These
+                        competitions, lovingly called <q>eSports</q> by many, have been the source
+                        of serious debate amongst gamers for the past couple years for many
+                        different games. One such game is an online collectable card game known as
+                            <q>Hearthstone: Heroes of Warcraft</q></context>.</p>
+                <p><context>Hearthstone is a game developed by Blizzard Entertainment, made to be an
+                        easy to learn and simple card game for people to play.</context>
+                    <scene>However, this design philosophy to appeal to a casual gaming audience has
+                        spurred the more competitive players across the internet to speak out
+                        against Blizzard's approach to the game, in favor for a more serious
+                        competition to reward more skilled players. <situation>Those who have voiced
+                            their concerns have done so using a very common genre in the gaming
+                            community known as a</situation></scene>
+                    <genre>gaming article</genre>. <argument type="main">When one analyzes this
+                        genre, one can begin to see how their uptake affects both a video game's
+                        community and the game they discuss as well.</argument>
+                    <q>Three Years In And 'Hearthstone' Still Doesn't Nerf Cards Fast Enough</q> is
+                    a gaming article by Paul Tassi which serves as an excellent example of how this
+                    phenomena occurs.</p>
             </intro>
-            <bodyPara><context>An important piece of information to note about these two articles is
-                    that, in between their publishing dates, Blizzard released a significant change
-                    to many of the problems talked about in them.</context>
-                <situation>Tassi's article is an analysis of what needed to be changed, whereas
-                    Duggan's article is a reaction to the changes made and what could be further
-                    improved.</situation> Despite all this, it is still very easy to see the
-                patterns and structure of this genre.<sim>
-                    <aesthetics>The two articles are both very similar in how they are formatted.
-                        Simple black text with a white background on a website available for anyone
-                        to read. Both use short paragraphs to quickly articulate their points, and
-                        between these paragraphs are images of the cards or the game being talked
-                        about</aesthetics>, whether it be directly mentioned or just an example of
-                    whatever topic is at hand. Both authors are very clearly passionate players of
-                    Hearthstone and primarily use the game's jargon, inviting fellow players of
-                    Hearthstone while excluding those who have never played. <participants>Because
-                        of this, they draw relatively the same audience comprised of fellow
-                        competitive players who play and follow the game.</participants> Finally,
-                    both articles have the same subject: A critique of the health of the competitive
-                    aspect of Hearthstone.</sim></bodyPara>
-            <bodyPara><diff>What differs between these two articles is the perspective the author is
-                    speaking from and the uptake these two articles take.</diff> In Tassi's piece,
-                he speaks much more about his experiences playing Hearthstone recently. He expresses
-                his frustration about Hearthstone's problems and Blizzard's pattern of changing the
-                game. <q>Eventually, changes were made to specific cards to make those dominating
-                    builds less viable, or destroy them completely, but it took forever then, and
-                    it’s taking forever now, where the problems seem even more obvious</q>
-                <citation source="#Tassi">("Three Years In And 'Hearthstone' Still Doesn't Nerf
-                    Cards Fast Enough")</citation>. Tassi here is clearly quite tired of how
+            <bodyPara>Looking at Tassi's article, one immediately notice the author's perspective.
+                    <participants>Because of the huge variety of video games available, it is very
+                    typical for the author to be a very passionate player of said game, or of video
+                    games in general, and to write alone.</participants> As such, it is very easy to
+                see reoccurring patterns in many different gaming articles. <aesthetics>Most will be
+                    formatted in a similar way: Simple black text with a white background on a
+                    website available for anyone to read. Most use short paragraphs to quickly
+                    articulate their points, and between these paragraphs are images of the cards or
+                    the game-play being talked about, whether it be directly mentioned or just an
+                    example of whatever topic is at hand.</aesthetics> Also, most will use the
+                game's jargon, <participants>inviting fellow players of the game, meanwhile
+                    excluding those who have never played. As such, they draw relatively the same
+                    audience comprised of fellow competitive players who play and follow the
+                    game.</participants> As with a lot of gaming articles, the article is an opinion
+                piece; combining the personal beliefs of the author and his or her experiences with
+                the game. Specifically, this article's subject is how the developers of Hearthstone,
+                Blizzard, are not doing an adequate enough job with balancing their game. He
+                expresses his frustration about Hearthstone's problems and Blizzard's pattern of
+                changing the game. <q>Eventually, changes were made to specific cards to make those
+                    dominating builds less viable, or destroy them completely, but it took forever
+                    then, and it’s taking forever now, where the problems seem even more obvious
+                    </q><citation source="#Tassi">("Three Years In And 'Hearthstone' Still Doesn't
+                    Nerf Cards Fast Enough"</citation>). Tassi here is clearly quite tired of how
                 Blizzard operates its game and is trying to appeal to the audience that Hearthstone
-                is in desperate need of a change of management if it wishes to keep its player base.
-                He lists several problem cards and decks that make the game not enjoyable in his
-                eyes. <diff>Meanwhile, Duggan's article is much more optimistic</diff> since it was
-                written after Blizzard did make some major changes. <q>The nerfs to Yogg Saron and
-                    Tuskar Totemic could be much more than a simple reaction to player feedback,
-                    they may in fact represent the start of a design precedent to reduce the impact
-                    of random effects on competitive play</q>
-                <citation source="#Duggan">("Blizzard Is Finally Making Hearthstone Less
-                    Random")</citation>. <q>Nerf</q> here means a change made by the developers to
-                lower the strength of a certain elements in the game. <diff>Instead of calling for
-                    the audience to put Hearthstone's designer's heads on a pike, it boldly predicts
-                    the managerial change Hearthstone needed.</diff> In a way, telling the
-                competitively-minded audience to settle down. <diff>Unlike Tassi, who is speaking
-                    from experience, Duggan speaks more about game design theory, and singles out
-                    what he believes is specifically wrong with the game, randomness, and what the
-                    designers are doing to curb it.</diff>
-            </bodyPara>
+                is in desperate need of a change of management if it wishes to keep its player base. </bodyPara>
+
+            <bodyPara>But the key to this, and other gaming articles, is the effect it has on the
+                game's community. <situation>Due to the heavily subjective nature of the genre, its
+                    uptake can radically shift between two very different outcomes. One is that the
+                    readers will disagree and argue against what the author is saying. This does not
+                    lead to much except discourse within the community, which varies on the
+                    popularity of the second outcome. The second, and most important outcome, is
+                    when the audience agrees with what the author is saying and goes out of their
+                    way to inform others, including the original developers of the game.</situation>
+                <argument type="supporting">By sharing the article around with friends and other
+                    players, soon enough the article becomes a guideline for how the game should
+                    continue to develop. This is especially effective during times where the players
+                    are not deriving the much enjoyment from the game or the game has a few glaring
+                    issues hampering it.</argument>
+                <evidence>Hearthstone was at this very point at the time Tassi was writing his
+                    article, as he explains, </evidence><q>I like Hearthstone, but I do not like
+                    playing games, seeing a class, and knowing there’s about an 80% chance I’m going
+                    to lose. I like Hearthstone, but I do not like playing or playing against a
+                    single card that can often decide an entire game on a coin flip</q>
+                <citation source="#Tassi">("Three Years In And 'Hearthstone' Still Doesn't Nerf
+                    Cards Fast Enough")</citation>. <evidence>In his piece he offers some changes
+                    that Blizzard could make in order to improve the issues, and soon enough the
+                    entire competitive Hearthstone community was nearly rioting for these changes to
+                    be made. Tassi certainly was not the first one to write about this issue,
+                    however, but his article really demonstrates the mood and frustration of the
+                    community at the time.</evidence> Finally, gaming articles also tie into several
+                different genres, such as <genre>video game reviews, blog posts, forum discussions,
+                    and so on</genre>, as its topics and format are so simple to use and understand.
+                This pervasiveness is a big reason why it is so effective when it comes to reaching
+                out to the audience.</bodyPara>
             <concl>
-                <p><scene>What these articles do in the grand scheme of Hearthstone's development is
-                        that they subtly shape what the game is to become. After the massive fan
-                        outcry and onslaught of gaming articles, including Tassi's own work,
-                        Blizzard finally decided to change a couple cards within the game that were
-                        frequently protested against. This re-balancing of the game was the uptake
-                        of gaming articles, which often influenced several other genres related to
-                        Hearthstone such as community discussion, forum posts, reviews, and videos
-                        on the subject.</scene> And now, Duggan's message of positivity has begun to
-                    reach the frenzied community, making everyone excited to see what Blizzard has
-                    to offer in the next expansion. This process of community revision has been how
-                    many popular games have survived for so long. It all comes back to a video
-                    game's primary purpose, to entertain the player. If a large enough subset of
-                    players is not entertained, then something needs to be done or else the game is
-                    not successful. Luckily, Hearthstone has a massive fan base of creative and
-                    passionate players who push Blizzard to make Hearthstone constantly better and
-                    better.</p>
+                <p>Here is where video games, in recent years, make themselves completely different
+                    from any other form of media. <argument type="supporting">At a certain point,
+                        the developers will actually step in and make the changes the community
+                        recommends. Improving the quality of the product so more and more people can
+                        get enjoyment from it.</argument>
+                    <evidence>After the massive fan outcry and onslaught of gaming articles,
+                        including Tassi's own work, Blizzard finally decided to change a couple
+                        cards within the game that were frequently protested against, many of which
+                        were the same cards Tassi was displeased with. This re-balancing of the game
+                        was the uptake of gaming articles</evidence>, which often influenced several
+                    other genres related to Hearthstone such as <genre>community discussion, forum
+                        posts, reviews, and videos on the subject.</genre> What these articles do in
+                    the grand scheme of Hearthstone and many other game's development is that they
+                    subtly shape what the game is to become. And after some time, more problems will
+                    be found with the game, and the whole process will start over. This process of
+                    community revision has been how many popular games have survived for so long. It
+                    all comes back to a video game's primary purpose, to entertain the player. If a
+                    large enough subset of players is not entertained, then something needs to be
+                    done or else the game is not successful. Luckily, Hearthstone has a massive fan
+                    base of creative and passionate players who push Blizzard to make Hearthstone
+                    constantly better and better.</p>
             </concl>
         </body>
         <docFoot>
@@ -108,9 +122,6 @@
                 <bibl xml:id="Tassi">Tassi, Paul. "Three Years In And 'Hearthstone' Still Doesn't
                     Nerf Cards Fast Enough." Forbes.com, Forbes, 26 Sept. 2016,
                     http://www.forbes.com/sites/insertcoin/2016/09/21/its-been-three-years-and-hearthstone-still-doesnt-nerf-cards-fast-enough/#6b5d306f2634.</bibl>
-                <bibl xml:id="Duggan">Duggan, James. "Blizzard Is Finally Making Hearthstone Less
-                    Random." Ign.com, IGN, 29 Sept. 2016,
-                    http://www.ign.com/articles/2016/09/29/blizzard-is-finally-making-hearthstone-less-random.</bibl>
             </listBibl>
         </docFoot>
     </essay>
