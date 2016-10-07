@@ -142,6 +142,15 @@
             </span>
         </xsl:if>
     </xsl:template>
+    
+    <xsl:template match="essay//figure">
+        <figure>
+            <img src="{@url}" alt="{child::text()}"/>
+            <figcaption>
+                <xsl:value-of select="child::text()"/>
+            </figcaption>
+        </figure>
+    </xsl:template>
 
     <!-- This section processes the reviews/end notes for the document -->
     <xsl:template match="docReview">
