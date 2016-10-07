@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
@@ -12,18 +13,22 @@
             <intro>
                 <p/>
             </intro>
-            <bodyPara/> <bodyPara> A world news article serves a specific purpose in a newspaper. These articles
-                are written to inform the audience of events that are going on and that the audience has
-                an interest in. News networks and journals today are extremely detailed and in-depth,
-                covering relevant news from all over the World. CNN, one of the most accredited and
-                widely recognized news channels has adopted different genres when responding to global
-                news in the past compared to today. In this essay I will be looking at the various
-                differences in genre between the year 2000, and the present, 2016. These differences in
-                genre will be explored with regards to language used to evaluate a situation (between
-                two news articles published in different years). I will also be discussing the uptakes
-                between the two genres of the news articles</bodyPara> </p></body>
-        <concl>
-                    </body><concl>
+            <bodyPara/>
+            <bodyPara> A world news article serves a specific purpose in a newspaper. These articles
+                are written to inform the audience of events that are going on and that the audience
+                has an interest in. News networks and journals today are extremely detailed and
+                in-depth, covering relevant news from all over the World. CNN, one of the most
+                accredited and widely recognized news channels has adopted different genres when
+                responding to global news in the past compared to today. In this essay I will be
+                looking at the various differences in genre between the year 2000, and the present,
+                2016. These differences in genre will be explored with regards to language used to
+                evaluate a situation (between two news articles published in different years). I
+                will also be discussing the uptakes between the two genres of the news
+                articles</bodyPara>
+
+
+
+            <concl>
                 <p/>
             </concl>
         </body>
@@ -35,9 +40,19 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="al.su"> Sultan ALdabal </reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>Good introduction in general. From what I understood, the essay focuses on two
+                different genres relating to news articles, one focused in the past and on win the
+                present. In my opinion, I think you should make your thesis statement more detailed
+                to mention the complete overview of what you are going to write. Also, mentioning
+                the uptakes that will be discussed might also help with guiding your essay in a more
+                flow-like manner. The essay seems to be going on the direction of solving the prompt
+                mentioned during class. However, starting the main argument in a more clear way
+                would be more affective because I don't seem to be able to locate it. You should
+                also add tags to help guide the reader/reviewer. One thing you can also improve in
+                is mentioning what the genre actually is to help the people who are reading it for
+                the first time understand what the essay’s about.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
