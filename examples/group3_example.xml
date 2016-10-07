@@ -11,9 +11,9 @@
         </docHead>
         <body>
             <intro> College students have many options throughout the city when it comes to Italian
-                dining. One popular spot near campus is BelaRoma Pizza and Pasta, which caters to a
+                dining. <scene>One popular spot near campus is BelaRoma Pizza and Pasta, which caters to a
                 college crowd and advertises on its menu the restaurant's goal of <q>Satisfying Your
-                    Cravings</q><citation source="#BelaRoma">("BelaRoma Deli Menu").</citation>
+                    Cravings</q><citation source="#BelaRoma">("BelaRoma Deli Menu").</citation></scene>
                 Located further from the campus strip is another Italian restaurant, Sicily's, that
                 caters more to the larger community and offers a more formal dining experience. On
                 its menu, you will find a different advertisement: <q>Silver Platter Award Winner
@@ -21,15 +21,15 @@
                 quotations taken from the menu covers shows the differences in the communities these
                 restaurants are trying to create and the customers they are trying to serve.
                 BelaRoma's main purpose is to serve takeout and delivery food to on-the-go students,
-                while Sicily's restaurant serves a sit-down clientele. Though Sicily's
+                while Sicily's restaurant serves a sit-down clientele. <mainArgument>Though Sicily's
                     Italian Restaurant and BelaRoma Deli are both restaurants that offer Italian
                     style dining, as demonstrated by their menus, the fact that they represent
                     different communities is evident in the layout, pricing, and language of their
-                    menus.
+                    menus.</mainArgument>
             </intro>
-            <bodyPara> Sicily's and BelaRoma, while being very different types of restaurants, share
+            <bodyPara> <genre>Sicily's and BelaRoma, while being very different types of restaurants, share
                 some basic similarities in their menus, reflecting the shared goals of the
-                restaurant business. Each of the menus clearly displays the restaurant's name in
+                restaurant business.</genre> <sim>Each of the menus clearly displays the restaurant's name in
                 large letters, with a graphic underneath the title to catch the customer's attention
                 ad to make the restaurant memorable to the customers so that they will keep coming
                 back. When the customers first open the menus, a variety of food options are
@@ -37,9 +37,9 @@
                 appetizers listed first, followed by main dishes and then desserts. Each variety of
                 food is broken down under different headings, such as "Appetizers" or "Pasta," thus
                 making the menu easier to read and helping to guide customers as they make their
-                choices. </bodyPara>
+                choices. </sim></bodyPara>
             <bodyPara>The language on the menus fit the different price ranges and different
-                clienteles of each restaurant. The use of elevated language in the Sicily's menu
+                clienteles of each restaurant. <diff>The use of elevated language in the Sicily's menu
                 reflects the higher prices of its items and the more formal dining experience they
                 provide. There are entrees on the menu at Sicily's such as Zuppa del Giorno and
                 Chicaken Saltimboca. Most of the items on BelaRoma's menu consist of more familiar
@@ -51,12 +51,12 @@
                 customers--most likely college students--who want to be able to order a "Bacon Swiss
                 Burger" or "Cheese Sticks," in addition to Italian fare. The language of the menus,
                 like the prices, lends a particular atmosphere to the foods offered by each
-                restaurant.</bodyPara>
+                restaurant.</diff></bodyPara>
             <concl> The differences in the menus of BelaRoma Pizza and Pasta and Sicily's Italian
                 Restaurant reflect the fact that these eateries belong to different communities of
                 eating establishments. Each is using its menu to try to attract and appeal to a
                 specific clientele: Sicily's is trying to attract a smaller group of people who are
-                more selctive and who only want Italian food while BelaRoma is trying to appeal to
+                more selective and who only want Italian food while BelaRoma is trying to appeal to
                 their diverse clientele of mostly college students with many different eating habits
                 and tastes. While they share the similar goal of trying to get people to eat at
                 their establishments and order their food, their strategies in menu layout, pricing,
