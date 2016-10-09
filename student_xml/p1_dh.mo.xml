@@ -29,7 +29,7 @@
             ‘Volkswagen’, which literally meant peoples car. The beetle included a lot of Hitlers
             unusual whims. For example the Beetle is airtight and can briefly float, and he wanted a
             powerful engine (40 hp was considered powerful at the time) that was very fuel efficient
-            - revealing his unrealistic expectations from the car. <bodyPara/>
+            - revealing his unrealistic expectations from the car.<bodyPara/>
             <bodyPara>However, Porsche managed to build the car and by 1938 the car was off the
                 assembly line. What was the purpose? Hitler intended to boost the German economy by
                 starting projects like the Beetle, so that he could create millions of jobs in the
@@ -62,9 +62,36 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="li.em"> Emma Lindberg</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+                    <p>Summary: The Volkswagen Beetle embodies its name as the “People’s Car.” It was named
+                by Adolf Hitler and designed to be an innovative car in order to boost Germany’s
+                economy. From there, it took off and became the “People’s Car” for not only Germans,
+                but for other countries and cultures around the world.</p> 
+                <p> Critique: This paper read more like a history of the Beetle rather than a genre analysis. I am not sure where
+                the main argument or sub-arguments are. I saw that you bring in the term “kairos” to
+                talk about the timing Hitler decided to order this car to be built, however you
+                could elaborate on the implications/meaning if his timing to create solid analysis.
+                You also talk about the car “being for the masses” and “popular with hippie
+                culture,” however I do not see any analysis of the genre of the car. You said that
+                its low price and design contribute to the idea that it is for the masses, yet there
+                is no analysis about why or what the means in relation to the car as a genre.
+                Overall, there are a few grammatical errors throughout which can be easily fixed. I
+                also found some sections quit short and lacking context or explanations, such as the
+                sudden introduction of Hitler in the intro. You made it seem like everyone knows
+                Hitler ordered the creation the Beetle. Furthermore, when you are talking about how
+                it is viewed in other nations, you could easily elaborate and analyze why in more
+                than just a few sentences.</p> 
+                <p> Advise: There is definitely room to give more
+                context/background info to set yourself up well to make a good claim and analysis. I
+                would suggest taking time to answer each of the questions given in the prompt
+                document to give yourself a jumping off point for adding in analysis. Make sure you
+                have a clear, defined thesis that makes some sort of claim, and then build your
+                sub-claims off of that. It would also be helpful to bring in more of the terms we
+                have been using as a good signaler that you are analyzing, not just summarizing
+                history. This is definitely an interesting topic, you just need to figure out
+                exactly what your thesis will be so you can create a solid, synthesized analysis.</p>
+            
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">

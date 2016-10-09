@@ -13,11 +13,19 @@
                 <p>A lot of people use many genres when it comes to communicate their dissagremet
                     with those who make the decisions for the public. Many of there genres can
                     include advocacy, letters, newspaper articles, etc. One particular genre that
+<<<<<<< HEAD
                     comes to be very broad is <genre>protest</genre>. <argument>Throughout our
                         history we have seen people uptake the genre of protest and the most
                         interesting part is that there is never the same outcome since not every
                         event plays out the same exact way every time around.This makes this genre
                         very complex when looked from a greater point of view.</argument>
+=======
+                    comes to be very broad is <genre>protest</genre>. <argument type="main"
+                        >Throughout our history we have seen people uptake the genre of protest and
+                        the most interesting part is that there is never the same outcome since not
+                        every event plays out the same exact way every time around.This makes this
+                        genre very complex when looked from a greater point of view.</argument>
+>>>>>>> origin/master
                     <scene>One particular event that can be looked at when it comes to this genre is
                         the series protest that occured throughout the district of the Boston Public
                         Schools</scene>. These protest were held by students and parents throughout
@@ -26,16 +34,19 @@
             </intro>
             <bodyPara>The new plan to cut the budget from the Boston Public Schools system sparked
                 different concern in students, parents and teachers; since this meant that student's
-                education could be affected as wel as job among other things. The matter was taken
-                into students' hands who quickly cam eup with ways to communicate their concerns
+                education could be affected as well as job among other things. The matter was taken
+                into students' hands who quickly came up with ways to communicate their concerns
                 with this new system that was bound to affect the lives of those whose education
                 depends on the public system. What exactly makes students take up this genre of
-                protest to convey the message they are trying to deliver. As we have seen before,
+                protest to convey the message they are trying to deliver<note type="peer"
+                    who="#ko.di"> Is the last sentence a question?</note>. As we have seen before,
                 throughout the history of this country people have found that protest can lead to
                 people understanding that the voices of the underdog are indeed important. What
                 exactly makes protest this element that people decide to uptake and created
                 different outcomes depending on the type of situation they see themselves and those
-                around them in. </bodyPara>
+                around them in.<note type="peer" who="ko.di"> The last sentence seems a little
+                    unclear to me. Could you elaborate or refine it a little?</note>
+            </bodyPara>
             <bodyPara><evidence>“We are the future of this country,” one student speaker said. “How
                     dare they take away our education when they want us to be well-rounded
                     students.”</evidence> was stated by a student in an article that was published
@@ -47,18 +58,19 @@
                 specific issue is different situations that play out relatively different every time
                 around. How can people use this genre if there is no way of predicting what exactly
                 will happen when people use protest to express their concern to the public. </bodyPara>
-            <bodyPara>This genre, just like other genre, becomes more complex in the aspect of
+            <bodyPara>This genre, just like other genres, becomes more complex in the aspect of
                 analyzing, simply because the genres shift into new genres in a given situation.
                 Example being, a protest could shift to a whole new genre which is violence. Now,
                 this is what it is meant when we talk about genres being complex. </bodyPara>
             <bodyPara>Going back to the particular protest that occurred in Boston due to the budget
-                cut in the education system, different genres arose; public hearings among others.
-                The most important part about this issue is how this genre of protest becomes so
-                important in this particular situation and in other situations in general. People,
-                in this case students, needed to find a particular action that could lead to the
-                change of the situation that was in play. This is why, not only this genre but many
-                others become very important. Since they help people when it comes to a given
-                situation. </bodyPara>
+                cut in the education system, different genres arose; public hearings among others
+                    <note type="peer" who="#ko.di"> Could you possibly show evidence of the public
+                    hearing?</note>. The most important part about this issue is how this genre of
+                protest becomes so important in this particular situation and in other situations in
+                general. People, in this case students, needed to find a particular action that
+                could lead to the change of the situation that was in play. This is why, not only
+                this genre but many others become very important. Since they help people when it
+                comes to a given situation. </bodyPara>
             <concl>
                 <p>In a lot of cases, people use different types of genre to approach their given
                     situation. Since students in the Boston Public School system saw that there was
@@ -69,7 +81,7 @@
                     played the same way when people look at it. It also depends on the perspective
                     that it is being looked at from and how people decide to uptake this genre. In
                     this particular event, people analyzed previous situations when this genre was
-                    put in play, and they went for it. With the Understanding that new genres could
+                    put in play, and they went for it. With the understanding that new genres could
                     possibly also come up. </p>
             </concl>
         </body>
@@ -82,9 +94,23 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="ko.di"> Divit Koradia </reviewer>
+        <report type="peer" who="ko.di">
+            <p> In the above genre analysis paper, Jhadley is talking about how students, parents
+                and teachers used protest as a genre to voice their opinions on the new plan to cut
+                the budget from the Boston Public Schools. In my opinion, you do a very thorough job
+                in describing the genre and how it is related to your topic. You give a very brief
+                yet proper explanation of the situation in which the genre, protest, is being used
+                by the students which helps the reader thoroughly understand your paper. I feel you
+                should add a couple more evidences to solidify your argument. You could perhaps take
+                a small quote which describes how the budget cut would affect the management of the
+                publics schools. This would add a different standpoint in your paper which would
+                help the readers’ asses the gratitude of this situation much better. Also you could,
+                if you want, elaborate the motif behind the government cutting down the budget from
+                Boston Public Schools. This would add another element to your paper which you could
+                somehow interlink with your main genre. Overall I find your paper very fascinating.
+                I feel like you have covered all the assessment criteria. A couple of sentence need
+                to be reframed! </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
