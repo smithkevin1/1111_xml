@@ -10,8 +10,8 @@
         </docHead>
         <body>
             <intro>
-                <p>A book review serves primarily as an informational resource,
-                    an assessment and description of a work of fiction or non-fiction. 
+                <p><context>A book review serves primarily as an informational resource,
+                    an assessment and description of a work of fiction or non-fiction.</context> 
                     Janet Maslin begins her review of “A Little Life” by giving a general
                     overview of the book she will be discussing, with details such as when
                     the book was published, size of the novel, her first impressions and
@@ -24,39 +24,40 @@
                 decide whether they want to read the book themselves. To identify the main idea/plot
                 of the book, and give the reader an indication of the writer’s style, and then give a
                 general evaluation so the reader can then decide whether or not the book appeals to them.
-                Though a book review is principally written about the novel itself, an important element
+                Though a book review is principally written about the novel itself, <style>an important element
                 to include is some information about the author, which Maslin also includes in her piece. 
                 Including this biographical paragraph on Yanigahara is a tactical rhetorical choice made
-                by Maslin to broaden the reader’s view of the book as a whole, instead of just focusing
+                by Maslin to broaden the reader’s view of the book as a whole,</style> instead of just focusing
                 on the plotline, as some reviews do. However, Maslin includes some critical opinions of
-                some areas in the book, for example; “her mixing of metaphors makes for a mess. The phantoms
-                that haunt Jude can be hyenas with “snapping, foaming jaws” at one moment, “banshees demanding
-                his attention, snatching and tearing at him with their long, needley fingers” the next.”
-                (Review, Janet Maslin NYT 2015)
+                some areas in the book, for example; <q>“her mixing of metaphors makes for a mess. The phantoms
+                    that haunt Jude can be hyenas with “snapping, foaming jaws” at one moment, “banshees demanding
+                    his attention, snatching and tearing at him with their long, needley fingers” the next.”</q>
+                <citation>(Review, Janet Maslin NYT 2015)</citation>
             </bodyPara>
-            <bodyPara>Something to consider in this genre is the difference between fiction and non-fiction
+            <bodyPara><situation>Something to consider in this genre is the difference between fiction and non-fiction
                 books being reviewed, as the genre can change significantly depending on what type of book
-                it is. The reader and reviewer pay attention to different things, for example with fiction,
+                it is.</situation> The reader and reviewer pay attention to different things, for example with fiction,
                 more of the review is dedicated to discussing the plot, characters, setting, and use of language.
                 When discussing non-fiction, more focus is given to an author’s main argument and sources.
                 The role for the reader is to read with a purpose, to decide whether to read the book discussed
                 or not. As for the writer, he/she needs to write with the purpose of identifying the author’s
                 main plotlines, assessing the quality and style of the writer’s work, also trying to compare
-                \the book to another, or compare the writer with another to give an idea of what sort of
+                the book to another, or compare the writer with another to give an idea of what sort of
                 reading/writing it is. The writer should also put emphasis on the writer’s organization and
                 style, and finally give a conclusion and a recommendation to readers. Another reader role
                 is aimed at giving a librarian a description of a book. These reviews are generally shorter,
-                and only give a description of the book and a short evaluation. The main groups invited to
+                and only give a description of the book and a short evaluation. <participants>The main groups invited to
                 participate in this genre are writers and readers. For writers, those that partake are writers
                 (generally employed by a newspaper, magazine) who’s job it is to review books so that the public
                 can have a general overview before the decide to buy the book in question. For readers, those
                 that want to get a better idea of what a book is about, in other words something more than
-                the blurb on the back of the book itself.</bodyPara>
+                the blurb on the back of the book itself.</participants></bodyPara>
+            
             <bodyPara>This genre appears in many different forms of print, most often newspapers, magazines,
                 journals, and specialized review publications. Today most of these are available online, so
                 you could say that the book review’s main platform today is the internet. Websites have been
-                created with the sole purpose of posting book reviews, the most noteworthy being ‘goodreads.com’
-                and ‘kirkus.com’ However, print is not dead, and book reviews are still a huge part of publications
+                created with the sole purpose of posting book reviews, the most noteworthy being <citation>'goodreads.com'</citation>
+                and <citation>'kirkusreviews.com'</citation> However, print is not dead, and book reviews are still a huge part of publications
                 such as the New York Times and the Guardian. Even though they are receiving a smaller audience
                 because of the increase in digital media, they are still being printed and are still being read. </bodyPara>
             <concl>
@@ -66,7 +67,13 @@
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl>citation here</bibl>
+                    <bibl>Review: ‘A Little Life,’ Hanya Yanagihara’s Traumatic Tale
+                        of Male Friendship – Janet Maslin 30th September 2015 The New York Times,
+                        Books Section http://www.nytimes.com/2015/10/01/books/review-a-little-life-
+                        hanya-yanagiharas-traumatic-tale-of-male-friendship.html?_r=0
+                        Kirkus Reviews-https://www.kirkusreviews.com/
+                        Good Reads-https://www.goodreads.com/
+                    </bibl>
             </listBibl>
         </docFoot>
     </essay>

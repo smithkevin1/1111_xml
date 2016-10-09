@@ -69,9 +69,25 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="lo.va"> Valentina Longcroft</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>Summary: Playbills have been, and still are, an integral part of the theatre. They serve as an
+            informational resource, providing actor's names and details of the play, and also serve as 
+            memorabilia and historical artefacts as before the rise of technology, they were the only records of
+            the play, and people used to keep them as souvenirs, as they still do today sometimes.</p>
+            <p>Critique: Though this paper is a very well rounded analysis on playbills, I think that maybe
+            a few examples of certain playbills/plays and how they fulfilled their purpose may be a good addition,
+            as there are no sources/citations at the moment. You also haven't used too many words from the element
+            list, even though your tags are well placed, it would be nice to see you write about the scene or situation
+            as well as tagging it in your text. This was very interesting to read, and I think the topic of 
+            playbills is fascinating, but I think there is definitely room to expand your arguments and sub arguments.</p> 
+            <p>Advice: You could use images very effectively in this paper, 
+            maybe one of an older playbill and one of a more modern one, to give the reader a visual., as you've chosen a 
+            genre with a visual aspect, I think it would be wise to take advantage of this. Though I think that
+            your point about modern/historical playbills is really interesting, I think you maybe need another point or argument, 
+            maybe you could write about who writes the playbills and the format used with them? It would be interesting to hear about
+            the order which the playbills are written in, and also a bit more about the history of advertising with playbills, and when
+            they started to use it. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
