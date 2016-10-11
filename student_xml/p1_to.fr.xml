@@ -10,68 +10,132 @@
         </docHead>
         <body>
             <intro>
-<<<<<<< Updated upstream
-                <p></p>
+                <p>
+                    <argument type="main">Not only do playbills and programs a record of theatrical performances and practices, as a whole they are also a good way to explore the culture and history of the time.</argument> 
+                    <scene>The theatre is a place of magic, a place where you go to listen to stories told by the best story tellers you know. </scene>
+                    <situation>Milling around <setting>the theatre's many rooms </setting>you would find many different types of people: <participants>excited playgoers, the reluctant spouses and families they drag along, 
+                        nervous actors getting ready for the show, and stony faced attendants handing out programs to name a few.</participants></situation> <genre>Theatre playbills and
+                    programs come in many shapes and forms: from the glossy standard Playbills we receive at professional theatres to the paper- cut
+                    inducing booklets of school productions</genre>. Playbills and programs are an intrinsic part of a theatregoer’s experience: as soon as 
+                    they walk in the door to the auditorium they expect to be handed a program. <context>They allow us, the audience, to know a bit more about
+                    the show we are about to watch as well as to be more informed about upcoming shows. They also act as souvenirs, allowing us to look 
+                    back fondly at the night of the show.</context> <argument type="main">Not only do playbills and programs provide a record of past performances they also provide an 
+                        avenue through which we can explore the history of the time during which play was performed</argument>.
+                </p>
             </intro>
-            <bodyPara></bodyPara>
+            
+            <bodyPara>
+              Early playbills from the early 1800s were <aesthetics>single sheets of paper, usually printed in black and white, handed out in the theatre or posted in public places as broadsides  <citation source="#citation2">(Higgins).</citation></aesthetics> 
+             They provided the public with basic information about a particular show: name, date, place, and time. Additionally, they contained the name of the author, a list of the actors and 
+             the characters that they portrayed and an advertisement of future performances. Very often, the name of the most popular performer was often printed in bigger, more pronounced fonts 
+             in order to catch the public’s attention; this is evident in the playbill for Henry A. Jones’ <style type="italics">Whitewashing Julia</style> <citation source="#citation1">(“1904 Fay Davis Broadside”)</citation>. As time went on these single sheet 
+              playbills became bigger and bigger, eventually reaching poster-size. Because of their size, they became too cumbersome to handle and lead to the need for our modern day programs. 
+    
+            </bodyPara>
+            
+            <bodyPara>
+                Modern programs are more visually pleasing and offer more in depth information than early playbills did. They usually include cast biographies, 
+                pictures of the cast, a list of songs and who sings them (if the show is a musical). Additionally, inside the booklet, there are short articles 
+                focusing on the artists as well as considerable advertising from other businesses. <aesthetics>They come in the form of colorful booklets, with the title of 
+                the show, and a related picture, on the outside in bold black letters right underneath “PLAYBILL” at the top of the page in a yellow rectangle.</aesthetics> 
+                The standard layout for these modern playbills can be traced back all the way back to before the 1960s. The similarities between the playbills for 
+                Sweet Bird of Youth <citation source="#citation5">(“Playbill for Sweet Bird of Youth.”)</citation> and Hamilton <citation source="#citation4">(“Playbill for Hamilton.”)</citation>, which are separated by almost six decades, show
+                how powerful effective communication aesthetics can be. 
+            
+            </bodyPara>
+            
+            <bodyPara> 
+          
+                Much of the information from the early playbills was taken up by modern theatre programs. <sim>Both tell the audience what the name of the show is, 
+                where and when it will be shown, who is in the show and what they play, as well as advertise upcoming plays.</sim> <diff>Some elements from early playbills 
+                evolved, rather than being cut out completely. For example, instead of getting rid of the descriptions of what happens in each act, modern playbills 
+                expanded on the idea and now involve a list of scenes in the show. Additionally, instead of getting rid of advertising for other shows in the playbills, 
+                modern programs also include advertisements for different types of businesses. </diff>
+                
+            </bodyPara>
+            
+            <bodyPara>
+                <evidence>
+                A lot can be learned about the history of the time from reading a theatre playbill. For example, during the time of early playbills, there was no television, 
+                there were no movies, and there certainly wasn’t such a thing as Netflix. Theatre was the only popular form of entertainment, therefore printing all of the 
+                playbills was necessary in order to inform the public about shows to see. In modern times, we have endless avenues of communication: from radio shows, to TV
+                commercials, to billboards by highways. Additionally, with the rise in popularity of Netflix, people tend to stay in to watch shows, rather than putting in
+                the time and effort it takes to go to a show at the Theatre. This was not an option in the late 19th and early 20th centuries. Printing technology was also
+                not as advanced then as it is today. This means that even the cheapest playbills and programs were of high quality when compared to those of today because 
+                they were more low tech and didn’t have our quick laser printing technology. Finally, during the time of early theatre programs, paid commercial advertising
+                was not very popular, contributing to the lack of outside advertisement in playbills <citation source="#citation3">(Jewett)</citation>.  
+                </evidence>
+            </bodyPara>
+            
+            <bodyPara>
+                <evidence>
+                With the boom in printed advertisement came the realization that theatre programs could become literary goldmines. 
+                By the early 1900s, businessman Frank Strauss was the first to become the first to specialize in programmed printing. By assuring 
+                business owners that their companies would get lots of circulation among more “upstanding” theatergoers and they would gain large 
+                profits by paying for ads, Strauss secured his fortune and forever changed the design and layout of programs <citation source="#citation6">(“Variety Stage: Theater
+                    Playbills and Programs”)</citation>. The success of this specific marketing strategy tells us much about the scene of theatre at that time. It shows
+                us that going to the theatre was a more of a way of flaunting status than of having fun for some people, specifically the upper class patrons 
+                of different theatres. It also shows us that whether we are in the late 19th century or in the early 21st century, the more “cultured” parts 
+                of life will always be catered more towards the rich and wealthy rather than the common man. 
+                </evidence>
+            </bodyPara>
+
             <concl>
-                <p></p>
-=======
-                <genre>Theatre playbills and programs come in many shapes and forms, from the glossy standard Playbills we receive at professional theatres, to the black and white booklets of school plays.</genre> 
-                Playbills and programs are an intrinsic part of a <setting>Theatre</setting> goer's experience: as soon as you walk in the door you expect to be handed a program. 
-                They allow us, <participants>the audience</participants>, to know a bit more about the show we are about to see as well as to be more informed about upcoming shows. 
-                They also act as souvenirs, allowing us to look back fondly at the night of the show. 
-                <mainArgument>Not only do playbills and programs a record of theatrical performances and practices, as a whole they are also a good way to explore the culture and history of the time</mainArgument> 
-            </intro>
-            
-            <bodyPara>
-                <aesthetics>Early playbills were single sheets, usually printed in black and white, handed out in the theatre or posted in public places as broadsides.</aesthetics>
-                They provided the public information about a particular show: date, place, and time; a list of the actors and the characters that they portrayed and an advertisement of future performances. 
-                <context>As time went on these single sheet playbills became bigger and bigger, eventually reaching poster-size; they became too cumbersome to handle and this lead to the need for our modern day programs.</context> 
-            </bodyPara>
-            
-            <bodyPara>
-                Modern playbills offer the same basic information as early playbills did, but also go more in depth. 
-                They usually include cast biographies, pictures of the cast, a list of songs and who sings them (if the show is a musical).  
-                <aesthetics>They are in the form of colorful booklets, with the title of the show on the outside in bold black letters right underneath “PLAYBILL” at the top of the page in a yellow rectangle.</aesthetics> 
-                Inside the booklet, there are short articles focusing on the artists as well as considerable advertising from other businesses. 
-                .</bodyPara>
-            
-            <bodyPara>
-                <sim>Many of the same information from the early playbills was taken up by modern theatre programs. 
-                    They all tell the audience what the name of the show is, where and when it will be shown, who is in the show and what they play, as well as advertise upcoming plays. </sim>
-                <diff>Some elements from early playbills evolved, rather than being cut out completely. 
-                For example, instead of getting rid of the descriptions of what happens in each act, modern playbills expanded on the idea and now involve a list of scenes in the show. 
-                Additionally, instead of getting rid of advertising in the playbills, modern programs also include advertisements from businesses. </diff>  
-            </bodyPara>
-            
-            <bodyPara>
-                A lot can be learned about the history of the time from reading a theatre playbill. 
-                For example, in the time of early playbills, there was no TV, there were no movies, and there certainly wasn’t any Netflix.
-                Theatre was the only popular form of entertainment, so they had to print out the playbills individually because people couldn’t carry posters. 
-                In modern times, if something wasn’t convenient we would most likely forget about it and move on to the next best more convenient thing. 
-                Printing technology was also not as advanced as it is today. This means that even the cheapest programs were pretty high quality compared to 
-                now because they were more low tech and didn’t have our quick laser printing technology. Finally, during the time of early theatre programs, paid 
-                commercial advertising was not very popular, and that’s why we did not see many advertisements for other businesses in the playbills. 
-                Obviously, that is not the case in our present day playbills.    
-            </bodyPara>
-            
-            <concl>
-                In conlusion, playbills and programs are more than just a way to inform the public about a show or to inform the audience about the specifics of the show they are about to see. 
-                Playbills and programs are a great way to see how history has changed the world around us in the specific context of the world of Theatre. 
+                <p>
+                    To conclude, the genre of playbills and programs does more than just inform the public about a show or to inform the audience about the specifics 
+                    of the show they are about to see. They offer a great way to see how history has changed the world around us in the specific context of the world of 
+                    theatre. Without playbills, the popularity and awareness of theatre would have decreased significantly and the concept of going to the theatre to watch
+                    a show could possibly be obsolete.
+                    
+                </p>
             </concl>
         </body>
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl>citation here</bibl>
+                <bibl xml:id="citation1">“1904 Fay Davis Broadside.” Ebay.com, Ebay, 31 July 2016, http://www.ebay.com/itm/1904-park-theatre-boston-massachusetts-fay-davis-broadside-/390670654882?hash=item5af5c91da2.
+                </bibl>
+                
+                <bibl xml:id="citation2">Higgins, Sydney. “A History of Playbills and Theatre Programs.” A History of Playbills and Theatre Programs, Camerino Players, 2009, http://www.the-camerino-players.com/playbills/index.html.
+                </bibl>
+                
+                <bibl xml:id="citation3"> Jewett, Rebecca. “Playbills Collection.” Playbills Collection, Jerome Lawrence and Robert E. Lee Theatre Research Institute, 10 May 2016, https://library.osu.edu/find/collections/theatre-research-institute/ephemera/playbills-collection/.
+                </bibl>
+                
+                <bibl xml:id="citation4">“Playbill for Hamilton.” Playbill Vault, Playbill, http://www.playbill.com/production/hamilton-richard-rodgers-theatre-vault-0000014104.
+                </bibl>
+                
+                <bibl xml:id="citation5">“Playbill for Sweet Bird of Youth.” Playbill Vault, Playbill, http://www.playbill.com/production/sweet-bird-of-youth-martin-beck-theatre-vault-0000008261.
+                </bibl>
+                
+                <bibl xml:id="citation6"> “Variety Stage: Theater Playbills and Programs.” Variety Stage: Theater Playbills and Programs, Library of Congress, 
+                    http://memory.loc.gov/ammem/vshtml/vsprge.html.
+                    
+                </bibl>
+                
             </listBibl>
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="lo.va"> Valentina Longcroft</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>Summary: Playbills have been, and still are, an integral part of the theatre. They serve as an
+            informational resource, providing actor's names and details of the play, and also serve as 
+            memorabilia and historical artefacts as before the rise of technology, they were the only records of
+            the play, and people used to keep them as souvenirs, as they still do today sometimes.</p>
+            <p>Critique: Though this paper is a very well rounded analysis on playbills, I think that maybe
+            a few examples of certain playbills/plays and how they fulfilled their purpose may be a good addition,
+            as there are no sources/citations at the moment. You also haven't used too many words from the element
+            list, even though your tags are well placed, it would be nice to see you write about the scene or situation
+            as well as tagging it in your text. This was very interesting to read, and I think the topic of 
+            playbills is fascinating, but I think there is definitely room to expand your arguments and sub arguments.</p> 
+            <p>Advice: You could use images very effectively in this paper, 
+            maybe one of an older playbill and one of a more modern one, to give the reader a visual., as you've chosen a 
+            genre with a visual aspect, I think it would be wise to take advantage of this. Though I think that
+            your point about modern/historical playbills is really interesting, I think you maybe need another point or argument, 
+            maybe you could write about who writes the playbills and the format used with them? It would be interesting to hear about
+            the order which the playbills are written in, and also a bit more about the history of advertising with playbills, and when
+            they started to use it. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
