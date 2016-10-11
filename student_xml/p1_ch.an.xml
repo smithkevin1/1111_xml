@@ -4,6 +4,7 @@
 <DOC>
     <essay>
         <docHead>
+<<<<<<< Updated upstream
             <title>Songs in Children's Shows and How They Can Educate</title>
             <author xml:id="ch.an"/>
             <date>DATE</date>
@@ -17,6 +18,81 @@
             <bodyPara> Even the visual storytelling on screen for the duration of this song suggests to the audience that the principles of mindfulness meditation aid in self-acceptance and love.<argument type="supporting"> As "Here Comes a Thought" fits in the genre of a song in a children's show, many members of the audience likely expect that any message it attempts to send will be positive. The visual choreography, in conjunction with the words of the song itself, builds on top of this preexisting supposition in order to further promote the aforementioned ideas of mindfulness.</argument> Through the first half of the song, Ruby and Sapphire, two charcters who physically and mentally combine to form the mentor, Garnet, are shown struggling with their own troubled thoughts and emotions. While those problems remain vague and aren’t displayed, it lends credibility in the eyes of the audience to the practice of mindfulness by demonstrating that it is something that a cherished and respected authority figure also uses. By clearly showing that these characters have managed to find greater peace with themselves and their past actions through mindfulness meditation, the episode very openly seems to attempt to suggest that it is something that the audience sitting at home could try, even without blatantly naming the technique. By demonstrating the methodology of mindfulness meditation and displaying it in a very positive light, the show attempts to at least create an uptake involving a positive reaction to the technique and its principles, in the hopes that doing so may aid audience members.</bodyPara>
             <concl>
                 <p>Although I initially made the assumption that songs from kid’s shows would mostly be lighthearted and educational, this particular song, in addition to a few of the others from the same show demonstrate that the two don’t necessarily go hand in hand. Additionally, this specific show at least, defied another of my expectations by expanding its audience beyond the realm of just children, and specifically making a point to include LGBTQ themes. Intended uptakes are also aimed at the extended audience, not just the core audience that the show, Steven Universe, is marketed to, kids, which seems to be quite unusual for the genre. However, given that I don’t watch that many kid’s shows and listen to songs within them, it is rather difficult for me to say whether this is the norm or not within the scene itself.</p>
+=======
+            <title/>
+            <author xml:id="Anders Chen"/>
+            <date/>
+        </docHead>
+        <body>
+            <intro>
+                <p>Much of what has been discussed within this class so far largely concerns rather
+                    serious genres. The choice of a song from a children’s show was, then, an
+                    attempt to break down something that I assumed would have a bit more levity to
+                    it. However, Here Comes a Thought, written and composed by Rebecca Sugar,
+                    surprised me in the fact that, despite my initial thoughts, it is rather serious
+                    in its purpose. It is a song that furthers the story, as well as character
+                    development, much like every other song produced for shows. Yet, it is also an
+                    effort to teach the audience something that can be very helpful to people of all
+                        ages.</p>
+
+            </intro>
+            <bodyPara>Between the episode’s name, Mindful Education, as well as the lyrics of the
+                song, urging the listener to “take a moment and find yourself”, the mentor figure of
+                the series, Garnet, is seen teaching the technique of mindfulness, sometimes known
+                as mindfulness meditation. Mindfulness, according to UC Berkeley, “involves
+                acceptance” through having “our thoughts tune into what we’re sensing in the present
+                moment rather than rehashing the past or imagining the future”. This swgment is
+                designed to show that these techniques can help. Through this, for the first time in
+                the episode, the young girl, Connie begins to accept and acknowledge her own
+                emotions concerning her accidental injury of another student. The glowing
+                butterflies within the scene, the thoughts, burst out of her bag as if through their
+                own will. Although she has attempted to bottle up these emotions since the beginning
+                of the episode, she is once again forced to relive her own memories and guilt. It is
+                with Garnet’s reminder to, once again, “take a moment and ask yourself if this is
+                how we fall apart”, as well as her own use of the repeated mantra “but it’s not”,
+                that she begins to calm down and accept her own remorse over what happened, allowing
+                herself to cry. Only after this strong moment of catharsis do the swarming,
+                troubling thoughts blow away, signifying that taking the time to calmly examine your
+                own thoughts can allow you to step back from the edge of panic and stop yourself
+                from overreacting. This segment visually draws people in and, for older members of
+                the audience perhaps, asks them to revisit their own similar experiences and
+                reconsider how they handled it. For all, however, this teaches a very valuable life
+                lesson regardless of whether the audience uses or does not use the specific
+                techniques associated with mindfulness meditation.</bodyPara>
+            <bodyPara>This message is further brought home to the audience through the way in which
+                it is told. Through the first half of the song, Ruby and Sapphire, who physically
+                and mentally combine to form the mentor, Garnet, are shown struggling with their own
+                troubled thoughts and emotions. While those problems remain vague and aren’t shown,
+                it lends credibility to the practice of mindfulness by demonstrating that it is
+                something that a cherished and respected authority figure also uses. By
+                demonstrating that these characters have managed to find greater peace with
+                themselves and their past actions through mindfulness meditation, the episode very
+                openly seems to suggest that it is something that the audience sitting at home could
+                try, even if the technique wasn’t blatantly, specifically mentioned. By
+                demonstrating the method and displaying it in a very positive light, the show
+                attempts to convince others to do this themselves likely much more effectively than
+                it would have had mindfulness meditation only been mentioned by name.</bodyPara>
+            <bodyPara>Despite this show, Steven Universe, being primarily geared towards kids, it
+                has a large following of all ages and is well known for exploring important themes,
+                with the creator herself stating in an interview that she’d “really like to talk
+                about identity and individuality, and self love”. As a result, people of all ages
+                and demographics are invited to partake of the show itself and the messages it
+                provides. However, what’s unusual about this specific show, which extends into some
+                of its other songs, is that it while everyone is invited to watch and take part, it
+                specifically seeks to include LGBTQ children and members of the audience, something
+                that, frankly, could be considered rather revolutionary in the world of children’s
+                television.</bodyPara>
+            <concl>
+                <p>Although I initially made the assumption that songs from kid’s shows would mostly
+                    be lighthearted and educational, this particular song, in addition to a few of
+                    the others from the same show demonstrate that the two don’t necessarily go hand
+                    in hand. Additionally, this specific show at least, defied another of my
+                    expectations. Rather than strictly focus on the one audience you’d expect a
+                    kids’ show to focus on, namely, children, it eagerly welcomes people outside of
+                    the traditional audience for kids shows. Given that I don’t watch that many
+                    shows that kid’s shows however, it is hard for to say whether this is the norm
+                    or not within the genre.</p>
+>>>>>>> Stashed changes
             </concl>
         </body>
         <docFoot>
@@ -34,9 +110,28 @@
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="ag.vi"> Vishrut</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p> The introduction contains precise language and the sentences are well framed. In a
+                serious genre a child’s song “ Here Comes A Thought” would bring comic relief to the
+                play. It also helps in building the character development and to evoke emotional
+                connections. It molds an overwhelming flashback on adults, when they remember their
+                childhood. People are often delusional when it comes to child’s songs, but it
+                carries a strong emotion that alters the mind of the listener. I think this song is
+                really pushing in the romantic relationship, But more of the visual. The point is
+                that these characters have issues that affect their relationship. It is represented
+                by their fusion. As the issue goes on the relationship is falling apart. Overall,
+                this song is really about showing the listener, that when we feel afraid or anxious,
+                we must be strong. The sun will go down and there will always be a person who we can
+                depend on and we are never alone. Which is the theme of this episode, but it also
+                deals with anxiety. During the song you see this character dealing with issues,
+                being in stress, paranoia and panicking, there clearly feel anxious. They reassure
+                that everything will be fine and that someone will be looking out for them.
+                Butterflies resemble change. Change can be difficult, it can make people curious not
+                knowing the future. Usably, they are connected with the feeling of being anxious.
+                However, The body of the essay should describe the psychological impact on the minds
+                of the reader, they can be concise as they tend to get too wordy sometimes. For
+                example she could have avoided phrases like “despite my initial thoughts.” </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
