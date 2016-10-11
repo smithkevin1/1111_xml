@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><properties>
+	<property name="DSTAMP" value="20161011" />
+	<property name="TODAY" value="October 11 2016" />
+	<property name="TSTAMP" value="0037" />
+	<property name="ant.core.lib" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/ant.jar" />
+	<property name="ant.file" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/build.xml" />
+	<property name="ant.file.Build Eclipse Contexts" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.eclipsehelp/build_contexts.xml" />
+	<property name="ant.file.Correct Help IDs" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.javahelp/build_contexts.xml" />
+	<property name="ant.file.Custom HTML targets" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.html.custom/build_custom.xml" />
+	<property name="ant.file.Custom Oxygen processing" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.pdf.custom/build_custom.xml" />
+	<property name="ant.file.DOST" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/build.xml" />
+	<property name="ant.file.DOST.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x" />
+	<property name="ant.file.build_generaltargets" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.xhtml/build_general.xml" />
+	<property name="ant.file.com.oxygenxml.pdf.css" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.pdf.css/build.xml" />
+	<property name="ant.file.dita.build" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2/build.xml" />
+	<property name="ant.file.dita2docbook" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.docbook/build_dita2docbook.xml" />
+	<property name="ant.file.dita2eclipsecontent" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.eclipsecontent/build_dita2eclipsecontent.xml" />
+	<property name="ant.file.dita2eclipsehelp" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml" />
+	<property name="ant.file.dita2html5" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.html5/build_dita2html5.xml" />
+	<property name="ant.file.dita2htmlhelp" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml" />
+	<property name="ant.file.dita2javahelp" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.javahelp/build_dita2javahelp.xml" />
+	<property name="ant.file.dita2odt" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.odt/build_dita2odt.xml" />
+	<property name="ant.file.dita2troff" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.troff/build_dita2troff.xml" />
+	<property name="ant.file.dita2wordrtf" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.wordrtf/build_dita2wordrtf.xml" />
+	<property name="ant.file.dita2xhtml" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.xhtml/build_dita2xhtml.xml" />
+	<property name="ant.file.ditaot-init" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.base/build_init.xml" />
+	<property name="ant.file.ditaot-preprocess" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.base/build_preprocess.xml" />
+	<property name="ant.file.org.dita.pdf2.axf" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.axf/build_axf.xml" />
+	<property name="ant.file.org.dita.pdf2.fop" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.fop/build_fop.xml" />
+	<property name="ant.file.org.dita.pdf2.xep" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.xep/build_xep.xml" />
+	<property name="ant.file.type" value="file" />
+	<property name="ant.file.type.Build Eclipse Contexts" value="file" />
+	<property name="ant.file.type.Correct Help IDs" value="file" />
+	<property name="ant.file.type.Custom HTML targets" value="file" />
+	<property name="ant.file.type.Custom Oxygen processing" value="file" />
+	<property name="ant.file.type.DOST" value="file" />
+	<property name="ant.file.type.build_generaltargets" value="file" />
+	<property name="ant.file.type.com.oxygenxml.pdf.css" value="file" />
+	<property name="ant.file.type.dita.build" value="file" />
+	<property name="ant.file.type.dita2docbook" value="file" />
+	<property name="ant.file.type.dita2eclipsecontent" value="file" />
+	<property name="ant.file.type.dita2eclipsehelp" value="file" />
+	<property name="ant.file.type.dita2html5" value="file" />
+	<property name="ant.file.type.dita2htmlhelp" value="file" />
+	<property name="ant.file.type.dita2javahelp" value="file" />
+	<property name="ant.file.type.dita2odt" value="file" />
+	<property name="ant.file.type.dita2troff" value="file" />
+	<property name="ant.file.type.dita2wordrtf" value="file" />
+	<property name="ant.file.type.dita2xhtml" value="file" />
+	<property name="ant.file.type.ditaot-init" value="file" />
+	<property name="ant.file.type.ditaot-preprocess" value="file" />
+	<property name="ant.file.type.org.dita.pdf2.axf" value="file" />
+	<property name="ant.file.type.org.dita.pdf2.fop" value="file" />
+	<property name="ant.file.type.org.dita.pdf2.xep" value="file" />
+	<property name="ant.file.type.webhelp.integrator" value="file" />
+	<property name="ant.file.webhelp.integrator" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/build_dita.xml" />
+	<property name="ant.home" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant" />
+	<property name="ant.java.version" value="1.8" />
+	<property name="ant.library.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib" />
+	<property name="ant.project.default-target" value="init" />
+	<property name="ant.project.invoked-targets" value="dita2webhelp" />
+	<property name="ant.project.name" value="DOST" />
+	<property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+	<property name="apple.awt.UIElement" value="true" />
+	<property name="args.default.language" value="en-US" />
+	<property name="args.grammar.cache" value="yes" />
+	<property name="args.input" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/p1_we.sp.xml" />
+	<property name="args.logdir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/out/webhelp-responsive/mechano" />
+	<property name="args.outext" value=".html" />
+	<property name="args.xml.systemid.set" value="yes" />
+	<property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+	<property name="base.temp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/temp" />
+	<property name="baseJVMArgLine" value="-Xmx384m" />
+	<property name="basedir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml" />
+	<property name="clean.temp" value="true" />
+	<property name="collator" value="JDL" />
+	<property name="conserve-memory" value="false" />
+	<property name="css.processor.path.antenna-house" value="AHFCmd" />
+	<property name="css.processor.path.prince" value="prince" />
+	<property name="css.processor.type" value="prince" />
+	<property name="current.date" value="20161011003702407" />
+	<property name="default.cascade" value="merge" />
+	<property name="default.language" value="en" />
+	<property name="dita.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x" />
+	<property name="dita.plugin.com.elovirta.dita.markdown.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown" />
+	<property name="dita.plugin.com.elovirta.ooxml.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.ooxml" />
+	<property name="dita.plugin.com.oxygenxml.dita-ot.plugin.mathml.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/mathml" />
+	<property name="dita.plugin.com.oxygenxml.dita-ot.plugin.webhelp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp" />
+	<property name="dita.plugin.com.oxygenxml.highlight.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.highlight" />
+	<property name="dita.plugin.com.oxygenxml.html.custom.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.html.custom" />
+	<property name="dita.plugin.com.oxygenxml.pdf.css.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.pdf.css" />
+	<property name="dita.plugin.com.oxygenxml.pdf.custom.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.pdf.custom" />
+	<property name="dita.plugin.com.sophos.tocjs.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.sophos.tocjs" />
+	<property name="dita.plugin.org.dita-community.common.xslt.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita-community.common.xslt" />
+	<property name="dita.plugin.org.dita-community.dita13.html.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita-community.dita13.html" />
+	<property name="dita.plugin.org.dita-community.dita13.pdf.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita-community.dita13.pdf" />
+	<property name="dita.plugin.org.dita-ng.dita.relaxng.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita-ng.doctypes" />
+	<property name="dita.plugin.org.dita-ot.html.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita-ot.html" />
+	<property name="dita.plugin.org.dita.base.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x" />
+	<property name="dita.plugin.org.dita.docbook.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.docbook" />
+	<property name="dita.plugin.org.dita.eclipsecontent.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.eclipsecontent" />
+	<property name="dita.plugin.org.dita.eclipsehelp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.eclipsehelp" />
+	<property name="dita.plugin.org.dita.html5.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.html5" />
+	<property name="dita.plugin.org.dita.htmlhelp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.htmlhelp" />
+	<property name="dita.plugin.org.dita.javahelp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.javahelp" />
+	<property name="dita.plugin.org.dita.odt.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.odt" />
+	<property name="dita.plugin.org.dita.pdf2.axf.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.axf" />
+	<property name="dita.plugin.org.dita.pdf2.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2" />
+	<property name="dita.plugin.org.dita.pdf2.fop.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.fop" />
+	<property name="dita.plugin.org.dita.pdf2.xep.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.xep" />
+	<property name="dita.plugin.org.dita.specialization.dita11.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.specialization.dita11" />
+	<property name="dita.plugin.org.dita.specialization.eclipsemap.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.specialization.eclipsemap" />
+	<property name="dita.plugin.org.dita.troff.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.troff" />
+	<property name="dita.plugin.org.dita.wordrtf.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.wordrtf" />
+	<property name="dita.plugin.org.dita.xhtml.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.xhtml" />
+	<property name="dita.plugin.org.oasis-open.dita.v1_2.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.oasis-open.dita.v1_2" />
+	<property name="dita.plugin.org.oasis-open.dita.v1_3.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.oasis-open.dita.v1_3" />
+	<property name="dita.plugin.org.oasis.lwdita.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.oasis.lwdita" />
+	<property name="dita.temp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/temp/webhelp-responsive/mechano" />
+	<property name="env.9.1.142;118;142;181;177;196;128;168;142;175;129;120;168;125;137;122;123;151;116;177;187;98;" value="9.1.108;105;109;156;148;155;107;153;97;147;111;101;148;93;300;90;431;218;229;137;" />
+	<property name="env.APP_ICON_5592" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/Oxygen XML Editor.app/Contents/Resources/app.icns" />
+	<property name="env.APP_NAME_5592" value="Oxygen XML Editor" />
+	<property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.JatoHvA4m9/Render" />
+	<property name="env.DISPLAY" value="/private/tmp/com.apple.launchd.0cFkBzGnHV/org.macosforge.xquartz:0" />
+	<property name="env.HOME" value="/Users/Spencer" />
+	<property name="env.JAVA_MAIN_CLASS_5592" value="com.install4j.runtime.launcher.MacLauncher" />
+	<property name="env.JAVA_MAIN_CLASS_5687" value="org.apache.tools.ant.launch.Launcher" />
+	<property name="env.LANG" value="en_US.UTF-8" />
+	<property name="env.LOGNAME" value="Spencer" />
+	<property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+	<property name="env.SAXON_EE_LICENSED_ENV" value="true" />
+	<property name="env.SHELL" value="/bin/bash" />
+	<property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.f8LYyyIqmx/Listeners" />
+	<property name="env.TMPDIR" value="/var/folders/sy/zczspdj13n3752_1fkpgpwym0000gn/T/" />
+	<property name="env.USER" value="Spencer" />
+	<property name="env.XPC_FLAGS" value="0x0" />
+	<property name="env.XPC_SERVICE_NAME" value="ro.sync.exml.Oxygen.186912" />
+	<property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+	<property name="env.com.oxygenxml.dita.ot.process" value="true" />
+	<property name="file.encoding" value="UTF-8" />
+	<property name="file.encoding.pkg" value="sun.io" />
+	<property name="file.separator" value="/" />
+	<property name="filter-on-parse" value="true" />
+	<property name="filter-stage" value="early" />
+	<property name="fop.home" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/org.dita.pdf2.fop/fop" />
+	<property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+	<property name="generate-debug-attributes" value="true" />
+	<property name="generate.copy.outer" value="1" />
+	<property name="gopherProxySet" value="false" />
+	<property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+	<property name="include.rellinks" value="#default parent child sibling friend next previous cousin ancestor descendant sample external other" />
+	<property name="inner.transform" value="true" />
+	<property name="is.webhelp.responsive" value="true" />
+	<property name="is64bit" value="true" />
+	<property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+	<property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+	<property name="java.class.path" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-launcher.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/commons-io-2.4.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/classes:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-annotations.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-content-completion-api.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-css-pretty-printer.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-css-validator.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-emf.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-text-search.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-token-markers.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-validation-api.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-xquery-pretty-printer.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/resolver.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-token-markers.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/org.eclipse.wst.xml.xpath2.processor_1.2.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xml-apis.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xercesImpl.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/commons-io-1.3.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/commons-logging-1.2.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/log4j.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/commons-codec-1.9.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jing.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/saxon9ee.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/saxon.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xmlgraphics-commons-2.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/fop.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/batik-all-1.8.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/js.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/poi-3.10-FINAL-20140208.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/nekohtml.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xml-apis-ext.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/avalon-framework-api-4.3.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/avalon-framework-impl-4.3.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jeuclid-core.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jeuclid-fop.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jai_tiff.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jh.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/jsearch.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-analyzers-common-4.0.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-core-4.0.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-queries-4.0.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-queryparser-4.0.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-suggest-4.0.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/lib/xhtml-indexer.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.highlight/lib/xslthl-2.1.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/dost-patches.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/ant-apache-resolver-1.9.4.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/ant-launcher.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/ant.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/commons-codec-1.9.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/commons-io-2.4.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/dost-configuration.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/dost.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/jsearch.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/xml-resolver-1.2.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/dost.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-4.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-analysis-4.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-tree-4.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-util-4.1.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/markdown-1.1.0.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/parboiled-core-1.1.6.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/parboiled-java-1.1.6.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/pegdown-1.4.2.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-antlr.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-bcel.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-bsf.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-log4j.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-oro.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-regexp.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-resolver.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-apache-xalan2.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-commons-logging.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-commons-net.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-contrib-1.0b3.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-jai.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-javamail.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-jdepend.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-jmf.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-jsch.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-junit.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-junit4-1.9.3.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-launcher.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-netrexx.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-swing.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant-testutil.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/tools/ant/lib/ant.jar" />
+	<property name="java.class.version" value="52.0" />
+	<property name="java.endorsed.dirs" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/endorsed" />
+	<property name="java.ext.dirs" value="/Users/Spencer/Library/Java/Extensions:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+	<property name="java.home" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre" />
+	<property name="java.io.tmpdir" value="/var/folders/sy/zczspdj13n3752_1fkpgpwym0000gn/T/" />
+	<property name="java.library.path" value="/Users/Spencer/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+	<property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+	<property name="java.runtime.version" value="1.8.0_72-b15" />
+	<property name="java.specification.name" value="Java Platform API Specification" />
+	<property name="java.specification.vendor" value="Oracle Corporation" />
+	<property name="java.specification.version" value="1.8" />
+	<property name="java.vendor" value="Oracle Corporation" />
+	<property name="java.vendor.url" value="http://java.oracle.com/" />
+	<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+	<property name="java.version" value="1.8.0_72" />
+	<property name="java.vm.info" value="mixed mode" />
+	<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+	<property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+	<property name="java.vm.specification.vendor" value="Oracle Corporation" />
+	<property name="java.vm.specification.version" value="1.8" />
+	<property name="java.vm.vendor" value="Oracle Corporation" />
+	<property name="java.vm.version" value="25.72-b15" />
+	<property name="jvmArchFlag" value="-d64" />
+	<property name="line.separator" value="&#xa;" />
+	<property name="maxJavaMemory" value="500m" />
+	<property name="onlytopic.in.map" value="false" />
+	<property name="org.dita.pdf2.i18n.enabled" value="true" />
+	<property name="os.arch" value="x86_64" />
+	<property name="os.name" value="Mac OS X" />
+	<property name="os.version" value="10.11.6" />
+	<property name="otrelease" value="2.2" />
+	<property name="otversion" value="2.2.3" />
+	<property name="out.ext" value=".html" />
+	<property name="outer.control" value="warn" />
+	<property name="output.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/out/webhelp-responsive/mechano" />
+	<property name="oxygen.org.apache.xerces.xni.parser.XMLParserConfiguration" value="org.ditang.relaxng.defaults.RelaxDefaultsParserConfiguration" />
+	<property name="parser.markdown" value="com.elovirta.dita.markdown.MarkdownReader" />
+	<property name="path.separator" value=":" />
+	<property name="plugin.com.elovirta.dita.markdown.dir" value="plugins\com.elovirta.dita.markdown" />
+	<property name="plugin.com.elovirta.ooxml.dir" value="plugins\com.elovirta.ooxml" />
+	<property name="plugin.com.oxygenxml.dita-ot.plugin.mathml.dir" value="plugins\mathml" />
+	<property name="plugin.com.oxygenxml.dita-ot.plugin.webhelp.dir" value="plugins\com.oxygenxml.webhelp" />
+	<property name="plugin.com.oxygenxml.highlight.dir" value="plugins\com.oxygenxml.highlight" />
+	<property name="plugin.com.oxygenxml.html.custom.dir" value="plugins\com.oxygenxml.html.custom" />
+	<property name="plugin.com.oxygenxml.pdf.css.dir" value="plugins\com.oxygenxml.pdf.css" />
+	<property name="plugin.com.oxygenxml.pdf.custom.dir" value="plugins\com.oxygenxml.pdf.custom" />
+	<property name="plugin.com.sophos.tocjs.dir" value="plugins\com.sophos.tocjs" />
+	<property name="plugin.ignores" value="" />
+	<property name="plugin.order" value="org.dita.base org.oasis-open.dita.v1_3 org.oasis-open.dita.v1_2" />
+	<property name="plugin.org.dita-community.common.xslt.dir" value="plugins\org.dita-community.common.xslt" />
+	<property name="plugin.org.dita-community.dita13.html.dir" value="plugins\org.dita-community.dita13.html" />
+	<property name="plugin.org.dita-community.dita13.pdf.dir" value="plugins\org.dita-community.dita13.pdf" />
+	<property name="plugin.org.dita-ng.dita.relaxng.dir" value="plugins\org.dita-ng.doctypes" />
+	<property name="plugin.org.dita-ot.html.dir" value="plugins\org.dita-ot.html" />
+	<property name="plugin.org.dita.base.dir" value="." />
+	<property name="plugin.org.dita.docbook.dir" value="plugins\org.dita.docbook" />
+	<property name="plugin.org.dita.eclipsecontent.dir" value="plugins\org.dita.eclipsecontent" />
+	<property name="plugin.org.dita.eclipsehelp.dir" value="plugins\org.dita.eclipsehelp" />
+	<property name="plugin.org.dita.html5.dir" value="plugins\org.dita.html5" />
+	<property name="plugin.org.dita.htmlhelp.dir" value="plugins\org.dita.htmlhelp" />
+	<property name="plugin.org.dita.javahelp.dir" value="plugins\org.dita.javahelp" />
+	<property name="plugin.org.dita.odt.dir" value="plugins\org.dita.odt" />
+	<property name="plugin.org.dita.pdf2.axf.dir" value="plugins\org.dita.pdf2.axf" />
+	<property name="plugin.org.dita.pdf2.dir" value="plugins\org.dita.pdf2" />
+	<property name="plugin.org.dita.pdf2.fop.dir" value="plugins\org.dita.pdf2.fop" />
+	<property name="plugin.org.dita.pdf2.xep.dir" value="plugins\org.dita.pdf2.xep" />
+	<property name="plugin.org.dita.specialization.dita11.dir" value="plugins\org.dita.specialization.dita11" />
+	<property name="plugin.org.dita.specialization.eclipsemap.dir" value="plugins\org.dita.specialization.eclipsemap" />
+	<property name="plugin.org.dita.troff.dir" value="plugins\org.dita.troff" />
+	<property name="plugin.org.dita.wordrtf.dir" value="plugins\org.dita.wordrtf" />
+	<property name="plugin.org.dita.xhtml.dir" value="plugins\org.dita.xhtml" />
+	<property name="plugin.org.oasis-open.dita.v1_2.dir" value="plugins\org.oasis-open.dita.v1_2" />
+	<property name="plugin.org.oasis-open.dita.v1_3.dir" value="plugins\org.oasis-open.dita.v1_3" />
+	<property name="plugin.org.oasis.lwdita.dir" value="plugins\org.oasis.lwdita" />
+	<property name="plugindirs" value="plugins;demo" />
+	<property name="print_transtypes" value="pdf;pdf2;refpdf;pdf-css;odt;docx" />
+	<property name="processing-mode" value="lax" />
+	<property name="show.changes.and.comments" value="no" />
+	<property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+	<property name="sun.arch.data.model" value="64" />
+	<property name="sun.boot.class.path" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/resources.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/rt.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/jsse.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/jce.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/charsets.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib/jfr.jar:/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/classes" />
+	<property name="sun.boot.library.path" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/.install4j/jre.bundle/Contents/Home/jre/lib" />
+	<property name="sun.cpu.endian" value="little" />
+	<property name="sun.cpu.isalist" value="" />
+	<property name="sun.io.unicode.encoding" value="UnicodeBig" />
+	<property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/commons-io-2.4.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/classes -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-annotations.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-content-completion-api.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-css-pretty-printer.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-css-validator.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-emf.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-text-search.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-token-markers.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-validation-api.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-xquery-pretty-printer.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/resolver.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/oxygen-token-markers.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/org.eclipse.wst.xml.xpath2.processor_1.2.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xml-apis.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xercesImpl.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/commons-io-1.3.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/commons-logging-1.2.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/log4j.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/commons-codec-1.9.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jing.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/saxon9ee.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/saxon.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xmlgraphics-commons-2.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/fop.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/batik-all-1.8.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/js.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/poi-3.10-FINAL-20140208.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/nekohtml.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/xml-apis-ext.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/avalon-framework-api-4.3.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/avalon-framework-impl-4.3.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jeuclid-core.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jeuclid-fop.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jai_tiff.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/jh.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/jsearch.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-analyzers-common-4.0.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-core-4.0.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-queries-4.0.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-queryparser-4.0.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/lib/lucene-suggest-4.0.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/lib/xhtml-indexer.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.highlight/lib/xslthl-2.1.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/dost-patches.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/lib/dost.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-4.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-analysis-4.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-tree-4.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/asm-util-4.1.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/markdown-1.1.0.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/parboiled-core-1.1.6.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/parboiled-java-1.1.6.jar -lib /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.elovirta.dita.markdown/pegdown-1.4.2.jar -f /Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/build.xml -Dtranstype=webhelp-responsive -Dbasedir=/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml -Doutput.dir=/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/out/webhelp-responsive/mechano -Dwebhelp.responsive.template.name=bootstrap -Dwebhelp.responsive.variant.name=tiles -Dwebhelp.responsive.skin.name=mechano -Ddita.temp.dir=/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/temp/webhelp-responsive/mechano -Dargs.input=/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/p1_we.sp.xml -Ddita.dir=/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x -Dwebhelp.fragment.welcome=Welcome to our manual! -DbaseJVMArgLine=-Xmx384m" />
+	<property name="sun.java.launcher" value="SUN_STANDARD" />
+	<property name="sun.jnu.encoding" value="UTF-8" />
+	<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+	<property name="sun.os.patch.level" value="unknown" />
+	<property name="supported_html_extensions" value=".html;.htm" />
+	<property name="supported_image_extensions" value=".gif;.svg;.bmp;.jpg;.tif;.mml;.mathml;.eps;.jpeg;.png;.tiff" />
+	<property name="supported_resource_extensions" value=".pdf;.swf" />
+	<property name="transtype" value="webhelp-responsive" />
+	<property name="use.prince" value="true" />
+	<property name="user.country" value="US" />
+	<property name="user.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/Oxygen XML Editor.app" />
+	<property name="user.home" value="/Users/Spencer" />
+	<property name="user.language" value="en" />
+	<property name="user.name" value="Spencer" />
+	<property name="user.timezone" value="" />
+	<property name="validate" value="true" />
+	<property name="webhelp.build.number" value="2016081012" />
+	<property name="webhelp.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp" />
+	<property name="webhelp.fragment.welcome" value="Welcome to our manual!" />
+	<property name="webhelp.lib.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/lib" />
+	<property name="webhelp.parameters.file" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/1111_xml/student_xml/temp/webhelp-responsive/mechano/props.xml" />
+	<property name="webhelp.plugin.path" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/" />
+	<property name="webhelp.reload.stylesheet" value="false" />
+	<property name="webhelp.responsive" value="responsive" />
+	<property name="webhelp.responsive.skin.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap/variants/tiles/mechano" />
+	<property name="webhelp.responsive.skin.name" value="mechano" />
+	<property name="webhelp.responsive.template.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap" />
+	<property name="webhelp.responsive.template.name" value="bootstrap" />
+	<property name="webhelp.responsive.templates.base.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita" />
+	<property name="webhelp.responsive.variant.dir" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap/variants/tiles" />
+	<property name="webhelp.responsive.variant.name" value="tiles" />
+	<property name="webhelp.show.breadcrumb" value="yes" />
+	<property name="webhelp.show.indexterms.link" value="yes" />
+	<property name="webhelp.show.main.page.tiles" value="yes" />
+	<property name="webhelp.show.main.page.toc" value="no" />
+	<property name="webhelp.show.navigation.links" value="yes" />
+	<property name="webhelp.show.print.link" value="yes" />
+	<property name="webhelp.show.side.toc" value="yes" />
+	<property name="webhelp.show.top.menu" value="yes" />
+	<property name="webhelp.template.file.path" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap/wt_topic.html" />
+	<property name="webhelp.template.index.file" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap/wt_index.html" />
+	<property name="webhelp.template.index.terms.file" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap/wt_terms.html" />
+	<property name="webhelp.template.search.file" value="/Users/Spencer/Desktop/Northeastern/2016-2017/ENGW1111/oxygen/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp/templates/dita/bootstrap/wt_search.html" />
+	<property name="webhelp.top.menu.depth" value="3" />
+	<property name="webhelp.version" value="18.0" />
+	<property name="xml.parser" value="Xerces" />
+	<property name="xslt.parser" value="Saxon" />
+</properties>
