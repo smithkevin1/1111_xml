@@ -4,86 +4,43 @@
 <DOC>
     <essay>
         <docHead>
-            <title> Exploring how Mc Donald's use menu(s) as a genre </title>
+            <title/>
             <author xml:id="koradia.d"/>
             <date>7th October 2015</date>
         </docHead>
         <body>
             <intro>
-                <p>In the restaurant industry, menu(s) play a very important role. They are the
-                    single most important piece of document that help acquire a potential customer,
-                    which is why restaurants spend a massive amount of time perfecting their
-                    menu(s). <argument type="main">One such example is Mc Donald’s; who have over
-                        the past few decades not only been dominating the fast food industry with
-                        their delicious and cheap eateries but have also been a major influence in
-                        the establishment of menu as a genre.</argument></p>
+                <p><note type="peer"/>The arrival of fast foods in the 1950s has revolutionized the
+                    food industry and one cannot but thank the king of this domain, Mc Donald’s, for
+                    doing so. Over the past few decades not only have Mc Donald’s dominated the fast
+                    food industry with its delicious and cheap eateries but have also been a major
+                    influence in the establishment of menus as a genre. </p>
             </intro>
             <bodyPara>Genre refers to the typical rhetorical way of responding to a situation that
-                repeatedly occurs within a scene. <genre>For example, Mc Donald’s was the first to
-                    respond to the needs of an affordable yet tasty menu. They analysed a particular
-                    scene and came to the conclusion of creating a menu such that it serves the
-                    prime purpose of offering delicious meals for a dollar or under. By doing so,
-                    they responded to a rhetorical situation by creating a new type of sub-genre
-                    under the menu genre i.e. the dollar menu. Soon most of the fast food chains
-                    came out with their own version of the dollar menu.</genre>
-            </bodyPara>
-            <bodyPara>McDonald's is the world's largest chain of hamburger fast food restaurants,
-                serving around 68 million customers daily in 119 countries. The key to their success
-                is creating a customized menu for almost every country on the basis of an extensive
-                market research. They achieve this by factoring in the situation and participants
-                (customers) that are involved in the scene. <diff>A Mc Donald’s menu in the United
-                    States of America is starkly different from that in India and this is because of
-                    the differences found in both the countries. For instance, India has a higher
-                    vegetarian oriented population as compared to USA which is why on the Indian
-                    menu of Mc Donald’s one can find a larger array of vegetarian friendly burgers.
-                    On the other hand, due to higher meat eating population in the USA, Mc Donald’s
-                    offer a greater ranger of non-vegetarian burgers. Moreover, both the menus have
-                    country exclusive burgers. In the Indian menu you will find burgers such as
-                    McVeggie and McSpicy, something that is not even remotely mentioned in the USA
-                    menu. Also the naming scheme on both the menus are very different. Burgers in
-                    the USA menu are named after famous state names such as the New York classic and
-                    California Chicken. Au contraire, Mc Donald’s has used Hinglish to name their
-                    Indian burgers. Instead of calling a burger McPotato they named it McAloo,
-                    wherein the word “aloo” means potato in Hindi. People in the U.S. are more
-                    health conscious, hence, the U.S. menu contains a calorie count next to each of
-                    its burger.</diff> By designing these differences, Mc Donald’s has taken up the
-                culture and situation of a particular country and reflected it in their menu. Their
-                objective <q>is to adapt their menu to reflect different tastes and local traditions
-                    for every country in which they have restaurants. They are keen to respect
-                    cultural differences and so every country has its own policy of developing menu
-                    items.</q>
-            </bodyPara>
-            <bodyPara>In the lights of all these differences, there are some vivid similarities in
-                both the menus which overall help maintain the brand image of Mc Donald’s across the
-                world. <sim>Both the menus have a very structured layout with starters, mains and
-                    dessert being displayed in different columns. Both menus have a variety of text
-                    sizes, bolded and non-bolded words to make them easy to follow. Each menus
-                    offers various meal options and often seem to have two different sizes for all
-                    their products. The menus are also loaded with delicious imageries of their
-                    products and have a very bright colour scheme that will without fail catch an
-                    onlookers’ attention. Lastly, both the menus somehow manage to portray the ever
-                    famous Mc Donald logo, hence, constantly reminding the customer where they are.
-                </sim></bodyPara>
+                repeatedly occurs within a scene. For example, Mc Donald’s was the first to respond
+                to the needs of an affordable yet tasty menu. They analysed a particular scene and
+                came to the conclusion of creating a menu such that it serves the prime purpose of
+                modifying ones’ perspective (in their case attracting new/old customers). To put it
+                in more literal terms, they responded to a rhetorical situation by creating a new
+                type of genre i.e. the dollar menu. Soon most of the fast food chains came out with
+                their own version of the dollar menu. </bodyPara>
+            <bodyPara>Mc Donald’s is the world's largest chain of hamburger fast food restaurants,
+                serving around 68 million customers daily in 119 countries across 36,538 outlets. It
+                is considered that their method of coming up with a different menu for almost every
+                country on the basis of an extensive market research has given them an edge over
+                their rivals.<argument type="main"> For my genre analysis paper, <note type="peer">
+                        I am going to compare two separate Mc Donald’s menus and will be analysing
+                        their similarities and differences on the basis of scene</note>, situation
+                    and participants.</argument>. I will conclude by explaining how is that they
+                have created a new genre called menu, which has indirectly help them be succesful. </bodyPara>
             <concl>
-                <p>Imagine walking into a restaurant and asking the waiter questions regarding the
-                    type of cuisine they serve, what dishes do they have on offer, the prices of
-                    that dishes, etc. A menu puts an end to all of this questioning by simply
-                    offering you a cohesive summary of what the eating establishment is all about.
-                    Mc Donald’s have made great advancements in the fields of menu which has not
-                    only reflected in their sales but in the menu(s) itself. One can say that menus,
-                    in their own way, significantly contribute to not only the success of the
-                    company they represent, but also to the success of the food service industry
-                    they are a part of.</p>
+                <p/>
             </concl>
         </body>
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl>"Why Is the McDonald's Menu Different in Different Countries?" What Makes
-                    McDonald's. N.p., n.d. Web. 10 Oct. 2016. </bibl>
-                <bibl>"Welcome to the Purdue OWL." Purdue OWL: The Rhetorical Situation. N.p., n.d.
-                    Web. 11 Oct. 2016.</bibl>
-                <bibl>"McDonald's." Wikipedia. Wikimedia Foundation, n.d. Web. 11 Oct. 2016.</bibl>
+                <bibl>citation here</bibl>
             </listBibl>
         </docFoot>
     </essay>

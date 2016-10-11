@@ -9,149 +9,116 @@
             <date> October 3, 2016</date>
         </docHead>
         <body>
-            <intro>
-                <p> The textbook genre is a well-known, largely tolerated and divisive genre that
-                    exist perpetually as an entity in itself as well as thematic element in college
-                    education. Genre is defined by scenes and the underlying experiences that we, as
-                    individuals attribute and expect from an element such as a textbook
-                        <citation>(Devitt, Reiff and Bawarshi)</citation>. However, genres feed of
-                    each other just like memories feed of each other to create patterns that allow
-                    us to experience intelligence<citation>(Bawarshi)</citation>. The textbook is a
-                    genre that stems from the college, pedagogical, educational genres that
-                    interplay to give it its meanings. The current, most widely accepted view of the
-                    textbook among college <participants>students</participants> is that of the
-                    necessary evil. The method of updating textbooks to maintain a no resale value
-                    and increase demand for widely similar bodies of knowledge is what drives the
-                    divisive force behind the ill received understanding of textbooks. <argument
-                        type="main">The modern cosmology book as compared to a book from the 1980's
-                        might be different in it's way that treats the reader, and the genres that
-                        surround itself. The differences could be in the presentation of information
-                        or even the choices to write the textbook in the first place.</argument>
-                    <note type="peer">Which claim is your main argument? You might want to focus on
-                        just one, and use the other as a supporting argument.</note>
-                    <note type="peer">Also take another look at your xml tags. There are a lot of
-                        errors that can be fixed pretty quickly.</note></p>
-            </intro>
+            <intro><p> The textbook genre is a well-known, largely tolerated and divisive genre that
+                exist perpetually as an entity in itself as well as thematic element in college
+                education. Genre is defined by scenes and the underlying experiences that we, as
+                individuals attribute and expect from an element such as a textbook. However, genres
+                feed of each other just like memories feed of each other to create patterns that
+                allow us to experience intelligence. The textbook is a genre that stems from the
+                college, pedagogical, educational genres that interplay to give it its meanings. The
+                current, most widely accepted view of the textbook among college students is that of
+                the necessary evil. The method of updating textbooks to maintain a no resale value
+                and increase demand for widely similar bodies of knowledge is what drives the
+                divisive force behind the ill received understanding of textbooks. <argument type="main">The
+                    modern cosmology book as compared to a book from the 1980's might be different
+                    in it's way that treats the reader, and the genres that surround itself. Most
+                    textbook writers are conscious of their audience, and use different genres to
+                    reach the reader. </argument>
+                <note type="peer">Which claim is your main argument? You might want to focus on just
+                    one, and use the other as a supporting argument.</note>
+                <note type="peer">Also take another look at your xml tags. There are a lot of errors
+                    that can be fixed pretty quickly.</note></p></intro>
             <bodyPara> Cosmology, The Science of The Universe by Edward Harrison is an introductory
-                cosmology textbook published in the 1980s, a time where science was beginning to
-                compound exponentially upwards. Steven Weinberg, the author of ,"Cosmology" was
-                published in 2008 in Europe. Europeans would take up the genre of textbook very
-                differently from the readers of the United States. However, since the point of
-                reference is now 2016 from a <participants>student</participants> studying in
-                America, from a climate where the genre of textbook is uptaken differently from what
-                the authors first imagined, some error will be introduced. The intended audience in
-                Europe during 2008 were the <participants>students</participants> of physics, whom
-                were already presently acquainted with the developments of the modern world in
-                physics and cosmology. The American counterparts in the 1980's still had a
-                substantial part of the universe in a fog of uncertainty, and they would be the
-                pioneers in cosmology and the study of the universe. <note type="peer">You may want
-                    to explain who the original intended audience was and why an American outlook is
-                    so different.</note> The modern, most recent view of the genre of textbook is
-                that of a body of knowledge written for the consumption of an
-                    <participants>educator</participants> or <participants>student</participants>,
-                whom both are expected to read with similar efficiencies. The knowledge is expected
-                to be introduced in higher and higher degrees of competency since the book builds on
-                the knowledge previously written. A textbook carries with it the idea of homework,
-                the genre of note-taking and the genre of educational quizzing and testing. This
-                epicenter of modern education should be presented differently in these two books,
-                since the time periods are vastly different. Focusing on the presentation of the
-                book itself, the covers offer little color, except for the streak of the color
-                spectrum on the 2008 book <citation>(Weinberg)</citation>. Both black, suggest to
-                the reader the emptiness and blackness of space. However the 1980 book, also has
-                within it a circular patterns resembling galaxies suggest a fill of space. Both play
-                to the era's interested <participants>educators</participants> and
-                    <participants>students</participants>. This could suggest that the expectation
-                of the 80's, a time of fantastic breakthroughs in Space Travel were vastly concerned
-                with the possibilities and would have been taken as possibilities, where the science
-                saturated era of 2008 would have been most focused with the limits and
-                understandings of science. Both eras are contributing to the authors understandings
-                of their textbook genre and the expectation of the audience differs in that regard. </bodyPara>
+                cosmology textbook published 1980, a time where science was beginning to compound
+                exponentially upwards. Steven Weinberg, the author of Cosmology was published in
+                2008 in a continent that would take up the genre of textbook very differently from
+                the readers of the United States. However, since the point of reference is now 2016
+                from a student studying in America, from a climate where the genre of textbook is
+                uptaken differently from what the authors first imagined, some error will be
+                introduced. <note type="peer">You may want to explain who the original intended
+                    audience was and why an American outlook is so different.</note> The modern,
+                most recent view of the genre of textbook is that of a body of knowledge written for
+                the consumption of an educator or student, whom both are expected to read with
+                similar efficiencies. The knowledge is expected to be introduced in higher and
+                higher degrees of competency since the book builds on the knowledge previously
+                written. A textbook carries with it the idea of homework, the genre of note-taking
+                and the genre of educational quizzing and testing. This epicenter of modern
+                education should be presented differently in these two books, since the time periods
+                are vastly different. Focusing on the presentation of the book itself, the covers
+                offer little color, except for the streak of the color spectrum on the 2008 book.
+                Both black, suggest to the reader the emptiness and blackness of space. However the
+                1980 book, also has within it a circular patterns resembling galaxies suggest a fill
+                of space. Both play to the era's interested educators and students. This could
+                suggest that the expectation of the 80's, a time of fantastic breakthroughs in Space
+                Travel were vastly concerned with the possibilities and would have been taken as
+                possibilities, where the science saturated era of 2008 would have been most focused
+                with the limits and understandings of science. Both eras are contributing to the
+                authors understandings of their textbook genre and the expectation of the audience
+                differs in that regard. </bodyPara>
             <bodyPara>It is self evident that the 2008 textbook on Cosmology took a mathematics
-                heavy approach starting as early as page 2, <q>"The coordinate transformations that
-                    leave this invariant are here simply ordinary three-dimensional rotations and
-                    translation"</q>
-                <citation>(Weinberg)</citation> with little room for discussion or hypothetical such
-                as the 1980 book by Dr. Witten . Taking The 1980's book also focused on the creative
-                thought that inspired the study of space, with fantastical images spanning the
-                entire history of human history as seen in the illustrations that dot the pages and
-                the quotes that begin the chapters; "He has ventured far beyond the flaming ramparts
-                of the world and in mind and spirit traversed the boundless universe- Lucretiues
-                (99-55 B.C.)" <citation>(Harrison)</citation>. The presence of quotes, of depictions
-                of early cosmology reveal the inspiration beyond writing a textbook on cosmology,
-                and the authors interest in providing curiosity in the search for knowledge. The
-                genre most likely influencing the writer of that textbook was most likely not money,
-                or pride, but simplifying the lives of college freshmen. While the most likely genre
-                that influenced the Oxford Writer in 2008 was most likely money, in an ever
-                competitive science world.<note type="peer">I think this this is a fantastic claim
-                    with which you can write an entire paper on. Try and explore this a little
-                    more.</note> The education genre in the northeast, during the 80's was that of
-                unbridled imagination urged on by the space race, and the content of this textbook
-                is set to inspire confidence in the young entering freshmen about the beauty of
-                space. In 2008 however, with cosmology becoming more theoretical and less inspired
-                by novelty, the textbook reflected the dramatic shift in the genre of space and how
-                to present it.<note type="peer">Try throwing in some specific examples from each
-                    book to demonstrate your point. It will help the reader understand what exactly
-                    you mean by "took a mathematics heavy approach" versus "discussion or
-                    hypothetical". In text citations are also required on the project
-                    assesment.</note></bodyPara>
+                heavy approach with little room for discussion or hypothetical such as the 1980 book
+                by Dr. Witten. Taking The 1980's book also focused on the creative thought that
+                inspired the study of space, with fantastical images spanning the entire history of
+                human timespan as seen in the illustrations that dot the pages. <note type="peer">I
+                    think this this is a fantastic claim with which you can write an entire paper
+                    on. Try and explore this a little more.</note> The education genre in the
+                northeast, during the 80's was that of unbridled imagination urged on by the space
+                race, and the content of this textbook is set to inspire confidence in the young
+                entering freshmen about the beauty of space. In 2008 however, with cosmology
+                becoming more theoretical and less inspired by novelty, the textbook reflected the
+                dramatic shift in the genre of space and how to present it.<note type="peer">Try
+                    throwing in some specific examples from each book to demonstrate your point. It
+                    will help the reader understand what exactly you mean by "took a mathematics
+                    heavy approach" versus "discussion or hypothetical". In text citations are also
+                    required on the project assesment.</note></bodyPara>
             <bodyPara> Finally, having discussed how two different cosmology books present the study
                 of cosmology, the next logical jump would be to discuss why the textbook genre
-                existed then and continues to exist now. The purpose of the textbook has not changed
-                since the three decades of publishing in between them. The <scene>academic
-                    scene</scene> still requires that textbooks are the primary method of teaching.
-                One of these reasons could be that the condensation of knowledge is universally
-                regarded as the best means of transmitting information. Books usually have physical
-                material that they quote from in regards to their knowledge, and this is what
-                    a<participants> student</participants> or <participants>educator</participants>
-                can expect from a <genre>textbook</genre>, knowing that the knowledge is sound. For
-                example "Cosmology" contains references at the bottom of the page of information
-                    <citation>(Weinberg 30) or at the end of the chapter (Harrison 68). Perhaps then
-                    only the uptake of information from the <genre>textbook</genre> has made the
-                    transition in this millennium, moving away from focusing on the understanding
-                    but more to the practice of the craft of science. </citation><note type="peer"
-                    >It feels like you are making a lot of claims about text books as an idustry,
-                    but not a lot of evidence ot back it up. You should use the differences you
-                    found in your analysis to explain how the text book genre has changed over time
-                    to better support your main argument.</note><note type="peer">You are very light
-                    on xml tags over all. I'd suggest taking the time and matching up some of the
-                    vocab you used with the element list and tagging them.</note>
+                existed then and continues to exist now. Finding no fault with the arithmetic
+                knowledge presented in both books, the knowledge is deemed necessary. Both authors
+                picked different means to teach an undergraduate student, but one author wrote the
+                book during a time where textbooks were the only medium of transmitting information.
+                Why did the author from the 2008 book "Cosmology" openly choose to transmit his
+                knowledge in the form of a textbook, and why transmit the knowledge at all, when
+                openly sourced cosmological mathematics exists online. The genre of college
+                education carries within it the sub-genre of textbooks. It exists solely because the
+                university genre is inseparable from the unifying symbol; textbook. The language in
+                the textbook is also unifying, and a "college level" reading level exists for this
+                purpose. The complexity increases, doubly so, when there are often times different
+                books for the same subject matter at a specific undergraduate level. This redundancy
+                also affects the way different departments in the universities set each other apart
+                from one another. That is, textbooks are a genre, that are used as a tool of
+                identity in the undergraduate curriculum. Different universities may favor different
+                books based on university prestige, that is, a book written by the universities
+                professor, creates the scene and uptake of believing that the education from that
+                professor is superior to the education received by a professor using an unaffiliated
+                    book.<note type="peer">It feels like you are making a lot of claims about text
+                    books as an idustry, but not a lot of evidence ot back it up. You should use the
+                    differences you found in your analysis to explain how the text book genre has
+                    changed over time to better support your main argument.</note><note type="peer"
+                    >You are very light on xml tags over all. I'd suggest taking the time and
+                    matching up some of the vocab you used with the element list and tagging
+                    them.</note>
             </bodyPara>
 
             <concl>
-                <p>In conclusion, the <participants>student</participants> plays the part in the
-                    academic scene, by interacting in a set pattern with a <genre>textbook</genre>.
-                    In the cosmology textbooks listed above, the role the
-                        <participants>student</participants> assumes is that of a "tabula rasa"
-                        <note type="peer">Give a quick definition of that term in case someone
-                        doesn't know what it is.</note> and its up to the way their previous
-                    experiences with <genre>textbooks</genre> to synthesize the material. Depending
-                    on what textbook a <participants>student</participants> opens, the expected way
-                    of approach will be governed by the <participants>student's</participants>
-                    experiences with the humanities and the sciences. Cosmology, The Science of the
-                    Universe, takes the responsibility to present the material so that
-                        <participants>students</participants> do not have to assume a role based on
-                    their expectations of the material. The <participants>student</participants> can
-                    open the textbook and find a blend of history, science, culture and art, that
-                    makes the education just much more enjoyable. A mathematical approach left much
-                    to be desired. The textbook genre however way it is addressed cannot and will
-                    not be replaced as the primary source of consolidated information, and it is a
-                    staple of modern education. </p>
+                <p>In conclusion, the student plays the part in the academic scene, by interacting
+                    in a set pattern with a textbook. In the cosmology textbooks listed above, the
+                    role the student assumes is that of a "tabula rasa" <note type="peer">Give a
+                        quick definition of that term in case someone doesn't know what it
+                        is.</note> and its up to the way their previous experiences with textbooks
+                    to synthesize the material. Depending on what textbook a student open, the
+                    expected way of approach will be governed by the student's experiences with the
+                    humanities and the sciences. Cosmology, The Science of the Universe, takes the
+                    responsibility to present the material so that students do not have to assume a
+                    role based on their expectations of the material. That, I believe is an art lost
+                    in translation, 28 years in the future.</p>
             </concl>
 
         </body>
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl>Bawarshi, Anis S. Genre And The Invention Of The Writer. Logan: Utah State
-                    University Press, 2003. Print.</bibl>
-                <bibl>Devitt, Amy J, Mary Jo Reiff, and Anis S Bawarshi. Scenes Of Writing. New
-                    York: Pearson/Longman, 2004. Print.Devitt, Amy J, Mary Jo Reiff, and Anis S
-                    Bawarshi. Scenes Of Writing. New York: Pearson/Longman, 2004. Print.</bibl>
-                <bibl>Harrison, Edward Robert. Cosmology, The Science Of The Universe. Cambridge:
-                    Cambridge University Press, 1981. Print.</bibl>
-                <bibl>Weinberg, Steven. Cosmology. Oxford: Oxford University Press, 2008.
-                    Print.</bibl>
-
+                <bibl>citation here</bibl>
             </listBibl>
         </docFoot>
     </essay>
