@@ -10,9 +10,15 @@
         </docHead>
         <body>
             <intro>
+<<<<<<< HEAD
                 <p><situation>A book review serves primarily as an informational resource,
                     an assessment and description of a work of fiction or non-fiction.</situation> 
                     Janet Maslin begins her review of <citation source='#Book'>“A Little Life”</citation> by giving a general
+=======
+                <p>A book review serves primarily as an informational resource,
+                    an assessment and description of a work of fiction or non-fiction. 
+                    Janet Maslin begins her review of “A Little Life” by giving a general
+>>>>>>> origin/master
                     overview of the book she will be discussing, with details such as when
                     the book was published, size of the novel, her first impressions, most noteably
                     she writes: <q>"It’s a big, emotional, trauma-packed read with a voluptuous prose style
@@ -20,7 +26,7 @@
                     She also mentions that the book is shortlisted for a prize. 
                     Her introductory paragraph is almost a review within the actual review
                     itself, as it gives a quick overview of the book’s timeline, and a brief
-                    description of her thoughts and first impressions.</p>
+                    description of her thoughts and first impressions.<note type="peer" who="#to.fr"> What is your main argument?</note></p> 
             </intro>
             <bodyPara><argument type="main">This particular genre of book reviews exists to help potential readers
                 decide whether they want to read the book themselves.</argument> To identify the main idea/plot
@@ -30,6 +36,7 @@
                 to include is some information about the author, which Maslin also includes in her piece. 
                 Including this biographical paragraph on Yanigahara is a tactical rhetorical choice made
                 by Maslin to broaden the reader’s view of the book as a whole, instead of just focusing
+<<<<<<< HEAD
                 on the plotline, as some reviews do. However, Maslin includes some critical opinions of
                 some areas in the book, for example; <q>“her mixing of metaphors makes for a mess. The phantoms
                 that haunt Jude can be hyenas with “snapping, foaming jaws” at one moment, “banshees demanding
@@ -40,18 +47,31 @@
                 hopefully constructive criticism for the writer, and even though some writers don't even read reviews
                 of their books, some find them a very important resource and look at them almost as an affirmation that
                 the public either like or dislike their writing.
+=======
+                on the plotline, as some reviews do <note type="peer" who="#to.fr" > Maybe include an example of a review that just focuses on the plotline</note>. However, Maslin includes some critical opinions of
+                some areas in the book, for example; “her mixing of metaphors makes for a mess. The phantoms
+                that haunt Jude can be hyenas with “snapping, foaming jaws” at one moment, “banshees demanding
+                his attention, snatching and tearing at him with their long, needley fingers” the next.”
+                (Review, Janet Maslin NYT 2015) <note type="peer" who="#to.fr"> What do these opinions add to the review?</note>
+>>>>>>> origin/master
             </bodyPara>
-            <bodyPara><situation>Something to consider in this genre is the difference between fiction and non-fiction
+            <bodyPara>Something to consider in this genre is the difference between fiction and non-fiction
                 books being reviewed, as the genre can change significantly depending on what type of book
+<<<<<<< HEAD
                 it is.</situation> The reader and reviewer pay attention to different things, for example with fiction,
                 more of the review is dedicated to discussing the plot, characters, setting, and use of language. An interesting
                 sentence that Maslin includes in her review in relation to character analysis reads: <q>"This is not a happy story.
                 At its heart is Jude’s secret suffering, and Malcolm and J. B. soon fade into minor characters as race becomes a nonissue."</q> 
                 <citation source="#Review">(Review, Janet Maslin NYT 2015)</citation>
+=======
+                it is. The reader and reviewer pay attention t-o different things, for example with fiction,
+                more of the review is dedicated to discussing the plot, characters, setting, and use of language.
+>>>>>>> origin/master
                 When discussing non-fiction, more focus is given to an author’s main argument and sources.
                 <argument type="supporting">The role for the reader in this genre is to read with a purpose, to decide whether to read the book discussed
                 or not. As for the writer of the review, he/she needs to write with the purpose of identifying the author’s
                 main plotlines, assessing the quality and style of the writer’s work, also trying to compare
+<<<<<<< HEAD
                 the book to another, or compare the writer with another to give an idea of what sort of
                 reading/writing it is.</argument> The writer should also put emphasis on the writer’s organization and
                 style, and finally give a conclusion and a recommendation to readers. In Maslin's review, to conclude she writes:
@@ -61,9 +81,18 @@
                 <participants>The main groups invited to participate in this genre are writers and readers. For writers, those that partake are writers,
                 (generally employed by a newspaper or magazine) who’s job it is to review books so that the public
                 can read a general overview before the decide to buy the book in question. For readers, those
+=======
+                \the book to another, or compare the writer with another to give an idea of what sort of
+                reading/writing it is. The writer should also put emphasis on the writer’s organization and
+                style, and finally give a conclusion and a recommendation to readers. Another reader role
+                is aimed at giving a librarian a description of a book<note type="peer">Maybe explain what you mean by this more</note>. These reviews are generally shorter,
+                and only give a description of the book and a short evaluation. The main groups invited to
+                participate in this genre are writers and readers. For writers, those that partake are writers
+                (generally employed by a newspaper, magazine) who’s job it is to review books so that the public
+                can have a general overview before the decide to buy the book in question. For readers, those
+>>>>>>> origin/master
                 that want to get a better idea of what a book is about, in other words something more than
-                the blurb on the back of the book itself.</participants></bodyPara>
-            
+                the blurb on the back of the book itself.</bodyPara>
             <bodyPara>This genre appears in many different forms of print, most often newspapers, magazines,
                 journals, and specialized review publications. The most noteworthy review section in a newspaper is 
                 probably the <citation source='#Times'>'Books of the Times'</citation> section in the New York Times, which appears both in print
@@ -72,8 +101,13 @@
                 and this is one of the principal methods of doing this, as there aren't any trailers like there are 
                 with a movie, so often a book review can help an author sell copies. Today most of these are available online, so
                 you could say that the book review’s main platform today is the internet. Websites have been
+<<<<<<< HEAD
                 created with the sole purpose of posting book reviews, the most noteworthy being <citation source='#GR'>'goodreads.com'</citation>
                 and <citation source='#Kirkus'>'kirkusreviews.com'</citation> However, print is not dead, and book reviews are still a huge part of publications
+=======
+                created with the sole purpose of posting book reviews, the most noteworthy being ‘goodreads.com’
+                and ‘kirkus.com’ However, print is not dead, and book reviews are still a huge part of publications
+>>>>>>> origin/master
                 such as the New York Times and the Guardian. Even though they are receiving a smaller audience
                 because of the increase in digital media, they are still being printed and are still being read. 
             </bodyPara>
@@ -89,6 +123,7 @@
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
+<<<<<<< HEAD
                         <bibl xml:id="Book">Book: 'A Little Life', Hanya Yanigahara, published 2015, DoubleDay Publishers </bibl>
                         <bibl xml:id="Review">Review: ‘A Little Life,’ Hanya Yanagihara’s Traumatic Tale
                             of Male Friendship – Janet Maslin 30th September 2015 The New York Times, 
@@ -98,13 +133,28 @@
                         <bibl xml:id="Kirkus">Kirkus Reviews-https://www.kirkusreviews.com/</bibl>
                         <bibl xml:id="GR">Good Reads-https://www.goodreads.com/</bibl>
                     
+=======
+                <bibl>citation here</bibl>
+>>>>>>> origin/master
             </listBibl>
         </docFoot>
     </essay>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="to.fr"> Francheska Torres</reviewer>
+        <report type="peer" who="#to.fr">
+            <p>In this paper, you are analyzing the genre of book reviews and is focusing specifically on 'A Little Life' by Hanya Yanigahara. 
+                You start off by introducing book reviews as a genre, then go on to explain their purpose, and the difference between book review for nonfiction and fiction work. 
+                It is clear to me that you are answering the questions of “Why does this genre exist?” and “Who is invited to use this genre? Who is not? How can you tell?”
+                I do not however see a clearly stated main argument, so I don’t really know what your essay is trying to convey. Using tags might have been helpful for understanding what the main argument is.  
+                Also the lack of transitions from paragraph to paragraph makes the paper be separate chunks of text rather than a flowing essay.
+                I feel like you should probably use more examples to support your claims (even though I don’t know what the claims are). 
+                It looks like the only piece of evidence you have is at the beginning where you wrote “her mixing metaphors…the next”. 
+                Even still with that evidence, I don’t know what they add to the review. 
+                I think that you should probably clean up the bottom of your second body paragraph, it was just very confusing to understand what you were saying. 
+                I know that that’s more of a grammar critique, but it would just be helpful. 
+                Finally, I thought your organization was really good! Your last body paragraph is also really nice. It is concise and makes sense and I can understand what you are trying to say very easily. 
+            
+            </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
