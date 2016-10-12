@@ -39,8 +39,7 @@
                 rest of this genre analysis will analyze the differences in scenes and situations
                 between CNN articles published online in 2000 and in 2016 with particular focus on
                 language and scope of content to ultimately determine the changes in value of news
-                writers and journalists <figure url="#mi.as">http://imgur.com/a/UGpLI
-                </figure></bodyPara>
+                writers and journalists <figure url="http://imgur.com/a/UGpLI"/></bodyPara>
             <bodyPara>Looking at the CNN page above from August 15, 2000, we can spot several
                 articles surrounding the main article in the center, similar to how one could
                 imagine modern-day online news articles to look like. However, the one contrasting
@@ -61,8 +60,10 @@
                     those scenes for articles regarding the United
                 States.</participants>Specifically, there is more mention of political news in
                 newspapers in the 2000s. This means that news articles particularly valued political
-                agendas and scenes and situations regarding politicians.<figure url="#mi.as"
-                    >http://imgur.com/a/wXQPM</figure></bodyPara>
+                agendas and scenes and situations regarding politicians.<figure
+                    url="http://imgur.com/a/wXQPM"/><note type="instructor">I fixed your figure
+                    elements (the url for the image should be the attribute value for the @url
+                    attribute)</note></bodyPara>
             <bodyPara><argument type="supporting">CNN adopts a contrasting view on online news
                     articles, as seen in the photo above (taken on October 6th, 2016).</argument>
                 The breaking news is regarding Hurricane Matthew which is responsible for major
