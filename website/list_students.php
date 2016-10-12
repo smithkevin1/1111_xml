@@ -9,8 +9,7 @@ if(isset($proj)) {
   <li><a href=\'project_page.php?id=dh.mo&proj=' .$proj. '\'>Mohit Dhinakaran
 </a></li>
   <li><a href=\'project_page.php?id=ga.ar&proj=' .$proj. '\'>Arlen Gaba</a></li>
-  <li><a href=\'project_page.php?id=ho.wa&proj=' .$proj. '\'>Walter Luiz Hoelz</a></li>
-  <li><a href=\'project_page.php?id=ho.jo&proj=' .$proj. '\'>John Hoyt</a></li>
+  <li><a href=\'project_page.php?id=ho.jo&proj=' .$proj. '\'>Jack Hoyt</a></li>
   <li><a href=\'project_page.php?id=ko.di&proj=' .$proj. '\'>Divit Koradia</a></li>
   <li><a href=\'project_page.php?id=li.em&proj=' .$proj. '\'>Emma Lindberg</a></li>
   <li><a href=\'project_page.php?id=lo.va&proj=' .$proj. '\'>Valentina Longcroft</a></li>
@@ -31,8 +30,7 @@ elseif(isset($_GET['proj'])) {
   <li><a href=\'project_page.php?id=dh.mo&proj=' .$proj. '\'>Mohit Dhinakaran
 </a></li>
   <li><a href=\'project_page.php?id=ga.ar&proj=' .$proj. '\'>Arlen Gaba</a></li>
-  <li><a href=\'project_page.php?id=ho.wa&proj=' .$proj. '\'>Walter Luiz Hoelz</a></li>
-  <li><a href=\'project_page.php?id=ho.jo&proj=' .$proj. '\'>John Hoyt</a></li>
+  <li><a href=\'project_page.php?id=ho.jo&proj=' .$proj. '\'>Jack Hoyt</a></li>
   <li><a href=\'project_page.php?id=ko.di&proj=' .$proj. '\'>Divit Koradia</a></li>
   <li><a href=\'project_page.php?id=li.em&proj=' .$proj. '\'>Emma Lindberg</a></li>
   <li><a href=\'project_page.php?id=lo.va&proj=' .$proj. '\'>Valentina Longcroft</a></li>
