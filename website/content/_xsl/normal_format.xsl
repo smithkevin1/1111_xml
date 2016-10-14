@@ -151,7 +151,14 @@
             </figcaption>
         </figure>
     </xsl:template>
-
+    <xsl:template match="DOC//list">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="DOC//list/item">
+        <li><xsl:apply-templates/></li>
+    </xsl:template>
     <!-- This section processes the reviews/end notes for the document -->
     <xsl:template match="docReview">
         <div id="reviews">
