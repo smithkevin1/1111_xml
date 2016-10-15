@@ -25,14 +25,19 @@
      DELETE AFTER TESTING -->
 
     <xsl:template match="DOC">
-        <xsl:call-template name="legend"/>
+        <xsl:if test="child::essay">
+            <xsl:call-template name="essay_legend"/>
+        </xsl:if>
+        <xsl:if test="child::any_other_root">
+            <xsl:call-template name="any_other_root_legend"/>
+        </xsl:if>
         <div id="contain">
             <xsl:apply-templates/>
         </div>
-    </xsl:template>   
+    </xsl:template>
 
     <xsl:include href="normal_format.xsl"/>
-    <!-- structure -->
+    <!-- ESSAY structure -->
     <xsl:template match="essay//intro">
         <div id="ann_intro">
             <h3>Introduction</h3>
@@ -50,70 +55,74 @@
     <!-- annotations -->
     <xsl:template match="essay//p//*[not(self::q) and not(self::citation) and not(self::note)]">
         <xsl:if test="@type = true()">
-            <span class="{name()} {@type}">
-                [<xsl:value-of select="name()"/> (type = <xsl:value-of select="@type"/>): <xsl:apply-templates/>]
-            </span>
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
         </xsl:if>
         <xsl:if test="@type = false()">
-            <span class="{name()}">
-                [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
             </span>
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="essay//bodyPara//*[not(self::q) and not(self::citation) and not(self::note)]">
+    <xsl:template
+        match="essay//bodyPara//*[not(self::q) and not(self::citation) and not(self::note)]">
         <xsl:if test="@type = true()">
-            <span class="{name()} {@type}">
-                [<xsl:value-of select="name()"/> (type = <xsl:value-of select="@type"/>): <xsl:apply-templates/>]
-            </span>
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
         </xsl:if>
         <xsl:if test="@type = false()">
-            <span class="{name()}">
-                [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
             </span>
         </xsl:if>
     </xsl:template>
 
-    <!-- legend build -->
-    <xsl:template name="legend">
+    <!-- legend builds -->
+    <xsl:template name="essay_legend">
         <div id="legend">
             <ul>
-                <li class="scene"><strong>scene</strong>: indicates a scene, a place where rhetorical interaction occurs in order
-                    to accomplish shared objective(s)</li>
-                <li class="genre"><strong>genre</strong>: indicates a genre; a way of responding to a situation that repeats
-                    itself within a scene</li>
-                <li class="situation"><strong>situation</strong>: indicates the rhetorical interactions happening within a scene,
-                    involving participants, subjects, settings and purposes [can include participants
-                    and settings tags]</li>
-                <li class="participants"><strong>participants</strong>: indicates participants, the entities that are involved and active in a
-                    scene [can appear inside the situation tag]</li>
-                <li class="setting"><strong>setting</strong>: indicates the location and surroundings in which a scene takes place
-                    [can appear inside the situation tag]</li>
-                <li class="context"><strong>context</strong>: indicates information provided to better understand a claim, argument,
-                    or idea. Typically precedes an idea, claim or argument that warrant background
-                    info</li>
-                <li class="aesthetics"><strong>aesthetics</strong>: indicates aesthetic elements of a composition, including pictures, font
-                    styles, colors, other material properties, etc.</li>
-                <li class="sim"><strong>sim</strong>: (similarities) indicates text that points to similarities between two
-                    or more texts [can optionally contain any other essay content elements]</li>
-                <li class="diff"><strong>diff</strong>: (differences) indicates text that points to differences between two or
-                    more texts [can optionally contain any other essay content elements]</li>               
-                <li class="argument"><strong>argument</strong>: (interpretive claim/argument) indicates a claim/argument made based on
-                    evidence presented or to be presented in an essay [requires @type attribute, values
-                    of 'main,' 'supporting,' or 'opposing']</li>
-                <li class="evidence"><strong>evidence</strong>: (evidence) indicates evidence in support of a claim or argument</li>
-                <li class="pattern"><strong>pattern</strong>: (generic pattern) indicates an identifiable trait, characteristic,
-                    and/or example of a pattern within a genre [requires @type attribute of user-defined
-                    value]</li>
+                <li class="scene"><strong>scene</strong>: indicates a scene, a place where
+                    rhetorical interaction occurs in order to accomplish shared objective(s)</li>
+                <li class="genre"><strong>genre</strong>: indicates a genre; a way of responding to
+                    a situation that repeats itself within a scene</li>
+                <li class="situation"><strong>situation</strong>: indicates the rhetorical
+                    interactions happening within a scene, involving participants, subjects,
+                    settings and purposes [can include participants and settings tags]</li>
+                <li class="participants"><strong>participants</strong>: indicates participants, the
+                    entities that are involved and active in a scene [can appear inside the
+                    situation tag]</li>
+                <li class="setting"><strong>setting</strong>: indicates the location and
+                    surroundings in which a scene takes place [can appear inside the situation
+                    tag]</li>
+                <li class="context"><strong>context</strong>: indicates information provided to
+                    better understand a claim, argument, or idea. Typically precedes an idea, claim
+                    or argument that warrant background info</li>
+                <li class="aesthetics"><strong>aesthetics</strong>: indicates aesthetic elements of
+                    a composition, including pictures, font styles, colors, other material
+                    properties, etc.</li>
+                <li class="sim"><strong>sim</strong>: (similarities) indicates text that points to
+                    similarities between two or more texts [can optionally contain any other essay
+                    content elements]</li>
+                <li class="diff"><strong>diff</strong>: (differences) indicates text that points to
+                    differences between two or more texts [can optionally contain any other essay
+                    content elements]</li>
+                <li class="argument"><strong>argument</strong>: (interpretive claim/argument)
+                    indicates a claim/argument made based on evidence presented or to be presented
+                    in an essay [requires @type attribute, values of 'main,' 'supporting,' or
+                    'opposing']</li>
+                <li class="evidence"><strong>evidence</strong>: (evidence) indicates evidence in
+                    support of a claim or argument</li>
+                <li class="pattern"><strong>pattern</strong>: (generic pattern) indicates an
+                    identifiable trait, characteristic, and/or example of a pattern within a genre
+                    [requires @type attribute of user-defined value]</li>
             </ul>
         </div>
     </xsl:template>
-
-    <xsl:template match="essay//pattern">
-        <span class="pattern">
-            <xsl:apply-templates/>
-        </span>
+    <xsl:template name="any_other_root_legend"><!-- format for legend builds -->
+        <div id="legend">
+            <li class="element"><strong>element</strong>: documentation</li>
+        </div>
     </xsl:template>
+
 
     <!--    <xsl:template match="essay//pattern">
         <span class="pattern {@type}"><xsl:apply-templates/></span>
