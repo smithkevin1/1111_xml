@@ -2,7 +2,6 @@
 if(isset($proj)) {
   echo
   '<li><a href=\'project_page.php?id=test&proj=' .$proj. '\'>Example file</a></li>
-  <li><a href=\'project_page.php?id=ag.vi&proj=' .$proj. '\'>Vishrut Agarwal</a></li>
   <li><a href=\'project_page.php?id=al.su&proj=' .$proj. '\'>Sultan Abdullah Aldabal</a></li>
   <li><a href=\'project_page.php?id=bu.an&proj=' .$proj. '\'>Andrew Burcham</a></li>
   <li><a href=\'project_page.php?id=ch.an&proj=' .$proj. '\'>Anders Chen</a></li>
@@ -23,7 +22,6 @@ elseif(isset($_GET['proj'])) {
   $proj = $_GET['proj'];
   echo
   '<li><a href=\'project_page.php?id=test&proj=' .$proj. '\'>Example file</a></li>
-  <li><a href=\'project_page.php?id=ag.vi&proj=' .$proj. '\'>Vishrut Agarwal</a></li>
   <li><a href=\'project_page.php?id=al.su&proj=' .$proj. '\'>Sultan Abdullah Aldabal</a></li>
   <li><a href=\'project_page.php?id=bu.an&proj=' .$proj. '\'>Andrew Burcham</a></li>
   <li><a href=\'project_page.php?id=ch.an&proj=' .$proj. '\'>Anders Chen</a></li>
