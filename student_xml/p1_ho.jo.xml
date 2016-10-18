@@ -1,69 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     <essay>
         <docHead>
             <title>Ebay Listings Genre Analysis</title>
+            <note type="instructor">Make sure you use the template file provided for you based on
+                your id (in student_xml folder). If you don't then the course schema is not
+                associated with your document or the formatting stylesheet for testing. As a result,
+                there were several validation errors in your essay. You also then miss out on the
+                prompting and auto-complete functions that make Oxygen helpful for composing with
+                our schema.</note>
             <author xml:id="ho.jo">John Hoyt</author>
             <date>10/10/2016</date>
         </docHead>
         <body>
-            <intro>Ebay is an online marketplace where users can buy and sell various items. Buyers and sellers make accounts 
-                on the website, and can either auction off their belongings or purchase products from others. <context>Ebay is unique 
-                in that anyone is allowed to sell products, as long as they create an account and pay a small fee. Secure 
-                payment methods allow consumers and vendors to be confident that they get their product and their money respectively. </context>
-                Today there are over 150 million users on Ebay <citation source="#Smith">(Smith).</citation> <argument type="main">In the genre of Ebay listings, recurring language and actions affect what happens in the genre.</argument>
+            <intro>Ebay is an online marketplace where users can buy and sell various items. Buyers
+                and sellers make accounts on the website, and can either auction off their
+                belongings or purchase products from others. <context>Ebay is unique in that anyone
+                    is allowed to sell products, as long as they create an account and pay a small
+                    fee. Secure payment methods allow consumers and vendors to be confident that
+                    they get their product and their money respectively. </context> Today there are
+                over 150 million users on Ebay <citation source="#Smith">(Smith).</citation>
+                <argument type="main">In the genre of Ebay listings, recurring language and actions
+                    affect what happens in the genre.<note type="instructor">be more specific--what
+                        specifically does it affect and how? Why is this
+                    significant?</note></argument>
             </intro>
-            <bodyPara>Two of the most popular items currently on Ebay are GoPro cameras and Michael Kors handbags <citation source="#Ebay">(“What’s Selling Hot on Ebay”).</citation> 
-                Searching for a GoPro camera leads to a listing for a camera with some of the most active bidders. Despite the product 
-                being pre-owned, there is significant interest in it, demonstrated by the number of bids. This can be credited in part due to 
-                the seller’s understanding of the genre of Ebay listings. <evidence>The seller recognizes that the person that’s viewing their listing is
-                likely interested in a fast and cheap way to acquire the camera. The language and descriptions used to inform the reader of the
-                product are concise, while still communicating the necessary details.</evidence> This is representative of the communication used throughout 
-                the genre. The language is similarly clear and simple in most listings, regardless of what product it is. <genre>Customers use these same
-                rhetorical ways of communicating, where simplicity and minimalism is valued above all.</genre> This common language is a result of the 
-                shared intentions of all of the participants in the genre. Both <participants>buyers and sellers</participants> are interested in doing business as quickly and 
-                easily as possible, and are interested in getting the best deal for themselves. In the buyer’s case, this means understanding all 
-                of the information about the product, and the seller wants to get as many people as possible interested in buying their product so 
-                the auction price will increase. These similar, shared goals shape the whole genre of Ebay listings, as well as the resulting 
-                interactions and uptake.
+            <bodyPara>Two of the most popular items currently on Ebay are GoPro cameras and Michael
+                Kors handbags <citation source="#Ebay">(“What’s Selling Hot on Ebay”).</citation>
+                Searching for a GoPro camera leads to a listing for a camera with some of the most
+                active bidders. Despite the product being pre-owned, there is significant interest
+                in it, demonstrated by the number of bids. This can be credited in part due to the
+                seller’s understanding of the genre of Ebay listings. <evidence>The seller
+                    recognizes that the person that’s viewing their listing is likely interested in
+                    a fast and cheap way to acquire the camera. The language and descriptions used
+                    to inform the reader of the product are concise, while still communicating the
+                    necessary details.</evidence> This is representative of the communication used
+                throughout the genre. The language is similarly clear and simple in most listings,
+                regardless of what product it is. <genre>Customers use these same rhetorical ways of
+                    communicating, where simplicity and minimalism is valued above all.<note type="instructor">not sure how you're using the genre tag here, but "pattern" might be more appropriate</note></genre> This
+                common language is a result of the shared intentions of all of the participants in
+                the genre.<note type="instructor">this is an interesting claim, but it would be helpful to see some examples of this language and descriptions (some specific textual evidence)</note> Both <participants>buyers and sellers</participants> are interested in
+                doing business as quickly and easily as possible, and are interested in getting the
+                best deal for themselves. In the buyer’s case, this means understanding all of the
+                information about the product, and the seller wants to get as many people as
+                possible interested in buying their product so the auction price will increase.
+                These similar, shared goals shape the whole genre of Ebay listings, as well as the
+                resulting interactions and uptake. </bodyPara>
+            <bodyPara>The casing of the camera is scratched and the plastic is fading, but the
+                seller has pictures of all of the imperfections, and explains that the functionality
+                hasn’t been affected. Because of the condition of the product, the auction price is
+                much lower than new versions of the GoPro camera that can be found on Ebay, which is
+                likely one of the reasons for this listing’s popularity. <evidence>This could<note type="instructor">I wouldn't hedge here, if you think it is kairos then own that claim</note> be an
+                    example of kairos, where the seller understands what to say in the right
+                    situation to turn a flaw into something advantageous.<note type="instructor">I think your evidence in this case would be the specific visual and textual ways that the seller handles the condition of the product. this sentence reads more like a claim.</note></evidence>
+                <situation>When a bidder finally wins, the genre changes, and only two specific
+                    participants are involved. The user that won the bid or purchased the product
+                    will convey specific information to the seller. Often a buyer first sends out
+                    their payment along with their address and any other specific requests, and the
+                    seller will send a tracking number for the package soon after.</situation> This
+                is one example of uptake being invited from the genre of an Ebay listing. This
+                process will not be taken up by the listing genre for the bidders that don’t win;
+                they’ll likely try to bid on the same product being sold by a different seller.<note type="instructor">interesting, so there is a prescribed uptake, but the ability to do so is severely restricted. What is the significance of this? Why is this claim in this body paragraph with the previous claim about kairos?</note> </bodyPara>
+            <bodyPara>After scrolling through “buy it now” listings when searching for Michael Kors
+                handbags, numerous almost identical listings can be found. Upon clicking on one, it
+                can be seen that the listing hasn’t garnered much interest because of the seller’s
+                lack of understanding of the genre.<note type="instructor">very interesting</note> The item description contains no words at all,
+                and the image is a stock photo from the internet, not a real picture of the specific
+                item that will be shipped. It could be inferred that the seller isn’t aware of the
+                rhetorical language and actions,<note type="instructor">rhetorical or generic conventions might be a better way to phrase this</note> or they might not value the interest of the
+                customers, which results in a less popular listing. <evidence>This seller has a
+                    similar purpose to any other seller on the site, which is to get someone to buy
+                    their product. However, in this situation the seller might not have a full grasp
+                    on what will interest possible buyers, and thus their inadequate communication
+                    of the information surrounding the product results in no interest.<note type="instructor">again, this reads more like analysis than evidence. The evidence is what you presented earlier (i.e. claim = this example is unsuccessful because the seller doesn't adopt the conventions of the genre; evidence = there is no description, etc.; analysis is this last sentence)</note></evidence>
             </bodyPara>
-            <bodyPara>The casing of the camera is scratched and the plastic is fading, but the seller has pictures of all of the imperfections, 
-                and explains that the functionality hasn’t been affected. Because of the condition of the product, the auction price is much lower 
-                than new versions of the GoPro camera that can be found on Ebay, which is likely one of the reasons for this listing’s popularity.
-                <evidence>This could be an example of kairos, where the seller understands what to say in the right situation to turn a flaw into something
-                advantageous.</evidence> <situation>When a bidder finally wins, the genre changes, and only two specific participants are involved. The user that won the
-                bid or purchased the product will convey specific information to the seller. Often a buyer first sends out their payment along with
-                their address and any other specific requests, and the seller will send a tracking number for the package soon after.</situation> This is one 
-                example of uptake being invited from the genre of an Ebay listing. This process will not be taken up by the listing genre for the 
-                bidders that don’t win; they’ll likely try to bid on the same product being sold by a different seller.
-            </bodyPara>
-            <bodyPara>After scrolling through “buy it now” listings when searching for Michael Kors handbags, numerous almost identical listings 
-                can be found. Upon clicking on one, it can be seen that the listing hasn’t garnered much interest because of the seller’s lack of
-                understanding of the genre. The item description contains no words at all, and the image is a stock photo from the internet, not 
-                a real picture of the specific item that will be shipped. It could be inferred that the seller isn’t aware of the rhetorical 
-                language and actions, or they might not value the interest of the customers, which results in a less popular listing. <evidence>This seller 
-                has a similar purpose to any other seller on the site, which is to get someone to buy their product. However, in this situation 
-                the seller might not have a full grasp on what will interest possible buyers, and thus their inadequate communication of the 
-                information surrounding the product results in no interest.</evidence>
-            </bodyPara>
-            <concl>Because of the intentions of the buyers and sellers on Ebay, typified rhetorical actions can be seen in every listing. The use
-                of language to better advertise products is the most common occurrence, but consumers also use their own rhetorical language to
-                benefit themselves and others. Uptake occurs when the possible buyers ask questions publicly to the seller, or when someone chooses
-                to purchase the product and the genre of negotiating information takes place. The constant interaction between buyers and sellers
-                that is necessary because of their shared objectives as users results in a genre where participants make distinct rhetorical choices.
-            </concl>
-            </body>
+            <concl>Because of the intentions of the buyers and sellers on Ebay, typified rhetorical
+                actions can be seen in every listing.<note type="instructor">this is a great summary, and should be made clear in the intro (i.e. revise your main argument to include this level of specificity)</note> The use of language to better advertise
+                products is the most common occurrence, but consumers also use their own rhetorical
+                language to benefit themselves and others. Uptake occurs when the possible buyers
+                ask questions publicly to the seller, or when someone chooses to purchase the
+                product and the genre of negotiating information takes place. The constant
+                interaction between buyers and sellers that is necessary because of their shared
+                objectives as users results in a genre where participants make distinct rhetorical
+                choices. </concl>
+        </body>
         <docFoot>
             <title>Works Cited</title>
             <listBibl>
-                <bibl xml:id="Smith">Smith, Craig. "45 Amazing EBay Stats." <style type="italics">DMR.</style> Expanded Ramblings, 13 Aug. 2016. Web. 4 Oct. 2016.
-                </bibl>
-                <bibl xml:id="Ebay">What's Selling Hot on Ebay." <style type="italics">Ebay.</style> Ebay, 4 Oct. 2016. Web. 4 Oct. 2016.
-                </bibl>
+                <bibl xml:id="Smith">Smith, Craig. "45 Amazing EBay Stats." <style type="italics"
+                        >DMR.</style> Expanded Ramblings, 13 Aug. 2016. Web. 4 Oct. 2016. </bibl>
+                <bibl xml:id="Ebay">What's Selling Hot on Ebay." <style type="italics">Ebay.</style>
+                    Ebay, 4 Oct. 2016. Web. 4 Oct. 2016. </bibl>
             </listBibl>
         </docFoot>
     </essay>
+    <docReview>
+        <reviewer type="peer" xml:id="sm.ke">Kevin Smith</reviewer>
+        <report type="peer" who="#id_here">
+            <p>Peer review report will go here.</p>
+        </report>
+        <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
+        <report type="instructor" who="#smi.ke">
+            <p>NOTE: Make sure you use the template file provided for you based on your id (in
+                student_xml folder). If you don't then the course schema is not associated with your
+                document or the formatting stylesheet for testing. As a result, there were several
+                validation errors in your essay. You also then miss out on the prompting and
+                auto-complete functions that make Oxygen helpful for composing with our schema.</p>
+            <p/>
+            <p>There is a lot going well here: your sub-claims are interesting, you do a good job explaining the conventions and then providing an example the shows what happens when someone violates these conventions, and your conclusion is great. There are some errors in your XMl (because of the above issue with the schema), that also may have contributed to your sometimes confusing use of tags (e.g. genre, evidence). Finally, be sure to be as specific and detailed as possible, especially when making an argument and presenting evidence. </p>
+            <p><style type="italics">Note: Grading Citeria</style>. A successful genre analysis
+                should: <list>
+                    <item>Address one (or more) of the questions posed on the prompt: yes</item>
+                    <item>Contain a clearly stated main argument: see comments above </item>
+                    <item>Emphasize evidence in support of claims (textual evidence or otherwise): okay, could be more specific at times </item>
+                    <item>Use a few of the terms from the vocabulary list: okay, see comments above </item>
+                    <item>Provide an overview of genre broadly (beyond an individual text): yes </item>
+                    <item>Be detailed and focused: see comments above about specificity </item>
+                    <item>Contain citations (in-text and works cited): yes</item>
+                    <item>Be structured as an essay: yes </item>
+                </list></p>
+        </report>
+    </docReview>
 </DOC>
-
-
-

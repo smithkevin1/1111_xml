@@ -4,7 +4,7 @@
 <DOC>
     <essay>
         <docHead>
-            <title> Draft: Genere Analysis of a Cosmology Textbook </title>
+            <title> Draft: Genere Analysis of a Cosmology Textbook </title><note type="instructor">update title?</note>
             <author xml:id="ga.ar"/>
             <date> October 3, 2016</date>
         </docHead>
@@ -13,20 +13,20 @@
                 <p> The textbook genre is a well-known, largely tolerated and divisive genre that
                     exist perpetually as an entity in itself as well as thematic element in college
                     education. Genre is defined by scenes and the underlying experiences that we, as
-                    individuals attribute and expect from an element such as a textbook
-                        <citation>(Devitt, Reiff and Bawarshi)</citation>. However, genres feed of
-                    each other just like memories feed of each other to create patterns that allow
+                    individuals attribute and expect from an element<note type="instructor">what do you mean by "element" here? A particular text or example of the genre?</note> such as a textbook
+                        <citation>(Devitt, Reiff and Bawarshi)</citation>. However, genres feed of<note type="instructor">"off"</note>
+                    each other just like memories feed of<note type="instructor">off</note> each other to create patterns that allow
                     us to experience intelligence<citation>(Bawarshi)</citation>. The textbook is a
                     genre that stems from the college, pedagogical, educational genres that
                     interplay to give it its meanings. The current, most widely accepted view of the
                     textbook among college <participants>students</participants> is that of the
-                    necessary evil. The method of updating textbooks to maintain a no resale value
+                    necessary evil.<note type="instructor">any evidence for this claim?</note> The method of updating textbooks to maintain a no resale value
                     and increase demand for widely similar bodies of knowledge is what drives the
-                    divisive force behind the ill received understanding of textbooks. <argument
+                    divisive force behind the ill received understanding of textbooks.<note type="instructor">okay, I'll buy that</note> <argument
                         type="main">The modern cosmology book as compared to a book from the 1980's
-                        might be different in it's way that treats the reader, and the genres that
-                        surround itself. The differences could be in the presentation of information
-                        or even the choices to write the textbook in the first place.</argument>
+                        might be different in it's<note type="instructor">"in the way that it"</note> way that treats the reader, and the genres that
+                        surround itself<note type="instructor">it</note>. The differences could be in the presentation of information
+                        or even the choices to write the textbook in the first place.</argument><note type="instructor">I agree with your peer reviewer here, I'm having trouble following your argument; perhaps this is because you use words like "might" and "could." Try to be assertive and specific here, "An analysis of two examples of the textbook genre, one from the 1980s and one from today, reveal __________" something like that would make more sense as a main argument.</note>
                     <note type="peer">Which claim is your main argument? You might want to focus on
                         just one, and use the other as a supporting argument.</note>
                     <note type="peer">Also take another look at your xml tags. There are a lot of
@@ -35,7 +35,7 @@
             <bodyPara> Cosmology, The Science of The Universe by Edward Harrison is an introductory
                 cosmology textbook published in the 1980s, a time where science was beginning to
                 compound exponentially upwards. Steven Weinberg, the author of ,"Cosmology" was
-                published in 2008 in Europe. Europeans would take up the genre of textbook very
+                published in 2008 in Europe.<note type="instructor">something is missing here</note> Europeans would take up the genre of textbook very
                 differently from the readers of the United States. However, since the point of
                 reference is now 2016 from a <participants>student</participants> studying in
                 America, from a climate where the genre of textbook is uptaken differently from what
@@ -56,12 +56,12 @@
                 epicenter of modern education should be presented differently in these two books,
                 since the time periods are vastly different. Focusing on the presentation of the
                 book itself, the covers offer little color, except for the streak of the color
-                spectrum on the 2008 book <citation>(Weinberg)</citation>. Both black, suggest to
+                spectrum on the 2008 book <citation>(Weinberg)</citation>. Both black, suggest<note type="instructor">Both books are black, suggesting...</note> to
                 the reader the emptiness and blackness of space. However the 1980 book, also has
                 within it a circular patterns resembling galaxies suggest a fill of space. Both play
                 to the era's interested <participants>educators</participants> and
                     <participants>students</participants>. This could suggest that the expectation
-                of the 80's, a time of fantastic breakthroughs in Space Travel were vastly concerned
+                of the 80's, a time of fantastic breakthroughs in Space Travel<note type="instructor">insert ,</note> were vastly concerned
                 with the possibilities and would have been taken as possibilities, where the science
                 saturated era of 2008 would have been most focused with the limits and
                 understandings of science. Both eras are contributing to the authors understandings
@@ -71,7 +71,7 @@
                     leave this invariant are here simply ordinary three-dimensional rotations and
                     translation"</q>
                 <citation>(Weinberg)</citation> with little room for discussion or hypothetical such
-                as the 1980 book by Dr. Witten . Taking The 1980's book also focused on the creative
+                as the 1980 book by Dr. Witten . Taking<note type="instructor">something missing here?</note> The 1980's book also focused on the creative
                 thought that inspired the study of space, with fantastical images spanning the
                 entire history of human history as seen in the illustrations that dot the pages and
                 the quotes that begin the chapters; "He has ventured far beyond the flaming ramparts
@@ -80,16 +80,16 @@
                 of early cosmology reveal the inspiration beyond writing a textbook on cosmology,
                 and the authors interest in providing curiosity in the search for knowledge. The
                 genre most likely influencing the writer of that textbook was most likely not money,
-                or pride, but simplifying the lives of college freshmen. While the most likely genre
+                or pride, but simplifying the lives of college freshmen.<note type="instructor">why do you say that?</note> While the most likely genre
                 that influenced the Oxford Writer in 2008 was most likely money, in an ever
-                competitive science world.<note type="peer">I think this this is a fantastic claim
+                competitive science world.<note type="instructor">okay, but how specifically does that follow from the evidence presented above (math vs. curiosity)?</note><note type="peer">I think this this is a fantastic claim
                     with which you can write an entire paper on. Try and explore this a little
                     more.</note> The education genre in the northeast, during the 80's was that of
                 unbridled imagination urged on by the space race, and the content of this textbook
                 is set to inspire confidence in the young entering freshmen about the beauty of
                 space. In 2008 however, with cosmology becoming more theoretical and less inspired
                 by novelty, the textbook reflected the dramatic shift in the genre of space and how
-                to present it.<note type="peer">Try throwing in some specific examples from each
+                to present it.<note type="instructor">I agree, another example here would go a long way</note><note type="peer">Try throwing in some specific examples from each
                     book to demonstrate your point. It will help the reader understand what exactly
                     you mean by "took a mathematics heavy approach" versus "discussion or
                     hypothetical". In text citations are also required on the project
@@ -105,10 +105,10 @@
                     a<participants> student</participants> or <participants>educator</participants>
                 can expect from a <genre>textbook</genre>, knowing that the knowledge is sound. For
                 example "Cosmology" contains references at the bottom of the page of information
-                    <citation>(Weinberg 30) or at the end of the chapter (Harrison 68). Perhaps then
+                    <citation>(Weinberg 30)</citation> or at the end of the chapter (Harrison 68). Perhaps then
                     only the uptake of information from the <genre>textbook</genre> has made the
                     transition in this millennium, moving away from focusing on the understanding
-                    but more to the practice of the craft of science. </citation><note type="peer"
+                    but more to the practice of the craft of science.<note type="instructor">I'm not sure I totally understand the claim here. Certainly, I'm having trouble seeing how the evidence you presented (or your analysis of it) leads the reader to this claim.</note><note type="peer"
                     >It feels like you are making a lot of claims about text books as an idustry,
                     but not a lot of evidence ot back it up. You should use the differences you
                     found in your analysis to explain how the text book genre has changed over time
@@ -135,7 +135,7 @@
                     makes the education just much more enjoyable. A mathematical approach left much
                     to be desired. The textbook genre however way it is addressed cannot and will
                     not be replaced as the primary source of consolidated information, and it is a
-                    staple of modern education. </p>
+                    staple of modern education.<note type="instructor">it's sometimes hard to follow where you are making claims about the braoder genre of the textbook, and where you are making claims about the specific textbooks you are analyzing.</note> </p>
             </concl>
 
         </body>
@@ -183,7 +183,18 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>There is a lot going well here. I like that you pay close attention to many aspects of the textbooks, from the layout and format down to the specific use of language. I think the main difficulty here is that I have trouble following your main argument (i.e. it reads less like an argument and more like a speculative statement). This affects understanding through your body paragraphs (especially the first one), since it is hard to see exactly what you are driving at. I think your peer review partner made a lot of solid suggestions (especially in in-tex comments) that I don't see you taking up in your final draft. Finally, your sub-claims sometimes lack evidence; or, rather, it is unclear how the evidence you present specifcially leads to the claims you make in the body paragraphs. If you consider revising, one option would be to cut down on the scope of the essay and pay attention to one specific feature and how looking at that feature in these two examples can reveal something about the shifting academic scene (whether that is an argument about how participants w/in that scene are addressed, or what they expect).</p>
+            <p><style type="italics">Note: Grading Citeria</style>. A successful genre analysis
+                should: <list>
+                    <item>Address one (or more) of the questions posed on the prompt: I see where you are driving at some of these, particularly around the roles for participants (readers, writers) of a genre</item>
+                    <item>Contain a clearly stated main argument: see my notes above </item>
+                    <item>Emphasize evidence in support of claims (textual evidence or otherwise): see notes above </item>
+                    <item>Use a few of the terms from the vocabulary list: certainly uses terms and I think uses them correctly to analyze the context and formal features of the examples </item>
+                    <item>Provide an overview of genre broadly (beyond an individual text): yes </item>
+                    <item>Be detailed and focused: sometimes was difficult to follow (I think maybe due to the breadth of claims you're trying to make) </item>
+                    <item>Contain citations (in-text and works cited): okay</item>
+                    <item>Be structured as an essay: make sure you review your essay before submitting, there were several examples of unfinished sentences, etc. (and a spelling error in the title) </item>
+                </list></p>
         </report>
     </docReview>
 </DOC>
