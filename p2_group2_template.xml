@@ -3,19 +3,27 @@
 <DOC>
 
     <!-- begin genre -->
-    <xxxx>
+    <article>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
-        <docHead>
+        <header>
             <!-- make changes to the document header as necessary (based on your genre) -->
-            <title/>
+            <article_title></article_title>
             <author xml:id=""/>
-            <date/>
-        </docHead>
+            <category></category>
+            <date></date>
+            <identification type="volume"></identification>
+            <identification type="issue"></identification>
+            <tags></tags>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+        </header>
 
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
 
-    </xxxx>
+    </article>
     <!-- end genre -->
 
 
