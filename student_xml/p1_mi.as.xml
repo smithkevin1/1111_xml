@@ -21,9 +21,11 @@
                         year 2000, and the present, 2016.</genre><argument type="main">These
                         differences in genres will be explored with regards to scope of content and
                         language used to evaluate a situation– both between two news articles
-                        published more than a decade and a half apart.</argument> I will also be
-                    discussing the uptakes between the two genres and how the genres interact with
-                    one another given the difference in the years published.</p>
+                        published more than a decade and a half apart.<note type="instructor">okay,
+                            but what is your claim? What do we learn from looking at these two
+                            moments in the development of the genre?</note></argument> I will also
+                    be discussing the uptakes between the two genres and how the genres interact
+                    with one another given the difference in the years published.</p>
             </intro>
             <bodyPara><context>As a genre, news websites/ journals perform a unique task which is to
                     inform the public of current events that occur in the World around
@@ -32,14 +34,20 @@
                     at least one scene as news is constantly packed with interactions between
                     different entities. For example, currently, the majority of articles and the
                     scenes developed within them involve politics as there is an election between
-                    two presidential candidates coming up.</scene><situation>The situations built
-                    within those scenes involve the actions of the participants. With regard to the
-                    example given before, the situations built upon today’s political scene (in news
-                    journals) reflect the actions of the presidential candidates.</situation>The
-                rest of this genre analysis will analyze the differences in scenes and situations
-                between CNN articles published online in 2000 and in 2016 with particular focus on
-                language and scope of content to ultimately determine the changes in value of news
-                writers and journalists <figure url="http://i.imgur.com/MqYaM8s.png"/></bodyPara>
+                    two presidential candidates coming up.<note type="instructor">this makes sense,
+                        but what is the scene and situation *of the new site itself*? How does it
+                        fit into the larger ecology of news, or media,
+                    etc.?</note></scene><situation>The situations built within those scenes involve
+                    the actions of the participants.<note type="instructor">vague</note> With regard
+                    to the example given before, the situations built upon today’s political scene
+                    (in news journals) reflect the actions of the presidential
+                    candidates.</situation>The rest of this genre analysis will analyze the
+                differences in scenes and situations between CNN articles published online in 2000
+                and in 2016 with particular focus on language and scope of content to ultimately
+                determine the changes in value of news writers and journalists<note
+                    type="instructor">okay, here is your claim--that the values have shifted; how
+                    have they changed? this info should be in your introduction</note>
+                <figure url="http://i.imgur.com/MqYaM8s.png"/></bodyPara>
             <bodyPara>Looking at the CNN page above from August 15, 2000, we can spot several
                 articles surrounding the main article in the center, similar to how one could
                 imagine modern-day online news articles to look like. However, the one contrasting
@@ -59,23 +67,31 @@
                     audiences at the time were interested in scenes and the situations built within
                     those scenes for articles regarding the United
                 States.</participants>Specifically, there is more mention of political news in
-                newspapers in the 2000s. This means that news articles particularly valued political
-                agendas and scenes and situations regarding politicians.<figure
-                    url="http://i.imgur.com/kAyKfoN.png"/><note type="instructor">I fixed your figure
-                    elements (the url for the image should be the attribute value for the @url
-                    attribute)</note></bodyPara>
+                newspapers in the 2000s.<note type="instructor">it would be nice to have some kind
+                    of numerical evidence for this claim, perhaps</note> This means that news
+                articles particularly valued political agendas and scenes and situations regarding
+                    politicians.<figure url="http://i.imgur.com/kAyKfoN.png"/><note
+                    type="instructor">I fixed your figure elements (the url for the image should be
+                    the attribute value for the @url attribute)</note></bodyPara>
             <bodyPara><argument type="supporting">CNN adopts a contrasting view on online news
                     articles, as seen in the photo above (taken on October 6th, 2016).</argument>
                 The breaking news is regarding Hurricane Matthew which is responsible for major
                 damage in much of the North America region. “Matthew slams Haiti with 145-mph winds
                 and heavy rain” is a global headline which suggests that the breaking news, the news
                 which is the most essential for readers to be aware of, is in fact global and isn’t
-                focused on America. <genre>This suggests a shift in genre and values to a global
-                    scope rather than focusing purely on news from the United States, which may not
-                    be as important.</genre> Furthermore, there seems to be restructure in the
-                layout of the CNN website where “Top News” now consists of a mix of local and global
-                news. CNN shifted their focus to global scenes which are more essential to audiences
-                in the modern day. </bodyPara>
+                focused on America.<note type="instructor">but it is kind of about the US right? Do
+                    you think it would be the headline if it wasn't set to hit Florida and only
+                    threatened Mexico and the Carribean islands?</note>
+                <genre>This suggests a shift in genre and values to a global scope rather than
+                    focusing purely on news from the United States, which may not be as
+                    important.</genre> Furthermore, there seems to be restructure in the layout of
+                the CNN website where “Top News” now consists of a mix of local and global news. CNN
+                shifted their focus to global scenes which are more essential to audiences in the
+                modern day.<note type="instructor">I think you miss an opportunity here to talk
+                    about changes in layout and format, which are significant. The 2000 picture
+                    looks like a newspaper, the 2016 version looks nothing like a newspaper. This
+                    seems significant.</note>
+            </bodyPara>
             <bodyPara><genre>There are some uptakes that help intertwine the changes in genre from
                     American-focused news articles in 2000 to global news articles in
                 2016.</genre>One example of uptake which has persisted over the years is the use of
@@ -86,16 +102,21 @@
                 newly developed uptakes which, in a way, marked the transition from local to global
                 news. Videos are a more expressive form of communication which can replace words.
                 Videos tend to attract more audiences, which is why almost every news article in CNN
-                today has at least one video included. </bodyPara>
+                today has at least one video included.<note type="instructor">it also has to do with
+                    the development of the web, though, right? People couldn't really stream in 2000
+                    becuase connections were so slow. I also think you may need</note>
+            </bodyPara>
             <concl>
                 <p>News articles on CNN, one of the leading news networks in America, have shifted
                     their genre focus from 2000 to 2016 from reporting more local-based news to
                     reporting breaking news from all over the world. CNN now reports on various
                     global scenes and develops on their respective situations and the parties which
-                    are involved in those situations. As for the website itself, it has adopted a
-                    more comprehensive layout which puts local news into focus just as much as it
-                    does global news. CNN also integrates more videos into their news articles for
-                    viewers who choose not wish to read the entire article.</p>
+                    are involved in those situations.<note type="instructor">this could also have to
+                        do with how many people around the world now have internet access</note> As
+                    for the website itself, it has adopted a more comprehensive layout which puts
+                    local news into focus just as much as it does global news. CNN also integrates
+                    more videos into their news articles for viewers who choose not wish to read the
+                    entire article.</p>
             </concl>
         </body>
         <docFoot>
@@ -103,7 +124,8 @@
             <listBibl>
                 <bibl>"Internet Archive Wayback Machine." Internet Archive Wayback Machine.
                     WayBackMachine, n.d. Web. 6 Oct. 2016."CNN - Breaking News, Latest News and
-                    Videos." CNN. Cable News Network, n.d. Web. 6 Oct. 2016.</bibl>
+                    Videos." CNN. Cable News Network, n.d. Web. 6 Oct. 2016.<note type="instructor"
+                        >missing citation for the recent CNN example</note></bibl>
             </listBibl>
         </docFoot>
     </essay>
@@ -130,7 +152,35 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>There is a lot of good stuff going on here. This is an interesting topic and I think
+                a lot of your essay is working towards a viable claim (though it isn't always
+                totally clear). Here are some aspects I think could be improved: 1) Argument: could
+                be stated more clearly and explicitly (see my note above). 2) Scene: it seems to me
+                that the "scene" you should be talking about (if you want to talk about the site as
+                a whole) is the scene of online journalism/media--then, making comparisons shows a
+                shift in the values of that scene. This is basically what you are arguing, but
+                explicitly framing it in these terms would be helpful. 3) Layout/format and
+                technological development: I think you miss an opportunity to talk about how the
+                layout of the site has changed radically. You also crucially don't talk about the
+                massive technological development that contributed to an expanded (global) audience,
+                increased video support, changes in layout, etc. etc. This feels really impotant to
+                me.</p>
+            <p><style type="italics">Note: Grading Citeria</style>. A successful genre analysis
+                should: <list>
+                    <item>Address one (or more) of the questions posed on the prompt okay</item>
+                    <item>Contain a clearly stated main argument: see notes above for increasing
+                        clarity </item>
+                    <item>Emphasize evidence in support of claims (textual evidence or otherwise): a
+                        few moments where it is unclear how the evidence presented actually connects
+                        to the shift to a global consciousness </item>
+                    <item>Use a few of the terms from the vocabulary list: ok (see scene notes
+                        above) </item>
+                    <item>Provide an overview of genre broadly (beyond an individual text): okay </item>
+                    <item>Be detailed and focused: okay </item>
+                    <item>Contain citations (in-text and works cited): missing citation for
+                        contemporary CNN page</item>
+                    <item>Be structured as an essay: okay </item>
+                </list></p>
         </report>
     </docReview>
 </DOC>

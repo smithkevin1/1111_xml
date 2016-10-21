@@ -16,19 +16,23 @@
                         and many find it helpful to know other’s opinions when deciding on
                         something. Professional reviews still have the personal opinion of the
                         reviewer, but they also give an objective view on the product in an attempt
-                        to not have the review be completely bias. Movie reviews generally go over
-                        the plot, the actors’ performances, the soundtrack, and the visuals.</genre>
-                    Many times if those aspects of the movie are good, the reviewer’s personal
-                    opinion of the movie will be positive and vice versa. Traditionally reviews are
-                    written, but with websites such as YouTube there are now many reviews that are
-                    recorded and posted as videos. <argument type="main">These written reviews and
-                        video reviews are both very similar, being part of the same genre, but they
-                        have a few key differences that separate them. Video reviews almost feel
-                        like a conversation with the reviewer due to the viewer being able to see
-                        and hear the reviewer, although it is a one-way conversation. Written
-                        reviews do not have this luxury and so they go into more detail about the
-                        different aspects of the movie and how well the reviewer believes they
-                        worked.</argument>
+                        to not have the review be completely bias<note type="instructor"
+                            >biased</note>. Movie reviews generally go over the plot, the actors’
+                        performances, the soundtrack, and the visuals.</genre> Many times if those
+                    aspects of the movie are good, the reviewer’s personal opinion of the movie will
+                    be positive and vice versa. Traditionally reviews are written, but with websites
+                    such as YouTube<note type="instructor">also Rotten Tomatoes is extremely popular
+                        in this scene</note> there are now many reviews that are recorded and posted
+                    as videos. <argument type="main">These written reviews and video reviews are
+                        both very similar, being part of the same genre, but they have a few key
+                        differences that separate them. Video reviews almost feel like a
+                        conversation with the reviewer due to the viewer being able to see and hear
+                        the reviewer, although it is a one-way conversation. Written reviews do not
+                        have this luxury and so they go into more detail about the different aspects
+                        of the movie and how well the reviewer believes they worked.<note
+                            type="instructor">does this tell us something about these two types of
+                            media? or about the way written vs. video reviews are circulated
+                            (officially versus informally)?</note></argument>
                     <situation>One way to see these similarities and differences is to look at two
                         positive reviews of the movie “Star Wars: The Force Awakens”, one written by
                         Anthony Lane and the other a video created by Chris Stuckmann. “Star Wars:
@@ -37,8 +41,9 @@
                         These two reviews also try to look at the movie objectively while still
                         giving personal opinions.</situation></p>
             </intro>
-            <bodyPara><sim>Both the written review and the video review follow the movie review
-                    genre.</sim>
+            <bodyPara><sim>Both the written review and the video review follow the<note
+                        type="instructor">follow the typical conventions/patterns of the movie
+                        review genre?</note> movie review genre.</sim>
                 <genre>They talk about the general plot of the movie and how it was interesting. The
                     reviews go over how the effects and CGI look great while not being the focus and
                     how the sounds were great.</genre> With the newest entry in the Star Wars
@@ -68,15 +73,18 @@
                     someone talking about the movie and the other is just text.</diff> The written
                 review has everything it needs to be in the movie review genre and that is all. The
                 video review has a lot more. <diff>With the viewer being able to see and hear the
-                    reviewer talk, a video review feels a lot more personal than just reading words.
-                    Seeing their face and hearing their voice, the viewer can feel like they
-                    actually know the reviewer as a person. In Stuckmann’s video review, the viewers
-                    can hear how excited he is to be talking about the movie. His friendly tone of
-                    voice being able to see his facial expressions also help the viewer trust his
-                    opinion more. It is incredibly easy to tell that Stuckmann loved the movie and
-                    is excited to talk about it. Watching his video review is almost like hearing a
-                    trusted friend’s opinion instead of the opinion of some faceless movie
-                    critic.</diff></bodyPara>
+                    reviewer talk, a video review feels a lot more personal than just reading
+                        words.<note type="instructor">are they also easier to compose?</note> Seeing
+                    their face and hearing their voice, the viewer can feel like they actually know
+                    the reviewer as a person. In Stuckmann’s video review, the viewers can hear how
+                    excited he is to be talking about the movie. His friendly tone of voice being
+                    able to see his facial expressions also help the viewer trust his opinion more.
+                    It is incredibly easy to tell that Stuckmann loved the movie and is excited to
+                    talk about it. Watching his video review is almost like hearing a trusted
+                    friend’s opinion instead of the opinion of some faceless movie
+                    critic.</diff><note type="instructor">I think you need to spend significantly
+                    more time outlining and analyzing the differences betweem the two, since this is
+                    the subject of your main argument.</note></bodyPara>
             <concl>
                 <p><sim>There are many similarities between the written and video movie reviews.
                         They are both perfect examples of the movie review genre.</sim>
@@ -127,7 +135,28 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>I think you do a nice job picking out similarities and closely reding the two
+                examples of the genre. Here are some aspects I think could be improved: 1) Argument:
+                you main claim needs to make an analytical move that says what we learn about the
+                genre, situation, or scene when we examine these two through the lens of genre. 2)
+                structure: one long body paragraph makes it difficult to follow your sub-claims. 3)
+                Sub-claims: you need to be more explicit about what the point of outlining the
+                similarities and differences are--what do we learn about the genre? 4) Differences:
+                this section is lacking explicit evidence and depth of analysis. What do we learn
+                from these important differences?</p>
+            <p><style type="italics">Note: Grading Citeria</style>. A successful genre analysis
+                should: <list>
+                    <item>Address one (or more) of the questions posed on the prompt: okay</item>
+                    <item>Contain a clearly stated main argument: see notes </item>
+                    <item>Emphasize evidence in support of claims (textual evidence or otherwise):
+                        aspects could be stronger (see above) </item>
+                    <item>Use a few of the terms from the vocabulary list: okay </item>
+                    <item>Provide an overview of genre broadly (beyond an individual text): good </item>
+                    <item>Be detailed and focused: could be more focused, detail is good, especially
+                        for sim section </item>
+                    <item>Contain citations (in-text and works cited): okay</item>
+                    <item>Be structured as an essay: yes </item>
+                </list></p>
         </report>
     </docReview>
 </DOC>
