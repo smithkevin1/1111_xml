@@ -3,7 +3,7 @@
 <DOC>
 
     <movie_review>
-        <docHead>
+        <Header>
             <title type = "title_review"></title>
             <title type = "title_movie"></title>
             <title type = "photo_movie"></title>
@@ -11,7 +11,7 @@
             <date type = "review_date"></date>
             <date type = "movie_premiere"></date>
             <contact_info></contact_info>
-        </docHead>
+        </Header>
         
         <content>
             <intro_para>
