@@ -2,25 +2,44 @@
 <!--<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <DOC>
 
-    <!-- begin genre -->
-    <xxxx>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-
+    <movie_review>
         <docHead>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <title/>
-            <author xml:id=""/>
-            <date/>
+            <title type = "title_review"></title>
+            <title type = "title_movie"></title>
+            <title type = "photo_movie"></title>
+            <author xml:id=""></author>
+            <date type = "review_date"></date>
+            <date type = "movie_premiere"></date>
+            <contact_info></contact_info>
         </docHead>
+        
+        <content>
+            <intro_para>
+                <synopsis type = "Plot_points"></synopsis>
+                <synopsis type = "themes"></synopsis>
+            </intro_para>
+            <body>
+                <p>
+                    <background_info type = "actor"></background_info>
+                    <background_info type = "director"></background_info>
+                    <background_info type = "franchise_history"></background_info>
+                </p>
+                <p>
+                    <opinions></opinions>
+                </p>
+                <p>
+                    <opinions></opinions>
+                    <aesthetics></aesthetics>
+                </p>
+            </body>
+            <conclusion>
+                <summary type = "gross_income"></summary>
+                <summary type = "rating"></summary>
+                <date type = "movie_premiere"></date>
+            </conclusion>
+        </content>
+    </movie_review>
 
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-
-    </xxxx>
-    <!-- end genre -->
-
-
-
-    <!-- leave this section for peer review and assessment -->
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
