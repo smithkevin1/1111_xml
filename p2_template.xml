@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-    <essay>
-        <docHead>
-            <title></title>
-            <author xml:id=""></author>
-            <date></date>
-        </docHead>
-        <body>
-            <intro>
-                <p></p>
-            </intro>
-            <bodyPara></bodyPara>
-            <concl>
-                <p></p>
-            </concl>
-        </body>
-        <docFoot>
-            <title>Works Cited</title>
-            <listBibl>
-                <bibl>citation here</bibl>
-            </listBibl>
-        </docFoot>
-    </essay>
+    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
