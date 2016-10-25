@@ -433,8 +433,8 @@
     </define>
     <define name="figure">
         <element name="figure">
-            <a:documentation>element for inline images; content of element is processed as a caption in formatted docs [requires
-                @url attribute with valid url]</a:documentation>
+            <a:documentation>element for inline images; content of element is processed as a caption
+                in formatted docs [requires @url attribute with valid url]</a:documentation>
             <ref name="macro.paraContent"/>
             <ref name="att.resourced.attribute.url"/>
         </element>
@@ -540,7 +540,9 @@
             <a:documentation>(in-text citation) an in-text citation [requires @source attribute
                 corresponding to the @xml:id of a bibl element]</a:documentation>
             <text/>
-            <optional><ref name="att.source"/></optional>
+            <optional>
+                <ref name="att.source"/>
+            </optional>
         </element>
     </define>
     <define name="author">
@@ -684,10 +686,51 @@
             <ref name="att.typed.attributes"/>
         </element>
     </define>
+
+    <!-- GROUP 1: MOVIE REVIEWS -->
+    <define name="movie_review">
+        <element name="movie_review">
+            <a:documentation>contains elements for movie review 
+            </a:documentation>
+            <text/>
+        </element>
+    </define>
+
+    <!-- GROUP 2: SATIRICAL ARTICLES -->
+    <define name="article">
+        <element name="article">
+            <a:documentation/>
+            <text/>
+        </element>
+    </define>
+
+    <!-- GROUP 3: OP EDS -->
+    <define name="op_ed">
+        <element name="op_ed">
+            <a:documentation/>
+            <text/>
+        </element>
+    </define>
+
+    <!-- GROUP 4: RESUMES -->
+    <define name="resume">
+        <element name="resume">
+            <a:documentation/>
+            <text/>
+        </element>
+    </define>
+
+
     <define name="DOC">
         <element name="DOC">
             <a:documentation>root element for all ENGW1111 assignments</a:documentation>
-            <ref name="essay"/>
+            <choice>
+                <ref name="essay"/>
+                <ref name="movie_review"/>
+                <ref name="article"/>
+                <ref name="op_ed"/>
+                <ref name="resume"/>
+            </choice>
             <zeroOrMore>
                 <ref name="docReview"/>
             </zeroOrMore>
