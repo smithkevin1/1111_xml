@@ -14,11 +14,11 @@
         </docHead>
         
         <intro>
-            <main_opinion></main_opinion>
+            <opinion type="main"></opinion>
         </intro>
         
         <body_para>
-            <opposing_opinion></opposing_opinion>
+            <opinion type="opposing"></opinion>
             <counter_opposing></counter_opposing>
             <picture></picture>
             <evidence></evidence>
