@@ -3,7 +3,7 @@
 <DOC>
 
     <!-- begin genre -->
-    <xxxx>
+    <op_ed>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <docHead>
@@ -12,10 +12,30 @@
             <author xml:id=""/>
             <date/>
         </docHead>
+        
+        <intro>
+            <main_opinion></main_opinion>
+        </intro>
+        
+        <body_para>
+            <opposing_opinion></opposing_opinion>
+            <counter_opposing></counter_opposing>
+            <picture></picture>
+            <evidence></evidence>
+            <bg_info></bg_info>
+            <statistics></statistics>
+            <quote></quote>
+            <per_experience></per_experience>
+            <example></example>
+            <situation></situation>
+        </body_para>
+        
+        <conclusion></conclusion>
+        <bibliography></bibliography>
 
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
 
-    </xxxx>
+    </op_ed>
     <!-- end genre -->
 
 
