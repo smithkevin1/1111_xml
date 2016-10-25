@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<DOC>
+    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
+    
+    <docReview>
+        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <report type="peer" who="#id_here">
+            <p>Peer review report will go here.</p>
+        </report>
+        <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
+        <report type="instructor" who="#smi.ke">
+            <p>Instructor comments will go here.</p>
+        </report>
+    </docReview>
+</DOC>

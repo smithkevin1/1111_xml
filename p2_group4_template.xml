@@ -3,19 +3,33 @@
 <DOC>
 
     <!-- begin genre -->
-    <xxxx>
+    <Resume>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <docHead>
             <!-- make changes to the document header as necessary (based on your genre) -->
-            <title/>
+            <title>
             <author xml:id=""/>
-            <date/>
+            <title/>
         </docHead>
 
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-
-    </xxxx>
+        <header>Contact Information</header>
+        <contact_information>
+            <contact></contact>
+        </contact_information>
+        <header>Objectives</header>
+        <objectives></objectives>
+        <header>Qualifications</header>
+        <qualifications>
+            <work_experience>
+                <job></job>
+            </work_experience>
+            <education></education>
+            <affiliations></affiliations>
+            <additional_information></additional_information>
+        </qualifications>
+        </Resume>
     <!-- end genre -->
 
 

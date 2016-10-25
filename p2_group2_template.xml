@@ -4,6 +4,7 @@
 
     <!-- begin genre -->
     <article>
+<<<<<<< HEAD
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <header>
@@ -20,6 +21,26 @@
             <share type="email"></share>
             <share type="other"></share>
         </header>
+=======
+        <header>
+            <article_title/>
+            <category/>
+            <date/>
+            <identification></identification>
+            <tags></tags>
+            <share></share>
+        </header>
+        <body>
+            <image></image>
+            <location></location>
+            <quote></quote>
+        </body>
+        <footer>
+            <share></share>
+            <related_links></related_links>
+            <ad></ad>
+        </footer>
+>>>>>>> origin/master
 
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
 
