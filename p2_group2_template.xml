@@ -36,7 +36,10 @@
             <quote></quote>
         </body>
         <footer>
-            <share></share>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
             <related_links></related_links>
             <ad></ad>
         </footer>
