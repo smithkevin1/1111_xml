@@ -3,7 +3,7 @@
 <DOC>
 
     <movie_review>
-        <Header>
+        <header>
             <title type = "title_review"></title>
             <title type = "title_movie"></title>
             <title type = "photo_movie"></title>
@@ -11,7 +11,7 @@
             <date type = "review_date"></date>
             <date type = "movie_premiere"></date>
             <contact_info></contact_info>
-        </Header>
+        </header>
         
         <content>
             <intro_para>
@@ -20,9 +20,9 @@
             </intro_para>
             <body>
                 <p>
-                    <background_info type = "actor"></background_info>
-                    <background_info type = "director"></background_info>
-                    <background_info type = "franchise_history"></background_info>
+                    <context type = "actor"></context>
+                    <context type = "director"></context>
+                    <context type = "franchise_history"></context>
                 </p>
                 <p>
                     <opinions></opinions>
