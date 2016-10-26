@@ -944,6 +944,88 @@
     </define>
 
     <!-- GROUP 2: SATIRICAL ARTICLES -->
+    <define name="ad">
+        <element name="ad">
+            <ref name="macro.specialParaContent"/>
+            <optional>
+                <ref name="att.resourced.attribute.url"/>
+            </optional>
+        </element>
+    </define>
+    <define name="related_links">
+        <element name="related_links">
+            <a:documentation> Hyperlinks to related articles from the same website </a:documentation>
+            <ref name="macro.specialParaContent"/>
+            <ref name="att.resourced.attribute.url"/>
+        </element>
+    </define>
+    <define name="article.footer">
+        <element name="footer">
+            <a:documentation>Container element for closing article information</a:documentation>
+            <oneOrMore>
+                <ref name="share"/>
+            </oneOrMore>
+            <oneOrMore>
+                <ref name="related_links"/>
+            </oneOrMore>
+            <oneOrMore>
+                <ref name="ad"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="article.location">
+        <element name="location">
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="article.quote">
+        <element name="quote">
+            <a:documentation>Surrounded by quotation marks, a grouping of words, ranging from
+                phrases to multiples sentences.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="article.other.p">
+        <element name="p">
+            <a:documentation>body paragraph</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="article.quote"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="article.first.p">
+        <element name="p">
+            <a:documentation>first body paragraph (must have location as first
+                child)</a:documentation>
+            <ref name="article.location"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="article.quote"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="article.image">
+        <element name="image">
+            <a:documentation>Image relating to the content of article </a:documentation>
+            <ref name="macro.specialParaContent"/>
+            <ref name="att.resourced.attribute.url"/>
+        </element>
+    </define>
+    <define name="article.body">
+        <element name="body">
+            <a:documentation>Container element for majority of the content </a:documentation>
+            <ref name="article.image"/>
+            <ref name="article.first.p"/>
+            <zeroOrMore>
+                <ref name="article.other.p"/>
+            </zeroOrMore>
+        </element>
+    </define>
     <define name="article_title">
         <element name="article_title">
             <a:documentation>Describes the content of the article; usually fragmented or whole
@@ -1021,13 +1103,14 @@
             <zeroOrMore>
                 <ref name="share"/>
             </zeroOrMore>
-
         </element>
     </define>
     <define name="article">
         <element name="article">
             <a:documentation>Container element for article </a:documentation>
             <ref name="article.header"/>
+            <ref name="article.body"/>
+            <ref name="article.footer"/>
         </element>
     </define>
 
