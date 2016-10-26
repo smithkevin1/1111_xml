@@ -3,7 +3,7 @@
 <DOC>
 
     <!-- begin genre -->
-    <Resume>
+    <resume>
         <header>Contact Information</header>
         <contact_information>
             <contact></contact>
@@ -19,7 +19,7 @@
             <affiliations></affiliations>
             <additional_information></additional_information>
         </qualifications>
-        </Resume>
+        </resume>
     <!-- end genre -->
 
 
