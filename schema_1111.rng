@@ -14,6 +14,16 @@
             </choice>
         </zeroOrMore>
     </define>
+    <define name="macro.specialParaContent">
+        <a:documentation>no model.inter</a:documentation>
+        <zeroOrMore>
+            <choice>
+                <text/>
+                <ref name="model.phrase"/>
+                <ref name="model.global"/>
+            </choice>
+        </zeroOrMore>
+    </define>
     <!-- ATTRIBUTE CLASSES AND DEFINITIONS -->
     <!-- global attributes -->
     <define name="att.global.attributes">
@@ -266,7 +276,7 @@
             <ref name="macro.paraContent"/>
         </element>
     </define>
-    <define name="context">
+    <define name="essay.context">
         <element name="context">
             <a:documentation>indicates information provided to better understand a claim, argument,
                 or idea. Typically precedes an idea, claim or argument that warrant background
@@ -339,7 +349,7 @@
                 <ref name="participants"/>
                 <ref name="setting"/>
                 <ref name="situation"/>
-                <ref name="context"/>
+                <ref name="essay.context"/>
                 <ref name="aesthetics"/>
                 <ref name="sim"/>
                 <ref name="diff"/>
@@ -688,19 +698,336 @@
     </define>
 
     <!-- GROUP 1: MOVIE REVIEWS -->
+
+    <define name="review.summary">
+        <element name="summary">
+            <a:documentation>(summary) usually ties up the analysis in a succinct fashion,
+                oftentimes summarizing the main opinion with a rating scale of the movie [optional
+                @type attribute: gross income, rating and release date] </a:documentation>
+            <optional>
+                <attribute name="type">
+                    <choice>
+                        <value>gross_income</value>
+                        <a:documentation>gives details on the amount of money made on the movie in
+                            its respective release districts </a:documentation>
+                        <value>rating</value>
+                        <a:documentation>gives a rating based on the reviewers (authors) opinion of
+                            the movie</a:documentation>
+                    </choice>
+                </attribute>
+            </optional>
+        </element>
+    </define>
+    <define name="model.review.conclusion">
+        <oneOrMore>
+            <choice>
+                <ref name="macro.specialParaContent"/>
+                <ref name="review.summary"/>
+                <ref name="review.date"/>
+            </choice>
+        </oneOrMore>
+    </define>
+    <define name="review.conclusion">
+        <element name="conclusion">
+            <a:documentation>The final paragraph, contains final remarks on the movie, and may be
+                combined with summary to form just one paragraph </a:documentation>
+            <ref name="model.review.conclusion"/>
+        </element>
+    </define>
+    <define name="synopsis">
+        <element name="synopsis">
+            <a:documentation>text summarizing the movie plot points, themes [requires @type
+                attribute]</a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>plot_points</value>
+                    <a:documentation>declares the major flow of the movie progression through peaks
+                        and valleys in the story </a:documentation>
+                    <value>themes</value>
+                    <a:documentation>explores through argument the major directive decisions that
+                        are explored </a:documentation>
+                </choice>
+            </attribute>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.paraContent"/>
+                    <ref name="review.context"/>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="review.context">
+        <element name="context">
+            <a:documentation>Can be separate paragraph if not placed with synopsis, contains the
+                information required to understand the movie such as who the actors are and their
+                roles, the director and his role, and the optional attribute of the history of the
+                franchise (if franchise) [requires @type attribute]</a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>actor</value>
+                    <a:documentation>(Who is acting) contains the roles of the actors. Usually only
+                        mentions the leads, villains, heroes, co-leads and other important actors
+                        and roles to the movie. </a:documentation>
+                    <value>director</value>
+                    <a:documentation>contains the information about the director of the movie such
+                        as how many movies directed, notable movies directed, etc </a:documentation>
+                    <value>franchise_history</value>
+                    <a:documentation>contains the history of the franchise (optional and conditional
+                        if it is a franchise), and usually acts as a point to further the movie
+                        review by giving the necessary details of previous installments to make
+                        sense of the current installment </a:documentation>
+                </choice>
+            </attribute>
+            <ref name="macro.paraContent"/>
+        </element>
+    </define>
+    <define name="review.intro_para">
+        <element name="intro_para">
+            <a:documentation>The introductory paragraph, container element of the first paragraph of
+                the movie review. Has synopsis and as sub-elements, movie reviews may contain one
+                intro paragraph with subelements as additional stand alone paragraphs. </a:documentation>
+            <interleave>
+                <zeroOrMore>
+                    <ref name="macro.paraContent"/>
+                </zeroOrMore>
+                <oneOrMore>
+                    <ref name="synopsis"/>
+                </oneOrMore>
+                <zeroOrMore>
+                    <ref name="review.context"/>
+                </zeroOrMore>
+            </interleave>
+        </element>
+    </define>
+    <define name="book_progression">
+        <element name="book_progression">
+            <a:documentation>(how close the book is followed) is an optional observation or analysis
+                on how well a story that is based off of a text follows the progression of the book
+                in terms of content, or main characters present in the movie. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="review.aesthetics">
+        <element name="aesthetics">
+            <a:documentation>The analysis of the production quality that focuses on the visual
+                cinematography, the music score, the locations and scenery and everything that does
+                not include the story plot elements.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="quotes">
+        <element name="quotes">
+            <a:documentation>Contains direct vocal (textual) citations from the movie, usually used
+                as to provide evidence of occurrence in the movie or for analysis of the movie. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="opinions">
+        <element name="opinions">
+            <a:documentation>Direct author's argument that may or may not be based on drawn out
+                analysis. A movie review may contain more than one opinion tag. It can be as simple
+                as an observation about the color of a suit worn. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="model.review.p">
+        <oneOrMore>
+            <choice>
+                <ref name="macro.specialParaContent"/>
+                <ref name="review.context"/>
+                <ref name="opinions"/>
+                <ref name="quotes"/>
+                <ref name="review.aesthetics"/>
+                <ref name="book_progression"/>
+            </choice>
+        </oneOrMore>
+    </define>
+    <define name="review.p">
+        <element name="p">
+            <a:documentation>Container element of of the subelements of quotes, opinions,
+                aesthetics, and the optional book_progression. A movie review may contain more than
+                one &lt;p&gt; tag, and is often times the direct analysis of the movie as seen by
+                the author of the movie review. </a:documentation>
+            <ref name="model.review.p"/>
+        </element>
+    </define>
+    <define name="review.body">
+        <element name="body">
+            <a:documentation>body of movie review</a:documentation>
+            <oneOrMore>
+                <ref name="review.p"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.review.content">
+        <ref name="review.intro_para"/>
+        <zeroOrMore>
+            <ref name="review.context"/>
+        </zeroOrMore>
+        <ref name="review.body"/>
+        <ref name="review.conclusion"/>
+
+    </define>
+    <define name="review.content">
+        <element name="content">
+            <ref name="model.review.content"/>
+        </element>
+    </define>
+    <define name="review.title">
+        <element name="title">
+            <a:documentation>element for title of review (containing the title of movie also) and
+                photo of movie promotional poster or snapshot of movie in action [requires @type
+                attribute] </a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>title_review</value>
+                    <a:documentation> the name of the review which also contains title of the
+                        movie</a:documentation>
+                    <value>title_movie</value>
+                    <a:documentation>the name of the movie which is also part of the title of
+                        review</a:documentation>
+                    <value>photo_movie</value>
+                    <a:documentation>photo of the movie promotional poster or screen
+                        capture</a:documentation>
+                </choice>
+            </attribute>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="review.date">
+        <element name="date">
+            <a:documentation>the date of the review, or the date of movie premiere [requires @type
+                attribute]</a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>review_date</value>
+                    <a:documentation>The date of which the movie review was published online or
+                        print</a:documentation>
+                    <value>movie_premiere</value>
+                    <a:documentation>The date of which the movie was released in theaters for target
+                        audiences in U.S, or Global, or the date in the specific country it was
+                        aired (i.e during film festivals) </a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="review.contact_info">
+        <element name="contact_info">
+            <a:documentation>Element for contact info, usually twitter handles or other information
+                such as email.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="model.review.header">
+        <oneOrMore>
+            <choice>
+                <ref name="review.title"/>
+                <ref name="author"/>
+                <ref name="review.date"/>
+                <ref name="review.contact_info"/>
+            </choice>
+        </oneOrMore>
+    </define>
+    <define name="review.header">
+        <element name="header">
+            <a:documentation>container element for the movie reviewer’s movie and opinion
+                piece</a:documentation>
+            <ref name="model.review.header"/>
+        </element>
+    </define>
     <define name="movie_review">
         <element name="movie_review">
-            <a:documentation>contains elements for movie review 
-            </a:documentation>
-            <text/>
+            <a:documentation>contains elements for movie review </a:documentation>
+            <ref name="review.header"/>
+            <ref name="review.content"/>
         </element>
     </define>
 
     <!-- GROUP 2: SATIRICAL ARTICLES -->
+    <define name="article_title">
+        <element name="article_title">
+            <a:documentation>Describes the content of the article; usually fragmented or whole
+                sentences</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="category">
+        <element name="category">
+            <a:documentation>Where the article can be found on the website. Categories are listed as
+                sub-headers on website as well. Often same as real news sites (sports, world news,
+                entertainment, etc.)</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="article.date">
+        <element name="date">
+            <a:documentation>Date in which the article was published</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="identification">
+        <element name="identification">
+            <a:documentation>Identifies exactly which article it is [requires @type attribute] </a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>volume</value>
+                    <a:documentation>The number of years the publication has been released. </a:documentation>
+                    <value>issue</value>
+                    <a:documentation>The amount of times the news source has been published that
+                        year. </a:documentation>
+                </choice>
+            </attribute>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="tags">
+        <element name="tags">
+            <a:documentation>Sub-categories and keywords for the article (basketball, agriculture,
+                crime, etc.)</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="share">
+        <element name="share">
+            <a:documentation>Hyperlinks that give the option to share on a multitude of social media
+                platforms [requires @type attribute: facebook, twitter, email,
+                other]</a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>facebook</value>
+                    <a:documentation> Share on Facebook (Facebook logo often used as link) </a:documentation>
+                    <value>twitter</value>
+                    <a:documentation> Share on Twitter (Twitter logo often used as link) </a:documentation>
+                    <value>email</value>
+                    <a:documentation> Share via email (Mail image often used as link) </a:documentation>
+                    <value>other</value>
+                    <a:documentation> Share on less common social media sites (Google+, Pinterest,
+                        etc.) </a:documentation>
+                </choice>
+            </attribute>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="article.header">
+        <element name="header">
+            <a:documentation>Container element for basic article information </a:documentation>
+            <ref name="article_title"/>
+            <ref name="author"/>
+            <ref name="category"/>
+            <ref name="article.date"/>
+            <ref name="identification"/>
+            <ref name="identification"/>
+            <ref name="tags"/>
+            <zeroOrMore>
+                <ref name="share"/>
+            </zeroOrMore>
+
+        </element>
+    </define>
     <define name="article">
         <element name="article">
-            <a:documentation/>
-            <text/>
+            <a:documentation>Container element for article </a:documentation>
+            <ref name="article.header"/>
         </element>
     </define>
 
