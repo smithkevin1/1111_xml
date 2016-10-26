@@ -4,16 +4,6 @@
 
     <!-- begin genre -->
     <Resume>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-
-        <docHead>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <title>
-            <author xml:id=""/>
-            <title/>
-        </docHead>
-
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
         <header>Contact Information</header>
         <contact_information>
             <contact></contact>
