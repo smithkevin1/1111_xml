@@ -1115,10 +1115,138 @@
     </define>
 
     <!-- GROUP 3: OP EDS -->
+    <define name="op.source">
+        <element name="source">
+            <a:documentation>Sources (Optional) </a:documentation>
+            <optional>
+                <ref name="att.resourced.attribute.url"/>
+            </optional>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.conclusion">
+        <element name="conclusion">
+            <a:documentation>The conclusion </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.situation">
+        <element name="situation">
+            <a:documentation>a current event that relates to the main opinion </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.example">
+        <element name="example">
+            <a:documentation>An example used to express the main opinion </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.quote">
+        <element name="quote">
+            <a:documentation>A quote of what a notable person said </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.bg_info">
+        <element name="bg_info">
+            <a:documentation>Background info to help explain more about a topic </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.evidence">
+        <element name="evidence">
+            <a:documentation>Evidence that supports the main opinion [requires @type attribute with
+                suggested values: statistics, pers_exp]</a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>statistics</value>
+                    <a:documentation>Any type of statistics or numbers relating to information </a:documentation>
+                    <value>pers_exp</value>
+                    <a:documentation>An experience the writer had that can be related to the main
+                        opinion </a:documentation>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </choice>
+            </attribute>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.picture">
+        <element name="picture">
+            <a:documentation> A picture to aid in reading </a:documentation>
+            <ref name="att.resourced.attribute.url"/>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="op.opinion.other">
+        <element name="opinion">
+            <a:documentation>(opinion)</a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>main</value>
+                    <a:documentation> the main opinion</a:documentation>
+                    <value>opposing</value>
+                    <a:documentation>an opinion that directly opposes the main
+                        opinion</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="model.op.body_para">
+        <zeroOrMore>
+            <choice>
+                <ref name="op.opinion.other"/>
+                <ref name="op.picture"/>
+                <ref name="op.evidence"/>
+                <ref name="op.quote"/>
+                <ref name="op.bg_info"/>
+                <ref name="op.example"/>
+                <ref name="op.situation"/>
+                <ref name="macro.specialParaContent"/>
+            </choice>
+        </zeroOrMore>
+    </define>
+    <define name="op.body_para">
+        <element name="body_para">
+            <a:documentation>A body paragraph </a:documentation>
+            <ref name="model.op.body_para"/>
+        </element>
+    </define>
+    <define name="op.opinion.main">
+        <element name="opinion">
+            <a:documentation>(opinion)</a:documentation>
+            <attribute name="type">
+                <value>main</value>
+                <a:documentation> the main opinion</a:documentation>
+            </attribute>
+        </element>
+    </define>
+    <define name="op.intro">
+        <element name="intro">
+            <a:documentation>The introduction</a:documentation>
+            <zeroOrMore>
+                <ref name="macro.specialParaContent"/>
+            </zeroOrMore>
+            <ref name="op.opinion.main"/>
+            <zeroOrMore>
+                <ref name="macro.specialParaContent"/>
+            </zeroOrMore>
+        </element>
+    </define>
     <define name="op_ed">
         <element name="op_ed">
             <a:documentation/>
-            <text/>
+            <ref name="docHead"/>
+            <ref name="op.intro"/>
+            <oneOrMore>
+                <ref name="op.body_para"/>
+            </oneOrMore>
+            <ref name="op.conclusion"/>
+            <zeroOrMore>
+                <ref name="op.source"/>
+            </zeroOrMore>
         </element>
     </define>
 

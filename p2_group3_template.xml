@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
 
     <!-- begin genre -->
@@ -9,7 +9,7 @@
         <docHead>
             <!-- make changes to the document header as necessary (based on your genre) -->
             <title/>
-            <author xml:id=""/>
+            <author xml:id="id"/>
             <date/>
         </docHead>
         
@@ -19,19 +19,19 @@
         
         <body_para>
             <opinion type="opposing"></opinion>
-            <counter_opposing></counter_opposing>
-            <picture></picture>
-            <evidence></evidence>
+            <!--<counter_opposing></counter_opposing> delete becasue of documentation changes-->
+            <picture url="#url_here"></picture>
+            <evidence type="other"></evidence>
             <bg_info></bg_info>
-            <statistics></statistics>
+            <!--<statistics></statistics>-->
             <quote></quote>
-            <per_experience></per_experience>
+            <!--<per_experience></per_experience>-->
             <example></example>
             <situation></situation>
         </body_para>
         
         <conclusion></conclusion>
-        <bibliography></bibliography>
+        <source></source>
 
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
 
