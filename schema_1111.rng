@@ -1251,10 +1251,143 @@
     </define>
 
     <!-- GROUP 4: RESUMES -->
+    <define name="additional_information">
+        <element name="additional_information">
+            <a:documentation>Optional element; applicant may include relevant hobbies and interests
+                here. Can include a list of publications, professional courses, licenses and
+                patents, etc. Only use if appropriate. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="affiliation">
+        <element name="affiliation">
+            <a:documentation>sub-element for affiliations; any associations the applicant is a
+                member of</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="affiliations">
+        <element name="affiliations">
+            <a:documentation>Container element for affiliations, sub-element for qualifications,
+                optional element, can have multiple affiliation elements; A list of any associations
+                the applicant is a member of</a:documentation>
+            <ref name="affiliation"/>
+        </element>
+    </define>
+    <define name="education">
+        <element name="education">
+            <a:documentation>Container element for education, sub-element for qualifications,
+                optional element; where the applicant matriculated, degree(s) earned, and year they
+                earned their degree(s). </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="job">
+        <element name="job">
+            <a:documentation>Container element for each job listed, sub-element of work experience,
+                optional element if not applicable; includes the start and finish dates, location,
+                and a summary of the job, should include employer, and title of position held </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="work_experience">
+        <element name="work_experience">
+            <a:documentation>Container element for work experience, sub-element of qualifications </a:documentation>
+            <oneOrMore>
+                <ref name="job"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.qualifications.content">
+        <interleave>
+            <zeroOrMore>
+                <ref name="resume.header"/>
+            </zeroOrMore>
+            <ref name="work_experience"/>
+            <optional>
+                <ref name="education"/>
+            </optional>
+            <optional>
+                <ref name="affiliations"/>
+            </optional>
+            <optional>
+                <ref name="additional_information"/>
+            </optional>
+        </interleave>
+    </define>
+    <define name="resume.qualifications">
+        <element name="qualifications">
+            <a:documentation>Container element for all relevant qualifications; should include work
+                experience, may include certifications, associations, education, unpaid/volunteer
+                work, languages spoken, etc. </a:documentation>
+            <ref name="model.qualifications.content"/>
+        </element>
+    </define>
+    <define name="resume.objectives">
+        <element name="objectives">
+            <a:documentation>Optional element; any employment goals you have for the position or the
+                company </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="resume.contact">
+        <element name="contact">
+            <a:documentation>Element for contact information [must include at least one @type
+                attribute from list: address, email, phone, other] </a:documentation>
+            <attribute name="type">
+                <choice>
+                    <value>address</value>
+                    <a:documentation>Attribute to contact info; personal address to send physical
+                        mail </a:documentation>
+                    <value>email</value>
+                    <a:documentation>Attribute to contact info; best email to reach you at </a:documentation>
+                    <value>phone</value>
+                    <a:documentation>Attribute to contact info; phone number that you are most
+                        likely to respond to, can be either cellphone or home phone </a:documentation>
+                    <value>other</value>
+                    <a:documentation>Attribute to contact info; contact information that does not
+                        fall into any other category </a:documentation>
+                </choice>
+            </attribute>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="resume.contact_information">
+        <element name="contact_information">
+            <a:documentation>Container element for contact information; generally at beginning or
+                end of document. Needs to contain at least one piece of contact information </a:documentation>
+            <oneOrMore>
+                <ref name="resume.contact"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="model.resume.content">
+        <interleave>
+            <oneOrMore>
+                <ref name="resume.header"/>
+            </oneOrMore>
+            <optional>
+                <ref name="resume.objectives"/>
+            </optional>
+            <ref name="resume.contact_information"/>
+            <ref name="resume.qualifications"/>
+        </interleave>
+    </define>
+    <define name="resume.header">
+        <element name="header">
+            <a:documentation>Container element for headers denoting a new section (globally
+                available) </a:documentation>
+            <text/>
+        </element>
+    </define>
     <define name="resume">
         <element name="resume">
             <a:documentation/>
-            <text/>
+            <optional>
+                <ref name="title"/>
+            </optional>
+            <ref name="resume.header"/>
+            <ref name="model.resume.content"/>
         </element>
     </define>
 

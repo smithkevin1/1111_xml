@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
 
     <!-- begin genre -->
     <resume>
         <header>Contact Information</header>
         <contact_information>
-            <contact></contact>
+            <contact type="address"></contact>
         </contact_information>
         <header>Objectives</header>
         <objectives></objectives>
@@ -16,7 +16,9 @@
                 <job></job>
             </work_experience>
             <education></education>
-            <affiliations></affiliations>
+            <affiliations>
+                <affiliation></affiliation>
+            </affiliations>
             <additional_information></additional_information>
         </qualifications>
         </resume>
