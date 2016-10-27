@@ -1395,13 +1395,13 @@
     <define name="DOC">
         <element name="DOC">
             <a:documentation>root element for all ENGW1111 assignments</a:documentation>
-            <choice>
+            <oneOrMore><choice>
                 <ref name="essay"/>
                 <ref name="movie_review"/>
                 <ref name="article"/>
                 <ref name="op_ed"/>
                 <ref name="resume"/>
-            </choice>
+            </choice></oneOrMore>
             <zeroOrMore>
                 <ref name="docReview"/>
             </zeroOrMore>

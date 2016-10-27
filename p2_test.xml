@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/kevinsmith/repos/1111_xml/schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="./testing_format.xsl"?>
+
 <DOC>
+    <movie_review>
+        <header>
+            <title type = "title_review">Review of </title>
+            <title type = "title_movie"></title>
+            <title type = "photo_movie"></title>
+            <author xml:id="test"></author>
+            <date type = "review_date"></date>
+            <date type = "movie_premiere"></date>
+            <contact_info></contact_info>
+        </header>
         
+        <content>
+            <intro_para>
+                <synopsis type = "plot_points"></synopsis>
+                <synopsis type = "themes"></synopsis>
+            </intro_para>
+            <body>
+                <p>
+                    <context type = "actor"></context>
+                    <context type = "director"></context>
+                    <context type = "franchise_history"></context>
+                </p>
+                <p>
+                    <opinions></opinions>
+                </p>
+                <p>
+                    <opinions></opinions>
+                    <aesthetics></aesthetics>
+                </p>
+            </body>
+            <conclusion>
+                <summary type = "gross_income"></summary>
+                <summary type = "rating"></summary>
+                <date type = "movie_premiere"></date>
+            </conclusion>
+        </content>
+    </movie_review>
         <resume>
+            <title>Kevin G. Smith</title>
             <header>Contact Information</header>
             <contact_information>
+                <contact type="email">kgsmith2@gmail.com</contact>
                 <contact type="address">694 Mass Ave</contact>
             </contact_information>
             <header>Objectives</header>
@@ -13,6 +53,7 @@
             <qualifications>
                 <work_experience>
                     <job>Northeastern University</job>
+                    <job>Grave Digger</job>
                 </work_experience>
                 <header>Education</header>
                 <education>MA, Northeasten U</education>
@@ -21,8 +62,8 @@
                     <affiliation>Montage Literary Arts Journal</affiliation>
                     <affiliation>Englineering Society</affiliation>
                 </affiliations>
-                <header></header>
-                <additional_information></additional_information>
+                <header>Languages</header>
+                <additional_information>Spanish, fluent</additional_information>            
             </qualifications>
         </resume>        
     

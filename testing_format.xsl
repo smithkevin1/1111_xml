@@ -9,7 +9,7 @@
         <html>
             <head>
                 <title>
-                    <xsl:value-of select="//docHead/title"/>
+                    <xsl:value-of select="//title[1]"/>
                 </title>
                 <link rel="stylesheet" type="text/css" href="../website/css/main.css"/>
                 <link rel="stylesheet" type="text/css" href="./website/css/main.css"/>

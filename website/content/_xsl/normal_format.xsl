@@ -159,7 +159,60 @@
     <xsl:template match="DOC//list/item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
+    <!-- end essay templates -->
     
+    <!-- G3: resume templates -->
+    <xsl:template match="resume">
+        <div id="resume">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="resume/title">
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    <xsl:template match="resume//header">
+        <h3><xsl:apply-templates/></h3>
+    </xsl:template>
+    <xsl:template match="resume/contact_information">
+        <ul id="contact">
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="resume/contact_information/contact">
+        <xsl:choose><xsl:when test="@type='email'">
+            <li class="email_contact"><a href="mailto:{text()}"><xsl:apply-templates/></a></li>
+        </xsl:when>
+            <xsl:otherwise>
+                <li class="{@type}_contact"><xsl:apply-templates/></li>
+            </xsl:otherwise>
+        </xsl:choose>      
+    </xsl:template>
+    <xsl:template match="resume/objectives">
+        <p class="objectives">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="resume/qualifications">
+        <div id="qualifications">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="resume//work_experience">
+        <ul id="work_exp">
+            <xsl:for-each select="job"><li><xsl:apply-templates/></li></xsl:for-each>
+        </ul>
+    </xsl:template>
+    <xsl:template match="resume//affiliations">
+        <ul id="affiliations">
+            <xsl:for-each select="affiliation"><li><xsl:apply-templates/></li></xsl:for-each>
+        </ul>
+    </xsl:template>
+    <xsl:template match="resume//education">
+        <p class="education"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="resume//additional_information">
+        <p class="additional_information"><xsl:apply-templates/></p>
+    </xsl:template>
     
     
     <!-- This section processes the reviews/end notes for the document -->
