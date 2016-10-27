@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/kevinsmith/repos/1111_xml/schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-    <movie_review>
-        <header>
-            <title type = "title_review"></title>
-            <title type = "title_movie"></title>
-            <title type = "photo_movie"></title>
-            <author xml:id="te.te"></author>
-            <date type = "review_date"></date>
-            <date type = "movie_premiere"></date>
-            <contact_info></contact_info>
-        </header>
         
-        <content>
-            <intro_para>
-                <synopsis type = "plot_points"></synopsis>
-                <synopsis type = "themes"></synopsis>
-                <context type="actor"></context>
-                
-            </intro_para>
-            <body>
-                <p>
-                    <context type = "actor"></context>
-                    <context type = "director"></context>
-                    <context type = "franchise_history"></context>
-                </p>
-                <p>
-                    <opinions></opinions>
-                </p>
-                <p>
-                    <opinions></opinions>
-                    <aesthetics></aesthetics>
-                </p>
-            </body>
-            <conclusion>
-                <summary type = "gross_income"></summary>
-                <summary type = "rating"></summary>
-                <date type = "movie_premiere"></date>
-            </conclusion>
-        </content>
-    </movie_review>
+        <resume>
+            <header>Contact Information</header>
+            <contact_information>
+                <contact type="address">694 Mass Ave</contact>
+            </contact_information>
+            <header>Objectives</header>
+            <objectives>To get a job.</objectives>
+            <header>Qualifications</header>
+            <qualifications>
+                <work_experience>
+                    <job>Northeastern University</job>
+                </work_experience>
+                <header>Education</header>
+                <education>MA, Northeasten U</education>
+                <education>BA, University of Illinois</education>
+                <affiliations>
+                    <affiliation>Montage Literary Arts Journal</affiliation>
+                    <affiliation>Englineering Society</affiliation>
+                </affiliations>
+                <header></header>
+                <additional_information></additional_information>
+            </qualifications>
+        </resume>        
+    
     
     
     <docReview>

@@ -143,7 +143,7 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template match="essay//figure">
+    <xsl:template match="DOC//figure">
         <figure>
             <img src="{@url}" alt="{child::text()}"/>
             <figcaption>
@@ -159,6 +159,9 @@
     <xsl:template match="DOC//list/item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
+    
+    
+    
     <!-- This section processes the reviews/end notes for the document -->
     <xsl:template match="docReview">
         <div id="reviews">

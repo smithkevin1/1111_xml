@@ -1271,7 +1271,7 @@
             <a:documentation>Container element for affiliations, sub-element for qualifications,
                 optional element, can have multiple affiliation elements; A list of any associations
                 the applicant is a member of</a:documentation>
-            <ref name="affiliation"/>
+            <oneOrMore><ref name="affiliation"/></oneOrMore>
         </element>
     </define>
     <define name="education">
@@ -1307,12 +1307,12 @@
             <zeroOrMore>
                 <ref name="education"/>
             </zeroOrMore>
-            <optional>
+            <zeroOrMore>
                 <ref name="affiliations"/>
-            </optional>
-            <optional>
+            </zeroOrMore>
+            <zeroOrMore>
                 <ref name="additional_information"/>
-            </optional>
+            </zeroOrMore>
         </interleave>
     </define>
     <define name="resume.qualifications">
