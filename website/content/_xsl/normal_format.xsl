@@ -160,6 +160,61 @@
         <li><xsl:apply-templates/></li>
     </xsl:template>
     <!-- end essay templates -->
+    <!-- G1: movie reviews -->
+    <xsl:template match="DOC/movie_review">
+        <div id="review">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="movie_review/header">
+        <div id="review_header">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="movie_review/header/title[@type='title_review']">
+        <h1 class="{@type}"><xsl:apply-templates/></h1>
+    </xsl:template>
+    <xsl:template match="movie_review/header/title[@type='title_movie']">
+        <h3 class="{@type}"><xsl:apply-templates/></h3>
+    </xsl:template>
+    <xsl:template match="movie_review/header/title[@type='photo_movie']">
+        <figure>
+            <img src="{text()}" alt=""/>
+            <figcaption>
+                <xsl:value-of select="//title[@type='title_movie']"/>
+            </figcaption>
+        </figure>
+    </xsl:template>
+    <xsl:template match="movie_review/header/author">
+        <h3 class="{name()}"><xsl:apply-templates/></h3>
+    </xsl:template>
+    <xsl:template match="movie_review/header/date">
+        <p class="{@type}"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="movie_review/header/contact_info">
+        <p class="{name()}"><xsl:apply-templates/></p>
+    </xsl:template>
+    
+
+    
+    
+    <xsl:template match="movie_review/content">
+        <div id="review_content">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="movie_review/content/intro_para">
+        <p class="review_intro"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="movie_review/content/body">
+        <div id="review_body"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="movie_review/content/body/p">
+        <p class="review_body_p"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="movie_review/content/conclusion">
+        <p class="review_conclusion"><xsl:apply-templates/></p>
+    </xsl:template>
     
     <!-- G3: resume templates -->
     <xsl:template match="resume">

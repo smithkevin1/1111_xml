@@ -716,6 +716,7 @@
                     </choice>
                 </attribute>
             </optional>
+            <ref name="macro.specialParaContent"/>
         </element>
     </define>
     <define name="model.review.conclusion">
@@ -909,6 +910,7 @@
                         aired (i.e during film festivals) </a:documentation>
                 </choice>
             </attribute>
+            <text/>
         </element>
     </define>
     <define name="review.contact_info">
