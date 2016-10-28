@@ -1194,6 +1194,7 @@
                         opinion</a:documentation>
                 </choice>
             </attribute>
+            <ref name="macro.specialParaContent"/>
         </element>
     </define>
     <define name="model.op.body_para">
@@ -1223,6 +1224,7 @@
                 <value>main</value>
                 <a:documentation> the main opinion</a:documentation>
             </attribute>
+            <ref name="macro.specialParaContent"/>
         </element>
     </define>
     <define name="op.intro">

@@ -86,7 +86,8 @@
     </xsl:template>
     <xsl:template match="essay//q"> "<xsl:apply-templates/>" </xsl:template>
 
-    <xsl:template match="DOC//note"><!-- template for rollover instructor and peer review notes -->
+    <xsl:template match="DOC//note">
+        <!-- template for rollover instructor and peer review notes -->
         <xsl:variable name="attribute-value" select="./@type"/>
         <xsl:choose>
             <xsl:when test="$attribute-value = 'instructor'">
@@ -97,7 +98,8 @@
             </xsl:when>
             <xsl:when test="$attribute-value != 'instructor'">
                 <sup>
-                    <a href="#" data-tooltip="Peer note: {text()}" data-tooltip-position="bottom">[p.n.]</a>
+                    <a href="#" data-tooltip="Peer note: {text()}" data-tooltip-position="bottom"
+                        >[p.n.]</a>
                 </sup>
             </xsl:when>
         </xsl:choose>
@@ -142,7 +144,7 @@
             </span>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="DOC//figure">
         <figure>
             <img src="{@url}" alt="{child::text()}"/>
@@ -157,12 +159,14 @@
         </ul>
     </xsl:template>
     <xsl:template match="DOC//list/item">
-        <li><xsl:apply-templates/></li>
+        <li>
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
     <!-- end essay templates -->
     <!-- G1: movie reviews -->
     <xsl:template match="DOC/movie_review">
-        <div id="review">
+        <div id="review" class="root">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -171,62 +175,133 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="movie_review/header/title[@type='title_review']">
-        <h1 class="{@type}"><xsl:apply-templates/></h1>
+    <xsl:template match="movie_review/header/title[@type = 'title_review']">
+        <h1 class="{@type}">
+            <xsl:apply-templates/>
+        </h1>
     </xsl:template>
-    <xsl:template match="movie_review/header/title[@type='title_movie']">
-        <h3 class="{@type}"><xsl:apply-templates/></h3>
+    <xsl:template match="movie_review/header/title[@type = 'title_movie']">
+        <h3 class="{@type}">
+            <xsl:apply-templates/>
+        </h3>
     </xsl:template>
-    <xsl:template match="movie_review/header/title[@type='photo_movie']">
+    <xsl:template match="movie_review/header/title[@type = 'photo_movie']">
         <figure>
             <img src="{text()}" alt=""/>
             <figcaption>
-                <xsl:value-of select="//title[@type='title_movie']"/>
+                <xsl:value-of select="//title[@type = 'title_movie']"/>
             </figcaption>
         </figure>
     </xsl:template>
     <xsl:template match="movie_review/header/author">
-        <h3 class="{name()}"><xsl:apply-templates/></h3>
+        <h3 class="{name()}">
+            <xsl:apply-templates/>
+        </h3>
     </xsl:template>
     <xsl:template match="movie_review/header/date">
-        <p class="{@type}"><xsl:apply-templates/></p>
+        <p class="{@type}">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="movie_review/header/contact_info">
-        <p class="{name()}"><xsl:apply-templates/></p>
+        <p class="{name()}">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
-    
 
-    
-    
+
+
+
     <xsl:template match="movie_review/content">
         <div id="review_content">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="movie_review/content/intro_para">
-        <p class="review_intro"><xsl:apply-templates/></p>
+        <p class="review_intro">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="movie_review/content/body">
-        <div id="review_body"><xsl:apply-templates/></div>
+        <div id="review_body">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="movie_review/content/body/p">
-        <p class="review_body_p"><xsl:apply-templates/></p>
+        <p class="review_body_p">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="movie_review/content/conclusion">
-        <p class="review_conclusion"><xsl:apply-templates/></p>
+        <p class="review_conclusion">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
-    
-    <!-- G3: resume templates -->
+    <!-- G3: op-ed templates -->
+    <xsl:template match="op_ed">
+        <div id="op_ed" class="root">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="DOC/op_ed/docHead">
+        <div id="op_header">
+            <h1 id="op_title">
+                <xsl:value-of select="./title"/>
+            </h1>
+            <ul>
+                <li class="op_author">
+                    <xsl:value-of select="./author"/>
+                </li>
+                <li class="op_date">
+                    <xsl:value-of select="./date"/>
+                </li>
+            </ul>
+
+        </div>
+    </xsl:template>
+    <xsl:template match="op_ed/intro">
+        <div id="op_intro">
+            <p class="intro">
+                <xsl:apply-templates/>
+            </p>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="op_ed/body_para">
+        <p class="op_body">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="op_ed//picture">
+        <figure>
+            <img src="{@url}" alt="{child::text()}"/>
+            <figcaption>
+                <xsl:value-of select="child::text()"/>
+            </figcaption>
+        </figure>
+    </xsl:template>
+    <xsl:template match="op_ed/conclusion">
+        <p class="op_concl"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="op_ed/source">
+        <p class="op_source"><xsl:apply-templates/></p>
+    </xsl:template>
+
+    <!-- G4: resume templates -->
     <xsl:template match="resume">
-        <div id="resume">
+        <div id="resume" class="root">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="resume/title">
-        <h1><xsl:apply-templates/></h1>
+        <h1>
+            <xsl:apply-templates/>
+        </h1>
     </xsl:template>
     <xsl:template match="resume//header">
-        <h3><xsl:apply-templates/></h3>
+        <h3>
+            <xsl:apply-templates/>
+        </h3>
     </xsl:template>
     <xsl:template match="resume/contact_information">
         <ul id="contact">
@@ -234,13 +309,20 @@
         </ul>
     </xsl:template>
     <xsl:template match="resume/contact_information/contact">
-        <xsl:choose><xsl:when test="@type='email'">
-            <li class="email_contact"><a href="mailto:{text()}"><xsl:apply-templates/></a></li>
-        </xsl:when>
+        <xsl:choose>
+            <xsl:when test="@type = 'email'">
+                <li class="email_contact">
+                    <a href="mailto:{text()}">
+                        <xsl:apply-templates/>
+                    </a>
+                </li>
+            </xsl:when>
             <xsl:otherwise>
-                <li class="{@type}_contact"><xsl:apply-templates/></li>
+                <li class="{@type}_contact">
+                    <xsl:apply-templates/>
+                </li>
             </xsl:otherwise>
-        </xsl:choose>      
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="resume/objectives">
         <p class="objectives">
@@ -254,22 +336,34 @@
     </xsl:template>
     <xsl:template match="resume//work_experience">
         <ul id="work_exp">
-            <xsl:for-each select="job"><li><xsl:apply-templates/></li></xsl:for-each>
+            <xsl:for-each select="job">
+                <li>
+                    <xsl:apply-templates/>
+                </li>
+            </xsl:for-each>
         </ul>
     </xsl:template>
     <xsl:template match="resume//affiliations">
         <ul id="affiliations">
-            <xsl:for-each select="affiliation"><li><xsl:apply-templates/></li></xsl:for-each>
+            <xsl:for-each select="affiliation">
+                <li>
+                    <xsl:apply-templates/>
+                </li>
+            </xsl:for-each>
         </ul>
     </xsl:template>
     <xsl:template match="resume//education">
-        <p class="education"><xsl:apply-templates/></p>
+        <p class="education">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="resume//additional_information">
-        <p class="additional_information"><xsl:apply-templates/></p>
+        <p class="additional_information">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
-    
-    
+
+
     <!-- This section processes the reviews/end notes for the document -->
     <xsl:template match="docReview">
         <div id="reviews">

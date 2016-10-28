@@ -87,9 +87,60 @@
                 voluptatem sequi nesciunt. </conclusion>
         </content>
     </movie_review>
-    
-    
-    
+
+    <op_ed>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+
+        <docHead>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <title>Test Op-Ed</title>
+            <author xml:id="id">Kevin Smith</author>
+            <date>10/28/2016</date>
+        </docHead>
+
+        <intro> Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and
+            printing in place of English to emphasise design elements over content. It's also called
+            placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline
+            the visual elements of a document or presentation, eg typography, font, or layout. Lorem
+            ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero.
+            Its words and letters have been changed by addition or removal, so to deliberately
+            render its content nonsensical; it's not genuine, correct, or comprehensible Latin
+            anymore. <opinion type="main">While lorem ipsum's still resembles classical Latin, it
+                actually has no meaning whatsoever. As Cicero's text doesn't contain the letters K,
+                W, or Z, alien to latin, these, and others are often inserted randomly to mimic the
+                typographic appearence of European languages, as are digraphs not to be found in the
+                original.</opinion> Text and stuff here as well. </intro>
+
+        <body_para>
+            <picture url="http://www.opedsummit.com/wp-content/uploads/2014/11/OP_ED_Logo.png"
+                >caption here</picture>
+            <bg_info> An op-ed (originally short for "opposite the editorial page" though sometimes
+                interpreted as "opinion editorial") is a written prose piece typically published by
+                a newspaper or magazine which expresses the opinion of a named author usually not
+                affiliated with the publication editorial board.[1] Op-eds are different from both
+                editorials (opinion pieces submitted by editorial board members) and letters to the
+                editor (opinion pieces submitted by readers).</bg_info>
+        </body_para>
+        <body_para>
+            <opinion type="opposing">Most of its text is made up from sections 1.10.32–3 of Cicero's
+                De finibus bonorum et malorum</opinion> (On the Boundaries of Goods and Evils;
+            finibus may also be translated as purposes). Neque porro quisquam est qui dolorem ipsum
+            quia dolor sit amet, consectetur, adipisci velit is the first known version <evidence
+                type="pers_exp">("Neither is there anyone who loves grief itself since it is grief
+                and thus wants to obtain it")</evidence>. It was found by Richard McClintock, a
+            philologist, director of publications at Hampden-Sydney College in Virginia; he searched
+            for citings of consectetur in classical Latin literature, a term of remarkably low
+            frequency in that literary corpus. </body_para>
+
+        <conclusion>A concern about how to clearly disclose the ties in the op-eds arises because
+            the readers of the media cannot be expected to know all about the possible connections
+            between op-eds, editors and interest groups funding some of them. In a letter to The New
+            York Times, the lack of a clear declaration of conflict of interest in op-eds has been
+            criticized by a group of U.S. journalists campaigning for more "op-ed
+            transparency".</conclusion>
+        <source/>
+    </op_ed>
+
     <resume>
         <title>Kevin G. Smith</title>
         <header>Contact Information</header>

@@ -158,6 +158,12 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+div.root {
+  padding: 4em;
+  margin: 2em;
+  border: 1px dotted black;
+  background-color: white;
+}
 
 #essay {
   padding: 4em;
