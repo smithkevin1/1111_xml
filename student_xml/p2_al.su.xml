@@ -4,34 +4,32 @@
 <DOC>
     
     
-    <Resume>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+    <op_ed>
         
         <docHead>
-            
-            <title>
-                <author xml:id="al.su"/>Sultan AlDabal</author> 
-                <date> </date>
-                </title>
+            <title>2016 Video Music Awards: Beyoncé Pt. II</title>
+            <author xml:id="al.su">Sultan Aldabal</author>
+            <date>October 28, 2016</date>
         </docHead>
-      
-        <header>Contact Information</header>
-        <contact_information>
-            <contact></contact>
-        </contact_information>
-        <header>Objectives</header>
-        <objectives></objectives>
-        <header>Qualifications</header>
-        <qualifications>
-            <work_experience>
-                <job></job>
-            </work_experience>
-            <education></education>
-            <affiliations></affiliations>
-            <additional_information></additional_information>
-        </qualifications>
-    </Resume>
-    <!-- end genre -->
+        
+        <intro>
+            <opinion type="main"></opinion>
+        </intro>
+        
+        <body_para>
+            <opinion type="opposing"></opinion>
+            <picture url="#url_here"></picture>
+            <evidence type="other"></evidence>
+            <bg_info></bg_info>
+            <quote></quote>
+            <example></example>
+            <situation></situation>
+        </body_para>
+        
+        <conclusion></conclusion>
+        <source></source>
+                
+    </op_ed>
     
     
     
