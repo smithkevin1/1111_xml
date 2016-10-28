@@ -2,11 +2,43 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
-    
+
+
+    <resume>
+        <header>Contact Information</header>
+        <contact_information>
+            <contact type="address">10677 Rosewood Road, Unit 677B Cupertino, California 95014
+                +1-612-245-0154 mohit9722@gmail.com </contact>
+            <contact type="phone"/>
+        </contact_information>
+        <header>Objectives</header>
+        <objectives/>Seeking winter internship during December 2016 (15th Dec to Jan 8th) in the
+        Business industry which is in line with my passion and my educational course in Northeastern
+        University. Currently a Mechanical Engineer, but I intend to switch to Business Management.
+        Taking accounting, International Business and Economics courses. Eager to learn and explore
+        opportunities within sales, management and marketing verticals in your organization.
+            <header>Qualifications</header>
+        <qualifications>
+            <work_experience>
+                <job/>
+            </work_experience>♣	Experience in MS Suite and 3D modeling Software (AutoCAD & Solidworks). 
+            ♣	Fluent in English, French and Hindi
+            ♣	Prior leadership roles in journalism, sports teams and outreach events
+            ♣	Basic understanding of Accounting, Economic and Business principles
+            ♣	Expertise in presentations and proficient written and verbal communication skills
+            ♣	Prior teaching experience, Teaching Assistant at Canadian International School Singapore (Math and Art)
+            ♣	Volunteered at St Joseph’s Nursing Home Singapore, worked in philanthropy activities and charity drives
+            ♣	Student athlete, several awards in Basketball, Soccer and Track & Field.  
+            
+            <education/>
+            <affiliations>
+                <affiliation/>
+            </affiliations>
+            <additional_information/>
+        </qualifications>
+    </resume>
+
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
