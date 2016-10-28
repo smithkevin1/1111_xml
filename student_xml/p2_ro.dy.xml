@@ -5,7 +5,39 @@
     
     
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <op_ed>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
+        <docHead>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <title/>
+            <author xml:id="ro.dy"/>
+            <date/>
+        </docHead>
+        
+        <intro>
+            <opinion type="main"></opinion>
+        </intro>
+        
+        <body_para>
+            <opinion type="opposing"></opinion>
+            <!--<counter_opposing></counter_opposing> delete becasue of documentation changes-->
+            <picture url="#url_here"></picture>
+            <evidence type="other"></evidence>
+            <bg_info></bg_info>
+            <!--<statistics></statistics>-->
+            <quote></quote>
+            <!--<per_experience></per_experience>-->
+            <example></example>
+            <situation></situation>
+        </body_para>
+        
+        <conclusion></conclusion>
+        <source></source>
+        
+        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
+        
+    </op_ed>
     
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
