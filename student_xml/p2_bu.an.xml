@@ -3,9 +3,44 @@
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     
-    
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <movie_review>
+        <header>
+            <title type = "title_review">From the Recesses of Obscurity Comes Marvel's Biggest Success</title>
+            <title type = "title_movie">Guardians of the Galaxy</title>
+            <title type = "photo_movie">http://i.imgur.com/yxj7g89.jpg</title>
+            <author xml:id="bu.an">Andrew T. Burcham</author>
+            <date type = "review_date">Publishing Date: November 11, 2016</date>
+            <date type = "movie_premiere">Movie Premiere: August 1, 2014</date>
+            <contact_info>burcham.a@husky.neu.edu</contact_info>
+        </header>
+        
+        <content>
+            <intro_para>
+                
+                <synopsis type = "plot_points"></synopsis>
+                <synopsis type = "themes"></synopsis>
+            </intro_para>
+            <body>
+                <p>
+                    <context type = "actor"></context>
+                    <context type = "director"></context>
+                    <context type = "franchise_history"></context>
+                </p>
+                <p>
+                    <opinions></opinions>
+                </p>
+                <p>
+                    <opinions></opinions>
+                    <aesthetics></aesthetics>
+                </p>
+            </body>
+            <conclusion>
+                <summary type = "gross_income"></summary>
+                <summary type = "rating"></summary>
+                <date type = "movie_premiere"></date>
+            </conclusion>
+        </content>
+    </movie_review>
     
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
