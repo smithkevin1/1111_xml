@@ -4,7 +4,36 @@
 <DOC>
     
     
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
+    <Resume>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
+        <docHead>
+            
+            <title>
+                <author xml:id="al.su"/>Sultan AlDabal</author> 
+                <date> </date>
+                </title>
+        </docHead>
+      
+        <header>Contact Information</header>
+        <contact_information>
+            <contact></contact>
+        </contact_information>
+        <header>Objectives</header>
+        <objectives></objectives>
+        <header>Qualifications</header>
+        <qualifications>
+            <work_experience>
+                <job></job>
+            </work_experience>
+            <education></education>
+            <affiliations></affiliations>
+            <additional_information></additional_information>
+        </qualifications>
+    </Resume>
+    <!-- end genre -->
+    
+    
     
     
     <docReview>
