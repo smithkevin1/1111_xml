@@ -21,7 +21,7 @@
             <share type="other"></share>
         </header>
         <body>
-            <image></image>
+            <image url=""></image>
             
             <p>
                 <location></location>
@@ -33,13 +33,11 @@
             <share type="twitter"></share>
             <share type="email"></share>
             <share type="other"></share>
-            <related_links></related_links>
+            <related_links url=""></related_links>
             <ad></ad>
         </footer>
 
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-
-    </article>
+            </article>
     <!-- end genre -->
 
 
