@@ -5,8 +5,43 @@
     
     
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
-    
+    <article>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
+        <header>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <article_title></article_title>
+            <author xml:id=""/>
+            <category></category>
+            <date></date>
+            <identification type="volume"></identification>
+            <identification type="issue"></identification>
+            <tags></tags>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+        </header>
+        <body>
+            <image></image>
+            
+            <p>
+                <location></location>
+                <quote></quote>
+            </p>
+        </body>
+        <footer>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+            <related_links></related_links>
+            <ad></ad>
+        </footer>
+        
+        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
+        
+    </article>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
