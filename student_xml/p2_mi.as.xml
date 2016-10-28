@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
     
+    <!-- begin genre -->
+    <article>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
+        <header>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <article_title></article_title>
+            <author xml:id="Ashwin Misra"/>
+            <category>News in Brief</category>
+            <date>November 1, 2016</date>
+            <identification type="volume">xx</identification>
+            <identification type="issue">xx</identification>
+            <tags></tags>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+        </header>
+        <image></image>
+        <body>
+            
+            <p>
+                <location></location>
+                <quote></quote>
+                
+            </p>
+        </body>
+        <footer>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+            <related_links></related_links>
+            <ad></ad>
+        </footer>
+        
+        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
+        
+    </article>
+    <!-- end genre -->
     
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     
     
+    <!-- leave this section for peer review and assessment -->
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
