@@ -6,20 +6,30 @@
 
     <movie_review>
         <header>
-            <title type="title_review"> "Mustang," Review </title>
+            <title type="title_review"> Mustang: Coldest Story Ever Told </title>
             <title type="title_movie">Mustang</title>
-            <title type="photo_movie">../../../../Google%20Drive%20North/Mustang%20Img.jpeg</title>
-            <author xml:id="">ga.ar</author>
+            <title type="photo_movie"
+                >https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwODUzODA0OV5BMl5BanBnXkFtZTgwMTA3ODkxNzE@._V1_UY1200_CR100,0,630,1200_AL_.jpg</title>
+            <author xml:id="ga.ar"> Arlen Gaba</author>
             <date type="review_date">October 27/2016</date>
             <date type="movie_premiere">November 20, 2015</date>
             <contact_info>Gaba.ar@husky.neu.edu</contact_info>
         </header>
 
         <content>
-            <intro_para> 
-                <synopsis type="plot_points"/>
-                <synopsis type="themes"/>
-            </intro_para>
+            <intro_para> Teenage girls just want to hang out, be with their friends, carelessly hook
+                up with boys and go to "futbol" matches. Adults, always middling in their lives is
+                just another obstacle to overcome to emerge as young, independent women. The teenage
+                girls from Mustang, however, also have a different approach to marriage than their
+                adoptive family is used to; they want to choose whom to marry. They want to have
+                freedom to leave their village, the freedom to an education and the freedom to act
+                their age. <synopsis type="plot_points"/> The story follows a trajectory that is
+                reminiscing of other, feel-good, empowering women stories, however, the storytelling
+                is what sets it apart. The female perspective is strong, very personal, and follows
+                the girls from carefree fun to downfall. The trouble is heavily masked in the first
+                ten minutes of the film <synopsis type="themes"/>The themes explored in the movie
+                are that of emergent womanhood, rebellion to conservative religious and social
+                norms, and </intro_para>
             <body>
                 <p>
                     <context type="actor"/>
