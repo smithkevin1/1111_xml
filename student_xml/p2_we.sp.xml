@@ -3,7 +3,51 @@
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     
-    
+    <article>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
+        <header>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <article_title></article_title>
+            <author xml:id="we.sp"/>
+            <category></category>
+            <date></date>
+            <identification type="volume">1</identification>
+            <identification type="issue">1</identification>
+            <tags></tags>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+        </header>
+        <body>
+            <image url=""></image>
+            
+            <p>
+                <location></location>
+                Title brainstorm ideas:
+                Incredible! Student manages to watch entire Game of Thrones series only during his Chemistry Lectures
+                Rich Division 1 Athlete actually convicted in rape case
+                Computer Science student momentarily forgets what sunlight feels like
+                College freshman goes through 500 count bottle of ibuprofen in just two weeks
+                Everyone remains calm during ResLife knock on door
+                New deepwater species discovered given the name Harambe
+                Student refrains from coughing an 8th time during class, in fear of appearing weird
+                Revolutionary college brochure has images other than an ethnically diverse group smiling or one student pointing to something while other students look over shoulder
+                Scientists agree that pigs will likely never fly
+                <quote></quote>
+            </p>
+        </body>
+        <footer>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+            <related_links url=""></related_links>
+            <ad></ad>
+        </footer>
+        
+    </article>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     
     
