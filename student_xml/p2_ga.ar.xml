@@ -2,11 +2,48 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
+    <movie_review>
+        <header>
+            <title type="title_review"> "Mustang," Review </title>
+            <title type="title_movie">Mustang</title>
+            <title type="photo_movie">../../../../Google%20Drive%20North/Mustang%20Img.jpeg</title>
+            <author xml:id="">ga.ar</author>
+            <date type="review_date">October 27/2016</date>
+            <date type="movie_premiere">November 20, 2015</date>
+            <contact_info>Gaba.ar@husky.neu.edu</contact_info>
+        </header>
+
+        <content>
+            <intro_para> 
+                <synopsis type="plot_points"/>
+                <synopsis type="themes"/>
+            </intro_para>
+            <body>
+                <p>
+                    <context type="actor"/>
+                    <context type="director"/>
+                    <context type="franchise_history"/>
+                </p>
+                <p>
+                    <opinions/>
+                </p>
+                <p>
+                    <opinions/>
+                    <aesthetics/>
+                </p>
+            </body>
+            <conclusion>
+                <summary type="gross_income"/>
+                <summary type="rating"/>
+                <date type="movie_premiere"/>
+            </conclusion>
+        </content>
+    </movie_review>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
-    
+
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
