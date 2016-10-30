@@ -11,7 +11,7 @@
                 >http://readwatchwrite.com/wp-content/uploads/2013/07/the-big-lebowski-15182-1920x1200.jpg</title>
             <author xml:id="test">Kevin Smith</author>
             <date type="review_date">October 27, 2016</date>
-            <date type="movie_premiere">Sept. 5, 2001</date>
+            <date type="movie_premiere">11/5/2016</date>
             <contact_info>not sure what goes here, tbh</contact_info>
         </header>
 
@@ -87,6 +87,52 @@
                 voluptatem sequi nesciunt. </conclusion>
         </content>
     </movie_review>
+    <article>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+
+        <header>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <article_title>Test Staire</article_title>
+            <author xml:id="te.te">Kevin Smith</author>
+            <category>News in Brief</category>
+            <date>10/26/2016</date>
+            <identification type="volume">1</identification>
+            <identification type="issue">1</identification>
+            <tags>test, teser</tags>
+            <share type="facebook">http://facebook.com</share>
+            <share type="twitter">http://twitter.com</share>
+            <share type="email">kgsmith2@gmail.com</share>
+            <share type="other">nah</share>
+        </header>
+        <body>
+            <image url="https://a2ua.com/onion/onion-003.jpg">onion</image>
+
+            <p>
+                <location>Chicago, IL</location>Satire is a genre of literature, and sometimes
+                graphic and performing arts, in which vices, follies, abuses, and shortcomings are
+                held up to ridicule, ideally with the intent of shaming individuals, corporations,
+                government, or society itself into improvement.[1] Although satire is usually meant
+                to be humorous, its greater purpose is often constructive social criticism, using
+                wit to draw attention to both particular and wider issues in society. </p>
+            <p><quote>Juxtaposition, comparison, analogy,</quote> and double entendre are all
+                frequently used in satirical speech and writing. This "militant" irony or sarcasm
+                often professes to approve of (or at least accept as natural) the very things the
+                satirist wishes to attack. Satire is nowadays found in many artistic forms of
+                expression, including literature, plays, commentary, television shows, and media
+                such as lyrics.</p>
+        </body>
+        <footer>
+            <share type="facebook">http://facebook.com</share>
+            <share type="twitter">http://twitter.com</share>
+            <share type="email">kgsmith2@gmail.com</share>
+            <share type="other">nah</share>
+            <related_links url="http://theonion.com">The onion</related_links>
+            <ad url="http://webneel.com/daily/sites/default/files/images/project/creative-advertisement%20(13).jpg"/>
+        </footer>
+
+        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
+
+    </article>
 
     <op_ed>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
