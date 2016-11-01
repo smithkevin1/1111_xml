@@ -2,44 +2,55 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <op_ed>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-        
         <docHead>
             <!-- make changes to the document header as necessary (based on your genre) -->
             <title/>
             <author xml:id="Jh.Sa"/>
             <date/>
         </docHead>
-        
         <intro>
-            <opinion type="main"></opinion>
-        </intro>
-        
-        <body_para>
-            <opinion type="opposing"></opinion>
-            <!--<counter_opposing></counter_opposing> delete becasue of documentation changes-->
-            <picture url="#url_here"></picture>
-            <evidence type="other"></evidence>
-            <bg_info></bg_info>
-            <!--<statistics></statistics>-->
-            <quote></quote>
-            <!--<per_experience></per_experience>-->
-            <example></example>
-            <situation></situation>
-        </body_para>
-        
-        <conclusion></conclusion>
-        <source></source>
-        
+            <opinion type="main">I have always believed that test scores should not determine the
+                fate of a person.</opinion> Maybe I should not be complaining because my grades have
+            always been “up to standards.” Yet I do not believe test scores should define where a
+            person is going to end up in life. Standardized tests are the only tool used to measure
+            the level of intelligence of a person and the failing of a standardized test can
+            undermine future success. Brilliant minds are denied the opportunity of becoming the
+            people that will one day cure cancer or the ones that will build our future simply
+            because they were never great test takers. People have amazing hidden abilities that
+            cannot be completely determined by a standardized test. </intro>
+        <body_para>Test scores should not decide the fate of a person. It is unlikely that the
+            greatest minds- Einstein, Freud, Wundt, Floy Washburn- had to take a standardized test
+            to prove to people that they indeed had great minds. </body_para>
+        <body_para>No one is known for how great they did on that math exam that they took when they
+            were a freshman in high school, nor are they known for how well they performed on their
+            AP exam. I do not want to be known for how great my high school transcript looked nor
+            for how well my SAT scores were. I want to be known for becoming a great listener after
+            I had no one that was willing to listen to me. I want to be known for overcoming my
+            struggles and for how strong a person I have become because of them. I want to be known
+            for my resilience and my ability to overcome difficulties. A person with an SAT score of
+            1410 could have all the determination in life to become the greatest engineer as that of
+            a person that got a score of 1720. A simple number that is calculated by the standards
+            of a group of people should not determine the school a great mind ends up
+            attending.</body_para>
+        <conclusion>I have found myself in situations that have determined who I am today, but who I
+            think I am is viewed very different by those who receive my test scores. People are
+            taught that life is all about getting up once you fall down. Life is as simple as an
+            abstract idea. Our whole lives we are told to strive for great things and to dream big
+            so that one day our dreams will come true. Yet, all of this simplicity is shattered by
+            the idea that everyone is measured by the same standards. A monkey can climb a tree, but
+            a fish never will. Everyone is different, but when going into college we are all
+            measured the same way, without taking into consideration that some of us are fishes and
+            some cannot climb trees.</conclusion>
+
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-        
     </op_ed>
     <!-- end genre -->
-    
-    
+
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
