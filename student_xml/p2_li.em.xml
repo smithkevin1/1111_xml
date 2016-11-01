@@ -2,12 +2,12 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <article>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-        
+
         <header>
             <article_title>Great, The Uber Driver is Playing His Fucking Mixtape</article_title>
             <author xml:id="li.em"/>
@@ -15,36 +15,67 @@
             <date>1 November 2016</date>
             <identification type="volume">42</identification>
             <identification type="issue">43</identification>
-            <tags>local</tags> <tags>Nightlife</tags> <tags>Mixtapes</tags>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
+            <tags>local</tags>
+            <tags>Nightlife</tags>
+            <tags>Mixtapes</tags>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
         </header>
         <body>
-            <image></image>
-            
+            <image/>
+
             <p>
                 <location>BOSTON, MA</location>
-                <quote></quote>
+                <quote/>
             </p>
         </body>
         <footer>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
-            <related_links></related_links>
-            <ad></ad>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links/>
+            <ad/>
         </footer>
-        
+
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-        
+
     </article>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>Summary: You have several title ideas for his article. Some are relatable to
+                Northeastern and/or college students, while others are universal to anyone.
+                
+                Critique/Eval: Titles are the most important part of these satirical articles, so I
+                think it is understandable that you only have titles to be reviewed. I definitely
+                favor some over the others, and I also like the idea of doing an article that is
+                related to college. My favorite is the Game of Thrones one. If you were to use that
+                one, I would suggest omitting “only” and “his” so it reads” Incredible! Student
+                Manages to Watch Entire Game of Thrones Series During Chemistry Lectures.” It is not
+                a big deal, but I think it just sounds a little bit more synthesized. I do really
+                like the “Incredible!” because it reflects The Onion’s wording. You could
+                sarcastically comment on the tuition money being wasted, quotes from other students
+                in his class, etc. I also liked the other college-themed titles, including the
+                ResLife one and the coughing one. It is really just a matter of figuring out how to
+                elaborate on them. 
+                
+                I also like the “Scientists Agree That Pigs Will Likely Never
+                Fly.” I think that is a really clever title, and gets to the type of humor Onion has
+                in some of its random/wtf articles that satirize a random part of society, like the
+                saying “when pigs fly.” The athlete/rape one is definitely a relevant topic in
+                society, but maybe overdone/time already passed. The computer science one is also
+                really funny, but maybe only really relevant to a small crowd (computer science
+                majors), which isn’t a huge deal, just something to consider. The Harambe one is
+                actually kind of funny even though I think Harambe jokes should've never been a
+                thing, mainly because I think someone could actually believe it. The Gary Johnson
+                one is also funny, so it is just a matter of being able to elaborate. 
+                
+                Overall, you presented a wide range of article titles that touch upon different types of humor
+                that come from The Onion. My suggestion would be to maybe pick a couple titles to
+                write articles for, then decide which one comes out stronger. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
