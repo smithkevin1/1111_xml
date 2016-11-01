@@ -1101,7 +1101,9 @@
             <ref name="article.date"/>
             <ref name="identification"/>
             <ref name="identification"/>
-            <ref name="tags"/>
+            <oneOrMore>
+                <ref name="tags"/>
+            </oneOrMore>
             <zeroOrMore>
                 <ref name="share"/>
             </zeroOrMore>
@@ -1275,7 +1277,9 @@
             <a:documentation>Container element for affiliations, sub-element for qualifications,
                 optional element, can have multiple affiliation elements; A list of any associations
                 the applicant is a member of</a:documentation>
-            <oneOrMore><ref name="affiliation"/></oneOrMore>
+            <oneOrMore>
+                <ref name="affiliation"/>
+            </oneOrMore>
         </element>
     </define>
     <define name="education">
@@ -1399,13 +1403,15 @@
     <define name="DOC">
         <element name="DOC">
             <a:documentation>root element for all ENGW1111 assignments</a:documentation>
-            <oneOrMore><choice>
-                <ref name="essay"/>
-                <ref name="movie_review"/>
-                <ref name="article"/>
-                <ref name="op_ed"/>
-                <ref name="resume"/>
-            </choice></oneOrMore>
+            <oneOrMore>
+                <choice>
+                    <ref name="essay"/>
+                    <ref name="movie_review"/>
+                    <ref name="article"/>
+                    <ref name="op_ed"/>
+                    <ref name="resume"/>
+                </choice>
+            </oneOrMore>
             <zeroOrMore>
                 <ref name="docReview"/>
             </zeroOrMore>

@@ -307,6 +307,43 @@ ul.right-just {
   list-style-type: none;
 }
 
+span.italics {
+  font-style: italic;
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+span.bold {
+  font-weight: bold;
+}
+span.caps{
+  text-transform: uppercase;
+}
+
+
+figure {
+    display: block;
+
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    display: block;
+    margin: 0 auto;
+    vertical-align: top;
+    max-width: 100%;
+    height:auto;
+}
+figure figcaption {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+/* Essay custom styles */
 div#essay h1 {
   text-align: center;
   font-size: 1.25em;
@@ -354,120 +391,98 @@ a.cit:hover {
   text-indent: -45px ;
 }
 
-span.italics {
-  font-style: italic;
+/*
+MOVIE REVIEWS
+*/
+div#review_header {
+  padding: 2em;
+  background-color: #f2f2f2;
+  margin-bottom: 2em;
+}
+#review_header h1 {
+  font-family: "Futura", "Helvetica", sans-serif;
+  padding: 0.5em;
 }
 
-span.underline {
-  text-decoration: underline;
+#review_header h3 {
+  font-size: 1.2em;
+  font-family: "Futura", "Helvetica", sans-serif;
+}
+#review_header p {
+  font-size: 1em;
+  font-family: "Futura", "Helvetica", sans-serif;
 }
 
-span.bold {
-  font-weight: bold;
+#review_header p.author {
+  text-align: center;
 }
-span.caps{
-  text-transform: uppercase;
+#review_header a {
+  padding: none;
 }
 
-
-figure {
-    display: block;
-
-    margin: 20px; /* adjust as needed */
+#review_header a {
+  text-decoration: none;
+  color: #2d5986;
 }
-figure img {
-    display: block;
-    margin: 0 auto;
-    vertical-align: top;
-    max-width: 100%;
-    height:auto;
+a.cit {
+  color:
+  text-decoration: none;
 }
-figure figcaption {
-    border: none;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
+#review_header a:visited {
+  color: #2d5986;
+}
+#review_header a:hover {
+  color: #660000;
+}
+
+div#review_content {
+  padding-top: 2em;
+}
+
+div#review_content p {
+  font-family: "new century schoolbook", serif;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+/*
+SATIRITCAL ARTICLES
+*/
+div#article_header {
+  padding: 2em;
+  background-color: #f2f2f2;
+  margin-bottom: 2em;
+}
+#article_header h1 {
+  font-family: "Futura", "Helvetica", sans-serif;
+  padding: 0.5em;
+  text-align: center;
+}
+#article_header h3 {
+  font-size: 1.2em;
+  font-family: "Futura", "Helvetica", sans-serif;
+}
+#article_header p {
+  list-style-type: none;
+  font-size: 1em;
+  font-family: "Futura", "Helvetica", sans-serif;
+}
+div#article_body p {
+  font-family: "new century schoolbook", serif;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+div#sharing {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 /*
-Custom styles for annotated XML documents
+SHARING BUTTONS for Satirical articles
 */
-div#ann_intro {
-  padding: 3em;
-  border: 1px solid;
-  border-radius: 1em 5em;
-}
-
-div#ann_intro::after {
-  content: <h3>"Body"</h3>
-}
-
-div#ann_concl {
-  padding: 3em;
-  border: 1px solid;
-  border-radius: 5em 1em;
-}
-
-#legend {
-  display:block;
-  margin: 0 auto;
-  width: 70%;
-  height: auto;
-  padding: 1em;
-
-  border-radius: 2em;
-}
-#legend p {
-  font-size: 2em;
-  text-decoration: underline;
-  text-align: center;
-}
-#legend ul {
-  margin: 0 auto;
-}
-#legend li {
-  display: block;
-  height: auto;
-  padding-left: .5em;
-  list-style-type:square;
-}
-
-#legend li strong {
-  text-decoration: underline;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-span.scene {color: #a6cee3;}
-li.scene {background-color: #a6cee3;}
-span.genre {color: #1f78b4;}
-li.genre {background-color: #1f78b4;}
-span.participants {color: #b2df8a;}
-li.participants {background-color: #b2df8a;}
-span.setting {color: #33a02c;}
-li.setting {background-color: #33a02c;}
-span.situation {color: #fb9a99;}
-li.situation {background-color: #fb9a99;}
-span.context {color: #e31a1c;}
-li.context {background-color: #e31a1c;}
-span.aesthetics {color: #fdbf6f;}
-li.aesthetics {background-color: #fdbf6f;}
-span.sim {color: #ff7f00;}
-li.sim {background-color: #ff7f00;}
-span.diff {color: #cab2d6;}
-li.diff {background-color: #cab2d6;}
-span.pattern {color: #6a3d9a;}
-li.pattern {background-color: #6a3d9a;}
-span.argument {color: #cccc00;}
-li.argument {background-color: #cccc00;}
-span.evidence {color: #b15928;}
-li.evidence {background-color: #b15928;}
-
-
-
-
-/*TEST FOR SHARING BUTTONS*/
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
   display: inline-block
@@ -620,6 +635,81 @@ li.evidence {background-color: #b15928;}
   background-color: #5e5e5e;
   border-color: #5e5e5e;
 }
+
+/*
+Custom styles for annotated XML documents
+*/
+div#ann_intro {
+  padding: 3em;
+  border: 1px solid;
+  border-radius: 1em 5em;
+}
+
+div#ann_intro::after {
+  content: <h3>"Body"</h3>
+}
+
+div#ann_concl {
+  padding: 3em;
+  border: 1px solid;
+  border-radius: 5em 1em;
+}
+
+#legend {
+  display:block;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  padding: 1em;
+
+  border-radius: 2em;
+}
+#legend p {
+  font-size: 2em;
+  text-decoration: underline;
+  text-align: center;
+}
+#legend ul {
+  margin: 0 auto;
+}
+#legend li {
+  display: block;
+  height: auto;
+  padding-left: .5em;
+  list-style-type:square;
+}
+
+#legend li strong {
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+span.scene {color: #a6cee3;}
+li.scene {background-color: #a6cee3;}
+span.genre {color: #1f78b4;}
+li.genre {background-color: #1f78b4;}
+span.participants {color: #b2df8a;}
+li.participants {background-color: #b2df8a;}
+span.setting {color: #33a02c;}
+li.setting {background-color: #33a02c;}
+span.situation {color: #fb9a99;}
+li.situation {background-color: #fb9a99;}
+span.context {color: #e31a1c;}
+li.context {background-color: #e31a1c;}
+span.aesthetics {color: #fdbf6f;}
+li.aesthetics {background-color: #fdbf6f;}
+span.sim {color: #ff7f00;}
+li.sim {background-color: #ff7f00;}
+span.diff {color: #cab2d6;}
+li.diff {background-color: #cab2d6;}
+span.pattern {color: #6a3d9a;}
+li.pattern {background-color: #6a3d9a;}
+span.argument {color: #cccc00;}
+li.argument {background-color: #cccc00;}
+span.evidence {color: #b15928;}
+li.evidence {background-color: #b15928;}
+
 
 /* ==========================================================================
    Media Queries

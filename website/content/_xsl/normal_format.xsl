@@ -164,7 +164,7 @@
         </li>
     </xsl:template>
     <!-- end essay templates -->
-    
+
     <!-- G1: movie reviews -->
     <xsl:template match="DOC/movie_review">
         <div id="review" class="root">
@@ -181,11 +181,12 @@
             <xsl:apply-templates/>
         </h1>
     </xsl:template>
-    <xsl:template match="movie_review/header/title[@type = 'title_movie']">
-        <h3 class="{@type}">
-            <xsl:apply-templates/>
-        </h3>
-    </xsl:template>
+    <!--    <xsl:template match="movie_review/header/title[@type = 'title_movie']">
+        <p class="{@type}">
+            <strong><xsl:apply-templates/></strong>
+        </p>
+    </xsl:template>-->
+    <xsl:template match="movie_review/header/title[@type = 'title_movie']"/>
     <xsl:template match="movie_review/header/title[@type = 'photo_movie']">
         <figure>
             <img src="{text()}" alt=""/>
@@ -193,22 +194,27 @@
                 <xsl:value-of select="//title[@type = 'title_movie']"/>
             </figcaption>
         </figure>
+        <hr/>
     </xsl:template>
     <xsl:template match="movie_review/header/author">
-        <h3 class="{name()}">
-            <xsl:apply-templates/>
-        </h3>
-    </xsl:template>
-    <xsl:template match="movie_review/header/date">
-        <p class="{@type}">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="movie_review/header/contact_info">
         <p class="{name()}">
-            <xsl:apply-templates/>
+            <strong><xsl:apply-templates/></strong> | <a href="mailto:{../contact_info[text()]}"
+                    ><xsl:value-of select="../contact_info"/></a> | <xsl:value-of
+                select="../date[@type = 'review_date']"/>
+        </p>
+
+        <hr/>
+    </xsl:template>
+    <xsl:template match="movie_review/header/date[@type = 'review_date']"/>
+    <xsl:template match="movie_review/header/date[@type = 'movie_premiere']">
+        <p class="{@type}">
+            <span class="italics"><xsl:value-of select="../title[@type = 'title_movie']"/> premieres
+                on <xsl:apply-templates/></span>
         </p>
     </xsl:template>
+
+    <xsl:template match="movie_review/header/contact_info"/>
+
 
 
 
@@ -249,29 +255,22 @@
             <h1 id="article_title">
                 <xsl:value-of select="article_title"/>
             </h1>
-            <h3>
+            <!--<h3>
                 <xsl:value-of select="author"/>
-            </h3>
-            <ul>
-                <li class="category">
-                    <xsl:value-of select="category"/>
-                </li>
-                <li class="date">
-                    <xsl:value-of select="date"/>
-                </li>
-                <li class="identification"><xsl:value-of select="identification[@type = 'volume']"
-                        />.<xsl:value-of select="identification[@type = 'issue']"/></li>
-                <li class="tags">
-                    <xsl:value-of select="tags"/>
-                </li>
-            </ul>
+            </h3>-->
+            <p>
+                <a href="#"><xsl:value-of select="category"/></a> | <xsl:value-of select="date"/> | VOL <xsl:value-of
+                    select="identification[@type = 'volume']"/> ISSUE <xsl:value-of
+                    select="identification[@type = 'issue']"/>              
+            </p>
+            <p><xsl:for-each select="tags"><a href="#"><xsl:value-of select="text()"/></a></xsl:for-each></p>
             <!--<div id="share" style="display:inline-block;">
                 <a href="http://facebook.com"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" alt="share"/></a>
                 <a href="http://twitter.com"><img src="http://1img.org/wp-content/uploads/2015/09/twitter-icon-2.jpg" alt="share"/></a>
                 <a href="mailto:{text()}"><img src="http://www.freeiconspng.com/uploads/iconmonstr-email-4-icon-27.png" alt="email"/></a>
             </div>-->
             <!-- Sharingbutton Facebook -->
-            <a class="resp-sharing-button__link"
+            <div id="sharing"><a class="resp-sharing-button__link"
                 href="https://facebook.com/sharer/sharer.php?u={text()}" target="_blank"
                 aria-label="Facebook">
                 <div
@@ -313,7 +312,7 @@
     </svg></div>E-Mail</div>
             </a>
 
-        </div>
+        </div></div>
     </xsl:template>
     <xsl:template match="article/body">
         <div id="article_body">
