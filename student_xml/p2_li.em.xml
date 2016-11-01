@@ -2,50 +2,77 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <article>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-        
+
         <header>
             <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title></article_title>
+            <article_title/>
             <author xml:id=""/>
-            <category></category>
-            <date></date>
-            <identification type="volume"></identification>
-            <identification type="issue"></identification>
-            <tags></tags>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
+            <category/>
+            <date/>
+            <identification type="volume"/>
+            <identification type="issue"/>
+            <tags/>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
         </header>
         <body>
-            <image></image>
-            
+            <image/>
+
             <p>
-                <location></location>
-                <quote></quote>
+                <location/>
+                <quote/>
             </p>
         </body>
         <footer>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
-            <related_links></related_links>
-            <ad></ad>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links/>
+            <ad/>
         </footer>
-        
+
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-        
+
     </article>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>The draft is well written and adheres to the style of writing of a typical satirical
+                article such as one in The Onion. The use of an accurate rhetorical situation which
+                is relevant to satirical articles further validates the content in the body
+                paragraph. 
+                
+                Satirical articles are meant to be a humorous take on articles published
+                in conventional sources (i.e. The New York Times). I feel that this article has many
+                qualities that help it fit into this satirical article category very well. The focus
+                of this article is on one particular event in one night, which is what many
+                satirical articles are about. The story having a funny character is one definite
+                sign that it is a satirical article. There is a good incorporation of current humor–
+                the whole concept of mixtapes is very relevant in today’s society where small time
+                rappers try to promote themselves through their music. Further, I like how there is
+                an insight into the thoughts and feelings of the characters who are involved in the
+                scene. Although satirical articles are not meant for character development, I feel
+                that a scene is built and situations are developed when there is a general
+                understanding of the characters– this was done well by the author. 
+                
+                One aspect on language which can be slightly improved on is how everything in the article seems to
+                be over-emphasized. For example, “kept saying that he raps”, “terrible mistake”,
+                “overly heavy bass”, “barely make out”, “played three more”. Some details may be
+                better if they’re left un-emphasized. 
+                
+                Overall, I feel that the article is very well written and sticks by the conventions of satirical articles with good use of
+                character & scene development which makes for a thorough rhetorical situation
+                development. One little aspect of the article that may be reconsidered is the amount
+                of words/ phrases that are emphasized to add effect. It is a good habit to have,
+                especially in satirical articles, however not always.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
