@@ -424,10 +424,7 @@ div#review_header {
   text-decoration: none;
   color: #2d5986;
 }
-a.cit {
-  color:
-  text-decoration: none;
-}
+
 #review_header a:visited {
   color: #2d5986;
 }
@@ -449,36 +446,49 @@ div#review_content p {
 SATIRITCAL ARTICLES
 */
 div#article_header {
-  padding: 2em;
-  background-color: #f2f2f2;
+  padding: 2em 2em 2em 0;
   margin-bottom: 2em;
   height: auto;
 }
 #article_header h1 {
-  font-family: "Futura", "Helvetica", sans-serif;
-  padding: 0.5em;
-  text-align: center;
+  font-family: "new century schoolbook", serif;
+  padding: 0;
+  text-align: left;
 }
 #article_header h3 {
   font-size: 1.2em;
-  font-family: "Futura", "Helvetica", sans-serif;
+  font-family: "new century schoolbook", serif;
 }
 #article_header p {
-  list-style-type: none;
   font-size: 1em;
-  font-family: "Futura", "Helvetica", sans-serif;
+  font-family: "new century schoolbook", serif;
 }
-#article_header figure {
-  width: 40%
+#article figure {
+  width: 55%;
   float: right;
-  background-color: #f2f2f2;
+  margin-bottom: 2em;
+}
+#article_body figure img {
+  padding: 2em;
+
+}
+#article_header p a {
+  text-decoration: none;
+  color: black;
+}
+
+#article_header p a:visited {
+  color: black;
+}
+#article_header p a:hover {
+  color: gray;
 }
 
 div#article_data {
   display: block;
-  width: 40%;
+  width: 37%;
+  height: 40%;
   float: left;
-  background-color: #f2f2f2;
 }
 div#sharing {
   display: block;
@@ -490,6 +500,68 @@ div#article_body p {
   font-size: 1.2em;
   line-height: 2em;
 }
+
+#article_footer {
+  width: 100%;
+}
+
+#article_footer p {
+  font-size: 1em;
+  font-family: "new century schoolbook", serif;
+}
+#article_footer figure {
+  width:30%;
+  float: left;
+}
+
+#article_footer figure img {
+
+}
+
+#article_footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+#article_footer p a:visited {
+  color: black;
+}
+#article_footer p a:hover {
+  color: gray;
+}
+
+/*
+OP ED
+*/
+#op_ed h1 {
+  font-family: "Futura", "Helvetica", sans-serif;
+  padding: 0.5em;
+}
+
+#op_ed h3 {
+  font-size: 1.2em;
+  font-family: "Futura", "Helvetica", sans-serif;
+}
+#op_header p {
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: "Futura", "Helvetica", sans-serif;
+}
+#op_body p {
+  font-family: "new century schoolbook", serif;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+#op_ed figure {
+  width: 50%;
+  float: right;
+}
+#op_ed figure img {
+  padding:2em;
+}
+
+
 
 /*
 SHARING BUTTONS for Satirical articles
