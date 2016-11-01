@@ -2,23 +2,27 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
+
     <movie_review>
         <header>
-            <title type = "title_review">Hocus Pocus</title>
-            <title type = "title_movie">Hocus Pocus</title>
-            <title type = "photo_movie">http://i.imgur.com/GKFUEg9.jpg</title>
+            <title type="title_review">Hocus Pocus</title>
+            <title type="title_movie">Hocus Pocus</title>
+            <title type="photo_movie">http://i.imgur.com/GKFUEg9.jpg</title>
             <author xml:id="to.fr">Francheska Torres </author>
-            <date type = "review_date">October 28, 2016</date>
-            <date type = "movie_premiere">July 16, 1993</date>
-            <contact_info></contact_info>
+            <date type="review_date">October 28, 2016</date>
+            <date type="movie_premiere">July 16, 1993</date>
+            <contact_info/>
         </header>
-        
+
         <content>
-            <intro_para>
-                Hocus Pocus( 1993) was the second film former dance choreographer Kenny Ortega directed. 
-                Ortega has since mostly worked in TV but has had other successes with the Disney Channel TV movie High School Musical (2006)
-                and sequels, as well as the Michael Jackson documentary This Is It (2009). <synopsis type = "plot_points">Hocus Pocus tells the story of the Sanderson sisters
+            <intro_para> Hocus Pocus( 1993) was the second film former dance choreographer Kenny
+                Ortega directed. Ortega has since mostly worked in TV but has had other successes
+                with the Disney Channel TV movie High School Musical (2006) and sequels, as well as
+                the Michael Jackson documentary This Is It (2009).<note type="peer">I think you
+                    should add a brief glance into your thoughts on the movie in your first couple
+                    of senstences. Don't give away your entire opinion, just something to tell the
+                    audience this is a positive/negative review like how our examples did it.</note>
+                <synopsis type="plot_points">Hocus Pocus tells the story of the Sanderson sisters
                 , a trio of witches named Winifred, Mary, and Sarah, played by Bette Midler, Kathy Najimy, and Sarah Jessica Parker respectively.
                 These witches were hung in 1693 by the townspeople of Salem for stealing children. 300 years later, a teen named Max, played by
                 Omri Katz, moves to Salem with his family from Los Ageles, California. He is very skeptical of the legend of the Sanderson sisters, 
@@ -26,75 +30,117 @@
                 by Thora Birch, to the Sanderson house where, if a virgin lights the black flame candle on Halloween, legend has it the sisters will 
                 return from the grave. Being the skeptic that he is, Max lights the candle, inadvertently bringing the Sanderson Sisters back to life. 
                 In order to stay alive, the sisters must suck the life out of a child using a spell from their book. Now, Max, Allison, Dani, and a 
-                cursed cat named Thackery, voiced by Jason Marsden, must keep them from getting this book.</synopsis> 
+                cursed cat named Thackery, voiced by Jason Marsden, must keep them from getting this book.</synopsis>
             </intro_para>
             <body>
                 <p>
-                    <context type = "actor"></context>
-                    <context type = "director"></context>
-                    <context type = "franchise_history"></context>
-                    
-                    Hocus Pocus was not the first time that Disney had made a film about witches – they having made everything from Snow White and the
-                    Seven Dwarfs (1937) and Sleeping Beauty (1959) to The Sword in the Stone (1963) and Bedknobs and Broomsticks (1971). Of all of these,
-                    Hocus Pocus seems the most trivial.Sure, it has some flashy effects – witches flying on broomsticks, a CGI talking cat, a book with a 
-                    living eye, Bette Midler morphing into a stone gargoyle at the climax – but there is no awe to the effects, nothing that supports them, 
-                    they are empty and generated solely for their own sake. Beneath this, there is little in the way of story – it consists mostly of people
-                    running around connected only by a series of thin plot devices. The Disney name adds a layer of  “niceness” over everything so that it 
-                    never gets too scary for children: the witches are played so moronically there is no chance they can appear threatening, the zombie turns
-                    out to be a nice guy, and everything is wrapped up happily at the ending.
-                    
+                    <context type="actor"/>
+                    <context type="director"/>
+                    <context type="franchise_history"/> Hocus Pocus was not the first time that
+                    Disney had made a film about witches – they having made everything from Snow
+                    White and the Seven Dwarfs (1937) and Sleeping Beauty (1959) to The Sword in the
+                    Stone (1963) and Bedknobs and Broomsticks (1971). Of all of these, Hocus Pocus
+                    seems the most trivial.Sure, it has some flashy effects – witches flying on
+                    broomsticks, a CGI talking cat, a book with a living eye, Bette Midler morphing
+                    into a stone gargoyle at the climax – but there is no awe to the effects,
+                    nothing that supports them, they are empty and generated solely for their own
+                    sake. Beneath this, there is little in the way of story – it consists mostly of
+                    people running around connected only by a series of thin plot devices. The
+                    Disney name adds a layer of “niceness” over everything so that it never gets too
+                    scary for children: the witches are played so moronically there is no chance
+                    they can appear threatening, the zombie turns out to be a nice guy, and
+                    everything is wrapped up happily at the ending. <note type="peer">This is
+                        generally the Disney formula however. The other movies you listed all did
+                        the same thing, so maybe clarify why you think this is a problem. Maybe
+                        state what your expectations to the movie were coming in and why you had
+                        them.</note>
                 </p>
                 <p>
-                    <opinions></opinions>
-                    
-                    The film also bends itself in irritatingly chronologically incorrect ways for the purpose of laughs – so that Bette Midler might get a chance 
-                    to sing, the film conveniently provides her with a stage and microphone and allows the other two sisters to become a backing chorus; they 
-                    developing instant familiarity with 20th Century technology and musical styles despite having been revived out of the 17th Century for less 
-                    than a day. Later on as Omri Katz flees Bette Midler in a car while she pursues on a broomstick, she makes jarringly anachronistic references
-                    to his lack of driver’s licensce (“Let me see a driver’s permit”) and to arresting him for speeding (“resisting arrest?”).
+                    <opinions/> The film also bends itself in irritatingly chronologically incorrect
+                    ways for the purpose of laughs – so that Bette Midler might get a chance to
+                    sing, the film conveniently provides her with a stage and microphone and allows
+                    the other two sisters to become a backing chorus; they developing instant
+                    familiarity with 20th Century technology and musical styles despite having been
+                    revived out of the 17th Century for less than a day. Later on as Omri Katz flees
+                    Bette Midler in a car while she pursues on a broomstick, she makes jarringly
+                    anachronistic references to his lack of driver’s licensce (“Let me see a
+                    driver’s permit”) and to arresting him for speeding (“resisting arrest?”). <note
+                        type="peer">I can see the cheesy dialouge being a problem, especially when
+                        you're outside the targeted demographic for the movie, but again, it was
+                        marketed as a goofy kid's comedy. Explain why you think/expected there to be
+                        a strong sense of reality to the film or why this is a problem.</note>
                 </p>
                 <p>
-                    <opinions></opinions>
-                    <aesthetics></aesthetics>
-                    
-                    I found this movie to be pretty creepy sexually. Max is your typical randy tween — a virgin, as the film constantly reminds us — whose primary 
-                    motivation is to impress Allison (Vinessa Shaw), a girl in his class. Many movies start off this way, but few include cringe-inducing scenes 
-                    where the protagonist pretends a pillow is the object of his affection and spoons it while whispering, "Oh, Allison, you're so soft." Hocus
-                    Pocus is a Disney movie, and Max is dry-humping his bedding. That's alarming. But what's even stranger is that this is a movie written by adults 
-                    for children. Why are scenes like this necessary? To really drive home the point that Max likes Allison? Hocus Pocus is obsessed with his virginity,
-                    per the fact that according to legend, only virgins can light candles that bring the witches back. But the movie repeatedly reminds us of his virgin 
-                    status, and also reminds us that he acts in irrational and dumb ways because he seems so desperate to lose it.
-                    
-                </p>
-                <p>
-                    The entire movie gives off the impression of having been staged as a way for Bette Midler to shine. Bette Midler obtained critical acclaim as an actress
-                    in the Janis Joplin-based The Rose (1979). In buck-toothed, eyes permanently wide open, and Queen Anne hairstyle fashion, Midler shamelessly out-shines 
-                    Sarah Jessica Parker and Kathy Najimy, the results of which become watchable in a bizarre way after awhile. (Although, for all Bette Midler’s appeal 
-                    as a singer, the best song in the movie comes from Sarah Jessica Parker, a melodic sequence sung from on her broom to draw the town’s children to their
-                    deaths). The best acting comes the less ostentatious players – from Omri Katz who makes an appealing and convincing teen hero and a young Thora Birch 
-                    who plays off him with authentic emotion as his younger sister. Vinessa Shaw starts out well but once the action starts, the film forgets about her 
-                    entirely and allows her to become no more than part of the scenery.  
-                </p>
-                
+                    <opinions/>
+                    <aesthetics/> I found this movie to be pretty creepy sexually. Max is your
+                    typical randy tween — a virgin, as the film constantly reminds us — whose
+                    primary motivation is to impress Allison (Vinessa Shaw), a girl in his class.
+                    Many movies start off this way, but few include cringe-inducing scenes where the
+                    protagonist pretends a pillow is the object of his affection and spoons it while
+                    whispering, "Oh, Allison, you're so soft." Hocus Pocus is a Disney movie, and
+                    Max is dry-humping his bedding. <note type="peer">I like the use of specific
+                        scenes as examples to support your opinion.</note> That's alarming. But
+                    what's even stranger is that this is a movie written by adults for children. Why
+                    are scenes like this necessary? To really drive home the point that Max likes
+                    Allison? Hocus Pocus is obsessed with his virginity, per the fact that according
+                    to legend, only virgins can light candles that bring the witches back. But the
+                    movie repeatedly reminds us of his virgin status, and also reminds us that he
+                    acts in irrational and dumb ways because he seems so desperate to lose it. </p>
+                <p> The entire movie gives off the impression of having been staged as a way for
+                    Bette Midler to shine. Bette Midler obtained critical acclaim as an actress in
+                    the Janis Joplin-based The Rose (1979). In buck-toothed, eyes permanently wide
+                    open, and Queen Anne hairstyle fashion, Midler shamelessly out-shines Sarah
+                    Jessica Parker and Kathy Najimy, the results of which become watchable in a
+                    bizarre way after awhile. (Although, for all Bette Midler’s appeal as a singer,
+                    the best song in the movie comes from Sarah Jessica Parker, a melodic sequence
+                    sung from on her broom to draw the town’s children to their deaths). The best
+                    acting comes the less ostentatious players – from Omri Katz who makes an
+                    appealing and convincing teen hero and a young Thora Birch who plays off him
+                    with authentic emotion as his younger sister. Vinessa Shaw starts out well but
+                    once the action starts, the film forgets about her entirely and allows her to
+                    become no more than part of the scenery.   </p>
+
             </body>
             <conclusion>
-                <summary type = "gross_income"></summary>
-                <summary type = "rating"></summary>
-                <date type = "movie_premiere"></date>
-                
-                When Hocus Pocus debuted more than 20 years
-                ago, it made $39 million — a meager number compared with the $28 million Disney poured into its production. The movie was a disappointment, 
-                opening at fourth place behind peers like Jurassic Park and Free Willy. 
-                
-                
-            </conclusion>
+                <summary type="gross_income"/>
+                <summary type="rating"/>
+                <date type="movie_premiere"/> When Hocus Pocus debuted more than 20 years ago, it
+                made $39 million — a meager number compared with the $28 million Disney poured into
+                its production. The movie was a disappointment, opening at fourth place behind peers
+                like Jurassic Park and Free Willy. <note type="peer">It would probably be a good
+                    idea to wrap up your review with your general feelings on the movie and whether
+                    or not you would reccomend it to others. Did you find it entertaining despite
+                    its flaws? Or was it dissapointment to you as well? What type of audience would
+                    get the most out of this movie/who would you reccomend it to if at
+                all?</note></conclusion>
         </content>
     </movie_review>
-    
+
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="bu.an"> Andrew Burcham </reviewer>
+        <report type="peer" who="#bu.an">
+            <p>The above article of writing is a review of the movie Hocus Pocus. It was an
+                opinionated piece that discussed the movie’s plot, acting, visuals, and music in
+                order to inform he reader of whether or not they should go out of their way to watch
+                the movie. In the end it was determined to be a poorly made film for its cheesy-ness
+                and lack of plot. I believe the review had several good aspects, but could be
+                clarified in a couple of places that would give the audience a better understanding
+                of the author’s perspective. At some points in the article, I felt the movie was
+                unfairly judged based off criteria it was not aiming for. A bit of explanation on
+                why the author felt it should be more serious, for example, despite being a kid’s
+                comedy, or why the standard Disney formula was not working for this movie should be
+                given. I think it is perfectly fine to judge the movie and have complaints about it,
+                they all seem pretty valid as is now, but a little retrospective would be nice.
+                Also, there was no real conclusion given. Despite all the critiques given, it is a
+                little difficult to tell whether or not the author would recommend the movie to
+                others. It abruptly ends, calling it a disappointment financially and no other
+                thoughts on the movie. Other than that, I felt the review did very well to encompass
+                some of the key aspects of a movie review from our research. The synopsis was well
+                done, giving enough information on the movie to understand it without spoiling the
+                plot. The critiques of the cinematography and acting was good, and the review was
+                not all negative which was good to give the audience different views on the movie.
+                The only other minor issue is that some XML tags should be used to mark up the
+                article.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
