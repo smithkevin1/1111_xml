@@ -29,16 +29,16 @@
                 >caption</image>
 
             <p><location>BOULDER, CO</location>The Libertarian Party candidate assures win after
-                rewatching his public media meltdown about the 2 primary candidates. “Just look at
-                the polls, Anderson. I’m at a whole 4.6% right now! I’d say I got this one in the
-                bag. Oh boy is it looking good for me, huh? We’re practically on double digits! Just
-                wait until the fourth debate and my numbers will shoot way up!” said a hot-tempered
-                Johnson, who added that his favorability numbers of just 21% are higher than “any
-                president in the history of America”. After having a private conversation with
-                Johnson’s VP pick- William Weld- we learned a great deal of useful information.
-                “Really I don’t know what Gary and I are still doing here. He’s a lost cause in all
-                seriousness.” Weld also added that Gary Johnson will be “the most irrelevant
-                presidential candidate in modern US history”. </p>
+                rewatching his public media meltdown about the 2 primary candidates. <note type="peer" who="we.sp">use the quote tag</note> "Just look at the polls, Anderson. I’m at a
+                whole 4.6% right now! I’d say I got this one in the bag. Oh boy is it looking good
+                for me, huh? We’re practically on double digits! Just wait until the fourth debate
+                and my numbers will shoot way up!” said a hot-tempered Johnson, who added that his
+                favorability numbers of just 21% are higher than “any president in the history of
+                America”. After having a private conversation with Johnson’s VP pick- William Weld-
+                we learned a great deal of useful information. “Really I don’t know what Gary and I
+                are still doing here. He’s a lost cause in all seriousness.” Weld also added that
+                Gary Johnson will be “the most irrelevant presidential candidate in modern US
+                history”. </p>
         </body>
         <footer>
             <share type="facebook"/>
@@ -56,9 +56,30 @@
 
     <!-- leave this section for peer review and assessment -->
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="we.sp">Spencer Webb</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>This satirical article is about the outburst Gary Johnson had when speaking
+                with and interviewer. It discusses the effects of said outburst in terms of
+            how Candidate Johnson sees it in contrast with how his VP Candidate sees it.
+            The lack of faith coming from William Weld in his own campaign I think is the 
+            best part of the satirical article, as the clear contrast between the standpoints
+            of Johnson and Weld embody the feel of a satirical article. One critique I have is
+            that nearly all of the text is quoted which means that very little of the body is
+            written from the "writer of the article" which I guess would be you, even though
+            the quotes were written by you as well. The image you are using is funny and contextual,
+            but it's clear that it is a screengrab and doesn't seem like something else could fit
+            better in the framework of an article. You focus mostly on the responses to the outburst
+            that took place during the interview and not the outburst itself. I found this picture
+            https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2016/06/01/BostonGlobe.com/Politics/Images/johnson-weld.jpg
+            that demonstrates a more subtle relation to your article with the differences in facial
+            expressions of Johnson and Weld. The title of your article also sounds a little bit too
+            real, like something I might read on an informative news site. Remember that in satirical
+            articles, the title is often most of, or the whole joke. Maybe you could reword it so that
+            the joke is a little more blunt. Something like: Johnson: "Yes we can." Weld: "No we can't."
+            You shouldn't take my advice verbatim obviously, but I think that the contrast used for
+            humor in the article can be squeezed a little more in the title. With some revisions,
+            I think this is a really good idea for a satirical article and could easily fit in
+            within the context of a site like the onion.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
