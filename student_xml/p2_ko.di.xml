@@ -43,7 +43,30 @@
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>The piece written is a resume, with the purpose of impressing an interviewer with the
+                candidate’s qualifications. The piece contains contact information, objectives,
+                education, qualifications, past work experience and work skills. To start with, the
+                author effectively understands the schema and structure of a resume, and the piece
+                seems to be a good attempt which can use a few minor improvements. The objectives
+                section of the resume has most room for improvement. Whilst the structure is
+                flawless, the content could use a few improvements. The objective is three sentences
+                long, of which two are repetitions of information provided later in the resume.
+                “Currently a first year Computer Science major at Northeastern University. Looking
+                for a working opportunity in the Computer Industry during the summer of 2017.” This
+                information was provided again in the qualifications section. In my opinion the
+                objective space could be used more effectively, perhaps to talk about your passions
+                and concrete and realistic expectations of the role you seek in the certain company.
+                “My aim is to work in a cutting-edge and challenging work environment, wherein I can
+                effectively convert my innovative ideas into fruitful results”. This line could also
+                use some improvement, because while it shows your positive intentions, it appears to
+                be a bit vague and lacks the critical information that an interviewers wishes to
+                see. The interviewers would like to have more information and details about your
+                aforementioned “innovative ideas”. Perhaps share briefly with the interviewer what
+                your ideas are. To expand a little more on my previous point, I would like to draw a
+                comparison with my own piece. In my objective I mentioned a lot of specific details
+                like the dates I was avaible for, the specific courses I take and hte departments in
+                the company I would like to work in. This provides the critical information an
+                interviewer needs to give you the job</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
