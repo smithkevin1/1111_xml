@@ -5,31 +5,28 @@
 <?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
     
-    <!-- begin genre -->
+    
     <article>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
         
         <header>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title></article_title>
+            
+            <article_title>Gary Johnson Claims Media Meltdown Helped His Campaign</article_title>
             <author xml:id="Ashwin Misra"/>
             <category>News in Brief</category>
             <date>November 1, 2016</date>
-            <identification type="volume">xx</identification>
-            <identification type="issue">xx</identification>
-            <tags></tags>
+            <identification type="volume">52</identification>
+            <identification type="issue">68</identification>
+            <tags>Politics, Politicians, Election, Gary Johnson, Hillary Clinton, Donald Trump</tags>
             <share type="facebook"></share>
             <share type="twitter"></share>
             <share type="email"></share>
             <share type="other"></share>
         </header>
-        <image></image>
+        <image>http://media.salon.com/2016/10/Gary-Johnson-Paul-Lewis-Guardian-marijuana-tax-plan-1280x960.png</image>
         <body>
-            
-            <p>
-                <location></location>
-                <quote></quote>
-                
+                <location>BOULDER, CO</location>
+            <p>The Libertarian Party candidate assures win after rewatching his public media meltdown about the 2 primary candidates. “Just look at the polls, Anderson. I’m at a whole 4.6% right now! I’d say I got this one in the bag. Oh boy is it looking good for me, huh? We’re practically on double digits! Just wait until the fourth debate and my numbers will shoot way up!” said a hot-tempered Johnson, who added that his favorability numbers of just 21% are higher than “any president in the history of America”. After having a private conversation with Johnson’s VP pick- William Weld- we learned a great deal of useful information. “Really I don’t know what Gary and I are still doing here. He’s a lost cause in all seriousness.” Weld also added that Gary Johnson will be “the most irrelevant presidential candidate in modern US history”.
             </p>
         </body>
         <footer>
@@ -41,10 +38,8 @@
             <ad></ad>
         </footer>
         
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
         
     </article>
-    <!-- end genre -->
     
     
     
