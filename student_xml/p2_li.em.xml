@@ -9,14 +9,13 @@
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
         
         <header>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title></article_title>
-            <author xml:id=""/>
-            <category></category>
-            <date></date>
-            <identification type="volume"></identification>
-            <identification type="issue"></identification>
-            <tags></tags>
+            <article_title>Great, The Uber Driver is Playing His Fucking Mixtape</article_title>
+            <author xml:id="li.em"/>
+            <category>News in Brief</category>
+            <date>1 November 2016</date>
+            <identification type="volume">42</identification>
+            <identification type="issue">43</identification>
+            <tags>local</tags> <tags>Nightlife</tags> <tags>Mixtapes</tags>
             <share type="facebook"></share>
             <share type="twitter"></share>
             <share type="email"></share>
@@ -26,7 +25,7 @@
             <image></image>
             
             <p>
-                <location></location>
+                <location>BOSTON, MA</location>
                 <quote></quote>
             </p>
         </body>
