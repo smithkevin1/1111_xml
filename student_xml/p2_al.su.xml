@@ -2,38 +2,83 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <op_ed>
-        
+
         <docHead>
-            <title>2016 Video Music Awards: Beyoncé Pt. II</title>
+            <title>From Homosexuality to Witchcraft</title>
             <author xml:id="al.su">Sultan Aldabal</author>
-            <date>October 28, 2016</date>
+            <date>October 31, 2016</date>
         </docHead>
-        
-        <intro>
-            <opinion type="main"></opinion>
+
+        <intro> In Memphis, Tennessee, women can't drive a car unless a man warns other drivers on
+            the road with a red flag. In Singapore, selling non-medical chewing gum or chewing gum
+            itself is a fine of $1000. In Switzerland, it is illegal to flush a toilet after 10pm.
+                <opinion type="main"> It’s hard to believe that these laws still exist today; it’s
+                even harder to read them out loud without laughing. </opinion>
         </intro>
-        
+
         <body_para>
-            <opinion type="opposing"></opinion>
-            <picture url="#url_here"></picture>
-            <evidence type="other"></evidence>
-            <bg_info></bg_info>
-            <quote></quote>
-            <example></example>
-            <situation></situation>
+            <opinion type="main">All around the world there are laws that don’t seem to fit in with
+                our modern society. Some laws still in effect, date back to medieval centuries.
+                Other laws similar to one enacted in 1923 by the state of Illinois redefining it’s
+                official language as “American,” rather than English. This presents as an example of
+                how much we, as an intelligent species, have evolved.</opinion></body_para>
+
+        <body_para><opinion type="main">Nonetheless, no country in the world can beat the
+                progressive Kingdom of Saudi Arabia in the extent of how backwards their current
+                enforced laws are. </opinion><bg_info>In Saudi Arabia, practicing any form of
+                homosexuality is punishable by death. Being caught practicing witchcraft is also
+                punishable by death. Consuming alcohol or pork leads to imprisonment.</bg_info>
+            <situation>With the help from the almighty Committee for the Promotion of Virtue and the
+                Prevention of Vice, ( or CPVPV for short) the government of Saudi Arabia has the
+                opportunity to imprison hoodlums such as the infamous Sabrina the Teenage Witch and
+                Neil Patrick Harris. </situation>
         </body_para>
-        
-        <conclusion></conclusion>
-        <source></source>
-                
+       
+        <body_para><bg_info>By 2011, a unit within the CPVPV created 9 witchcraft fighting bureaus
+                in cities across the country. In one year they singlehandedly processed 586 cases of
+                magical crime. By 2012, the CPVPV announced the expansion of the bureaus to
+                incorporate more agents to help stop the many witches and warlocks operating within
+                the kingdom. </bg_info><situation>Contrary to popular belief, their ‘remarkable
+                success’ was not credited to their use of garlic or salt, but to the thousands of
+                grown men and women looking for a way to Hogwarts.</situation>
+        </body_para>
+
+        <body_para><bg_info>In 2014, a 24 year old Saudi man was sentenced to three years in prison
+                and 450 lashes after a court in the holy city of Medina found him guilty of
+                ‘promoting the vice and practice of homosexuality’. The court’s only piece of
+                evidence came from a tweet. In March of 2016, a Saudi newspaper, Oraz, reported 35
+                similar cases happening between September 2015 to March 2016. </bg_info><evidence
+                type="pers_exp">The Saudi constitution also does not provide a right to privacy. As
+                a gay Saudi, the prospect of having a committee such as the CPVPV monitoring details
+                of my personal life with an intent to shame and punish terrifies me.</evidence>
+        </body_para>
+        <body_para>
+            <opinion type="opposing"/>
+            <picture url="#url_here"/>
+            <evidence type="other"/>
+            <bg_info/>
+            <quote/>
+            <example/>
+            <situation/>
+        </body_para>
+
+
+        <conclusion>As can be seen, there are several enforced laws around the world that are in
+            need of amendment. However, in my opinion, the current governing laws in Saudi exhibit
+            that some countries are in dire need of a push into the 21st century. I selected Saudi
+            because, as someone who has lived there for 15 years, I’ve been witness to several
+            events in which people were treated harshly for minor offenses (some of which weren’t). </conclusion>
+
+        <source/>
+
     </op_ed>
-    
-    
-    
-    
+
+
+
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
