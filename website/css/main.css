@@ -452,6 +452,7 @@ div#article_header {
   padding: 2em;
   background-color: #f2f2f2;
   margin-bottom: 2em;
+  height: auto;
 }
 #article_header h1 {
   font-family: "Futura", "Helvetica", sans-serif;
@@ -467,18 +468,28 @@ div#article_header {
   font-size: 1em;
   font-family: "Futura", "Helvetica", sans-serif;
 }
-div#article_body p {
-  font-family: "new century schoolbook", serif;
-  font-size: 1.2em;
-  line-height: 2em;
+#article_header figure {
+  width: 40%
+  float: right;
+  background-color: #f2f2f2;
 }
 
+div#article_data {
+  display: block;
+  width: 40%;
+  float: left;
+  background-color: #f2f2f2;
+}
 div#sharing {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-
+div#article_body p {
+  font-family: "new century schoolbook", serif;
+  font-size: 1.2em;
+  line-height: 2em;
+}
 
 /*
 SHARING BUTTONS for Satirical articles

@@ -258,12 +258,13 @@
             <!--<h3>
                 <xsl:value-of select="author"/>
             </h3>-->
-            <p>
+            <div id="article_data"><p>
                 <a href="#"><xsl:value-of select="category"/></a> | <xsl:value-of select="date"/> | VOL <xsl:value-of
                     select="identification[@type = 'volume']"/> ISSUE <xsl:value-of
                     select="identification[@type = 'issue']"/>              
             </p>
             <p><xsl:for-each select="tags"><a href="#"><xsl:value-of select="text()"/></a></xsl:for-each></p>
+            <hr/>
             <!--<div id="share" style="display:inline-block;">
                 <a href="http://facebook.com"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" alt="share"/></a>
                 <a href="http://twitter.com"><img src="http://1img.org/wp-content/uploads/2015/09/twitter-icon-2.jpg" alt="share"/></a>
@@ -312,7 +313,7 @@
     </svg></div>E-Mail</div>
             </a>
 
-        </div></div>
+        </div></div></div>
     </xsl:template>
     <xsl:template match="article/body">
         <div id="article_body">
