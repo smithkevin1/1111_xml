@@ -13,7 +13,11 @@
         <header>Qualifications</header>
         <qualifications>
             <work_experience>
-                <job></job>
+                <job>
+                    <job_title></job_title>
+                    <job_date></job_date>
+                    <job_summary></job_summary>
+                </job>
             </work_experience>
             <education></education>
             <affiliations>
