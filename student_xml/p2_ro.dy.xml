@@ -2,62 +2,84 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <op_ed>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-        
+
         <docHead>
             <!-- make changes to the document header as necessary (based on your genre) -->
-            <title/s>
+            <title/>
             <author xml:id="ro.dy"/>
             <date/>
         </docHead>
-        
-        <intro>
-            A common complaint many high school students make is about their lack of sleep. School starts early 
-            in the day, it takes time to get ready and get there, and after school many students have sports, 
-            jobs, volunteer work, and other activities in addition to homework. Research shows that many teens 
-            average less than 7 hours of sleep per night when the optimal amount of sleep per night is around 
-            9.25 hours. Currently, many high schools start class around 7:20am. <opinion type="main"> In order to combat teen sleep 
-            deprivation, the school starting time should be pushed forward to around 8:30am.</opinion>
+
+        <intro> A common complaint many high school students make is about their lack of sleep.
+            School starts early in the day, it takes time to get ready and get there, and after
+            school many students have sports, jobs, volunteer work, and other activities in addition
+            to homework. Research shows that many teens average less than 7 hours of sleep per night
+            when the optimal amount of sleep per night is around 9.25 hours. Currently, many high
+            schools start class around 7:20am. <opinion type="main"> In order to combat teen sleep
+                deprivation, the school starting time should be pushed forward to around
+                8:30am.</opinion>
         </intro>
-        
-        <body_para>
-            Sleep deprivation is extremely common in teens today. Many teens think that they are expected to function 
-            with barely any sleep.<evidence> A lack of sleep causes many problems. It impairs one’s ability to be alert, to solve 
-            problems and to cope with stress. Many days without enough sleep also increases the risk of car accidents 
-            due to drowsy driving for teens who drive daily.</evidence>
+
+        <body_para> Sleep deprivation is extremely common in teens today. Many teens think that they
+            are expected to function with barely any sleep.<evidence> A lack of sleep causes many
+                problems. It impairs one’s ability to be alert, to solve problems and to cope with
+                stress. Many days without enough sleep also increases the risk of car accidents due
+                to drowsy driving for teens who drive daily.</evidence>
         </body_para>
-        <body_para><evidence type="pers_exp">From my time in high school I can say that a lack of sleep was a big problem. There were
-            many times that I would fall asleep in class and times that I was just too tired to focus. I would have to 
-            go over the material that was taught later in the day. Drowsy driving was definitely a problem as well. 
-            I would drove about 20 minutes to school everyday and in the morning it was very challenging to stay 
-            awake and focus on the road. Sometimes I would miss  turns and be late to school.</evidence>
+        <body_para><evidence type="pers_exp">From my time in high school I can say that a lack of
+                sleep was a big problem. There were many times that I would fall asleep in class and
+                times that I was just too tired to focus. I would have to go over the material that
+                was taught later in the day. Drowsy driving was definitely a problem as well. I
+                would drive about 20 minutes to school everyday and in the morning it was very
+                challenging to stay awake and focus on the road. Sometimes I would miss turns and be
+                late to school.</evidence>
         </body_para>
-        <body_para><evidence>There is a lot of research into the different sleep cycles between teens and others. Young 
-            children’s sleep cycles allow them to wake up earlier and be more energetic than teenagers. The sleep 
-            cycle of teens is moved a few hours forward from children’s sleep cycles. Since elementary school 
-            starts later than high school, this results in teens waking up at a time that their body thinks 
-            is the middle of the night.</evidence> If younger children woke up at the same time they would be fine.</body_para>
-        
-        <conclusion>Teens need more sleep than they currently get. Moving the start time of high schools about an 
-            hour forward would be a step towards helping teens get more sleep. Lower grade schools can be pushed 
-            back to start a little earlier because younger children can handle that much better than teens can. So  
-            high school should start later than it currently does so that it is less likely that so many teens 
-            suffer from sleep depravity.
-        </conclusion>
-        <source></source>
-        
+        <body_para><evidence>There is a lot of research into the different sleep cycles between
+                teens and others. Young children’s sleep cycles allow them to wake up earlier and be
+                more energetic than teenagers. The sleep cycle of teens is moved a few hours forward
+                from children’s sleep cycles. Since elementary school starts later than high school,
+                this results in teens waking up at a time that their body thinks is the middle of
+                the night.</evidence> If younger children woke up at the same time they would be
+            fine.</body_para>
+
+        <conclusion>Teens need more sleep than they currently get. Moving the start time of high
+            schools about an hour forward would be a step towards helping teens get more sleep.
+            Lower grade schools can be pushed back to start a little earlier because younger
+            children can handle that much better than teens can. So high school should start later
+            than it currently does so that it is less likely that so many teens suffer from sleep
+            depravity. </conclusion>
+        <source/>
+
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-        
+
     </op_ed>
-    
+
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="san.jh"> Jhadley Sanchex</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>This op-ed is mostly about explaining the effects of sleep deprivation among
+                teenagers. Not only does it explain possible problems that it could bring to
+                teenagers but also the effects it could have on a person’s daily life. This paper
+                also explains what could be done in order to improve this issue that affects
+                teenagers nationwide. One thing I would improve is staying within one topic and
+                backing it up. You have four different points; sleep deprivation, the effects of
+                lack of sleep, research, and what can be done to fix this issue. Although this in
+                not a problem and you do a great job staying chronologic, you should make sure that
+                you explain each section well so that your reader understands what you are trying to
+                express. This is a really interesting topic to read about I would recommend going
+                back to your main opinions and making sure that you have included all the possible
+                elements that can explain to your reader why you have this opinion and that you are
+                well centered on it. Remember that this is your opinion on this topic and your
+                opinion does not necessarily need to be backed up in order to be subjective. There
+                is not much you need to chance, just keep in mind that this is your opinion that you
+                are trying to express to an audience, and such should mainly be expressing what you
+                thing and when you are giving evidence make sure to express also what you think of
+                that specific piece of evidence. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">

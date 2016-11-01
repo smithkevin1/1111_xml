@@ -52,9 +52,24 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="ro.dy">Dylan Robinson</reviewer>
+        <report type="peer" who="#ro.dy">
+            <p>This is a very interesting op ed. It talks about how standardized tests are inherently 
+                flawed due to the fact that they only measure test taking skills. People are all different 
+                and while some may not be good at taking tests, that does not mean that they are not 
+                smart. There is not very much that I can think of to critique about this op ed. It is 
+                very opinionated, as an op ed should be because it is in the name of the genre. It goes 
+                over the opinion that standardized tests should not be used to determine people’s intelligence 
+                fairly well. One thing I would say though is that a replacement for standardized tests 
+                should be discussed. If standardized tests do not work, than what would be a better option? 
+                Is there a better way to easily determine if someone is intelligent? Another thing is that 
+                you could use more evidence to support your opinion. You point out that intelligent people 
+                of the past did not take standardized tests, but what are some examples of people today that 
+                did poorly on tests yet still were ultimately successful in life? The rest of the op ed is 
+                really good and there is not much else that I can critique. There is a lack of the tags we 
+                came up with in the schema, but that is very easy to just quickly add in to where they fit. 
+                Otherwise, just perhaps bring up a possible replacement for standardized testing and put in 
+                some more evidence to support your opinion.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">

@@ -2,50 +2,51 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <article>
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-        
+
         <header>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title></article_title>
-            <author xml:id=""/>
-            <category></category>
-            <date></date>
-            <identification type="volume"></identification>
-            <identification type="issue"></identification>
-            <tags></tags>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
+            <article_title>Great, The Uber Driver is Playing His Fucking Mixtape</article_title>
+            <author xml:id="li.em"/>
+            <category>News in Brief</category>
+            <date>1 November 2016</date>
+            <identification type="volume">42</identification>
+            <identification type="issue">43</identification>
+            <tags>local</tags>
+            <tags>Nightlife</tags>
+            <tags>Mixtapes</tags>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
         </header>
         <body>
-            <image></image>
-            
-            <p>
-                <location></location>
-                <quote></quote>
-            </p>
+            <image/>http://img.theepochtimes.com/n3/eet-content/uploads/2016/08/26/20160822-uber-SamiraBouaou-3702.jpg</image>
+                <location>BOSTON, MA</location>
+                <quote/>
+           <p>
+               <location></location>
+           </p> </p>
         </body>
         <footer>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
-            <related_links></related_links>
-            <ad></ad>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links/>
+            <ad/>
         </footer>
-        
+
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-        
+
     </article>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p> </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
