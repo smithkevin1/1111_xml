@@ -22,7 +22,8 @@
         <body_para>
             <opinion type="main">All around the world there are laws that don’t seem to fit in with
                 our modern society. Some laws still in effect, date back to medieval centuries.
-                Other laws similar to one enacted in 1923 by the state of Illinois redefining it’s
+                <note type="peer" who="#lo.va">Sentence needs to be rephrased</note>Other laws similar
+                to one enacted in 1923 by the state of Illinois redefining it’s
                 official language as “American,” rather than English. This presents as an example of
                 how much we, as an intelligent species, have evolved.</opinion><picture url="https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr06/2013/4/18/23/anigif_enhanced-buzz-15238-1366342959-0.gif?no-auto>"> Parks And Recreations</picture></body_para>
 
@@ -50,7 +51,8 @@
                 and 450 lashes after a court in the holy city of Medina found him guilty of
                 ‘promoting the vice and practice of homosexuality’. The court’s only piece of
                 evidence came from a tweet. In March of 2016, a Saudi newspaper, Oraz, reported 35
-                similar cases happening between September 2015 to March 2016. </bg_info><evidence
+                similar cases <note type="peer" who="#lo.va"> A better word to use here would be 
+                'occuring'</note>happening between September 2015 to March 2016. </bg_info><evidence
                 type="pers_exp">The Saudi constitution also does not provide a right to privacy. As
                 a gay Saudi, the prospect of having a committee such as the CPVPV monitoring details
                 of my personal life with an intent to shame and punish terrifies me.</evidence>
@@ -69,7 +71,8 @@
         <conclusion>As can be seen, there are several enforced laws around the world that are in
             need of amendment. However, in my opinion, the current governing laws in Saudi exhibit
             that some countries are in dire need of a push into the 21st century. I selected Saudi
-            because, as someone who has lived there for 15 years, I’ve been witness to several
+            because, as someone who has lived there for 15 years, <note type="peer" who="#lo.va"> Your
+               closing line doesn't completely make sense.</note>I’ve been witness to several
             events in which people were treated harshly for minor offenses (some of which weren’t). </conclusion>
 
         <source/>
@@ -80,9 +83,28 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="lo.va">Valentina Longcroft</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+                <p>Sultan's Op-Ed discusses the outdated laws that some countries still practice,
+                mainly referring to those that condemn women and homosexuals. Saudi Arabia is 
+                used as the main example, and their practices are considered some of the worst.
+                In reference to xml tags, I think that because there are so many statistics referenced,
+                they should be identified with the evidence (statistics) tag. However, I think his use
+                of the background information and situation tags are very well used, and I also think
+                that his opinion tags are positioned correctly. The Op-Ed piece as a whole
+                should probably be a little bit longer, but there are still lots of points to cover so 
+                as the piece is revised there shouldn't be any problem fleshing out some of the points he
+                has already made. One last critique is that there is a lot of use of sarcasm is this piece,
+                and I think you need to make it more obvious, otherwise it has a tendency to look out of place.
+                Another thing that I think would be helpful in this Op-Ed is one or two lines about the
+                history of Saudia and homosexuality, and how religion plays into the current laws, and
+                why they still inforce them on such a regular basis. Also, a comparison of witchcraft
+                and homosexuality and how they are related to each other in this context would help
+                give a broader view of why they are often placed side by side in countries such as
+                Saudi.This piece definitely conforms to the expectations of the Op-Ed genre,
+                providing enough information for the reader to get a good idea of what the subject is
+                about, and providing enough opinion for it to be considered an Op-Ed. 
+                </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">

@@ -9,6 +9,7 @@
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <header>
+<<<<<<< HEAD
             <!-- make changes to the document header as necessary (based on your genre) -->
             <article_title/>
             <author xml:id=""/>
@@ -17,18 +18,38 @@
             <identification type="volume"/>
             <identification type="issue"/>
             <tags/>
+=======
+            <article_title>Great, The Uber Driver is Playing His Fucking Mixtape</article_title>
+            <author xml:id="li.em"/>
+            <category>News in Brief</category>
+            <date>1 November 2016</date>
+            <identification type="volume">42</identification>
+            <identification type="issue">43</identification>
+            <tags>local</tags>
+            <tags>Nightlife</tags>
+            <tags>Mixtapes</tags>
+>>>>>>> origin/master
             <share type="facebook"/>
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
         </header>
         <body>
+<<<<<<< HEAD
             <image/>
 
             <p>
                 <location/>
                 <quote/>
             </p>
+=======
+            <image/>http://img.theepochtimes.com/n3/eet-content/uploads/2016/08/26/20160822-uber-SamiraBouaou-3702.jpg</image>
+                <location>BOSTON, MA</location>
+                <quote/>
+           <p>
+               <location></location>
+           </p> </p>
+>>>>>>> origin/master
         </body>
         <footer>
             <share type="facebook"/>
@@ -45,6 +66,7 @@
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
+<<<<<<< HEAD
             <p>The draft is well written and adheres to the style of writing of a typical satirical
                 article such as one in The Onion. The use of an accurate rhetorical situation which
                 is relevant to satirical articles further validates the content in the body
@@ -73,6 +95,9 @@
                 development. One little aspect of the article that may be reconsidered is the amount
                 of words/ phrases that are emphasized to add effect. It is a good habit to have,
                 especially in satirical articles, however not always.</p>
+=======
+            <p> </p>
+>>>>>>> origin/master
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
