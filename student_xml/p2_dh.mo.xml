@@ -60,22 +60,24 @@
     <docReview>
         <reviewer type="peer" xml:id="ko.di"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
-            <p>You have written your resume very well. You have covered all the aspects that were
-                enlisted in the schema document and have tried to make the resume look professional.
-                However, there are some problems. Your qualification paragraph isn’t formatted
-                properly. There are bullet points in between the paragraphs which makes it look
-                untidy. Furthermore, there isn’t a header for the Education paragraph. Also there is
-                a blank pointer between your education paragraph and what I think is supposed to be
-                additional information. You do not have an Additional Information tag which makes
-                the resume looks unprofessional. On the other hand, your resume is written in a very
-                formal tone and has good use of vocabulary. The structure of the resume in terms of
-                listing the different elements in a particular order is spot on. You’ve a ton of
-                good points. Your objective paragraph is very descriptive and informative. Lastly
-                your work experience has all the necessary information like duration and job summary
-                included in it. One thing I advise you to focus on is formatting the resume. Once
-                you rectify the formatting error, your resume will look much more professional.
-                Nevertheless, I think you’ve a pretty strong resume and have done a fairly good job
-                of representing yourself </p>
+            <p>The genre of the above paper is resume. From the looks of it the resume seems to be
+                for a business oriented industry. 
+                You have written your resume very well. You have
+                covered all the aspects that were enlisted in the schema document and have tried to
+                make the resume look professional. However, there are some problems. Your
+                qualification paragraph isn’t formatted properly. There are bullet points in between
+                the paragraphs which makes it look untidy. Furthermore, there isn’t a header for the
+                Education paragraph. Also there is a blank pointer between your education paragraph
+                and what I think is supposed to be additional information. You do not have an
+                Additional Information tag which makes the resume looks unprofessional. On the other
+                hand, your resume is written in a very formal tone and has good use of vocabulary.
+                The structure of the resume in terms of listing the different elements in a
+                particular order is spot on. You’ve a ton of good points. Your objective paragraph
+                is very descriptive and informative. Lastly your work experience has all the
+                necessary information like duration and job summary included in it. One thing I
+                advise you to focus on is formatting the resume. Once you rectify the formatting
+                error, your resume will look much more professional. Nevertheless, I think you’ve a
+                pretty strong resume and have done a fairly good job of representing yourself </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
