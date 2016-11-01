@@ -2,46 +2,102 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
+
     <movie_review>
         <header>
-            <title type = "title_review">From the Recesses of Obscurity Comes Marvel's Biggest Success</title>
-            <title type = "title_movie">Guardians of the Galaxy</title>
-            <title type = "photo_movie">http://i.imgur.com/yxj7g89.jpg</title>
+            <title type="title_review">From the Recesses of Obscurity Comes Marvel's Biggest
+                Success</title>
+            <title type="title_movie">Guardians of the Galaxy</title>
+            <title type="photo_movie">http://i.imgur.com/yxj7g89.jpg</title>
             <author xml:id="bu.an">Andrew T. Burcham</author>
-            <date type = "review_date">Publishing Date: November 11, 2016</date>
-            <date type = "movie_premiere">Movie Premiere: August 1, 2014</date>
+            <date type="review_date">Publishing Date: November 11, 2016</date>
+            <date type="movie_premiere">Movie Premiere: August 1, 2014</date>
             <contact_info>burcham.a@husky.neu.edu</contact_info>
         </header>
-        
+
         <content>
-            <intro_para>
-                
-                <synopsis type = "plot_points"></synopsis>
-                <synopsis type = "themes"></synopsis>
+            <intro_para> Dating back to 2009's <style type="italics">Iron Man</style>, Marvel
+                Studios has had a pretty good track record with their re-branding of the classic
+                marvel superheroes. They have been so successful in fact, that they re-popularized
+                the idea of intertwining film continuities with 2012's <style type="italics">The
+                    Avengers</style>, coining the phrase “cinematic universe” in the pop culture
+                vernacular. But despite all this, Marvel took a big leap of faith with their
+                experimental film, <style type="italics">Guardians of the Galaxy</style>, a film
+                based off an extremely obscure Marvel comic series. A big leap that evidently paid
+                off with one of the funniest action movies of all time. <style type="italics"
+                    >Guardians of the Galaxy</style> follows the story of Peter Quill, played by
+                Chris Pratt, a would be treasure space pirate who was abducted from his home at a
+                very young age.
+                <synopsis type="plot_points">After stealing a
+                particularly valuable treasure from a crypt, the infinity stone, he gets captured
+                and imprisoned and forms a team of criminal mercenaries and assassins in order to
+                break out and stop the fanatical space ruler Thanos, played by Lee Pace, from
+                harnessing the power of the infinity stone and going on a planet-destroying frenzy.</synopsis>
             </intro_para>
             <body>
+                <p>Now where the real humor and charm of the film comes into play is the cast of
+                    unique and hilarious characters and interactions between them. The main team,
+                    the self-proclaimed Guardians of the Galaxy, are a fantastic example of this.
+                    The main cast, the so called “heroes” are no more than psychotic criminals who
+                    do good out of necessity. As such, you get a lot of great moments where all
+                    their ugly personalities butt heads and play off one another. </p>
+
+                <p> Quill is an overconfident and extremely charming talker, who is ultimately good,
+                    but is willing to do anything to get his way. Gamora, played by Zoe Saldana, a
+                    skilled female assassin who is serious and unemotional. She often plays the
+                    straight man to the team's wackier characters. Drax on the other hand, played by
+                    Dave Bautista, is a hyper serious warrior who seeks to avenge the death of his
+                    family at the hands of Ronan. He spends most of the movie alternating between an
+                    intimidating brute and comic relief as he simply does not understand hyperbole
+                    or non-literal expressions. Finally you get to the duo of Rocket and Groot,
+                    played by Bradley Cooper and Vin Diesal respectively. Rocket is a psychotic
+                    hyper-intelligent mutant raccoon who is a master engineer and weapons
+                    specialist. On top of all that, he is also loud and fouled mouth, but has a
+                    surprisingly touching back story. His partner in crime, Groot, is a tree-like
+                    humanoid who can only says the words “I am Groot”. </p>
+
                 <p>
-                    <context type = "actor"></context>
-                    <context type = "director"></context>
-                    <context type = "franchise_history"></context>
+                    <opinions>Just from the character descriptions, you begin to get the idea of the
+                        types of situations that would play out between the extreme personalities.
+                        The dialogue is witty, comedic timing is spot on, and the characters, while
+                        objectively heinous, are incredibly likable. The acting in the movie is also
+                        superb. Every actor seems like a perfect fit for their roles and all act
+                        naturally with each other through the films. Both the dialogue and the
+                        acting combined makes it seem like you are watching an actual group of
+                        friends making jabs at each other and getting along despite their
+                        differences.</opinions>
                 </p>
                 <p>
-                    <opinions></opinions>
-                </p>
-                <p>
-                    <opinions></opinions>
-                    <aesthetics></aesthetics>
+                    <aesthetics>The movie's visuals are also a sight to behold. Like the cast of
+                        characters, everything is colorful. The deep space settings does not
+                        discourage the movie from showing off incredibly vibrant colors and locals.
+                        It is not mind blowing like <style type="italics">Avatar</style>, but it
+                        certainly does not slack off. The CG animations are also top notch,
+                        especially on completely animated characters like Rocket and Groot, staying
+                        expressive despite all the visual effects. Finally, you got the action
+                        scenes.</aesthetics>
+                    <opinions>These are the only parts of the movie that I feel could be improved.
+                        While not bad per say, they feel generic and kind of forced in because it is
+                        a Marvel superhero movie. Their were few fight scenes that stick out and are
+                        incredibly memorable for the action alone, instead its the dialogue that
+                        carries it all.</opinions>
                 </p>
             </body>
-            <conclusion>
-                <summary type = "gross_income"></summary>
-                <summary type = "rating"></summary>
-                <date type = "movie_premiere"></date>
+            <conclusion> Overall, <style type="italics">Guardians of the Galaxy</style> is a near
+                spotless action-comedy blockbuster. If you love humorous characters interactions in
+                incredible scenarios, then Guardians is definitely a movie you should watch. Do not
+                expect any sort of deep character analysis or thought-provoking plots, instead go in
+                with an open mind looking for a good, memorable laugh with characters you think were
+                your own friends. I truly believe that Guardians easily takes title of the best
+                Marvel movie from the second, and I am very excited for the sequel coming out next
+                May. Guardians of the Galaxy, by Marvel Studios, is <summary type="rating">rated
+                    PG-13</summary>. It premiered in theaters <date type="movie_premiere">August
+                    1st, 2014</date>, and <summary type="gross_income">grossed $773.3 million
+                    worldwide.</summary>
             </conclusion>
         </content>
     </movie_review>
-    
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
