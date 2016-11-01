@@ -3,44 +3,81 @@
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     
-    
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
-    <!-- begin genre -->
-    <op_ed>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
-        
+    <op_ed>  
         <docHead>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <title/>
-            <author xml:id="id"/>
-            <date/>
+            
+            <title>Op-Ed: The Fashion Industry Post Brexit</title>
+            <author xml:id="lo.va">Valentina Longcroft</author>
+            <date>October 31st 2016</date>
+            <picture url="https://img.styla.com/resizer/sfh_760x0/fashion-in-the-time-of-brexit-what-s-next_26042_31907.jpeg"></picture>
         </docHead>
         
-        <intro>
-            <opinion type="main"></opinion>
-        </intro>
+        <intro>London, United Kingdom: London has always been considered one of the world’s
+            most prestigious fashion capitals in the world. But as the reality of Brexit sets
+            in, <opinion type="main">what does it mean for the British Fashion industry, and what will the long and
+                short term effects be?</opinion></intro>
         
-        <body_para>
-            <opinion type="opposing"></opinion>
-            <!--<counter_opposing></counter_opposing> delete becasue of documentation changes-->
-            <picture url="#url_here"></picture>
-            <evidence type="other"></evidence>
-            <bg_info></bg_info>
-            <!--<statistics></statistics>-->
-            <quote></quote>
-            <!--<per_experience></per_experience>-->
-            <example></example>
-            <situation></situation>
-        </body_para>
+        <body_para><bg_info>On June 26th, 2016, <situation>Britain made history when they voted to leave the European
+            Union.</situation></bg_info> With many feeling shocked and surprised at the result, the effects were immediately
+            felt worldwide, with <evidence type="statistics">over $2.1 trillion dollars in stock value lost globally in the
+            24 hours after the vote. The pound is now at a 7-year low against the dollar</evidence>, as the
+            nation’s currency depreciated significantly, and worries that this could severely impact
+            the bottom line, with many companies outsourcing to semi-peripheral countries such as
+            China (where they are paid in dollars) were realised. A weaker pound has forced
+            international brands to raise their U.K. prices, and though <opinion type="opposing">this means that retail
+            has now become slightly cheaper for tourists</opinion>, it also means that it is more expensive
+            if you are a resident in Britain.</body_para>
         
-        <conclusion></conclusion>
+            <body_para>It is estimated that <evidence type="statistics"> 90% of the British Fashion Council voted for the Remain campaign,
+            with fashion icons such as Christopher Bailey, CCO of Burberry, Alexandra Shulman,
+            Editor-in-chief of Vogue, and designers such as Anya Hindmarch and Vivienne Westwood</evidence>
+            supporting the opposition of Brexit. For many reasons such as manufacturing, exporting
+            and staffing, many expect fashion to be hit hard in the next few years, as the industry
+            relies so much on the fluid movement of trade and people across borders, especially in
+            Europe, with Paris and Milan being especially important relations. The EU’s open borders
+            have made it easy for many companies such as <example>Céline (based in Paris) to run operations
+            on both sides of the channel, but a leave vote means that they will have to re-evaluate
+            their decision to establish creative departments in London.</example></body_para>
+        
+            <body_para>Though many prominent fashion figures were disappointed with the vote, London Fashion
+            week continued on without a hitch, and as the un-official kick-off to the much anticipated
+            shows, London-based designers, <situation>editors and executives were invited for an evening at
+            10 Downing Street</situation>, where new prime minister Theresa May has just moved in. Natalie Massenet,
+            founder of Net-A-Porter spoke eloquently, and an important remark she made was:
+            <quote>“We are living through a remarkable transition. But also in an age of extraordinary
+            innovation.”</quote> Guests reported that May did not speak directly about Brexit at the event,
+            but that she was very supportive of the industry and the significance of fashion’s
+            contribution to the economy.</body_para>
+        
+            <body_para>A concern at the forefront of the industry is the looming restrictions on global borders,
+            and what that will mean for <situation>fashion education</situation>. London hosts many of the most highly
+            accredited institutes to study fashion, and they rely on a diverse set of students coming
+            in every year, who are multi-cultural and multi-lingual. The industry relies on the outsourcing
+            of talent, and many designers we see on the runway today studied in London.
+            This has always been an important part of fashion, and many are worried that we may decrease
+            in diversity following our exit from the EU. Fabio Piras, the Fashion Course Director at
+            Central St. Martins, commented: <quote>"I cannot deny that it is worrying to think that we will
+            probably see a decline in graduates’ employability in the EU. I am equally concerned with
+            the potentially decreasing numbers of EU students [applying to CSM], as they will not be
+            able to come as freely as they can now.”</quote></body_para>
+        
+        
+            <conclusion>Looking forward to early next year, when the now-famous Article 50 clause will supposedly
+            be activated, the fashion industry’s hope is that we close trade negotiations as soon
+            as possible, with minimal impact to property regulations and visas. I don’t think we have any
+            idea what the biggest challenges are, that we will face in the wake of Brexit, and many
+            are worried that we will experience another, greater, financial crisis similar to that of
+            2008.  The key here is to not get ahead of ourselves, keep a cool head and urge politicians
+            to handle negotiations with the EU as peacefully as possible. It has become clear that
+            there will no re-referendum, so we are stuck in this position for the foreseeable future,
+            and can only make the best of it, and come out the other side with the best regulations we
+            can agree on, and not become isolated, but use it as an opportunity to better ourselves
+            as a country.</conclusion>
+        
+            
         <source></source>
         
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-        
-    </op_ed>
-    <!-- end genre -->
+         </op_ed>
     
     
     <docReview>
