@@ -4,32 +4,40 @@
 <DOC>
     <resume>
         <title>Divit Koradia</title>
-        <header>Contact Information</header>
+        <header><style type="underline">Contact Information</style></header>
         <contact_information>
             <contact type="address">10 Forsyth Street,</contact>
             <contact type="address">Boston, MA 02115 </contact>
-            <contact type="phone">Mobile: (857) 358 4569</contact>
+            <contact type="phone">Mobile: (857) 358 4579</contact>
             <contact type="email">dbk2911@gmail.com</contact>
         </contact_information>
-        <header>Objectives</header>
-        <objectives>Currently a first year Computer Science major at Northeastern University, who is
-            looking for a working opportunity in the Computer Industry during the Summer of 2017. My
+        <header><style type="underline">Objectives</style></header>
+        <objectives>Currently a first year Computer Science major at Northeastern University.
+            Looking for a working opportunity in the Computer Industry during the summer of 2017. My
             aim is to work in a cutting-edge and challenging work environment, wherein I can
             effectively convert my innovative ideas into fruitful results. </objectives>
-        <header>Qualifications</header>
+        <header><style type="underline">Qualifications</style></header>
         <qualifications>
             <work_experience>
-                <job/>
+                <job><style type="bold">Title:</style> Software Developer for Fazlani L'Académie
+                    Globale School. </job>
+                <job><style type="bold">Duration:</style> November 2015 - April 2016. </job>
+                <job><style type="bold">Language:</style> Java. </job>
+                <job><style type="bold">Summary:</style> Developed a Student Council Voting System
+                    for the sports department of my high-school. </job>
             </work_experience>
-            <header>Education</header>
-            <education><style type="bold">Northeastern University Boston</style> Class of 2020 - BS in Computer
+            <header><style type="underline">Education</style></header>
+            <education>Northeastern University Boston Class of 2020 - BS in Computer
                 Science</education>
-            <education><style type="bold">Fazlani L'Académie Globale School (India)</style> Class of 2016 - Diploma in
+            <education>Fazlani L'Académie Globale School (India) Class of 2016 - Diploma in
                 International Baccalaureate </education>
-            <affiliations>
-                <affiliation/>
-            </affiliations>
-            <additional_information/>
+            <header><style type="underline">Additional Information</style></header>
+            <additional_information> Proficient in Java and DrRacket.</additional_information>
+            <additional_information>Fluent in English, French and Hindi.</additional_information>
+            <additional_information>Prior leadership roles in sports teams.</additional_information>
+            <additional_information>Hosted my high-school annual concert.</additional_information>
+            <additional_information> Volunteered at Muktangan NGO in India. Directed a play for
+                their concert with the help of my classmates.</additional_information>
         </qualifications>
     </resume>
     <docReview>
