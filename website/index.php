@@ -39,6 +39,21 @@
                         </p>
                   </section>
                 </article>
+                <article>
+                      <header>
+                        <h2>Project 2</h1>
+                      </header>
+                      <section>
+                        <p>
+                          <ul class="students">
+                            <?php
+                            $proj=2;
+                            include('list_students.php')
+                            ?>
+                          </ul>
+                        </p>
+                  </section>
+                </article>
                 <aside>
                     <h3>Project page</h3>
                     <p>This is a project page for ENGW1111. As you complete individual writing projects, this page will be populated with links to the transformed views of the XML documents that you push to GitHub.
