@@ -561,7 +561,19 @@ OP ED
   padding:2em;
 }
 
+/*
+RESUMES
+*/
+#resume h1 {
+  text-align: center;
+}
+ul#contact {
+  list-style-type: none;
+}
 
+#resume h3 {
+  padding-top: 1em;
+}
 
 /*
 SHARING BUTTONS for Satirical articles
