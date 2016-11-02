@@ -1385,7 +1385,7 @@
         <element name="header">
             <a:documentation>Container element for headers denoting a new section (globally
                 available) </a:documentation>
-            <text/>
+            <ref name="macro.specialParaContent"/>
         </element>
     </define>
     <define name="resume">
