@@ -24,11 +24,21 @@
     </xsl:template>
      DELETE AFTER TESTING -->
 
+    <!-- test for genre root and call appropriate legend -->
     <xsl:template match="DOC">
         <xsl:if test="child::essay">
             <xsl:call-template name="essay_legend"/>
         </xsl:if>
-        <xsl:if test="child::any_other_root">
+        <xsl:if test="child::movie_review">
+            <xsl:call-template name="any_other_root_legend"/>
+        </xsl:if>
+        <xsl:if test="child::article">
+            <xsl:call-template name="any_other_root_legend"/>
+        </xsl:if>
+        <xsl:if test="child::op_ed">
+            <xsl:call-template name="any_other_root_legend"/>
+        </xsl:if>
+        <xsl:if test="child::resume">
             <xsl:call-template name="any_other_root_legend"/>
         </xsl:if>
         <div id="contain">
@@ -36,7 +46,9 @@
         </div>
     </xsl:template>
 
-    <xsl:include href="normal_format.xsl"/>
+    <xsl:include href="normal_format.xsl"/> <!-- include normal format -->
+    
+    
     <!-- ESSAY structure -->
     <xsl:template match="essay//intro">
         <div id="ann_intro">
@@ -52,7 +64,7 @@
         </div>
     </xsl:template>
 
-    <!-- annotations -->
+    <!-- essay annotations -->
     <xsl:template match="essay//p//*[not(self::q) and not(self::citation) and not(self::note)]">
         <xsl:if test="@type = true()">
             <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
