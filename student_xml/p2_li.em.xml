@@ -9,60 +9,34 @@
         <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <header>
-<<<<<<< HEAD
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title/>
-            <author xml:id=""/>
-            <category/>
-            <date/>
-            <identification type="volume"/>
-            <identification type="issue"/>
-            <tags/>
-=======
-            <article_title>Great, The Uber Driver is Playing His Fucking Mixtape</article_title>
+            <article_title>Great, The Uber Driver is Playing His F*cking Mixtape</article_title>
             <author xml:id="li.em"/>
             <category>News in Brief</category>
             <date>1 November 2016</date>
             <identification type="volume">42</identification>
             <identification type="issue">43</identification>
-            <tags>local</tags>
-            <tags>Nightlife</tags>
-            <tags>Mixtapes</tags>
->>>>>>> origin/master
+            <tags>local</tags> <tags>Nightlife</tags> <tags>Mixtapes</tags>
             <share type="facebook"/>
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
         </header>
         <body>
-<<<<<<< HEAD
-            <image/>
-
+            <image url="http://img.theepochtimes.com/n3/eet-content/uploads/2016/08/26/20160822-uber-SamiraBouaou-3702.jpg"> </image>
             <p>
-                <location/>
-                <quote/>
-            </p>
-=======
-            <image/>http://img.theepochtimes.com/n3/eet-content/uploads/2016/08/26/20160822-uber-SamiraBouaou-3702.jpg</image>
-                <location>BOSTON, MA</location>
-                <quote/>
-           <p>
-               <location></location>
-           </p> </p>
->>>>>>> origin/master
+                <location>BOSTON, MA</location>–Craig Brennan and friends got into their Uber Saturday to head to the bars. Their driver, named Jon, seemed normal enough until he started telling them that he was a rapper. “Yeah, the 30 minute drive into the city wasn’t bad until he kept saying he raps.” After the fifth time, Brennan’s friend, Charlene, asked him to play his music. “Terrible mistake” said Brennan. Before Charlene could finish, Jon began talking about his mixtape’s upcoming release, and started off by playing a song called “Infected.” With an overly heavy bass and mediocre Garageband synth, you could barely make out his rapping. “Yeah, after the awkward silence and haphazard ‘that was great,’ we thought he’d put Drake back on. But then he played three more.” The next one was called “The Reelest,” and featured a line about fishing for money. On top of that, he appeared to be singing along to his music, and kept looking back for reassurance. “I’ve never had to force a smile more than I did for Jon’s rap, said Mark Johnson. Reports indicate that Jon’s mixtape is set to release on December 8th.Craig Brennan and friends got into their Uber Saturday to head to the bars. Their driver, named Jon, seemed normal enough until he started telling them that he was a rapper. “Yeah, the 30 minute drive into the city wasn’t bad until he kept saying he raps.” After the fifth time, Brennan’s friend, Charlene, asked him to play his music. “Terrible mistake” said Brennan. Before Charlene could finish, Jon began talking about his mixtape’s upcoming release, and started off by playing a song called “Infected.” With an overly heavy bass and mediocre Garageband synth, you could barely make out his rapping. “Yeah, after the awkward silence and haphazard ‘that was great,’ we thought he’d put Drake back on. But then he played three more.” The next one was called “The Reelest,” and featured a line about fishing for money. On top of that, he appeared to be singing along to his music, and kept looking back for reassurance. “I’ve never had to force a smile more than I did for Jon’s rap, said Mark Johnson. Reports indicate that Jon’s mixtape is set to release on December 8th.
+            </p>    
         </body>
         <footer>
             <share type="facebook"/>
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
-            <related_links/>
+            <related_links url=""/>
             <ad/>
         </footer>
-
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
-
     </article>
+    
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
