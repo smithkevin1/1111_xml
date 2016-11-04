@@ -4,14 +4,12 @@
 <DOC>
 
     <article>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <header>
-            <!-- make changes to the document header as necessary (based on your genre) -->
             <article_title/>
-            <author xml:id="we.sp"/>
-            <category/>
-            <date/>
+            <author xml:id="we.sp">Spencer Webb</author>
+            <category></category>
+            <date>November 1, 2016</date>
             <identification type="volume">1</identification>
             <identification type="issue">1</identification>
             <tags/>
@@ -24,17 +22,15 @@
             <image url=""/>
 
             <p>
-                <location/> Title brainstorm ideas: 
-                Incredible! Student manages to watch entire Game of Thrones series during Chemistry Lectures <note type="peer">funny</note>
-                Rich Division 1 Athlete actually convicted in rape case 
-                Computer Science student momentarily forgets what sunlight feels like 
-                College freshman goes through 500 count bottle of ibuprofen in just two weeks 
-                Everyone remains calm during ResLife knock on door <note type="peer">haha yes</note> 
-                New deepwater species discovered given the name Harambe 
-                Student refrains from coughing an 8th time during class, in fear of appearing diseased <note type="peer">relatable!</note> 
-                Revolutionary college brochure has images other than an ethnically diverse group smiling or one student pointing to something while other students look over shoulder 
-                Scientists agree that pigs will likely never fly <note type="peer">I enjoy this one too</note> 
-                Gary Johnson discovers Aleppo <quote/>
+                <location>BOSTON, MA--</location> Title brainstorm ideas: 
+                ---Incredible! Student manages to watch entire Game of Thrones series during Chemistry Lectures <note type="peer">funny</note>
+                https://www.michigandaily.com/sites/default/files/leg/imagecache/fullnode/tmn.NEW_.classrooms.1-256-11003.jpg
+                
+                
+                ---Student refrains from coughing an 8th time during class, in fear of appearing diseased <note type="peer">relatable!</note> 
+                https://edc2.healthtap.com/ht-staging/user_answer/reference_image/33429/large/Valsalva_maneuver.jpeg?1386672709
+                "He just kept coughing and the whole time I was just thinking, 'what is wrong with that guy? 
+                <quote/>
             </p>
         </body>
         <footer>
@@ -42,12 +38,12 @@
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
-            <related_links url=""/>
+            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&id=li.em&proj=2">Great, The Uber Driver is Playing His F*cking Mixtape</related_links>
+            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&id=mi.as&proj=2">Gary Johnson Claims Media Meltdown Helped His Campaign, VP Claims Otherwise</related_links>
             <ad/>
         </footer>
 
     </article>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
 
 
     <docReview>
