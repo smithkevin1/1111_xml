@@ -801,12 +801,14 @@
     </define>
     <define name="review.intro.p">
         <element name="p">
-            <zeroOrMore>
-                <ref name="macro.reviewParaContent"/>
-            </zeroOrMore>
+
             <oneOrMore>
-                <ref name="synopsis"/>
+                <choice>
+                    <ref name="macro.reviewParaContent"/>
+                    <ref name="synopsis"/>
+                </choice>
             </oneOrMore>
+
         </element>
     </define>
     <define name="review.intro">

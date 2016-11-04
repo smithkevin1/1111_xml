@@ -16,8 +16,8 @@
         </header>
 
         <content>
-            <intro_para>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+            <intro>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                <p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
                 veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 <synopsis type="plot_points">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,</synopsis>
                 sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
@@ -25,7 +25,7 @@
                 velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
                 aliquam quaerat
                 <synopsis type="plot_points">voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,</synopsis>
-                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </intro_para>
+                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> </intro>
             <body>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -66,7 +66,7 @@
                     nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
                     pariatur? </p>
             </body>
-            <conclusion> beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+            <conclusion><p> beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
                 sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
                 ratione voluptatem sequi nesciunt. <summary type="gross_income">Quis autem vel eum
                     iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
@@ -84,7 +84,7 @@
                     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</date>
                 beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt. </conclusion>
+                voluptatem sequi nesciunt. </p></conclusion>
         </content>
     </movie_review>
     <article>
