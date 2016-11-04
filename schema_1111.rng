@@ -725,6 +725,7 @@
                 <ref name="macro.specialParaContent"/>
                 <ref name="review.summary"/>
                 <ref name="review.date"/>
+                <ref name="review.context"/>
             </choice>
         </oneOrMore>
     </define>
@@ -862,12 +863,8 @@
     </define>
     <define name="model.review.content">
         <ref name="review.intro_para"/>
-        <zeroOrMore>
-            <ref name="review.context"/>
-        </zeroOrMore>
         <ref name="review.body"/>
         <ref name="review.conclusion"/>
-
     </define>
     <define name="review.content">
         <element name="content">
