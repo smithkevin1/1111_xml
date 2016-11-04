@@ -6,7 +6,7 @@
     <article>
 
         <header>
-            <article_title/>
+            <article_title>test</article_title>
             <author xml:id="we.sp">Spencer Webb</author>
             <category></category>
             <date>November 1, 2016</date>
@@ -38,8 +38,8 @@
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
-            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=trueid=li.em&proj=2">Great, The Uber Driver is Playing His F*cking Mixtape</related_links>
-            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&id=mi.as&proj=2">Gary Johnson Claims Media Meltdown Helped His Campaign, VP Claims Otherwise</related_links>
+            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&amp;id=li.em&amp;proj=2">Great, The Uber Driver is Playing His F*cking Mixtape</related_links>
+            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&amp;id=mi.as&amp;proj=2">Gary Johnson Claims Media Meltdown Helped His Campaign, VP Claims Otherwise</related_links>
             <ad/>
         </footer>
 
