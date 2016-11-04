@@ -943,14 +943,14 @@
     </define>
 
     <!-- GROUP 2: SATIRICAL ARTICLES -->
-    <define name="ad">
+<!--    <define name="ad">
         <element name="ad">
             <ref name="macro.specialParaContent"/>
             <optional>
                 <ref name="att.resourced.attribute.url"/>
             </optional>
         </element>
-    </define>
+    </define>-->
     <define name="related_links">
         <element name="related_links">
             <a:documentation> Hyperlinks to related articles from the same website </a:documentation>
@@ -967,9 +967,9 @@
             <oneOrMore>
                 <ref name="related_links"/>
             </oneOrMore>
-            <oneOrMore>
+<!--            <oneOrMore>
                 <ref name="ad"/>
-            </oneOrMore>
+            </oneOrMore>-->
         </element>
     </define>
     <define name="article.location">
