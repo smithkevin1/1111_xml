@@ -30,7 +30,7 @@
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
-            <related_links url=""/>
+            <related_links url="http://fa16.kevingeraldsmith.com/"/>
             <ad/>
         </footer>
     </article>
@@ -38,6 +38,7 @@
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
+ HEAD
             <p>The draft is well written and adheres to the style of writing of a typical satirical
                 article such as one in The Onion. The use of an accurate rhetorical situation which
                 is relevant to satirical articles further validates the content in the body
@@ -66,6 +67,9 @@
                 development. One little aspect of the article that may be reconsidered is the amount
                 of words/ phrases that are emphasized to add effect. It is a good habit to have,
                 especially in satirical articles, however not always.</p>
+=======
+            <p> </p>
+>>>>>>> origin/master
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
