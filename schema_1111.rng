@@ -1287,12 +1287,36 @@
             <ref name="macro.specialParaContent"/>
         </element>
     </define>
+    <define name="model.job.content">
+        <ref name="job.title"/>
+        <ref name="job.date"/>
+        <ref name="job.summary"/>
+    </define>
+    <define name="job.date">
+        <element name="job_date">
+            <a:documentation>Container element for start and end dates of job. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="job.title">
+        <element name="job_title">
+            <a:documentation>Container element for title of position held at a job; also contains
+                company name and location.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="job.summary">
+        <element name="job_summary">
+            <a:documentation>Container element for all summary points per job. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
     <define name="job">
         <element name="job">
             <a:documentation>Container element for each job listed, sub-element of work experience,
                 optional element if not applicable; includes the start and finish dates, location,
                 and a summary of the job, should include employer, and title of position held </a:documentation>
-            <ref name="macro.specialParaContent"/>
+            <ref name="model.job.content"/>
         </element>
     </define>
     <define name="work_experience">

@@ -267,7 +267,7 @@
                 <p>
                     <xsl:for-each select="tags">
                         <a href="#">
-                            <xsl:value-of select="text()"/>
+                            <xsl:value-of select="text()"/><xsl:text> </xsl:text>
                         </a>
                     </xsl:for-each>
                 </p>
