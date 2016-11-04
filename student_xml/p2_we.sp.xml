@@ -38,7 +38,7 @@
             <share type="twitter"/>
             <share type="email"/>
             <share type="other"/>
-            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&id=li.em&proj=2">Great, The Uber Driver is Playing His F*cking Mixtape</related_links>
+            <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=trueid=li.em&proj=2">Great, The Uber Driver is Playing His F*cking Mixtape</related_links>
             <related_links url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&id=mi.as&proj=2">Gary Johnson Claims Media Meltdown Helped His Campaign, VP Claims Otherwise</related_links>
             <ad/>
         </footer>
@@ -47,8 +47,8 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="li.em"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
+        <reviewer type="peer" xml:id="li.em">Emma Lindberg</reviewer>
+        <report type="peer" who="#li.em">
             <p> Summary: You have several title ideas for his article. Some are relatable to
                 Northeastern and/or college students, while others are universal to anyone.
                 
