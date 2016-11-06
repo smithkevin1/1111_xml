@@ -26,8 +26,8 @@
 
     <!-- test for genre root and call appropriate legend -->
     <xsl:template match="DOC">
-        <html>
-            <!-- DELETE After testing (until /head) -->
+        <!--
+            <!-\- DELETE After testing (until /head) -\->
             <head>
                 <title>
                     <xsl:choose>
@@ -41,7 +41,7 @@
                 </title>
                 <link rel="stylesheet" type="text/css" href="../website/css/main.css"/>
                 <link rel="stylesheet" type="text/css" href="./website/css/main.css"/>
-            </head>
+            </head>-->
             <xsl:if test="child::essay">
                 <xsl:call-template name="essay_legend"/>
             </xsl:if>
@@ -57,13 +57,13 @@
             <xsl:if test="child::resume">
                 <xsl:call-template name="any_other_root_legend"/>
             </xsl:if>
-            <body>
+            
                 <!-- DELETE body after testing -->
                 <div id="contain">
                     <xsl:apply-templates/>
                 </div>
-            </body>
-        </html>
+            
+       
     </xsl:template>
 
     <xsl:include href="normal_format.xsl"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/kevinsmith/repos/1111_xml/schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-stylesheet type="text/xsl" href="./testing_format.xsl"?>-->
-<?xml-stylesheet type="text/xsl" href="./website/content/_xsl/annotated_format.xsl"?>
+<?xml-stylesheet type="text/xsl" href="./testing_format.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="./website/content/_xsl/annotated_format.xsl"?>-->
 <DOC>
     <movie_review>
         <header>
