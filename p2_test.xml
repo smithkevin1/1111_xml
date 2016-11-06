@@ -89,11 +89,11 @@
                     ratione voluptatem sequi nesciunt. </p></conclusion>
         </content>
     </movie_review>
-    <!--<article>
-        <!-\- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -\->
+    <article>
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <header>
-            <!-\- make changes to the document header as necessary (based on your genre) -\->
+            <!-- make changes to the document header as necessary (based on your genre) -->
             <article_title>Test Satire</article_title>
             <author xml:id="te.te">Kevin Smith</author>
             <category>News in Brief</category>
@@ -132,15 +132,15 @@
             <related_links url="http://theonion.com">The onion</related_links>
         </footer>
 
-        <!-\- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -\->
+        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
 
     </article>
 
     <op_ed>
-        <!-\- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -\->
+        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <docHead>
-            <!-\- make changes to the document header as necessary (based on your genre) -\->
+            <!-- make changes to the document header as necessary (based on your genre) -->
             <title>Test Op-Ed</title>
             <author xml:id="id">Kevin Smith</author>
             <date>10/28/2016</date>
@@ -226,7 +226,7 @@
             <additional_information>Spanish, fluent</additional_information>
             <additional_information>XSL, XML, HTML, PHP</additional_information>
         </qualifications>
-    </resume>-->
+    </resume>
 
 
 

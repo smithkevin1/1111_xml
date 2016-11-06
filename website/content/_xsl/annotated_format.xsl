@@ -243,24 +243,28 @@
     </xsl:template>
 
     <xsl:template name="op_legend">
-        <ul>
-            <li class="opinion"><strong>opinion</strong>: (opinion) [requires @type attribute,
-                values of main : the main opinion; opposing : an opinion that directly opposes the
-                main opinion]</li>
-            <li class="evidence"><strong>evidence</strong>: Evidence that supports the main
-                opinion</li>
-            <li class="elebg_info"><strong>bg_info</strong>: (background information) Background
-                info to help explain more about a topic </li>
-            <li class="example"><strong>example</strong>: An example used to express the main
-                opinion </li>
-            <li class="sitution"><strong>situation</strong>: (rhetorical situation) a current event
-                that relates to the main opinion </li>
-        </ul>
+        <div id="legend">
+            <ul>
+                <li class="opinion"><strong>opinion</strong>: (opinion) [requires @type attribute,
+                    values of main : the main opinion; opposing : an opinion that directly opposes
+                    the main opinion]</li>
+                <li class="evidence"><strong>evidence</strong>: Evidence that supports the main
+                    opinion</li>
+                <li class="bg_info"><strong>bg_info</strong>: (background information) Background
+                    info to help explain more about a topic </li>
+                <li class="example"><strong>example</strong>: An example used to express the main
+                    opinion </li>
+                <li class="situation"><strong>situation</strong>: (rhetorical situation) a current
+                    event that relates to the main opinion </li>
+            </ul>
+        </div>
     </xsl:template>
     <xsl:template name="any_other_root_legend">
-        <ul>
-            <li class="element"><strong>annotations</strong>: none</li>
-        </ul>
+        <div id="legend">
+            <ul>
+                <li class="element"><strong>annotations</strong>: none</li>
+            </ul>
+        </div>
     </xsl:template>
 
 

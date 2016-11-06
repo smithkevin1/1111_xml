@@ -824,6 +824,17 @@ span.comparison {color: #33a02c;}
 li.comparison {background-color: #33a02c;}
 span.summary {color: #b15928;}
 li.summary {background-color: #b15928;}
+span.date {color: #cab2d6;}
+li.date {background-color: #cab2d6;}
+
+span.opinion {color: #a6cee3;}
+li.opinion {background-color: #a6cee3;}
+span.bg_info {color: #6a3d9a;}
+li.bg_info {background-color: #6a3d9a;}
+span.example {color: #33a02c;}
+li.example {background-color: #33a02c;}
+span.situation {color: #e31a1c;}
+li.situation {background-color: #e31a1c;}
 
 
 
