@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/Users/kevinsmith/repos/1111_xml/schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="./testing_format.xsl"?>
-
+<!--<?xml-stylesheet type="text/xsl" href="./testing_format.xsl"?>-->
+<?xml-stylesheet type="text/xsl" href="./website/content/_xsl/annotated_format.xsl"?>
 <DOC>
     <movie_review>
         <header>
@@ -16,7 +16,7 @@
         </header>
 
         <content>
-            <intro>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            <intro>
                     <p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
                     veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                     <synopsis type="plot_points">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,</synopsis>
@@ -43,27 +43,27 @@
                     pariatur? </p>
                 <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. <opinions>Nemo
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. <opinions type="critique">Nemo
                         enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
                         quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                         consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
                         ut labore et dolore magnam aliquam quaerat voluptatem.</opinions> Ut enim ad
                     minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-                    nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                    nisi ut aliquid ex <aesthetics>ea commodi consequatur?</aesthetics> Quis autem vel eum iure reprehenderit
                     qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
                     dolorem eum fugiat quo voluptas nulla pariatur? </p>
                 <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                    veritatis et quasi architecto beatae vitae <book_progression>dicta sunt
+                    veritatis et quasi architecto beatae vitae <comparison type="book">dicta sunt
                         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
                         aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-                        sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                        sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia</comparison> dolor sit
                         amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                         incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
                         minima veniam, quis nostrum exercitationem ullam corporis suscipit
                         laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-                        iure reprehenderit qui in ea voluptate velit </book_progression>esse quam
+                        iure reprehenderit qui in ea voluptate velit esse quam
                     nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
                     pariatur? </p>
             </body>
@@ -89,11 +89,11 @@
                     ratione voluptatem sequi nesciunt. </p></conclusion>
         </content>
     </movie_review>
-    <article>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+    <!--<article>
+        <!-\- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -\->
 
         <header>
-            <!-- make changes to the document header as necessary (based on your genre) -->
+            <!-\- make changes to the document header as necessary (based on your genre) -\->
             <article_title>Test Satire</article_title>
             <author xml:id="te.te">Kevin Smith</author>
             <category>News in Brief</category>
@@ -130,20 +130,17 @@
             <share type="email">kgsmith2@gmail.com</share>
             <share type="other">nah</share>
             <related_links url="http://theonion.com">The onion</related_links>
-            <ad
-                url="https://designmodo.com/wp-content/uploads/2011/08/Vintage-Retro-Advertisements-18.jpg"
-            />
         </footer>
 
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
+        <!-\- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -\->
 
     </article>
 
     <op_ed>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        <!-\- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -\->
 
         <docHead>
-            <!-- make changes to the document header as necessary (based on your genre) -->
+            <!-\- make changes to the document header as necessary (based on your genre) -\->
             <title>Test Op-Ed</title>
             <author xml:id="id">Kevin Smith</author>
             <date>10/28/2016</date>
@@ -170,7 +167,7 @@
                 a newspaper or magazine which expresses the opinion of a named author usually not
                 affiliated with the publication editorial board.[1] Op-eds are different from both
                 editorials (opinion pieces submitted by editorial board members) and letters to the
-                editor (opinion pieces submitted by readers).</bg_info>
+                editor (opinion pieces submitted by readers).</bg_info> text
         </body_para>
         <body_para>
             <opinion type="opposing">Most of its text is made up from sections 1.10.32–3 of Cicero's
@@ -229,7 +226,7 @@
             <additional_information>Spanish, fluent</additional_information>
             <additional_information>XSL, XML, HTML, PHP</additional_information>
         </qualifications>
-    </resume>
+    </resume>-->
 
 
 

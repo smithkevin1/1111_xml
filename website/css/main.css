@@ -816,6 +816,17 @@ li.argument {background-color: #cccc00;}
 span.evidence {color: #b15928;}
 li.evidence {background-color: #b15928;}
 
+span.synopsis {color: #a6cee3;}
+li.synopsis {background-color: #a6cee3;}
+span.opinions {color: #6a3d9a;}
+li.opinions {background-color: #6a3d9a;}
+span.comparison {color: #33a02c;}
+li.comparison {background-color: #33a02c;}
+span.summary {color: #b15928;}
+li.summary {background-color: #b15928;}
+
+
+
 
 /* ==========================================================================
    Media Queries

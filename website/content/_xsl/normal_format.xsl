@@ -223,7 +223,12 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="movie_review/content/intro_para">
+    <xsl:template match="movie_review/content/intro">
+        <div id="review_intro">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="movie_review/content/intro/p">
         <p class="review_intro">
             <xsl:apply-templates/>
         </p>
@@ -239,6 +244,9 @@
         </p>
     </xsl:template>
     <xsl:template match="movie_review/content/conclusion">
+        <div id="review_concl"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="movie_review/content/conclusion/p">
         <p class="review_conclusion">
             <xsl:apply-templates/>
         </p>
