@@ -13,29 +13,57 @@
             <contact_info></contact_info>
         </header>
         
+        <!-- This is an example of how a Movie Review COULD be formatted, not how all are. -->
+        <!-- A lot of tags are optional and be placed anywhere in many different ways. -->
+        <!-- This example uses most of the tags included in the schema in a common pattern for movie reviews. -->
         <content>
-            <intro_para>
-                <synopsis type = "plot_points"></synopsis>
-                <synopsis type = "themes"></synopsis>
-            </intro_para>
+            <intro>
+                <p>
+                    <!-- Generally a short introduction that gives an idea of the author's opinions on the movie. -->
+                    <opinions type="reaction"></opinions>
+                </p>
+                <p>
+                    <!-- The synopsis can either be in the intro or first few body paragraphs. -->
+                    <synopsis type = "plot_points"></synopsis>
+                    <synopsis type = "themes"></synopsis>
+                </p>
+                
+            </intro>
             <body>
                 <p>
+                    <!-- Further context about the film usually follows the synopsis or is disperesed throughout the body.-->
                     <context type = "actor"></context>
                     <context type = "director"></context>
                     <context type = "franchise_history"></context>
                 </p>
                 <p>
-                    <opinions></opinions>
+                    <!-- Opinions can go anywhere. -->
+                    <opinions type="reaction"></opinions>
+                    <opinions type="critique"></opinions>
                 </p>
                 <p>
-                    <opinions></opinions>
-                    <aesthetics></aesthetics>
+                    <!-- Aesthetics is typically spoken about in a short, one paragraph opinion. -->
+                    <aesthetics>
+                        <opinions type="reaction"></opinions>
+                    </aesthetics>
+                </p>
+                <p>
+                    <!-- Most reviews will spend some time comparing the film to another similar one or the book it is based on. -->
+                    <comparison type="movie"></comparison>
+                    <opinions type="critique"></opinions>
                 </p>
             </body>
             <conclusion>
-                <summary type = "gross_income"></summary>
-                <summary type = "rating"></summary>
-                <date type = "movie_premiere"></date>
+                <p>
+                    <!-- A short closer summing up the author's opinions and typically gives either a recommendation to see or not to see the movie. -->
+                    <opinions type="reaction"></opinions>
+                </p>
+                <p>
+                    <!-- Some reviews will give some basic information on the movie at the very end. -->
+                    <summary type = "gross_income"></summary>
+                    <summary type = "rating"></summary>
+                    <date type = "movie_premiere"></date>
+                </p>
             </conclusion>
         </content>
     </movie_review>
