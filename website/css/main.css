@@ -575,6 +575,17 @@ ul#contact {
   padding-top: 1em;
 }
 
+.resume_date {
+  float: right;
+}
+.resume_location {
+  float: left;
+}
+div.job_head {
+  display: block;
+  margin: 2em 0;
+}
+
 /*
 SHARING BUTTONS for Satirical articles
 */

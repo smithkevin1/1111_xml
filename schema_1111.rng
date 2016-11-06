@@ -1331,7 +1331,9 @@
     </define>
     <define name="model.job.content">
         <ref name="job.title"/>
-        <ref name="job.summary"/>
+        <oneOrMore>
+            <ref name="job.summary"/>
+        </oneOrMore>
     </define>
     <define name="job.date">
         <element name="job_date">

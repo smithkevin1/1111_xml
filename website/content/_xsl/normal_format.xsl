@@ -267,7 +267,8 @@
                 <p>
                     <xsl:for-each select="tags">
                         <a href="#">
-                            <xsl:value-of select="text()"/><xsl:text> </xsl:text>
+                            <xsl:value-of select="text()"/>
+                            <xsl:text> </xsl:text>
                         </a>
                     </xsl:for-each>
                 </p>
@@ -394,12 +395,13 @@
         <path d="M22,4H2C0.897,4,0,4.897,0,6v12c0,1.103,0.897,2,2,2h20c1.103,0,2-0.897,2-2V6C24,4.897,23.103,4,22,4z M7.248,14.434 l-3.5,2C3.67,16.479,3.584,16.5,3.5,16.5c-0.174,0-0.342-0.09-0.435-0.252c-0.137-0.239-0.054-0.545,0.186-0.682l3.5-2 c0.24-0.137,0.545-0.054,0.682,0.186C7.571,13.992,7.488,14.297,7.248,14.434z M12,14.5c-0.094,0-0.189-0.026-0.271-0.08l-8.5-5.5 C2.997,8.77,2.93,8.46,3.081,8.229c0.15-0.23,0.459-0.298,0.691-0.147L12,13.405l8.229-5.324c0.232-0.15,0.542-0.084,0.691,0.147 c0.15,0.232,0.083,0.542-0.148,0.691l-8.5,5.5C12.189,14.474,12.095,14.5,12,14.5z M20.934,16.248 C20.842,16.41,20.673,16.5,20.5,16.5c-0.084,0-0.169-0.021-0.248-0.065l-3.5-2c-0.24-0.137-0.323-0.442-0.186-0.682 s0.443-0.322,0.682-0.186l3.5,2C20.988,15.703,21.071,16.009,20.934,16.248z"/>
     </svg></div>E-Mail</div>
             </a>
-            <xsl:if test="child::related_links"><p>RELATED LINKS: <xsl:for-each select="related_links">
-                    <a href="{@url}">
-                        <xsl:value-of select="text()"/>
-                    </a>
-                </xsl:for-each>
-                <!--<xsl:for-each select="ad">
+            <xsl:if test="child::related_links">
+                <p>RELATED LINKS: <xsl:for-each select="related_links">
+                        <a href="{@url}">
+                            <xsl:value-of select="text()"/>
+                        </a>
+                    </xsl:for-each>
+                    <!--<xsl:for-each select="ad">
                     <figure>
                         <img src="{@url}" alt="{child::text()}"/>
                         <figcaption>
@@ -407,7 +409,8 @@
                         </figcaption>
                     </figure>
                 </xsl:for-each>-->
-            </p></xsl:if>
+                </p>
+            </xsl:if>
 
         </div>
     </xsl:template>
@@ -511,14 +514,44 @@
         </div>
     </xsl:template>
     <xsl:template match="resume//work_experience">
-        <ul id="work_exp">
+        <div id="work_exp">
             <xsl:for-each select="job">
-                <li>
+                <p>
                     <xsl:apply-templates/>
+                </p>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+    <xsl:template match="job_title">
+        <div class="job_head">
+            <strong>
+                <xsl:value-of select="text()[1]"/>
+            </strong>
+            <span class="resume_date">
+                <xsl:value-of select="job_date"/>
+            </span>
+            <br/>
+            <span class="resume_location">
+                <xsl:value-of select="text()[2]"/>
+            </span>
+        </div>
+        <ul>
+            <xsl:for-each select="following-sibling::job_summary"><li>
+                <xsl:value-of select="text()"/>
+            </li></xsl:for-each>
+        </ul>
+        
+    </xsl:template>
+    <xsl:template match="job_summary"/>
+<!--    <xsl:template match="job_summary">
+        <ul>
+            <xsl:for-each select="../job_summary">
+                <li>
+                    <xsl:value-of select="text()"/>
                 </li>
             </xsl:for-each>
         </ul>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="resume//affiliations">
         <ul id="affiliations">
             <xsl:for-each select="affiliation">
@@ -533,11 +566,16 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="resume//additional_information">
-        <p class="additional_information">
-            <xsl:apply-templates/>
-        </p>
+    <xsl:template match="resume//additional_information[1]">
+        <ul>
+            <xsl:for-each select="../additional_information">
+                <li class="additional_informatio">
+                    <xsl:apply-templates/>
+                </li>
+            </xsl:for-each>
+        </ul>
     </xsl:template>
+    <xsl:template match="resume//additional_information[position()>1]"/>
 
 
     <!-- This section processes the reviews/end notes for the document -->
