@@ -801,14 +801,12 @@
     </define>
     <define name="review.intro.p">
         <element name="p">
-
             <oneOrMore>
                 <choice>
                     <ref name="macro.reviewParaContent"/>
                     <ref name="synopsis"/>
                 </choice>
             </oneOrMore>
-
         </element>
     </define>
     <define name="review.intro">
@@ -1333,7 +1331,6 @@
     </define>
     <define name="model.job.content">
         <ref name="job.title"/>
-        <ref name="job.date"/>
         <ref name="job.summary"/>
     </define>
     <define name="job.date">
@@ -1346,7 +1343,13 @@
         <element name="job_title">
             <a:documentation>Container element for title of position held at a job; also contains
                 company name and location.</a:documentation>
-            <ref name="macro.specialParaContent"/>
+            <zeroOrMore>
+                <ref name="macro.specialParaContent"/>
+            </zeroOrMore>
+            <ref name="job.date"/>
+            <zeroOrMore>
+                <ref name="macro.specialParaContent"/>
+            </zeroOrMore>
         </element>
     </define>
     <define name="job.summary">
