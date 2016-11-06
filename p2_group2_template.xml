@@ -19,9 +19,9 @@
             <share type="twitter"></share>
             <share type="email"></share>
             <share type="other"></share>
-        </header>
-            <image url=""></image>
+        </header>       
         <body>
+            <image url=""></image>
             <p>
                 <location></location>
                 <quote></quote>
@@ -33,7 +33,6 @@
             <share type="email"></share>
             <share type="other"></share>
             <related_links url=""></related_links>
-            <ad></ad>
         </footer>
 
             </article>
