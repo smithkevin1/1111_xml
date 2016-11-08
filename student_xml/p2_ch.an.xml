@@ -20,17 +20,17 @@
             <work_experience>
                 <job><job_title>Financial Advisor at Wells Fargo. <job_date>February 2007 - June 2013.</job_date> Boston, MA</job_title>
                 
-                <job_summary>Aided customers in choosing the individual investments best suited to them
-                Also aided customers in preparing for retirement
-                Advised customers and created strategies for them to pursue financial objectives
-                Made excellent investment and general financial recommendations to clients
-                Employee of the Month for March through June in 2012</job_summary></job>
+                <job_summary>Aided customers in choosing the individual investments best suited to them</job_summary>
+                <job_summary>Also aided customers in preparing for retirement</job_summary>
+                <job_summary>Advised customers and created strategies for them to pursue financial objectives</job_summary>
+                <job_summary>Made excellent investment and general financial recommendations to clients</job_summary>
+                <job_summary>Employee of the Month for March through June in 2012</job_summary></job>
                
                 <job> <job_title>Financial Solutions Advisor at Apollo Financial, LLC. <job_date>August 2013 - Now.</job_date> Ft. Lauderdale, Florida</job_title>
                 
-               <job_summary> Gave recommendations to clients concerning investment portfolios
-                Guided clients in making budgeting and investment decisions
-                Provided professional, friendly service</job_summary>
+                <job_summary> Gave recommendations to clients concerning investment portfolios
+                <job_summary>Guided clients in making budgeting and investment decisions</job_summary>
+                <job_summary>Provided professional, friendly service</job_summary></job_summary>
                 </job>
             </work_experience>
             <header>Education</header>
