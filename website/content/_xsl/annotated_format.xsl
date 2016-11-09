@@ -49,7 +49,7 @@
                 <xsl:call-template name="review_legend"/>
             </xsl:if>
             <xsl:if test="child::article">
-                <xsl:call-template name="any_other_root_legend"/>
+                <xsl:call-template name="article_legend"/>
             </xsl:if>
             <xsl:if test="child::op_ed">
                 <xsl:call-template name="op_legend"/>
@@ -143,6 +143,10 @@
             </span>
         </xsl:if>
     </xsl:template>
+    
+    <!-- satirical article annotation -->
+    <xsl:template match="article//quote"><span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+    </span></xsl:template>
 
     <!-- op_ed annotations -->
     <xsl:template
@@ -238,6 +242,14 @@
                     movie. Can only be within conclusion</li>
                 <li class="date"><strong>date</strong>: Element for the date of the review, or the
                     date of movie premiere</li>
+            </ul>
+        </div>
+    </xsl:template>
+    <xsl:template name="article_legend">
+        <div id="legend">
+            <ul>
+                <li class="quote"><strong>quote</strong>: Surrounded by quotation marks, a grouping of words, ranging from
+                    phrases to multiples sentences.</li>
             </ul>
         </div>
     </xsl:template>
