@@ -575,6 +575,17 @@ ul#contact {
   padding-top: 1em;
 }
 
+.resume_date {
+  float: right;
+}
+.resume_location {
+  float: left;
+}
+div.job_head {
+  display: block;
+  margin: 2em 0;
+}
+
 /*
 SHARING BUTTONS for Satirical articles
 */
@@ -804,6 +815,31 @@ span.argument {color: #cccc00;}
 li.argument {background-color: #cccc00;}
 span.evidence {color: #b15928;}
 li.evidence {background-color: #b15928;}
+
+span.synopsis {color: #a6cee3;}
+li.synopsis {background-color: #a6cee3;}
+span.opinions {color: #6a3d9a;}
+li.opinions {background-color: #6a3d9a;}
+span.comparison {color: #33a02c;}
+li.comparison {background-color: #33a02c;}
+span.summary {color: #b15928;}
+li.summary {background-color: #b15928;}
+span.date {color: #cab2d6;}
+li.date {background-color: #cab2d6;}
+
+span.quote {color: #a6cee3;}
+li.quote {background-color: #a6cee3;}
+
+span.opinion {color: #a6cee3;}
+li.opinion {background-color: #a6cee3;}
+span.bg_info {color: #6a3d9a;}
+li.bg_info {background-color: #6a3d9a;}
+span.example {color: #33a02c;}
+li.example {background-color: #33a02c;}
+span.situation {color: #e31a1c;}
+li.situation {background-color: #e31a1c;}
+
+
 
 
 /* ==========================================================================

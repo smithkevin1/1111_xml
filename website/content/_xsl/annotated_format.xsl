@@ -26,29 +26,50 @@
 
     <!-- test for genre root and call appropriate legend -->
     <xsl:template match="DOC">
-        <xsl:if test="child::essay">
-            <xsl:call-template name="essay_legend"/>
-        </xsl:if>
-        <xsl:if test="child::movie_review">
-            <xsl:call-template name="any_other_root_legend"/>
-        </xsl:if>
-        <xsl:if test="child::article">
-            <xsl:call-template name="any_other_root_legend"/>
-        </xsl:if>
-        <xsl:if test="child::op_ed">
-            <xsl:call-template name="any_other_root_legend"/>
-        </xsl:if>
-        <xsl:if test="child::resume">
-            <xsl:call-template name="any_other_root_legend"/>
-        </xsl:if>
-        <div id="contain">
-            <xsl:apply-templates/>
-        </div>
+        <!--
+            <!-\- DELETE After testing (until /head) -\->
+            <head>
+                <title>
+                    <xsl:choose>
+                        <xsl:when test="child::article">
+                            <xsl:value-of select="//article_title"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="//title[1]"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </title>
+                <link rel="stylesheet" type="text/css" href="../website/css/main.css"/>
+                <link rel="stylesheet" type="text/css" href="./website/css/main.css"/>
+            </head>-->
+            <xsl:if test="child::essay">
+                <xsl:call-template name="essay_legend"/>
+            </xsl:if>
+            <xsl:if test="child::movie_review">
+                <xsl:call-template name="review_legend"/>
+            </xsl:if>
+            <xsl:if test="child::article">
+                <xsl:call-template name="article_legend"/>
+            </xsl:if>
+            <xsl:if test="child::op_ed">
+                <xsl:call-template name="op_legend"/>
+            </xsl:if>
+            <xsl:if test="child::resume">
+                <xsl:call-template name="any_other_root_legend"/>
+            </xsl:if>
+            
+                <!-- DELETE body after testing -->
+                <div id="contain">
+                    <xsl:apply-templates/>
+                </div>
+            
+       
     </xsl:template>
 
-    <xsl:include href="normal_format.xsl"/> <!-- include normal format -->
-    
-    
+    <xsl:include href="normal_format.xsl"/>
+    <!-- include normal format -->
+
+
     <!-- ESSAY structure -->
     <xsl:template match="essay//intro">
         <div id="ann_intro">
@@ -78,6 +99,71 @@
 
     <xsl:template
         match="essay//bodyPara//*[not(self::q) and not(self::citation) and not(self::note)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+
+    <!-- moview review annotations -->
+    <xsl:template
+        match="movie_review//intro/p/*[not(self::quotes) and not(self::citation) and not(self::note) and not(self::figure) and not(self::style)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template
+        match="movie_review//body/p/*[not(self::quotes) and not(self::citation) and not(self::note) and not(self::figure) and not(self::style)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template
+        match="movie_review//conclusion/p/*[not(self::quotes) and not(self::citation) and not(self::note) and not(self::figure) and not(self::style)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+    
+    <!-- satirical article annotation -->
+    <xsl:template match="article//quote"><span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+    </span></xsl:template>
+
+    <!-- op_ed annotations -->
+    <xsl:template
+        match="op_ed//intro/p/*[not(self::quote) and not(self::citation) and not(self::note) and not(self::figure) and not(self::picture) and not(self::style)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                    select="@type"/>): <xsl:apply-templates/>] </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template
+        match="
+            op_ed//body_para/*[not(self::quote) and not(self::citation) and not(self::note) and not(self::figure)
+            and not(self::picture) and not(self::style)]">
         <xsl:if test="@type = true()">
             <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
                     select="@type"/>): <xsl:apply-templates/>] </span>
@@ -129,11 +215,70 @@
             </ul>
         </div>
     </xsl:template>
-    <xsl:template name="any_other_root_legend"><!-- format for legend builds -->
+
+    <xsl:template name="review_legend">
         <div id="legend">
-            <li class="element"><strong>element</strong>: documentation</li>
+            <ul>
+                <li class="synopsis"><strong>synopsis</strong>: Paragraph summarising the movie plot
+                    points, themes. Can be used in intro, or under p [requires @type attribute]</li>
+                <li class="context"><strong>context</strong>: Can be separate element if not placed
+                    in the same paragraph as synopsis, contains the information required to
+                    understand the movie such as who the actors are and their roles, the director
+                    and his role, and the optional attribute of the history of the franchise (if
+                    franchise). This tag can be used anywhere, within any other tag. </li>
+                <li class="opinions"><strong>opinions</strong>: Direct author's argument that may or
+                    may not be based on drawn out analysis. A movie review may contain more than one
+                    opinion tag. This tag can be used anywhere, within any other tag</li>
+                <li class="comparison"><strong>comparison</strong>: A direct comparison between a
+                    medium of choice according to the author. The type attribute being book, if the
+                    movie is based off a book, or another movie </li>
+                <li class="aesthetics"><strong>aesthetics</strong>: The analysis of the production
+                    quality that focuses on the visual cinematography, the music score, the
+                    locations and scenery and everything that does not include the story plot
+                    elements </li>
+                <li class="summary"><strong>summary</strong>: Contains optional attributes gross
+                    income, rating and release date; usually ties up the analysis in a succinct
+                    fashion, oftentimes summarizing the main opinion with a rating scale of the
+                    movie. Can only be within conclusion</li>
+                <li class="date"><strong>date</strong>: Element for the date of the review, or the
+                    date of movie premiere</li>
+            </ul>
         </div>
     </xsl:template>
+    <xsl:template name="article_legend">
+        <div id="legend">
+            <ul>
+                <li class="quote"><strong>quote</strong>: Surrounded by quotation marks, a grouping of words, ranging from
+                    phrases to multiples sentences.</li>
+            </ul>
+        </div>
+    </xsl:template>
+
+    <xsl:template name="op_legend">
+        <div id="legend">
+            <ul>
+                <li class="opinion"><strong>opinion</strong>: (opinion) [requires @type attribute,
+                    values of main : the main opinion; opposing : an opinion that directly opposes
+                    the main opinion]</li>
+                <li class="evidence"><strong>evidence</strong>: Evidence that supports the main
+                    opinion</li>
+                <li class="bg_info"><strong>bg_info</strong>: (background information) Background
+                    info to help explain more about a topic </li>
+                <li class="example"><strong>example</strong>: An example used to express the main
+                    opinion </li>
+                <li class="situation"><strong>situation</strong>: (rhetorical situation) a current
+                    event that relates to the main opinion </li>
+            </ul>
+        </div>
+    </xsl:template>
+    <xsl:template name="any_other_root_legend">
+        <div id="legend">
+            <ul>
+                <li class="element"><strong>annotations</strong>: none</li>
+            </ul>
+        </div>
+    </xsl:template>
+
 
 
     <!--    <xsl:template match="essay//pattern">
