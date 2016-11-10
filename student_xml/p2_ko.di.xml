@@ -12,19 +12,23 @@
             <contact type="email">dbk2911@gmail.com</contact>
         </contact_information>
         <header><style type="underline">Objectives</style></header>
-        <objectives>Currently a first year Computer Science major at Northeastern University.
-            Looking for a working opportunity in the Computer Industry during the summer of 2017. My
-            aim is to work in a cutting-edge and challenging work environment, wherein I can
-            effectively convert my innovative ideas into fruitful results. </objectives>
+        <objectives>Looking for a working opportunity in the Computer Science Industry during the
+            summer of 2017 (from May to July). My aim is to work in a cutting-edge and challenging
+            work environment, wherein I can effectively convert my innovative ideas into fruitful
+            results. </objectives>
         <header><style type="underline">Qualifications</style></header>
         <qualifications>
             <work_experience>
-                <job><style type="bold">Title:</style> Software Developer for Fazlani L'Académie
-                    Globale School. </job>
-                <job><style type="bold">Duration:</style> November 2015 - April 2016. </job>
-                <job><style type="bold">Language:</style> Java. </job>
-                <job><style type="bold">Summary:</style> Developed a Student Council Voting System
-                    for the sports department of my high-school. </job>
+                <job>
+                    <job_title><style type="bold">Title:</style> Software Developer for Fazlani
+                        L'Académie Globale School. <job_date>Duration: November 2015 - April
+                            2016.</job_date>
+                    </job_title>
+                    <job_summary>Developed a Student Council Voting System for the Sports Department
+                        of my high-school.</job_summary>
+                    <job_summary> Used Java as my primary programming language and .dat files for the
+                        systems backend </job_summary>
+                </job>
             </work_experience>
             <header><style type="underline">Education</style></header>
             <education>Northeastern University Boston Class of 2020 - BS in Computer
@@ -32,12 +36,12 @@
             <education>Fazlani L'Académie Globale School (India) Class of 2016 - Diploma in
                 International Baccalaureate </education>
             <header><style type="underline">Additional Information</style></header>
-            <additional_information> Proficient in Java and DrRacket.</additional_information>
+            <additional_information> Proficient in Java, DrRacket and XML.</additional_information>
             <additional_information>Fluent in English, French and Hindi.</additional_information>
             <additional_information>Prior leadership roles in sports teams.</additional_information>
             <additional_information>Hosted my high-school annual concert.</additional_information>
             <additional_information> Volunteered at Muktangan NGO in India. Directed a play for
-                their concert with the help of my classmates.</additional_information>
+                their school concert with the help of my classmates.</additional_information>
         </qualifications>
     </resume>
     <docReview>
@@ -64,7 +68,7 @@
                 aforementioned “innovative ideas”. Perhaps share briefly with the interviewer what
                 your ideas are. To expand a little more on my previous point, I would like to draw a
                 comparison with my own piece. In my objective I mentioned a lot of specific details
-                like the dates I was avaible for, the specific courses I take and hte departments in
+                like the dates I was avaible for, the specific courses I take and the departments in
                 the company I would like to work in. This provides the critical information an
                 interviewer needs to give you the job</p>
         </report>
