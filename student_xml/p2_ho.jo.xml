@@ -2,10 +2,10 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
- 
-    
+
+
+
+
     <resume>
         <title>Jack Hoyt</title>
         <header>Contact Information</header>
@@ -15,30 +15,35 @@
             <contact type="phone">1-978-852-9221</contact>
         </contact_information>
         <header>Objectives</header>
-        <objectives>My goal is to gain more practical knowledge and contribute in a team of
-        software or mobile application developers. Currently enrolled at Northeastern University
-        where I study computer science.<note type="peer">Is there a way to make this tighter and more concise? Also, is including the part about studying at Northeastern appropriate for this section of the resume? It's not exactly an objective for the workplace.</note></objectives>
+        <objectives>My goal is to gain more practical knowledge and contribute in a team of software
+            or mobile application developers.</objectives>
         <header>Qualifications</header>
         <qualifications>
             <work_experience>
-                <job>Mobile Application Development Intern at Assembly Co
-                May 2015 - September 2015, May 2016 - August 2016 <note type="peer">I know that you said that you wrote code that helped companies in the Manchester, New Hampshire area, but where were you physically working? As in, where was the company you worked for located?</note>
-                Wrote and debugged code used in mobile applications for various
-                companies in the Manchester, New Hampshire area. 
-                Contributed to the development of four applications that are still used by
-                businesses in the area today.<note type="peer">Maybe give a summary of what those apps do? Their importance to these companies/how they help? Would make your work seem more impressive if given concrete details.</note></job>
+                <job>
+                    <job_title>Mobile Application Development Intern at Assembly Co in Manchester,
+                        NH <job_date>May 2015 - September 2015, May 2016 - August 2016 </job_date>
+                    </job_title>
+                    <job_summary>Helped make mobile applications for various companies in the
+                        Manchester, New Hampshire area. Primarily focused on program refactoring and
+                        debugging. Contributed to the development of three applications that are
+                        still used by businesses in the area today. Two applications implemented
+                        group messaging and planning, allowing employees within a company to
+                        communicate and organize more efficiently. Helped build an application for
+                        Williamson's Finances to connect its customers to their information at any
+                        time.</job_summary>
+                </job>
             </work_experience>
             <education>Andover High School Class of 2016</education>
-            <education>Northeastern University Class of 2020<note type="peer">Maybe include the degree you're currently aiming for? especially since you're studying computer science. You could take out the section about Northeastern at the beginning and include the information that you're studying computer science here.</note></education>
-            <additional_information>Programming experience in C++, C#, and Java</additional_information>
+            <education>Northeastern University Class of 2020, Computer Science B.S.</education>
+            <additional_information>Programming experience in C++, C#, and
+                Java</additional_information>
         </qualifications>
     </resume>
-    
+
     <docReview>
         <reviewer type="peer" xml:id="ch.an"> Anders Chen</reviewer>
-        <report type="peer" who="#id_here">
-            <p>This draft was a resume that would likely be used to apply for a job in a computer science setting. Personally, I really think you should get rid of the section in the beginning that talks about studying computer science at Northeastern. There are other ways of showing that you are a student, such as saying "I am a student who wants to gain more practical knowledge..." and etc. The way it is now, it feels unnecessary in an objectives statement, and also makes it feel ling and somewhat clunky. Additionally, it is about your education, so the part about studying computer science can probably be put there, with a note that you'll expect to have that degree by 2020.I suggested that you add more detials about the apps you worked on mostly because I think it'll give a better sense of your experience. You may or may not want to add headers for the sub-categories of qualifications for the sake of clarity and organization. It all sort of flows together at the moment if you just check the formatted version of your resume. In terms of language and tone, your job summary points are nice and concise, although since you only have one job listed, I think you can afford to go into a little more detail like I've previously stated. Since you state that your goal is specifically to "gain more practical knowledge and contribute in a team of software or mobile application developers", you could maybe highlight any previous group work experience in your previous job if you can. That might make you look like a better candidate.</p>
-        </report>
+        <report type="peer" who="#id_here"> </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
             <p>Instructor comments will go here.</p>
