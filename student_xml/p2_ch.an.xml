@@ -14,7 +14,7 @@
             <contact type="email">MMMosser@gmail.com </contact>
         </contact_information>
         <header>Objectives</header>
-        <objectives>Dedicated and hard-working employee seeking to apply years of previous experience to further excel in the field.
+        <objectives>Dedicated and hard-working employee seeking to apply years of previous experience to further excel in the field. Would like to take nearly a decade's worth of experience to continue to grow and be an asset to both this company, and to my customers.
             <note type="peer" who="#ho.jo">More information could be given here. In particular I'd want to see the objectives related to 
             the employee's past experience.</note> </objectives>
         <header>Qualifications</header>
@@ -30,9 +30,10 @@
                
                 <job> <job_title>Financial Solutions Advisor at Apollo Financial, LLC. <job_date>August 2013 - Now.</job_date> Ft. Lauderdale, Florida</job_title>
                 
-                <job_summary> Gave recommendations to clients concerning investment portfolios
+                <job_summary>Gave recommendations to clients concerning investment portfolios</job_summary>
                 <job_summary>Guided clients in making budgeting and investment decisions</job_summary>
-                <job_summary>Provided professional, friendly service</job_summary></job_summary>
+                <job_summary>Provided professional, friendly service</job_summary>
+                <job_summary>Great at working alongside clients to determine the best choices for them after examining their financial situation</job_summary>
                 </job>
             </work_experience>
             <header>Education</header>
@@ -46,7 +47,7 @@
             <header>Certifications</header>
             <additional_information>Certified Financial Planner - Certification received 2012
                 <note type="peer" who="#ho.jo"> Similarly, information about the certification
-                and what it means the employee has accomplished could help</note></additional_information>
+                and what it means the employee has accomplished could help</note><note type="self">I know I'm making this up but I would just like to state that since this resume would presumably be directed at a job within the industry, the employer would likely know about certification, and likely the ABA too.</note></additional_information>
         </qualifications>
     </resume>
     
