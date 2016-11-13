@@ -53,7 +53,7 @@
     </article>
 
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="id_here"> Ashwin Misra</reviewer>
         <report type="peer" who="#id_here"> 
              <p>The draft is well written and adheres to the
                 style of writing of a typical satirical article such as one in The Onion. The use of
