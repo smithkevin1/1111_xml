@@ -8,11 +8,12 @@
 
 
         <header>
-            <article_title>Gary Johnson’s media meltdown leads to all time high favorability of
+            <article_title>Gary Johnson’s Media Meltdown Leads to All Time High Favorability of
                 21%</article_title>
             <author xml:id="mi.as">Ashwin Misra</author>
             <category>News in Brief</category>
             <date>November 11, 2016</date>
+            
             <identification type="volume">52</identification>
             <identification type="issue">68</identification>
             <tags>Politics, Politicians, Election, Gary Johnson, Hillary Clinton, Donald
@@ -26,7 +27,7 @@
         <body>
             <image
                 url="http://media.breitbart.com/media/2016/05/wi/ap_gary-johnson_ap-photo-e1464287585747.jpg"
-                >caption</image>
+                ></image>
 
             <p><location>BOULDER, CO</location>Gary Johnson’s campaign has now been noticed by the
                 general public after the traumatic, hard-to-watch video of him surfaced the
