@@ -4,39 +4,47 @@
 <DOC>
     <essay>
         <docHead>
-            <title> Genre Analysis of two Cosmology Textbooks </title>
+            <title> The Strengths of the Textbook Genre </title>
             <note type="instructor">update title?</note>
             <author xml:id="ga.ar"/>
             <date> October 3, 2016</date>
         </docHead>
         <body>
             <intro>
-                <p> The textbook genre is a well-known, largely permanent and exists as a sole
-                    entity itself, as well as one of the central backbones of college education.
-                    Genres are defined by their scenes and the underlying experiences that we, as
-                    individuals attribute to them and expect from them <citation>(Devitt, Reiff and
-                        Bawarshi)</citation>. The college education scene employs <note
+                <p>
+                    <genre>The textbook genre</genre> is a well-known, largely permanent and exists
+                    as a sole entity itself, as well as one of the central backbones of college
+                    education. Genres are defined by their scenes and the underlying experiences
+                    that we as individuals attribute to them and expect from them <citation>(Devitt,
+                        Reiff and Bawarshi)</citation>. The college education scene employs <note
                         type="instructor">what do you mean by "element" here? A particular text or
-                        example of the genre?</note> the textbook genre as a response to the need of
-                    a condensed body of knowledge for teaching and learning. <note type="instructor"
-                        >"off"</note>
+                        example of the genre?</note>
+                    <genre>the textbook genre</genre> as a response to the need of a condensed body
+                    of knowledge for teaching and learning. <note type="instructor">"off"</note>
                     <note type="instructor">off</note> The development of this genre in the past 30
-                    years has been consistent in some aspects in its trajectory from the 1980's
+                    years has been consistent in some aspects of its trajectory from the 1980's
                     until current day. <note type="instructor">any evidence for this claim?</note>
                     <note type="instructor">okay, I'll buy that</note>
                     <argument type="supporting">An analysis of two examples of the textbook genre,
                         taken from two different time periods, 1980s and 2008, reveal that they
-                        supplement science differently in the textbook, revealing that the genre has
-                        adapted to the rapid growth of information, because the authors have
-                        presented more condensed and practical information in more recent textbooks. </argument>
+                        supplement science differently in the textbook. The way they supplement or
+                        reduce narrative in the genre showed the genre adapted to the rapid growth
+                        of information. In more recent textbooks the authors have presented more
+                        condensed and practical information in response to that growth, as opposed
+                        to narrative. The ease at which the genre can be adapted to suit the time
+                        periods material and information, allows this genre to persist in modern
+                        education.</argument>
                     <argument type="main"> Both examples of the genre are intended for
                         undergraduates to understand the subject, and both encourage the readers to
                         interact with the genre in the learning process via mathematical problems.
-                        This reveals that this genre has existed as a response for so long because
-                        learning practical sciene topics requires interaction with the practice
-                        problems this genre presents. Also, legitemacy is maintained because of the
-                        reputation of the authors and their presenting of sources used to make
-                        arguments. </argument>
+                        This reveals that this genre has existed as a response to rheotrical
+                        situations for so long, because learning practical sciene topics require
+                        interaction with practice problems this genre usually presents. Also,
+                        legitemacy is maintained because of the reputation of the authors and their
+                        presenting of sources used to make arguments. This legitemacy trumps other
+                        primary sources of information that may be found online, and allows this
+                        genre to persist as a response to the need for a condensed body of knowledge
+                        in education.</argument>
                     <note type="instructor">"in the way that it"</note>
                     <note type="instructor">it</note>
                     <note type="instructor">I agree with your peer reviewer here, I'm having trouble
@@ -50,23 +58,29 @@
                     <note type="peer">Also take another look at your xml tags. There are a lot of
                         errors that can be fixed pretty quickly.</note></p>
             </intro>
-            <bodyPara> Cosmology, The Science of The Universe by Edward Harrison is an introductory
-                cosmology textbook published in the 1980s, a time where science was beginning to
-                compound exponentially upwards. Steven Weinberg, the author of ,"Cosmology" had his
-                book published the year of 2008 in Europe, intended for an audience that had been
-                exposed to the glamours of space exploration.<note type="instructor">something is
-                    missing here</note> The intended audience in Europe during 2008 were the
-                    <participants>students</participants> of physics, whom were already presently
-                acquainted with the developments of the modern world in physics and cosmology while
-                the American counterparts in the 1980's still had a substantial part of the universe
-                in a fog of uncertainty. The American students would be the pioneers in cosmology
-                and the study of the universe. The sentiment is expressed in the preface of the 2008
-                textbook where Steven Weinberg attributes the establishment of the science of
-                elementary phyiscs in 1980 <citation>(Weinberg p.vi)</citation>. This pattern of
-                acknowledgment of the year 1980 as a time of rapid growth in the field reveals that
-                authors can modify a textbook to better reflect the time period. <note type="peer"
-                    >You may want to explain who the original intended audience was and why an
-                    American outlook is so different.</note></bodyPara>
+            <bodyPara>
+                <context>Cosmology, The Science of The Universe by Edward Harrison is an
+                    introductory cosmology textbook published in the 1980s, a time where science was
+                    beginning to compound exponentially upwards.</context> Steven Weinberg, the
+                author of ,"Cosmology" had his book published the year of 2008, intended for an
+                audience that had been exposed to the glamours of space exploration.<note
+                    type="instructor">something is missing here</note> The intended audience in 2008
+                were the <participants>students</participants> of physics, whom were already
+                presently acquainted with the developments of the modern world in physics and
+                cosmology while the older counterparts in the 1980's still had a substantial part of
+                the universe in a fog of uncertainty. The 1980's students would be the pioneers in
+                cosmology and the study of the universe. <evidence>The sentiment is expressed in the
+                    preface of the 2008 textbook where Steven Weinberg attributes the establishment
+                    of the science of elementary phyiscs in the year 1980, which was also the date
+                    of the publication of Dr. Harrison's textbook <citation>(Weinberg
+                        p.vi)</citation>. This pattern of acknowledgment of the year 1980 as a time
+                    of rapid growth in the field reveals that authors can modify a textbook to
+                    better reflect the time period in which they are writing. The author is
+                    conscious of the infancy or maturation of the material and can easily adapt the
+                    genre to it. This maleability makes it possible for this genre to survive in
+                    modern education.</evidence>
+                <note type="peer">You may want to explain who the original intended audience was and
+                    why an American outlook is so different.</note></bodyPara>
 
             <bodyPara>The modern, most recent view of the genre of textbook is that of a body of
                 knowledge written for the consumption of an <participants>educator</participants> or
@@ -75,73 +89,76 @@
                 competency since a science book builds on the knowledge previously written. A
                 general physics book such as these two Cosmology books both, regardless of time
                 period interact with mathematical problems and expect the student to practice
-                mathematical problems. It is self evident that the 2008 textbook on Cosmology took a
-                mathematics heavy approach starting as early as page 2, <q>"The coordinate
-                    transformations that leave this invariant are here simply ordinary
-                    three-dimensional rotations and translation"</q>
-                <citation>(Weinberg)</citation>. Weinberg writes the textbook with little room for
-                discussion or illustrations such as the 1980 book by Dr. Witten. <note
-                    type="instructor">something missing here?</note> The 1980's book written by Dr.
-                Witten, apart from the mathematics, focused on the creative thought that inspired
-                the study of space, with fantastical images spanning the entire history of human
-                experience, as seen in the illustrations that dot the pages and the quotes that
-                begin the chapters; "He has ventured far beyond the flaming ramparts of the world
-                and in mind and spirit traversed the boundless universe- Lucretiues (99-55 B.C.)"
-                    <citation>(Harrison)</citation>. The presence of quotes, of depictions of early
+                mathematical problems. <evidence>It is self evident that the 2008 textbook on
+                    Cosmology took a mathematics heavy approach starting as early as page 2, <q>The
+                        coordinate transformations that leave this invariant are here simply
+                        ordinary three-dimensional rotations and translation</q>
+                    <citation>(Weinberg)</citation>. Weinberg writes the textbook with little room
+                    for discussion or illustrations such as the 1980 book by Dr. Witten.</evidence>
+                <note type="instructor">something missing here?</note> The 1980's book written by
+                Dr. Witten, apart from the mathematics, focused on the creative thought that
+                inspired the study of space, with fantastical images spanning the entire history of
+                human experience, as seen in the illustrations that dot the pages and the quotes
+                that begin the chapters; <evidence><q>"He has ventured far beyond the flaming
+                        ramparts of the world and in mind and spirit traversed the boundless
+                        universe- Lucretiues (99-55 B.C.)"</q></evidence>
+                <citation>(Harrison)</citation>. The presence of quotes, of depictions of early
                 cosmology reveal a reflection of the 1980's as a time of rapid growth in Cosmology,
                 and the book serves to both inspire and teach. The lack of quotes and illustrations
-                in Dr. Weinberg's textbook show the effect of Sceince at its peak density, as
-                opposed to the early onset. Regardless of the presentation of information, both books
-                employ problem sets and mathematics in order to teach key sceintifc concept of
+                in Dr. Weinberg's textbook show the effect of science at its peak density, as
+                opposed to the early onset. Regardless of the presentation of information, both
+                books employ problem sets and mathematics in order to teach key sceintifc concept of
                 physics. The consistent mathematical problems that appear decades apart reveal that
                 not much has changed in the way this genre responds to the teaching of important
                 concepts. In both books, practice is emphasized as a tool to teach the mathematics
-                that interact with the science of the Universe. <note type="instructor">why do you
+                that interact with the science of the universe. <note type="instructor">why do you
                     say that?</note>
                 <note type="instructor">okay, but how specifically does that follow from the
                     evidence presented above (math vs. curiosity)?</note><note type="peer">I think
                     this this is a fantastic claim with which you can write an entire paper on. Try
-                    and explore this a little more.</note> The education genre in the northeast,
-                during the 80's was that of unbridled imagination urged on by the space race, and
-                the content of this textbook is set to inspire confidence in the young entering
-                freshmen about the beauty of space. In 2008 however, with cosmology becoming more
-                theoretical and less inspired by novelty, the textbook reflected the dramatic shift
-                in the genre of space and how to present it. This reveals that when textbooks, the
-                genre in question, interact with ever-expanding science, textbooks tend to lose
-                their ability to read as a novel, and more as a technical manual. Weinberg, even
-                ackgnowladges the burden of too much information and states, "So much has happened
-                in cosmology since the 1960s that this book necessarily bears little resemblance,"
-                to his earlier books <citation>(Weinberg p.vii)</citation>. This shift in Science is mirrored
-                in the genre, and we can conlude that the genre has been adapted with the times, and thus stayed relevant
-                as a source of educational information<note type="instructor"
-                    >I agree, another example here would go a long way</note><note type="peer">Try
-                    throwing in some specific examples from each book to demonstrate your point. It
-                    will help the reader understand what exactly you mean by "took a mathematics
-                    heavy approach" versus "discussion or hypothetical". In text citations are also
-                    required on the project assesment.</note></bodyPara>
+                    and explore this a little more.</note>
+            </bodyPara>
+            <bodyPara>The education genre in the northeast, during the 80's was that of unbridled
+                imagination urged on by the space race, and the content of this textbook is set to
+                inspire confidence in the young entering freshmen about the beauty of space. In 2008
+                however, with cosmology becoming more theoretical and less inspired by novelty, the
+                textbook reflected the dramatic shift in the genre of space and how to present it.
+                This reveals that when textbooks, the genre in question, interact with
+                ever-expanding science, textbooks tend to lose their ability to read as a novel, and
+                more as a technical manual. Weinberg, even ackgnowladges the burden of too much
+                information and states, <evidence><q>So much has happened in cosmology since the
+                        1960s that this book necessarily bears little resemblance,</q> to his
+                    earlier books <citation>(Weinberg p.vii)</citation>. </evidence>This shift in
+                science is mirrored in the genre, and we can conlude that the genre has been adapted
+                with the times, and thus stayed relevant as a source of educational information<note
+                    type="instructor">I agree, another example here would go a long way</note><note
+                    type="peer">Try throwing in some specific examples from each book to demonstrate
+                    your point. It will help the reader understand what exactly you mean by "took a
+                    mathematics heavy approach" versus "discussion or hypothetical". In text
+                    citations are also required on the project assesment.</note></bodyPara>
 
             <bodyPara> Finally, having discussed how two different cosmology books present the study
                 of cosmology, the next logical jump would be to discuss why the textbook genre
                 existed then and continues to exist now. The purpose of the textbook has not changed
                 since the three decades of publishing in between them. The <scene>academic
-                    scene</scene> still requires that textbooks are the primary method of teaching.
-                One of these reasons is that the condensation of knowledge is universally
-                regarded as the best means of transmitting information. Books usually have physical
-                material that they quote from in regards to their knowledge, and this is what
-                    a<participants> student</participants> or <participants>educator</participants>
-                can expect from a <genre>textbook</genre>, knowing that the knowledge is sound. For
-                example "Cosmology" contains references at the bottom of the page of information
-                    <citation>(Weinberg 30)</citation> or at the end of the chapter (Harrison 68).
-                The authority that textbooks provide as primary sources is one of the strengths of
-                using this genre as a response to the requirments to teach as opposed to teaching
-                using websites such as Wikipedia, which even with linked sources, does not uphold
-                the agency that professors whom write textbooks do. A reason for this stems from the
-                argument presented above, about the unchanging nature of education in a scientific
-                field requiring practicing math problems, that both books promote even 30 years apart,
-                while simultainously synthesizing information. <note type="instructor">I'm not sure
-                    I totally understand the claim here. Certainly, I'm having trouble seeing how
-                    the evidence you presented (or your analysis of it) leads the reader to this
-                    claim.</note>
+                    scene</scene> still requires textbooks as the primary method of teaching. One of
+                these reasons is that the condensation of knowledge is universally regarded as the
+                best means of transmitting information. Books usually have physical material that
+                they quote from in regards to their knowledge, and this is what a<participants>
+                    student</participants> or <participants>educator</participants> can expect from
+                a <genre>textbook</genre>, knowing that the knowledge is sound. For example
+                "Cosmology" contains references at the bottom of the page of information <evidence>
+                    <citation>(Weinberg 30)</citation> or at the end of the chapter (Harrison
+                    68).</evidence> The authority that textbooks provide as primary sources is one
+                of the strengths of using this genre as a response to the need for a condensed body
+                of knowledge. Teaching using websites such as Wikipedia, which reference linked
+                sources, still do not uphold the agency that professors who write textbooks do. A
+                reason for this stems from the argument presented above, about the unchanging nature
+                of education in a scientific field requiring practicing math problems, that both
+                books promote even 30 years apart, while simultainously synthesizing information.
+                    <note type="instructor">I'm not sure I totally understand the claim here.
+                    Certainly, I'm having trouble seeing how the evidence you presented (or your
+                    analysis of it) leads the reader to this claim.</note>
                 <note type="peer">It feels like you are making a lot of claims about text books as
                     an idustry, but not a lot of evidence ot back it up. You should use the
                     differences you found in your analysis to explain how the text book genre has
@@ -160,20 +177,19 @@
                         type="peer">Give a quick definition of that term in case someone doesn't
                         know what it is.</note> and its up to the way their previous experiences
                     with <genre>textbooks</genre> to synthesize the material. This genre, the
-                    textbook, even when examples are seperated by decades apart, not much has
-                    changed in the way that it presents science to the reader. It has matured to
-                    represent the growing body of science, but the fundemntal practice of science
-                    remains consistent. The <participants>student</participants> can open the
-                    textbook and find a blend of history, science, culture and art, that makes the
-                    education just much more enjoyable or find a mathematical approach. In each
-                    case, the author of a textbook of science understands the primary goal of
-                    teaching, and the role a textbook takes up in that role. The authenticity as a
-                    primary source makes this genre response in Science education more prevalent
-                    than online sources of information, and has contributed to the stability and
-                    consistency of this genre in education. <note type="instructor">it's sometimes
-                        hard to follow where you are making claims about the braoder genre of the
-                        textbook, and where you are making claims about the specific textbooks you
-                        are analyzing.</note>
+                    textbook, even when examples are seperated by decades, not much changes in the
+                    way that it presents science to the reader. It has matured to represent the
+                    growing body of science, but the fundemntal practice of science remains
+                    consistent. The <participants>student</participants> can open a textbook and
+                    find a blend of culture and science or just science without narrative if the
+                    information is dense. In either case, the author of a textbook of science
+                    understands the primary goal of teaching, and the role a textbook takes up in
+                    that role. The authenticity as a primary source makes this genre response in
+                    science education more prevalent than online sources of information, and has
+                    contributed to the stability and consistency of this genre in education. <note
+                        type="instructor">it's sometimes hard to follow where you are making claims
+                        about the braoder genre of the textbook, and where you are making claims
+                        about the specific textbooks you are analyzing.</note>
                 </p>
             </concl>
 
