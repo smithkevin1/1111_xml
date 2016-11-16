@@ -2,8 +2,8 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    
-    
+
+
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <resume>
         <title>Marco M. Mosser</title>
@@ -14,61 +14,107 @@
             <contact type="email">MMMosser@gmail.com </contact>
         </contact_information>
         <header>Objectives</header>
-        <objectives>Dedicated and hard-working employee seeking to apply years of previous experience to further excel in the field. Would like to take nearly a decade's worth of experience to continue to grow and be an asset to both this company, and to my customers.
-            <note type="peer" who="#ho.jo">More information could be given here. In particular I'd want to see the objectives related to 
-            the employee's past experience.</note> </objectives>
+        <objectives>Dedicated and hard-working employee seeking to apply years of previous
+            experience to further excel in the field. Would like to take nearly a decade's worth of
+            experience to continue to grow and be an asset to both this company, and to my
+                customers.<note type="instructor">you might be a bit more specific here; like in the
+                second sentence, experience in what position? What is the "field" you're talking
+                about?</note>
+            <note type="peer" who="#ho.jo">More information could be given here. In particular I'd
+                want to see the objectives related to the employee's past experience.</note>
+        </objectives>
         <header>Qualifications</header>
         <qualifications>
             <work_experience>
-                <job><job_title>Financial Advisor at Wells Fargo. <job_date>February 2007 - June 2013.</job_date> Boston, MA</job_title>
-                
-                <job_summary>Aided customers in choosing the individual investments best suited to them</job_summary>
-                <job_summary>Also aided customers in preparing for retirement</job_summary>
-                <job_summary>Advised customers and created strategies for them to pursue financial objectives</job_summary>
-                <job_summary>Made excellent investment and general financial recommendations to clients</job_summary>
-                <job_summary>Employee of the Month for March through June in 2012</job_summary></job>
-               
-                <job> <job_title>Financial Solutions Advisor at Apollo Financial, LLC. <job_date>August 2013 - Now.</job_date> Ft. Lauderdale, Florida</job_title>
-                
-                <job_summary>Gave recommendations to clients concerning investment portfolios</job_summary>
-                <job_summary>Guided clients in making budgeting and investment decisions</job_summary>
-                <job_summary>Provided professional, friendly service</job_summary>
-                <job_summary>Great at working alongside clients to determine the best choices for them after examining their financial situation</job_summary>
+                <job>
+                    <job_title>Financial Advisor at Wells Fargo.<note type="instructor">I don't
+                            think the punctuation is necessary here</note>
+                        <job_date>February 2007 - June 2013.</job_date> Boston, MA</job_title>
+
+                    <job_summary>Aided customers in choosing the individual investments best suited
+                        to them</job_summary>
+                    <job_summary>Also<note type="instructor">probable don't want to start a bullet
+                            with "Also," each bullet should start with an action verb</note> aided
+                        customers in preparing for retirement</job_summary>
+                    <job_summary>Advised customers and created strategies for them to pursue
+                        financial objectives</job_summary>
+                    <job_summary>Made excellent investment and general financial recommendations to
+                            clients<note type="instructor">demonstrated by what? Would this type of
+                            resume usually include numbers, returns, etc.?</note></job_summary>
+                    <job_summary>Employee of the Month for March through June in 2012</job_summary>
+                </job>
+
+                <job>
+                    <job_title>Financial Solutions Advisor at Apollo Financial, LLC.
+                            <job_date>August 2013 - Now.<note type="instructor">isn't a resume
+                                usually in reverse chronological order? Meaning, shouldn't your
+                                surrent job be listed first?</note></job_date> Ft. Lauderdale,
+                        Florida</job_title>
+
+                    <job_summary>Gave recommendations to clients concerning investment
+                        portfolios</job_summary>
+                    <job_summary>Guided clients in making budgeting and investment
+                        decisions</job_summary>
+                    <job_summary>Provided professional, friendly service</job_summary>
+                    <job_summary>Great at working alongside clients to determine the best choices
+                        for them after examining their financial situation</job_summary>
                 </job>
             </work_experience>
             <header>Education</header>
             <education>Bachelor of Science in Finance, Ohio State University, 2006</education>
             <header>Affiliations</header>
             <affiliations>
-                <affiliation>American Banker's Association - Since 2008
-                    <note type="peer" who="#ho.jo">More detail here could help explain the affiliation
-                    and why it makes the employee better</note></affiliation>
+                <affiliation>American Banker's Association - Since 2008 <note type="peer"
+                        who="#ho.jo">More detail here could help explain the affiliation and why it
+                        makes the employee better</note></affiliation>
             </affiliations>
-            <header>Certifications</header>
-            <additional_information>Certified Financial Planner - Certification received 2012
-                <note type="peer" who="#ho.jo"> Similarly, information about the certification
-                and what it means the employee has accomplished could help</note><note type="self">I know I'm making this up but I would just like to state that since this resume would presumably be directed at a job within the industry, the employer would likely know about certification, and likely the ABA too.</note></additional_information>
+            <header>Certifications<note type="instructor">would this be more important that your
+                    affiliations? If so, I would think you would list it first</note></header>
+            <additional_information>Certified Financial Planner - Certification received 2012 <note
+                    type="peer" who="#ho.jo"> Similarly, information about the certification and
+                    what it means the employee has accomplished could help</note><note type="self">I
+                    know I'm making this up but I would just like to state that since this resume
+                    would presumably be directed at a job within the industry, the employer would
+                    likely know about certification, and likely the ABA
+                too.</note></additional_information>
         </qualifications>
     </resume>
-    
+
     <docReview>
-        <reviewer type="peer" xml:id="#ho.jo"> John Hoyt</reviewer>
+        <reviewer type="peer" xml:id="ho.jo"> John Hoyt</reviewer>
         <report type="peer" who="#ho.jo">
-            <p>	The draft is a resume that aims to list and explain the experience and characteristics of someone looking for a job.
-                A resume will use clear and concise language, and attempts to show the writer and their accomplishments in a positive light to have a better chance at employment.
-                The summary of Marco’s work experience and the explanation of his roles in the two jobs work very well to give an idea of who Marco is and what type of employee he could be. 
-                I think the resume could benefit from having the same level of detail and explanation in some of the other areas, such as the affiliation with the American Banker’s Association, and his role as a certified financial planner.
-                Generally it seems that it makes sense to only list the title of affiliations or certifications, but I don’t think it would hurt to add more information about what this employee did to earn these titles. 
-                When researching the genre we concluded that resumes tended to work well when they had simple and clean language, which I think you did a good job of.
-                Adding a sentence or two explaining more about the employee wouldn’t make the resume too wordy or hard to read.
-                I like what you wrote for the objectives, but I think adding more about the employee and possibly relating their objectives to their past job experience could provide more information an employer would want to see.
-                The current objective is strong but generic, and I would like to see more specific information about what the employee would like to accomplish in their field.
-                One of the best characteristics of your resume is organization. Everything is easy to read and interpret, which is a significant part of a good resume.
-                Overall the only weakness of the resume is that it could use more detail, and elements such as the affiliations, credentials, education, and objectives could be related to the work experience you outlined.</p>
+            <p> The draft is a resume that aims to list and explain the experience and
+                characteristics of someone looking for a job. A resume will use clear and concise
+                language, and attempts to show the writer and their accomplishments in a positive
+                light to have a better chance at employment. The summary of Marco’s work experience
+                and the explanation of his roles in the two jobs work very well to give an idea of
+                who Marco is and what type of employee he could be. I think the resume could benefit
+                from having the same level of detail and explanation in some of the other areas,
+                such as the affiliation with the American Banker’s Association, and his role as a
+                certified financial planner. Generally it seems that it makes sense to only list the
+                title of affiliations or certifications, but I don’t think it would hurt to add more
+                information about what this employee did to earn these titles. When researching the
+                genre we concluded that resumes tended to work well when they had simple and clean
+                language, which I think you did a good job of. Adding a sentence or two explaining
+                more about the employee wouldn’t make the resume too wordy or hard to read. I like
+                what you wrote for the objectives, but I think adding more about the employee and
+                possibly relating their objectives to their past job experience could provide more
+                information an employer would want to see. The current objective is strong but
+                generic, and I would like to see more specific information about what the employee
+                would like to accomplish in their field. One of the best characteristics of your
+                resume is organization. Everything is easy to read and interpret, which is a
+                significant part of a good resume. Overall the only weakness of the resume is that
+                it could use more detail, and elements such as the affiliations, credentials,
+                education, and objectives could be related to the work experience you outlined.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is looking good; there are some content and format questions I noted in the
+                in-text comments. The major format comment is about the order your jobs are listed,
+                which appears unconventional to me. It is a bit difficult to give feedback, since
+                this information is made up, but looking closely at your job summary elements might
+                be a good idea, ensuring that you're leading with an action verb that demonstrates
+                the duties you performed at the job.</p>
         </report>
     </docReview>
 </DOC>

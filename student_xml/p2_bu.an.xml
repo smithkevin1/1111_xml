@@ -27,8 +27,9 @@
                         <style type="italics">Guardians of the Galaxy</style>, <context
                         type="franchise_history">a film based off an extremely obscure Marvel comic
                         series</context>. A big leap that evidently paid off with one of the
-                    funniest action movies of all time <note type="peer" who="#ga.ar"> can you
-                        rephrase this sentence> </note>.</p>
+                    funniest action movies of all time<note type="instructor">is it also important
+                        that it was financially successful, funny or not?</note>
+                    <note type="peer" who="#ga.ar"> can you rephrase this sentence> </note>.</p>
                 <p><synopsis type="plot_points"><style type="italics">Guardians of the Galaxy</style> follows the story of Peter
                     Quill, played by Chris Pratt, a would be treasure space pirate who was abducted
                     from his home at a very young age.
@@ -62,11 +63,13 @@
                 <p>Finally you get to the duo of Rocket and Groot, played by Bradley Cooper and Vin
                     Diesal respectively. Rocket is a psychotic hyper-intelligent mutant raccoon who
                     is a master engineer and weapons specialist. On top of all that, he is also loud
-                    and fouled mouth, but has a surprisingly touching back story. His partner in
-                    crime, Groot, is a tree-like humanoid who can only says the words “I am Groot”.
+                    and fouled mouth<note type="instructor">foul-mouthed</note>, but has a
+                    surprisingly touching back story. His partner in crime, Groot, is a tree-like
+                    humanoid who can only says<note type="instructor">say</note> the words “I am
+                        Groot”.<note type="instructor">punctuation goes inside the quotes</note>
                     Ironically, Groot tends to be the most grounded, and rational one of the whole
-                    team. They work together as bounty hunters but join the team in order to break
-                    out of prison. </p>
+                    team. They<note type="instructor">this "they" is a bit unclear</note> work
+                    together as bounty hunters but join the team in order to break out of prison. </p>
 
                 <p>
                     <opinions type="reaction">Just from the character descriptions, you begin to get
@@ -74,10 +77,10 @@
                         personalities. The dialogue is witty, comedic timing is spot on, and the
                         characters, while objectively heinous, are incredibly likable. The acting in
                         the movie is also superb. Every actor seems like a perfect fit for their
-                        roles and all act naturally with each other through the film. Both the
-                        dialogue and the acting combined makes it seem like you are watching an
-                        actual group of friends making jabs at each other and getting along despite
-                        their differences.</opinions>
+                            roles<note type="instructor">role</note> and all act naturally with each
+                        other through the film. Both the dialogue and the acting combined makes it
+                        seem like you are watching an actual group of friends making jabs at each
+                        other and getting along despite their differences.</opinions>
                 </p>
 
                 <p><context type="director">What makes this film even more interesting is its
@@ -85,10 +88,10 @@
                         comedies, like <style type="italics">Scooby-Doo</style> and another
                         superhero film, <style type="italics">Super</style>. All in all, it was a
                         not very promising track record now that he was at the head of a huge summer
-                        blockbuster. Which made it all the more surprising just how good <style
+                        blockbuster.<note type="instructor">use a comma here; "which" is almost never used to start a sentence, because it introduces a dependent clause</note> Which made it all the more surprising just how good <style
                             type="italics">Guardians of the Galaxy</style> turned out to be. It
                         turns out all his time working on self-referential and cheesy films worked
-                        greatly in <style type="italics">Guardian of the Galaxy</style>'s favor, as
+                        greatly in <style type="italics">Guardians of the Galaxy</style>'s favor, as
                         the movie is partly a parody of the superhero-genre while also mimicking
                         it.</context></p>
 
@@ -121,7 +124,7 @@
                     expect any sort of deep character development or a thought-provoking plot.
                     Instead go in with an open mind looking for a good, memorable laugh with
                     characters you think were your own friends. I truly believe that Guardians
-                    easily takes title of the best second phase Marvel movie, and I am very excited
+                    easily takes title of the best second phase Marvel movie,<note type="instructor">maybe explain what "second phase Marvel" means</note> and I am very excited
                     for the sequel coming out next May.</p>
                 <p>Guardians of the Galaxy, by Marvel Studios, is <summary type="rating">rated
                         PG-13</summary>. It premiered in theaters <date type="movie_premiere">August
@@ -159,7 +162,7 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is an excellent example of the genre. I don't normally like superhero movies and you sold me. Nice job using the tags to structure in-depth info on background/plot/etc. as well as your own opinions and reactions. I think this came out well. I made a few small comments in-text, mostly small grammar and usage concerns, nothing big. Nice work.</p>
         </report>
     </docReview>
 </DOC>

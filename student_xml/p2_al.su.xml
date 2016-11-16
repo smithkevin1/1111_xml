@@ -15,8 +15,9 @@
         <intro> In Memphis, Tennessee, women can't drive a car unless a man warns other drivers on
             the road with a red flag. In Singapore, selling non-medical chewing gum or chewing gum
             itself is a fine of $1000. In Switzerland, it is illegal to flush a toilet after 10pm.
-                <opinion type="main"> It’s hard to believe that these laws still exist today; it’s
-                even harder to read them out loud without laughing. </opinion>
+                <note type="instructor">great opener</note>
+            <opinion type="main"> It’s hard to believe that these laws still exist today; it’s even
+                harder to read them out loud without laughing. </opinion>
         </intro>
 
         <body_para>
@@ -25,8 +26,9 @@
                 centuries. <note type="peer" who="#lo.va">Sentence needs to be rephrased</note>
                 While most, similar to one enacted in 1923 by the state of Illinois redefining it’s
                 official language as “American,” rather than English, are more modern. This presents
-                as an example of how much we, as an intelligent species, have
-                evolved.</opinion><picture
+                as an example of how much we, as an intelligent species, have evolved.<note
+                    type="instructor">not sure I get this last part, if we have evolved, why are
+                    there still these laws?</note></opinion><picture
                 url="https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr06/2013/4/18/23/anigif_enhanced-buzz-15238-1366342959-0.gif?no-auto>"
                 > Parks And Recreations</picture></body_para>
 
@@ -36,7 +38,8 @@
                 homosexuality is punishable by death. Being caught practicing witchcraft is also
                 punishable by death. Consuming alcohol or pork leads to imprisonment. Although these
                 laws were coined due to religoious reasons, a main reason why people chose to leave
-                it in is due to fear of being accused of these crimes.</bg_info>
+                    it<note type="instructor">leave them in</note> in is due to fear of being
+                accused of these crimes.</bg_info>
             <situation>With the help from the almighty Committee for the Promotion of Virtue and the
                 Prevention of Vice, ( or CPVPV for short) the government of Saudi Arabia has the
                 opportunity to imprison hoodlums such as the infamous Sabrina the Teenage Witch and
@@ -69,15 +72,18 @@
                 shame and punish terrifies me.</evidence>
         </body_para>
 
-        <conclusion>As can be seen, there are several laws that enforce hate and segregation around the world that are in
-            need of amendment. In my opinion, the current governing laws in Saudi exhibit
-            that some countries are in dire need of a push into the 21st century. I selected Saudi
-            because, as someone who has lived there for 15 years, <note type="peer" who="#lo.va">
-                Your closing line doesn't completely make sense.</note> I get very passionate on how
-            my country's perceived in the outside world. And also in my opinion, laws that have been
-            enacted for more than 50 years should be looked over as time and technology seem to be
-            progressing at an extreamly fast rate, and they should never cause a society to go
-            backwards in time, but should push societies to work hand in hand towards a better future</conclusion>
+        <conclusion>As can be seen, there are several laws that enforce hate and segregation around
+            the world that are in need of amendment. In my opinion, the current governing laws in
+            Saudi exhibit that some countries are in dire need of a push into the 21st century. I
+            selected Saudi because, as someone who has lived there for 15 years, <note type="peer"
+                who="#lo.va"> Your closing line doesn't completely make sense.</note> I get very
+            passionate on how my country's perceived in the outside world. And also in my opinion,
+            laws that have been enacted for more than 50 years should be looked over as time and
+            technology seem to be progressing at an extreamly fast rate, and they should never cause
+            a society to go backwards in time, but should push societies to work hand in hand
+            towards a better future<note type="instructor">this last sentence has a lot going on; it
+                might be worth it to break it up into two or more sentences to reduce the complexity
+                a bit</note></conclusion>
 
         <source/>
 
@@ -112,7 +118,15 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>IThis is good work. My main critique (beyond the sentence-level stuff I pointed out
+                in the in-text comments) is that I wish it were one paragraph longer. Not purely for
+                length, but I think there is some pertinent information you left out--how many
+                people in SA are actually convicted of these crimes? What are their effect(s) on
+                society as a whole? How influential is the CPVPV? What would changing the laws
+                achieve for citizens (beyond changing perceptions around the world)? These seem
+                importnat questions to me if you want the reader to take your topic and opinion
+                seriously. I do like the tone and style of your piece, it reflects well the personal
+                spin that many op-eds have.</p>
         </report>
     </docReview>
 </DOC>
