@@ -15,7 +15,8 @@
             <date>11 November 2016</date>
             <identification type="volume">1</identification>
             <identification type="issue">1</identification>
-            <tags>Local ⬪</tags>
+            <tags>Local ⬪<note type="instructor">I like the attention to detail/format
+                here</note></tags>
             <tags>Nightlife ⬪</tags>
             <tags>Mixtapes</tags>
             <share type="facebook"/>
@@ -26,22 +27,28 @@
         <body>
             <image
                 url="http://img.theepochtimes.com/n3/eet-content/uploads/2016/08/26/20160822-uber-SamiraBouaou-3702.jpg"> </image>
-            
-            <p><location>BOSTON, MA</location>—Craig Brennan and friends got into their
-                Uber Saturday to head to the bars. Their driver, named Jon, seemed normal enough
-                until he kept insisting he “is the next big thing” in rap. “Yeah, the 30 minute
-                drive into the city wasn’t bad until he wouldn’t stop bringing up his 'art.'” After
-                the insisting we go to his Soundcloud page, Brennan’s friend, Charlene Nguyen, asked
-                him to play his music. “Terrible mistake” said Brennan. Before Nguyen could finish,
-                Jon began talking about his mixtape’s upcoming release, and started off by playing a
-                song called “Infected.” With an overly heavy bass and mediocre Garageband synth, you
-                almost couldn’t make out his weak rhythm and shaky voice. “Yeah, after the awkward
-                silence and haphazard ‘that was great,’ we thought he’d put Drake back on. But then
-                he played three more.” The next one was called “The Reelest,” and featured a line
-                about fishing for money. On top of that, he appeared to be singing along to his
-                music, and kept looking back for reassurance. “I’ve never had to force a smile more
-                than I did for Jon’s rap, said fellow victim Nick Martin. Reports indicate that
-                Jon’s mixtape is set to release on December 8th.</p>
+
+            <p><location>BOSTON, MA</location><note type="instructor">great title</note>—Craig
+                Brennan and friends got into their Uber Saturday to head to the bars. Their driver,
+                named Jon, seemed normal enough until he kept insisting he “is the next big thing”
+                in rap. “Yeah, the 30 minute drive into the city wasn’t bad until he wouldn’t stop
+                bringing up his 'art.'”<note type="instructor">why not use the qute tag here?</note>
+                After the insisting we<note type="instructor">the switch to "we" here, while not
+                    quoting is a little confusing; are these normally written in the first
+                    person?</note> go to his Soundcloud page, Brennan’s friend, Charlene Nguyen,
+                asked him to play his music. “Terrible mistake” said Brennan. Before Nguyen could
+                finish, Jon began talking about his mixtape’s upcoming release, and started off by
+                playing a song called “Infected.” With an overly heavy bass and mediocre Garageband
+                synth, you almost couldn’t make out his weak rhythm and shaky voice. “Yeah, after
+                the awkward silence and haphazard ‘that was great,’ we thought he’d put Drake back
+                on. But then he played three more.” The next one was called “The Reelest,” and
+                featured a line about fishing for money.<note type="instructor">ha!</note> On top of
+                that, he appeared to be singing along to his music, and kept looking back for
+                reassurance. “I’ve never had to force a smile more than I did for Jon’s rap,<note
+                    type="instructor">missing closing quote?</note> said fellow victim Nick Martin.
+                Reports indicate that Jon’s mixtape is set to release on December 8th.<note
+                    type="instructor">this is a good closer, here you get the reportage
+                feel</note></p>
         </body>
         <footer>
             <share type="facebook"/>
@@ -54,36 +61,40 @@
 
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Ashwin Misra</reviewer>
-        <report type="peer" who="#id_here"> 
-             <p>The draft is well written and adheres to the
-                style of writing of a typical satirical article such as one in The Onion. The use of
-                an accurate rhetorical situation which is relevant to satirical articles further
-                validates the content in the body paragraph. Satirical articles are meant to be a
-                humorous take on articles published in conventional sources (i.e. The New York
-                Times). I feel that this article has many qualities that help it fit into this
-                satirical article category very well. The focus of this article is on one particular
-                event in one night, which is what many satirical articles are about. The story
-                having a funny character is one definite sign that it is a satirical article. There
-                is a good incorporation of current humor– the whole concept of mixtapes is very
-                relevant in today’s society where small time rappers try to promote themselves
-                through their music. Further, I like how there is an insight into the thoughts and
-                feelings of the characters who are involved in the scene. Although satirical
-                articles are not meant for character development, I feel that a scene is built and
-                situations are developed when there is a general understanding of the characters–
-                this was done well by the author. One aspect on language which can be slightly
-                improved on is how everything in the article seems to be over-emphasized. For
-                example, “kept saying that he raps”, “terrible mistake”, “overly heavy bass”,
-                “barely make out”, “played three more”. Some details may be better if they’re left
-                un-emphasized. Overall, I feel that the article is very well written and sticks by
-                the conventions of satirical articles with good use of character and scene
-                development which makes for a thorough rhetorical situation development. One little
-                aspect of the article that may be reconsidered is the amount of words/ phrases that
-                are emphasized to add effect. It is a good habit to have, especially in satirical
-                articles, however not always.</p></report>
-   
+        <report type="peer" who="#id_here">
+            <p>The draft is well written and adheres to the style of writing of a typical satirical
+                article such as one in The Onion. The use of an accurate rhetorical situation which
+                is relevant to satirical articles further validates the content in the body
+                paragraph. Satirical articles are meant to be a humorous take on articles published
+                in conventional sources (i.e. The New York Times). I feel that this article has many
+                qualities that help it fit into this satirical article category very well. The focus
+                of this article is on one particular event in one night, which is what many
+                satirical articles are about. The story having a funny character is one definite
+                sign that it is a satirical article. There is a good incorporation of current humor–
+                the whole concept of mixtapes is very relevant in today’s society where small time
+                rappers try to promote themselves through their music. Further, I like how there is
+                an insight into the thoughts and feelings of the characters who are involved in the
+                scene. Although satirical articles are not meant for character development, I feel
+                that a scene is built and situations are developed when there is a general
+                understanding of the characters– this was done well by the author. One aspect on
+                language which can be slightly improved on is how everything in the article seems to
+                be over-emphasized. For example, “kept saying that he raps”, “terrible mistake”,
+                “overly heavy bass”, “barely make out”, “played three more”. Some details may be
+                better if they’re left un-emphasized. Overall, I feel that the article is very well
+                written and sticks by the conventions of satirical articles with good use of
+                character and scene development which makes for a thorough rhetorical situation
+                development. One little aspect of the article that may be reconsidered is the amount
+                of words/ phrases that are emphasized to add effect. It is a good habit to have,
+                especially in satirical articles, however not always.</p>
+        </report>
+
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>The title is great, which, as we learned from your presentation, is really the
+                important part. There were a few moments in the body of the article that were
+                confusing--moments where you may have lost the reportage-style voice that you pull
+                of well at the outset and in the close. And then just cleaning up some small things,
+                like the missing quotation marks.</p>
         </report>
     </docReview>
 </DOC>

@@ -14,20 +14,24 @@
         <intro>London, United Kingdom: London has always been considered one of the world’s most
             prestigious fashion capitals in the world. But as the reality of Brexit sets in,
                 <opinion type="main">what does it mean for the British Fashion industry, and what
-                will the long and short term effects be?</opinion></intro>
+                will the long and short term effects be?<note type="instructor">I know intros are
+                    supposed to be short in this genre, but one more sentence about how Brexit and
+                    the indistry might be linked (I assume because fashion is so international?)
+                    might be helpful to orient the reader as to why you are putting these two topics
+                    in conversation</note></opinion></intro>
 
-        <body_para> On June 26th, 2016, <situation>Britain made history when they voted to
-                    leave the European Union.</situation> With many feeling shocked and
-            surprised at the result, the effects were immediately felt worldwide, with <evidence
-                type="statistics">over $2.1 trillion dollars in stock value lost globally in the 24
-                hours after the vote. The pound is now at a 7-year low against the
-            dollar</evidence>, as the nation’s currency depreciated significantly, and worries that
-            this could severely impact the bottom line, with many companies outsourcing to
-            semi-peripheral countries such as China (where they are paid in dollars) were realised.
-            A weaker pound has forced international brands to raise their U.K. prices, and though
-                <opinion type="opposing">this means that retail has now become slightly cheaper for
-                tourists</opinion>, it also means that it is more expensive if you are a resident in
-            Britain. <picture
+        <body_para> On June 26th, 2016, <situation>Britain made history when they voted to leave the
+                European Union.</situation> With many feeling shocked and surprised at the result,
+            the effects were immediately felt worldwide, with <evidence type="statistics">over $2.1
+                trillion dollars in stock value lost globally in the 24 hours after the vote. The
+                pound is now at a 7-year low against the dollar<note type="instructor">great
+                    evidence</note></evidence>, as the nation’s currency depreciated significantly,
+            and worries that this could severely impact the bottom line, with many companies
+            outsourcing to semi-peripheral countries such as China (where they are paid in dollars)
+            were realised. A weaker pound has forced international brands to raise their U.K.
+            prices, and though <opinion type="opposing">this means that retail has now become
+                slightly cheaper for tourists</opinion>, it also means that it is more expensive if
+            you are a resident in Britain. <picture
                 url="https://img.styla.com/resizer/sfh_760x0/fashion-in-the-time-of-brexit-what-s-next_26042_31907.jpeg"
             /></body_para>
 
@@ -38,10 +42,12 @@
             Brexit. For many reasons such as manufacturing, exporting and staffing, many expect
             fashion to be hit hard in the next few years, as the industry relies so much on the
             fluid movement of trade and people across borders, especially in Europe, with Paris and
-            Milan being especially important European relationships. The EU’s open borders have made it easy for
-            many companies such as <example>Céline (based in Paris) to run operations on both sides
-                of the channel, but a leave vote means that they will have to re-evaluate their
-                decision to establish creative departments in London.</example></body_para>
+            Milan being especially important European relationships<note type="instructor">great,
+                this was the info I was expecting in the intro</note>. The EU’s open borders have
+            made it easy for many companies such as <example>Céline (based in Paris) to run
+                operations on both sides of the channel, but a leave vote means that they will have
+                to re-evaluate their decision to establish creative departments in
+            London.</example></body_para>
 
         <body_para>Though many prominent fashion figures were disappointed with the vote, London
             Fashion week continued on without a hitch, and as the un-official kick-off to the much
@@ -71,14 +77,15 @@
         <conclusion>Looking forward to early next year, when the now-famous Article 50 clause will
             supposedly be activated, the fashion industry’s hope is that we close trade negotiations
             as soon as possible, with minimal impact to property regulations and visas. I don’t
-            think we have any idea what the biggest challenges are, that we will face in the wake of
-            Brexit, and many are worried that we will experience another, greater, financial crisis
-            similar to that of 2008. The key here is to not get ahead of ourselves, keep a cool head
-            and urge politicians to handle negotiations with the EU as peacefully as possible. It
-            has become clear that there will no re-referendum, so we are stuck in this position for
-            the foreseeable future, and can only make the best of it, and come out the other side
-            with the best regulations we can agree on, and not become isolated, but use it as an
-            opportunity to better ourselves as a country.</conclusion>
+            think we have any idea what the biggest challenges are,<note type="instructor">no comma
+                needed here</note> that we will face in the wake of Brexit, and many are worried
+            that we will experience another, greater, financial crisis similar to that of 2008. The
+            key here is to not get ahead of ourselves, keep a cool head and urge politicians to
+            handle negotiations with the EU as peacefully as possible. It has become clear that
+            there will no re-referendum, so we are stuck in this position for the foreseeable
+            future, and can only make the best of it, and come out the other side with the best
+            regulations we can agree on, and not become isolated, but use it as an opportunity to
+            better ourselves as a country.</conclusion>
 
 
         <source/>
@@ -108,14 +115,20 @@
                 understand the situation more. Consider adding a picture or a graph that illustrates
                 how much the pound has depreciated compared to the dollar after the second
                 paragraph. Also consider adding a picture of a person mentioned, preferably the
-                prime minister due to the political nature the body paragraphs, and who doesn't
-                like to look at pictures when reading an article. I hope you take my points into
+                prime minister due to the political nature the body paragraphs, and who doesn't like
+                to look at pictures when reading an article. I hope you take my points into
                 consideration, these were the only points I could think of to bring up, other than
                 that I think the Op-ed is remarkable, nice job!</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>Really interesting topic; I would not immediately think of the connection between the
+                fashion industry and Brexit, but this is a convincing look at the relation. In some
+                ways you could argue for the fashio industry to be like a bell weather for the
+                larger economy in London. Besides some small things in the inline comments and the
+                suggestion of the additional framing in the introduction, I think that this is a
+                model example of the genre. Great use of your group's schema componenet and good
+                work overall.</p>
         </report>
     </docReview>
 </DOC>

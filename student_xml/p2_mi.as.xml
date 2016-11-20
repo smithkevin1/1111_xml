@@ -13,11 +13,11 @@
             <author xml:id="mi.as">Ashwin Misra</author>
             <category>News in Brief</category>
             <date>November 11, 2016</date>
-            
             <identification type="volume">52</identification>
             <identification type="issue">68</identification>
-            <tags>Politics, Politicians, Election, Gary Johnson, Hillary Clinton, Donald
-                Trump</tags>
+            <tags>Politics, Politicians, Election, Gary Johnson, Hillary Clinton, Donald Trump<note
+                    type="instructor">the format might look better is you separate these into
+                    multiple tag elements</note></tags>
             <share type="facebook"/>
             <share type="twitter"/>
             <share type="email"/>
@@ -26,16 +26,17 @@
 
         <body>
             <image
-                url="http://media.breitbart.com/media/2016/05/wi/ap_gary-johnson_ap-photo-e1464287585747.jpg"
-                ></image>
+                url="http://media.breitbart.com/media/2016/05/wi/ap_gary-johnson_ap-photo-e1464287585747.jpg"/>
 
             <p><location>BOULDER, CO</location>Gary Johnson’s campaign has now been noticed by the
                 general public after the traumatic, hard-to-watch video of him surfaced the
-                Internet. The video showed a hot-tempered Johnson defending the inevitable “why are
-                you even in the campaign?” question. The Libertarian Party candidate assures a win
-                after re-watching his public media meltdown about the two main candidates.
-                    <quote>“Just look at the polls, Anderson. I’m at a whole 4.6% right now! I’d say
-                    I got this one in the bag. Oh boy is it looking good for me, huh? We’re
+                Internet. The video showed a hot-tempered Johnson defending the inevitable<note
+                    type="instructor">the word "defending" makes this sentence a bit hard to
+                    track--is he defending the video? defending himself against the video?</note>
+                “why are you even in the campaign?” question. The Libertarian Party candidate
+                assures a win after re-watching his public media meltdown about the two main
+                candidates. <quote>“Just look at the polls, Anderson. I’m at a whole 4.6% right now!
+                    I’d say I got this one in the bag. Oh boy is it looking good for me, huh? We’re
                     practically on double digits! Just wait until the fourth debate and my numbers
                     will shoot way up.”</quote> said a red-faced Johnson, who added that his
                 favorability numbers (of just 21%) are higher than “any president in the history of
@@ -91,7 +92,11 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>Nice work here. There is at least one moment in the body of your artice that, I
+                think, is a bit confusing, but you do a good job overall of maintaining the
+                reportage style typical of this genre. One other XML note--your document is not
+                valid with the schema because you retained an "ad" element, which your group decided
+                to eliminate from your schema. </p>
         </report>
     </docReview>
 </DOC>

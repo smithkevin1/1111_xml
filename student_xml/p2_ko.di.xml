@@ -15,7 +15,8 @@
         <objectives>Looking for a working opportunity in the Computer Science Industry during the
             summer of 2017 (from May to July). My aim is to work in a cutting-edge and challenging
             work environment, wherein I can effectively convert my innovative ideas into fruitful
-            results. </objectives>
+                results.<note type="instructor">solid, specific objective here</note>
+        </objectives>
         <header><style type="underline">Qualifications</style></header>
         <qualifications>
             <work_experience>
@@ -24,10 +25,14 @@
                         L'Académie Globale School. <job_date>Duration: November 2015 - April
                             2016.</job_date>
                     </job_title>
-                    <job_summary>Developed a Student Council Voting System for the Sports Department
-                        of my high-school.</job_summary>
-                    <job_summary> Used Java as my primary programming language and .dat files for the
-                        systems backend </job_summary>
+                    <job_summary>Developed<note type="instructor">good use of action verb
+                            here</note> a Student Council Voting System for the Sports Department of
+                        my high-school.</job_summary>
+                    <job_summary> Used<note type="instructor">could you be more direct here in using
+                            a verb that indicates your responsibilities/skill/experience? Like
+                            "Programmed in Java and maintained .dat files..."</note> Java as my
+                        primary programming language and .dat files for the systems backend
+                    </job_summary>
                 </job>
             </work_experience>
             <header><style type="underline">Education</style></header>
@@ -35,7 +40,11 @@
                 Science</education>
             <education>Fazlani L'Académie Globale School (India) Class of 2016 - Diploma in
                 International Baccalaureate </education>
-            <header><style type="underline">Additional Information</style></header>
+            <header><style type="underline">Additional Information</style><note type="instructor"
+                    >would it make sense to break this up into two, more cohesive sections? This
+                    section seems long and not thematically related; I could imagine a skills or
+                    software/languages section, maybe a volunteer and other
+                experience</note></header>
             <additional_information> Proficient in Java, DrRacket and XML.</additional_information>
             <additional_information>Fluent in English, French and Hindi.</additional_information>
             <additional_information>Prior leadership roles in sports teams.</additional_information>
@@ -74,7 +83,11 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is a good example of the genre, I like that you paid close attention to
+                formatting (indicated through the use of the style tag), since format and
+                information hierarchy are so important to the genre. Take a look at my inline
+                comments for some examples where the language is working well and areas where it
+                might be improved</p>
         </report>
     </docReview>
 </DOC>

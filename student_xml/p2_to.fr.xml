@@ -20,8 +20,8 @@
                         <style type="italics"><style type="italics">Hocus Pocus</style></style> is
                         an unduly popular film full of bad acting, inappropriate sexual references,
                         and a plot that would cause R.L Stine to roll over in his (hypothetical)
-                        grave. </opinions>There: I said it. Sue
-                    me.<synopsis type="plot_points">The film tells the story of the Sanderson 
+                        grave. </opinions>There: I said it. Sue me.<note type="instructor">great
+                        opener</note><synopsis type="plot_points">The film tells the story of the Sanderson 
                     Sisters: a trio of witches that were hung in Salem, Massachusetts for stealing 
                     children and absorbing their souls in order to stay alive. In 1993, 300
                     years after their deaths, an angst filled teen named Max <context type="actor">
@@ -57,16 +57,19 @@
                         (and that is not much of a compliment when taking into account what it is
                         being compared to) comes the less gaudy characters – from Omri Katz who
                         makes a convincing teen and Thora Birch who plays off him with seemingly
-                        authentic emotion as his younger sister</opinions>. </p>
+                        authentic emotion as his younger sister<note type="instructor">this
+                            paragraph is great, reminds me of Roger Ebert's scathing reviews of
+                            movies</note></opinions>. </p>
 
                 <p>
                     <opinions type="reaction">I found this movie to be pretty creepy
-                        sexually</opinions>. Max is a typical whose main goal is to impress his
-                    crush, Allison. <comparison type="movie">Many movies start off this way,<style
-                            type="italics"> My Girl</style> being the first that pops into my mind,
-                        but I have never seen one include a cringe-worthy scene where the
-                        protagonist pretends a pillow is a girl and spoons it while whispering, "Oh,
-                        Allison, you're so soft."</comparison>
+                        sexually</opinions>. Max is a typical<note type="instructor">a typical
+                        what?</note> whose main goal is to impress his crush, Allison. <comparison
+                        type="movie">Many movies start off this way,<style type="italics"> My
+                            Girl</style> being the first that pops into my mind, but I have never
+                        seen one include a cringe-worthy scene where the protagonist pretends a
+                        pillow is a girl and spoons it while whispering, "Oh, Allison, you're so
+                            soft."<note type="instructor">ha!</note></comparison>
                     <opinions type="critique"><style type="italics">Hocus Pocus</style> is a Disney
                         movie, whose audience is made up in part by children, and Max is dry-humping
                         his bedding. That is inherently wrong. <style type="italics">Hocus
@@ -95,9 +98,10 @@
                         type="critique">In addition to this, there is little in the way of a
                         coherent story – it consists mostly of people running around connected only
                         by a series of thin plot devices. The movie changes tone as casually as the
-                        actors wear their costumes, and doesn’t hesitate when breaking its own mood
-                        altogether (as when the three witches suddenly perform "I Put a Spell on
-                        You" directly after a somewhat intense chase scene). </opinions>
+                        actors wear their costumes<note type="instructor">great line</note>, and
+                        doesn’t hesitate when breaking its own mood altogether (as when the three
+                        witches suddenly perform "I Put a Spell on You" directly after a somewhat
+                        intense chase scene). </opinions>
                 </p>
 
                 <p>
@@ -141,19 +145,19 @@
                 <p>
                     <summary type="release date">When Hocus Pocus debuted over 20 years ago, in June
                         of 1993</summary>, <summary type="gross_income">it made $39 million — a
-                        dissapointing number compared with the $28 million Disney spent towrads its
+                        dissapointing number compared with the $28 million Disney spent towrads<note type="instructor">sp</note> its
                         production.</summary> The movie was a financial disappointment, opening at
-                    fourth place behind peers like Jurassic Park and Free Willy. <opinions
+                    fourth place behind peers like Jurassic Park and Free Willy<note type="instructor">tough competition</note>. <opinions
                         type="reaction">It was also an overall disappointment to me, I had much
                         higher expectations about it because of my friends and through general word
-                        of mouth. am also not a seven-year-old so that also contributes to my
+                        of mouth. <note type="instructor">missing something here?</note>am also not a seven-year-old so that also contributes to my
                         glaringly obvious dislike of this movie. In general, I would never watch
                         this movie again, but that doesn’t mean others shouldn’t. If you’re a parent
                         looking for a not- so- scary if mildly inappropriate Halloween movie to
                         watch with your kids (ideally ages 4-8) I would recommend <style
                             type="italics">Hocus Pocus</style> but I warn you to be prepared for
-                        some ridiculous things.</opinions> <summary type="rating"> I give this
-                        movie a solid 4/10 overall rating.</summary>
+                        some ridiculous things.</opinions>
+                    <summary type="rating"> I give this movie a solid 4/10 overall rating.</summary>
                 </p>
             </conclusion>
         </content>
@@ -187,7 +191,7 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>Really funny and entertaining review of a (in my opinion) classic movie. I can't help it, it came ut when I was the exact correct age for it. As for the review itself, it looks really great. A model example of the genre. There are a few small errors--missing words, misspellings, etc. Nothing big, but see my inline notes for those moments. Nice work!</p>
         </report>
     </docReview>
 </DOC>

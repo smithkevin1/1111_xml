@@ -15,51 +15,65 @@
             <date>11 November, 2016</date>
         </docHead>
 
-        <intro> A common complaint many high school students make is about their lack of sleep. School 
-            starts early in the day, it takes time to get ready and get there, and after school 
-            many students have sports, jobs, volunteer work, and other activities in addition to 
-            homework. Research shows that many teens average less than 7 hours of sleep per night 
-            when the optimal amount of sleep per night is around 9.25 hours. Currently, many high 
-            schools start class around 7:20am. <opinion type="main">Sleep deprivation is major problem 
-            that many teens have today and in order to combat it the school 
-            starting time should be pushed forward to around 8:30am.</opinion>
+        <intro> A common complaint many high school students make is about their lack of sleep.
+            School starts early in the day, it takes time to get ready and get there, and after
+            school many students have sports, jobs, volunteer work, and other activities in addition
+            to homework. Research shows that many teens average less than 7 hours of sleep per night
+            when the optimal amount of sleep per night is around 9.25 hours<note type="instructor"
+                >evidence type="statistics" here?</note>. Currently, many high schools start class
+            around 7:20am. <opinion type="main">Sleep deprivation is major problem that many teens
+                have today and in order to combat it the school starting time should be pushed
+                forward to around 8:30am.</opinion>
         </intro>
 
-        <body_para> <bg_info>Sleep deprivation is extremely common in teens today. Many teens think that they are 
-            expected to function with barely any sleep which causes people to just ignore how bad sleep 
-            deprivation can be.</bg_info> <evidence type="research">A lack of sleep causes many problems. It impairs one’s ability to be 
-            alert, to solve problems and to cope with stress. Many days without enough sleep also increases 
-            the risk of car accidents due to drowsy driving for teens who drive daily.</evidence> With all of these 
-            problems and health risks a lack of sleep cause, it should be obvious that something such as 
-            changing school start times needs to be done. Being unable to think properly directly affects a student's
-            ability to learn at school. Learning is the whole point of school, so it would be in the school's best
-            interest to change start times so that students do not suffer from sleep deprivation and can more properly learn.
+        <body_para>
+            <bg_info>Sleep deprivation is extremely common in teens today.<note type="instructor"
+                    >right, you've already established this in the intro</note> Many teens think
+                that they are expected to function with barely any sleep which causes people to just
+                ignore how bad sleep deprivation can be.</bg_info>
+            <evidence type="research">A lack of sleep causes many problems. It impairs one’s ability
+                to be alert, to solve problems and to cope with stress.<note type="instructor">these
+                    are all related to learning in certain ways, but sleep does not equal learning,
+                    necessarily</note> Many days without enough sleep also increases the risk of car
+                accidents due to drowsy driving for teens who drive daily.</evidence> With all of
+            these problems and health risks a lack of sleep cause, it should be obvious that
+            something such as changing school start times needs to be done. Being unable to think
+            properly directly affects a student's ability to learn at school. Learning is the whole
+            point of school, so it would be in the school's best interest to change start times so
+            that students do not suffer from sleep deprivation and can more properly learn.<note
+                type="instructor">again, I'm wondering how you can link learning (which requires
+                more than just alertness and low stress) specifically to more sleep; is there
+                research that explicitly supports this link?</note>
         </body_para>
-        <body_para>As kids age and become teenagers, their sleep cycles change. Their sleep cycles are shifted 
-            forward. This results in more sleep deprivation for teens because of the early high school start 
-            times. At times that younger kids are more awake, teens are tired, and vice versa. <evidence type="research">There is research 
-            that shows that teens are actually more awake and focused later in the day.</evidence> This would support school 
-            start times changing. Middle schools and high schools could switch start times with elementary schools, 
-            giving teens more time to sleep and also work with their sleep cycles. Earlier start times for elementary 
-            school would not affect students there since children typically go to bed much earlier than teens and their
-            sleep cycles help make them feel more energetic in the morning.
-            
-        </body_para>
-        <body_para><evidence type="pers_exp">From my time in high school I can say that a lack of sleep was a big problem for my classmates and me. 
-            My friends and other classmates were always complaining about their lack of sleep. There were many times that 
-            I would fall asleep in class and times that I was just too tired to focus. I would have to go over the material 
-            that was taught later in the day. Drowsy driving was definitely a problem as well. I would drove about 20 minutes 
-            to school everyday and in the morning it was very challenging to stay awake and focus on the road. Sometimes I would 
-            miss turns and be late to school. After school I would have sports and then homework to finish.</evidence> I feel that a 
-            later start time for high school would have helped me get the little extra sleep I needed to feel awake and be 
-            focused in class.
-        </body_para>
+        <body_para>As kids age and become teenagers, their sleep cycles change. Their sleep cycles
+            are shifted forward. This results in more sleep deprivation for teens because of the
+            early high school start times. At times that younger kids are more awake, teens are
+            tired, and vice versa. <evidence type="research">There is research that shows that teens
+                are actually more awake and focused later in the day.</evidence> This would support
+            school start times changing. Middle schools and high schools could switch start times
+            with elementary schools, giving teens more time to sleep and also work with their sleep
+            cycles. Earlier start times for elementary school would not affect students there since
+            children typically go to bed much earlier than teens and their sleep cycles help make
+            them feel more energetic in the morning. </body_para>
+        <body_para><evidence type="pers_exp">From my time in high school I can say that a lack of
+                sleep was a big problem for my classmates and me. My friends and other classmates
+                were always complaining about their lack of sleep. There were many times that I
+                would fall asleep in class and times that I was just too tired to focus. I would
+                have to go over the material that was taught later in the day. Drowsy driving was
+                definitely a problem as well. I would drove about 20 minutes to school everyday and
+                in the morning it was very challenging to stay awake and focus on the road.
+                Sometimes I would miss turns and be late to school. After school I would have sports
+                and then homework to finish.</evidence> I feel that a later start time for high
+            school would have helped me get the little extra sleep I needed to feel awake and be
+            focused in class. </body_para>
 
-        <conclusion>Teens need more sleep than they currently get. Moving the start time of high schools about an hour forward 
-            would be a step towards helping teens get more sleep. Lower grade schools can be pushed back to start a little 
-            earlier because younger children can handle that much better than teens can. So high school should start later 
-            than it currently does so that it is less likely that many teens suffer from sleep deprivation. If school times do 
-            not change, then students will continue to be hindered by sleep deprivation and will not be able to reach their full potential. </conclusion>
+        <conclusion>Teens need more sleep than they currently get. Moving the start time of high
+            schools about an hour forward would be a step towards helping teens get more sleep.
+            Lower grade schools can be pushed back to start a little earlier because younger
+            children can handle that much better than teens can. So high school should start later
+            than it currently does so that it is less likely that many teens suffer from sleep
+            deprivation. If school times do not change, then students will continue to be hindered
+            by sleep deprivation and will not be able to reach their full potential. </conclusion>
         <source/>
 
         <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
@@ -90,7 +104,16 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>There is a lot going well here. My main critiques would be that 1) I'm not sure you
+                ever explicitly (convincingly) link sleep with <style type="italics"
+                    >learning.</style> You do make explicit links to alertness, stress, and problem
+                solving. I think you need to do more work (research-based or otherwise) linking
+                these abilities with how students learn. 2) There are aspects of the op-ed that feel
+                a bit repetitive (see notes). Body para's 1 and 2 seem very related and might
+                usefully be trimmed and/or combined. Finally, I wonder if you ight be a bit more
+                specific in your conclusion w/r/t the start time you advocate for (you do say 8:30
+                early in your article, but never return to that time or justify why that time). This
+                change would give the reader a more specific call to action.</p>
         </report>
     </docReview>
 </DOC>
