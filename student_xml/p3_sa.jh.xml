@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
+<DOC></DOC> 
+    Growing up, but not really 
+        Everyone is looking forward to their last year of high school can not wait until prom, and graduation and finally becoming an adult. All the teachers expect us to
+    become adults in a couple of days, so do our parents and the younger ones around us. Oh wait,
+    let me ask my teacher for a pass to go to the bathroom. Is it not absurd that I have to go to
+    ask to go to the bathroom but in a couple of months I am expected to make all my important life
+    decisions. I see the transition there. 
+        Things get more serious when you are an adult, but not
+    really. You get to college and you decide on what you are going to eat, what classes you are
+    going to take, who you hang out with, and all these who, what, when, where, why, and how. But
+    let me tell you something, when it comes to staying on campus for a weekend, “You are not grown,
+    you can not stay on campus, you can not make all your life decisions on your own.” Wow, see what
+    I mean. 
+        How about the fact that I am taking my own loans, and in the future when I am “grown” I
+    am required to find ways to pay my loans, bankruptcy is not an option. Yet I am required to have
+    my “Parent/Guardian” sign my loans, what happened to growing up? I thought we had a deal. So
+    they make the decisions and all I have to do is take them, that is the best thing that can
+    happen to an “adult.” 
+        I am an adult but am I really? I need a new pair of jeans, “You are grown
+    and you can start buying your own things.” I am not going home this weekend I am planning on
+    going out with some friend, “You are coming home, you are my daughter and you are not old enough
+    to make your decisions, you have no business going out.” So hear me out, I am only grown
+    sometimes, I figured it out. It all makes sense, while at the same time, it makes absolutely no
+    sense. Well, we are not here to understand grown ups anyways. Wait, I just confused myself.<!-- paste your genre here, after <DOC> and before the <docReview> section -->
     
-    <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
             <p>Peer review report will go here.</p>
@@ -13,4 +34,4 @@
             <p>Instructor comments will go here.</p>
         </report>
     </docReview>
-</DOC>
+
