@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+
+    <article>
+
+        <header>
+            <article_title>President Elect Donald Trump Set to Only Pardon the Huge Turkeys When in
+                Office </article_title>
+            <author xml:id="Ga.ar"> Arlen Gaba</author>
+            <category>Politics</category>
+            <date>November 21, 2016</date>
+            <identification type="volume">1</identification>
+            <identification type="issue">1</identification>
+            <tags>President Elect| Donald Trump | Thanksgiving | Oval Office | Thanksgiving Pardon |
+                Turkey | Presidental Pardon | </tags>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+        </header>
+        <body>
+            <image url="http://cdn.newsapi.com.au/image/v1/af7f1a6f45c62367b48a9b97f97971fb"/>
+            <p>
+                <location>New York City, New York</location> Early Monday morning, at Trump Hotel,
+                our newly elected president is preparing a speech for one of the most holiest of
+                holidays in the United States. A local corresponder managed to get Mr. Trump on the
+                phone for a short interview to discuss what the think tank Mr. Trump works with, has
+                come up for Thanksgiving. Coming after the much talked about cabinet proceedings,
+                Mr. Trump is on the hotseat for what seems to be ill-recieved choices in
+                representation. At dissent at an all time high, this holiday couln't have come at a
+                better time for Mr. Trump. This is a time for respect, appreciation of what we are
+                given, and a time to celebrate what unites us as American. However, Thanksgvinging
+                is also a time to pardon some Turkeys, as is tradition in typical White House
+                fashion. When asked about his plans in the upcoming Thanksgiving where he will
+                reside as President, Mr. Trump stated was quoted saying, "Well, it's going to be
+                great. Its going to be better than before. We are going to have the best turkeys.
+                Only the biggest turkeys, they will be huge. The turkeys I pardon will be
+                huge."<quote/>
+            </p>
+        </body>
+        <footer>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links
+                url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&amp;id=li.em&amp;proj=2"
+                >Great, The Uber Driver is Playing His F*cking Mixtape</related_links>
+            <related_links
+                url="http://fa16.kevingeraldsmith.com/project_page.php?transformed=true&amp;id=mi.as&amp;proj=2"
+                >Gary Johnson Claims Media Meltdown Helped His Campaign, VP Claims
+                Otherwise</related_links>
+
+        </footer>
+
+    </article>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
