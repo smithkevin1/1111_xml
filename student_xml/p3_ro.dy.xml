@@ -2,7 +2,57 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <movie_review>
+        <header>
+            <title type = "title_review">Review of "Fargo"</title>
+            <title type = "title_movie">Fargo</title>
+            <title type = "photo_movie"></title>
+            <author xml:id="">Dylan Robinson</author>
+            <date type = "review_date"></date>
+            <date type = "movie_premiere">March 8, 1996</date>
+            <contact_info></contact_info>
+        </header>
+        
+        <content>
+            <intro>
+                <p>“Fargo” opens with Jerry Lundegaard, played by William H. Macy, meeting with two crooks at a bar 
+                    in Fargo, North Dakota. He plans to have the men kidnap his wife so he can split the ransom 
+                    money with them from his wealthy father-in-law. The movie then continues with an amazing telling 
+                    of how everything went wrong with Lundegaards plan and the Minnesota police chief Marge Gunderson, 
+                    played by Frances McDormand, who investigates what is going on when three people are killed.</p>
+            </intro>
+            <body>
+                <p>The best part about the movie is the characters. All the actors did an amazing job in portraying their 
+                    character. Each character is believable and life-like. William H. Macy especially did a great job 
+                    with the character of Jerry Lundegaard. It is easy to see the distress he is under from his plan falling
+                    apart and how he still believes he can somehow pull it off even with absolutely nothing going his way. 
+                    You see how much trouble he really has dealing with all his problems, especially when he fails to call off 
+                    the kidnapping when he realizes he might not need it. </p>
+                <p>The character of Marge Gunderson, the police chief investigating the murders that followed the kidnapping, 
+                    is another excellent character. As the star of the movie, she portrays the “Minnesota nice” stereotype, being 
+                    friendly towards everyone she meets including those she interrogates and arrests. It was great watching her 
+                    intelligently piece together the case slowly up to the climax of the film.</p>
+                <p>The two men who kidnap Lundegaard’s wife were also great characters. Specifically Carl, who was played by Steve Buscemi. 
+                    His character brings a good amount of humor into the film even with the dark plotline. His horrible attempt to deal 
+                    with a state trooper, his conversations with his partner, and his overall ineptness work together to make him a great 
+                    character. Everytime witnesses refer to him, they are only able to say that he was a “funny-looking guy”.</p>
+                <p>Even small characters in the movie where great. They really helped make the world of the film feel alive. Marge’s husband 
+                    had a painting contest he was in where he was trying to get one of his paintings on a stamp. He was also a sweet dude and 
+                    it seemed like they had a great marriage. He wakes up early with her just to make her breakfast. Other characters with even 
+                    fewer lines were amazing, and every character had accents and said lines such as “Yah, you betcha”. The characters all 
+                    worked together to make the movie come to life, like this story really could have happened in some small towns and suburbs in Minnesota.</p>
+                <p>The movie also looked fantastic. There were no confusing shots and you could see everything of importance in each one. 
+                    Some wide shots were especially beautiful, such as when Marge finally confronts the kidnappers on a frozen lake. The 
+                    soundtrack also fit the movie perfectly. Each song went great with the scene it played in, although there were no standout 
+                    memorable songs. Most just added to the scene to they were in to make it even better.</p>
+            </body>
+            <conclusion>
+                <p>Overall, “Fargo” was a fantastic film. It told a story realistically and did not try to answer every question, leaving some
+                   things open ended just like they are in real life. The characters were amazing and realistic and really made the entire movie.</p>
+            </conclusion>
+        </content>
+        
+    </movie_review>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
