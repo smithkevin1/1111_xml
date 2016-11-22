@@ -5,7 +5,6 @@
         <header>
             <title type = "title_review">Café Society: Woody Allen's Latest Hit?</title>
             <title type = "title_movie">Café Society</title>
-            <title type = "photo_movie"> https://pmcvariety.files.wordpress.com/2013/07/cafe-society-4.jpg?w=670&h=377&crop=1</title>
             <author xml:id="lo.va">Valentina Longcroft </author>
             <date type = "review_date"> November 21st, 2016</date>
             <date type = "movie_premiere">July 15th, 2016</date>
@@ -89,7 +88,7 @@
             I feel like this could be a very good review, if you fleshed it out more. I was sort of confused with your placement of the themes tag, so maybe you could
             explain why a theme is a theme. In general, seeing a few more of the tags used would be nice (i.e. the actors tag). I would also like to see more on the background
             of the actors. I think that you should add a sentence near the top that also clarifies all of the points that you are going to talk about instead of just going in for 
-            the kill because it makes the review feel unstractured. </p>
+            the kill because it makes the review feel unstructured. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
