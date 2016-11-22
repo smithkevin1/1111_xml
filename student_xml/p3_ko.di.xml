@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     <article>
         <header>
@@ -31,15 +32,23 @@
                 so focused on reinventing the Indica that they forgot about producing and launching
                 different cars like every other sane automobile company would do. For 17 years, they
                 kept on remaking and relaunching the Tata Indica with new names like Indica V1,
-                Indica V2, Vista V2 etc. However, things changed when Cyrus Mistry didn’t bother
-                upgrading the Indica which has been the status symbol for the Tatas since years.
-                Cyrus turned a blind-eye towards the company’s rich heritage of remaking the Indica
-                and that is why the board decided to bring back the experienced ex-chairman Ratan
-                Tata on board.</p>
+                Indica V2, Vista V2 etc.<note type="peer">I feel as though many others car companies
+                    have been doing this as well.</note> However, things changed when Cyrus
+                    Mistry<note type="peer">Who is Cyrus Mistry?</note> didn’t bother upgrading the
+                Indica which has been the status symbol for the Tatas since years.<note type="peer"
+                    >Since I don't know who Cyrus is, I also don't understand why this is a big
+                    deal.</note> Cyrus turned a blind-eye towards the company’s rich heritage of
+                remaking the Indica and that is why the board decided to bring back the experienced
+                ex-chairman Ratan Tata on board.<note type="peer">I personally think you jumped
+                    ahead of yourself a little bit here. I know you mentioned Ratan was an
+                    ex-Chairman, but you never told us that Cyrus was the new chairman which makes
+                    the whole last part of this paragraph weird to read for anyone who has no prior
+                    understanding of what is going on.</note></p>
             <p>Rumours are surfacing that Ratan Tata’s first big project is to design a new and
                 exciting model of the Indica, which will help recall the value of the Tata brand and
                 get their customer’s excited once again.</p>
-            <p>For now, it is ‘Tata’ for Cyrus Mistry!</p>
+            <p>For now, it is ‘Tata’ for Cyrus Mistry! <note type="peer">Clever pun here. I like how
+                    you built up to it.</note></p>
 
         </body>
         <footer>
@@ -54,9 +63,29 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="bu.an">Andrew T. Burcham</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>This satirical news article is about the company Tata Motors and their car brand, the
+                Tata Indica. The article goes into great detail about the history of the Tata Indica
+                and Tata Motors’ ex-CEO, Ratan Tata. The article details how the current CEO, Cyrus
+                Mistry has failed to reinvent the Indica, as is tradition for the company and so the
+                former CEO will be brought on to replace him. Overall, I think this is a good
+                satirical article but it is meant for a niche audience. As someone who is not keen
+                on the automotive industry, I was confused with information with the article. Some
+                key explanatory details, such as Cyrus Mistry being the current CEO of Tata Motors
+                were left out, meaning the audience was expected to know who he was before reading
+                the article. Also, it is a little confusing as to what parts of the report are real
+                or made-up. Of course some of the jokes within the article made it clear when it was
+                being serious or not, but I feel as though all the actual background on the subject
+                matter clashes with the article’s silly nature. Overall this made it particularly
+                hard for an outsider to understand the article’s main joke, but after some
+                researching I understand it now. Finally, I believe the article’s title should
+                undergo some revision. The title is often times the most important part of the
+                genre, and while yours would actually be fine for a real news article, as a
+                satirical news article it is not very eye-catching. Try incorporating a part of the
+                joke into the title that would make a reader want to read it. Like I said, however,
+                I think this would be a fine article for a niche audience to get a laugh at if they
+                had prior knowledge of the subject matter.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
