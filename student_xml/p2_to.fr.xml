@@ -63,13 +63,13 @@
 
                 <p>
                     <opinions type="reaction">I found this movie to be pretty creepy
-                        sexually</opinions>. Max is a typical teenager<note type="instructor">a typical
-                        what?</note> whose main goal is to impress his crush, Allison. <comparison
-                        type="movie">Many movies start off this way,<style type="italics"> My
-                            Girl</style> being the first that pops into my mind, but I have never
-                        seen one include a cringe-worthy scene where the protagonist pretends a
-                        pillow is a girl and spoons it while whispering, "Oh, Allison, you're so
-                            soft."<note type="instructor">ha!</note></comparison>
+                        sexually</opinions>. Max is a typical teenager<note type="instructor">a
+                        typical what?</note> whose main goal is to impress his crush, Allison.
+                        <comparison type="movie">Many movies start off this way,<style
+                            type="italics"> My Girl</style> being the first that pops into my mind,
+                        but I have never seen one include a cringe-worthy scene where the
+                        protagonist pretends a pillow is a girl and spoons it while whispering, "Oh,
+                        Allison, you're so soft."<note type="instructor">ha!</note></comparison>
                     <opinions type="critique"><style type="italics">Hocus Pocus</style> is a Disney
                         movie, whose audience is made up in part by children, and Max is dry-humping
                         his bedding. That is inherently wrong. <style type="italics">Hocus
@@ -145,18 +145,20 @@
                 <p>
                     <summary type="release date">When Hocus Pocus debuted over 20 years ago, in June
                         of 1993</summary>, <summary type="gross_income">it made $39 million — a
-                        dissapointing number compared with the $28 million Disney spent towards<note type="instructor">sp</note> its
-                        production.</summary> The movie was a financial disappointment, opening at
-                    fourth place behind peers like Jurassic Park and Free Willy<note type="instructor">tough competition</note>. <opinions
+                        dissapointing number compared with the $28 million Disney spent towards<note
+                            type="instructor">sp</note> its production.</summary> The movie was a
+                    financial disappointment, opening at fourth place behind peers like Jurassic
+                    Park and Free Willy<note type="instructor">tough competition</note>. <opinions
                         type="reaction">It was also an overall disappointment to me, I had much
                         higher expectations about it because of my friends and through general word
-                        of mouth. <note type="instructor">missing something here?</note> I am also not a seven-year-old so that also contributes to my
-                        glaringly obvious dislike of this movie. In general, I would never watch
-                        this movie again, but that doesn’t mean others shouldn’t. If you’re a parent
-                        looking for a not- so- scary if mildly inappropriate Halloween movie to
-                        watch with your kids (ideally ages 4-8) I would recommend <style
-                            type="italics">Hocus Pocus</style> but I warn you to be prepared for
-                        some ridiculous things.</opinions>
+                        of mouth. <note type="instructor">missing something here?</note> I am also
+                        not a seven-year-old so that also contributes to my glaringly obvious
+                        dislike of this movie. In general, I would never watch this movie again, but
+                        that doesn’t mean others shouldn’t. If you’re a parent looking for a not-
+                        so- scary if mildly inappropriate Halloween movie to watch with your kids
+                        (ideally ages 4-8) I would recommend <style type="italics">Hocus
+                            Pocus</style> but I warn you to be prepared for some ridiculous
+                        things.</opinions>
                     <summary type="rating"> I give this movie a solid 4/10 overall rating.</summary>
                 </p>
             </conclusion>
@@ -191,7 +193,11 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Really funny and entertaining review of a (in my opinion) classic movie. I can't help it, it came ut when I was the exact correct age for it. As for the review itself, it looks really great. A model example of the genre. There are a few small errors--missing words, misspellings, etc. Nothing big, but see my inline notes for those moments. Nice work!</p>
+            <p>Really funny and entertaining review of a (in my opinion) classic movie. I can't help
+                it, it came ut when I was the exact correct age for it. As for the review itself, it
+                looks really great. A model example of the genre. There are a few small
+                errors--missing words, misspellings, etc. Nothing big, but see my inline notes for
+                those moments. Nice work!</p>
         </report>
     </docReview>
 </DOC>
