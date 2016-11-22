@@ -2,7 +2,28 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <op_ed>
+        <docHead>
+            <author>Francheska Torres</author>
+            <date> November 22, 2016</date>
+            <title> La Isla del Espanto</title>
+        </docHead>
+
+        <intro> I remember being a child and hearing my parents arguing about whether or not to
+            leave our home in order to come to U.S. My mom, a teacher, was sick of the conditions at
+            her school (and every other school for that matter) (rats, no toilet paper, lack of
+            staff, no materials, etc). My dad, a manager at an engineering firm, was afraid of
+            losing his job. As if all of that wasn’t enough, crime was so high that they didn’t even
+            feel safe in their gated community living right next door to a police officer. They
+            realistically could not afford to raise their new family and were dismayed by the
+            options they had o educate their children. So, in July of 2009, they made the hard
+            decision to leave their family and home country to give their children a better chance
+            at life. This is a similar story to the thousands upon thousands of families who have
+            emigrated from Puerto Rico in the past decade because of the Island’s worsening
+            conditions. <opinion type="main">Once La Isla del Encato, my home has now turned into La
+                Isla del Espanto. </opinion></intro>
+
+    </op_ed>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
