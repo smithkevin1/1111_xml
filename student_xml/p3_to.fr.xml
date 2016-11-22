@@ -2,7 +2,6 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <op_ed>
         <docHead>
             <author>Francheska Torres</author>
@@ -10,27 +9,30 @@
             <title> La Isla del Espanto</title>
         </docHead>
 
-        <intro> I remember being a child and hearing my parents arguing about whether or not to
-            leave our home in order to come to U.S. My mom, a teacher, was sick of the conditions at
-            her school (and every other school for that matter) (rats, no toilet paper, lack of
-            staff, no materials, etc). My dad, a manager at an engineering firm, was afraid of
-            losing his job. As if all of that wasn’t enough, crime was so high that they didn’t even
-            feel safe in their gated community living right next door to a police officer. They
-            realistically could not afford to raise their new family and were dismayed by the
-            options they had o educate their children. So, in July of 2009, they made the hard
-            decision to leave their family and home country to give their children a better chance
-            at life. This is a similar story to the thousands upon thousands of families who have
-            emigrated from Puerto Rico in the past decade because of the Island’s worsening
-            conditions. <opinion type="main">Once La Isla del Encato, my home has now turned into La
-                Isla del Espanto. </opinion></intro>
+        <intro>
+            <evidence type="pers_exp">I remember being a child and hearing my parents arguing about
+                whether or not to leave our home in order to come to U.S. My mom, a teacher, was
+                sick of the conditions at her school (and every other school for that matter) (rats,
+                no toilet paper, lack of staff, no materials, etc). My dad, a manager at an
+                engineering firm, was afraid of losing his job. As if all of that wasn’t enough,
+                crime was so high that they didn’t even feel safe in their gated community living
+                right next door to a police officer. They realistically could not afford to raise
+                their new family and were dismayed by the options they had to educate their
+                children. So, in July of 2009, they made the hard decision to leave their family and
+                home country to give their children a better chance at life. </evidence>This story
+            resonates with the thousands upon thousands of families who have emigrated from Puerto
+            Rico in the past decade because of the Island’s worsening conditions. <opinion
+                type="main">Once La Isla del Encato, my home has now turned into La Isla del
+                Espanto. </opinion></intro>
 
         <body_para>
             <bg_info>Puerto Rico is currently in a state of emergency. The public debt, which the
                 Island’s Governor called “unsayable”, has reached a staggering $73 billion and
-                continues to grow. Unemployment is at a dismal 14%, and 46 % of the island’s
-                inhabitants are living below the poverty line, a rate higher than that of any of the
-                states in the Union. Puerto Rico’s recent surge in emigration, which is largely due
-                to the economic crisis, is an exodus of historic proportions. This mass departure of
+                continues to grow. <evidence type="statistics"> Unemployment is at a dismal 14%, and
+                    46 % of the island’s inhabitants are living below the poverty line, a rate
+                    higher than that of any of the States. </evidence>. <opinion type="general"
+                    >Puerto Rico’s recent surge in emigration, which is largely due to the economic
+                    crisis, is an exodus of historic proportions.</opinion> This mass departure of
                 inhabitants leads to the island’s tax base being significantly reduced and therefore
                 puts incredible strain on the already weak economy. This negatively affects the
                 remaining residents by making them shoulder higher taxes while dealing with the
@@ -38,65 +40,88 @@
                 professionals).</bg_info>
         </body_para>
 
-        <body_para> This weakened economy is caused mostly by, in my opinion, the Island’s status as
-            a colony. Because we are neither a state nor an independent country, we cannot seek help
-            from international debt handling agencies. Because we are not at all able to declare
-            bankruptcy, it really feels like watching the economy crash and burn is inevitable. This
-            is only part of the problem though. Our economy is both limited by and dependent on the
-            U.S. Because of all of the federal laws and regulations we are forced to follow, we have
-            no control over our own fiscal or trade policies. Furthermore, the island has no
-            representation in congress, meaning that when decisions are made for our island’s
-            residents, their needs are not taking into account. All of this combined leads to the
-            conclusion that even if the island were to decide that it wants to be its own
-            independent country, they would not even have the necessary infrastructure to be able to
-            thrive on its own. </body_para>
+        <body_para>
+            <opinion type="general">This weakened economy is caused mostly by, in my opinion, the
+                Island’s status as a colony. </opinion>
+            <evidence type="supporting">Because we are neither a state nor an independent country,
+                we cannot seek help from international debt handling agencies.</evidence>
+            <opinion type="general">Because we are not at all able to declare bankruptcy, it really
+                feels like watching the economy crash and burn is inevitable. </opinion>This is only
+            part of the problem though. <evidence type="supporting">Our economy is both limited by
+                and dependent on the U.S. Because of all of the federal laws and regulations we are
+                forced to follow, we have no control over our own fiscal or trade policies.
+                Furthermore, the island has no representation in congress, meaning that when
+                decisions are made for our island’s residents, their needs are not taking into
+                account.</evidence>All of this combined leads to the conclusion that even if the
+            island were to decide that it wants to be its own independent country, they would not
+            even have the necessary infrastructure to be able to thrive on its own. </body_para>
 
-        <body_para>Since the U.S. invaded Puerto Rico in 1898, they have exploited us for their
-            convenience. From the Ponce Massacre and the use of Vieques as a bomb target practice to
-            government programs which forced Puerto Rican women to be sterilized and allowed
-            prisoners to be unethically tested on with radiation, the U.S. government has an
-            incriminating list of trangressions against the island’s people. All of these acts
-            against the island have lead to the destruction of our land, increased rates of cancer
-            and birth defects, as well as the destruction of people’s lives (both literally and
-            metaphorically). Yet, because we have no representation or sovereignty, a lot of these
-            issues are swept under the rug and ignored. </body_para>
+        <body_para>
+            <bg_info><evidence type="supporting">Since the U.S. invaded Puerto Rico in 1898, they
+                    have exploited us for their convenience. From the Ponce Massacre and the use of
+                    Vieques as a bomb target practice to government programs which forced Puerto
+                    Rican women to be sterilized and allowed prisoners to be unethically tested on
+                    with radiation, the U.S. government has an incriminating list of trangressions
+                    against the island’s people. All of these acts against the island have lead to
+                    the destruction of our land, increased rates of cancer and birth defects, as
+                    well as the destruction of people’s lives (both literally and metaphorically).
+                    Yet, because we have no representation or sovereignty, a lot of these issues are
+                    swept under the rug and ignored.</evidence></bg_info>
+        </body_para>
 
-        <body_para> All other arguments aside, statehood has never really been an option for Puerto
-            Rico. We are a Commonwealth of the United States, an unincorporated organized territory.
-            This basically means that we belong to, but are not a part of, the U.S. Unlike Alaska
-            and Hawaii, which were “incorporated” territories with the intention of joining the
-            Union and becoming states, the decision to keep Puerto Rico as “unincorporated” looks to
-            me like politician’s sneaky way of avoiding deeming granting us statehood. Now more than
-            ever, with Trump as our president elect and a mostly republican government, statehood
-            seems like a pipe dream. There is no way we, an overwhelmingly Democratic, non-white,
-            non-solely-English speaking island with massive debt would be allowed into a country on
-            it’s way to being “Great again”. </body_para>
+        <body_para>
+            <opinion type="general">All other arguments aside, statehood has never really been an
+                option for Puerto Rico. </opinion>
+            <bg_info>We are a Commonwealth of the United States, an unincorporated organized
+                territory. This basically means that we belong to, but are not a part of, the U.S.
+                Unlike Alaska and Hawaii, which were “incorporated” territories with the intention
+                of joining the Union and becoming states,</bg_info>
+            <opinion type="general">the decision to keep Puerto Rico as “unincorporated” looks to me
+                like politician’s sneaky way of avoiding deeming granting us statehood. Now more
+                than ever, with Trump as our president elect and a mostly republican government,
+                statehood seems like a pipe dream. There is no way we, an overwhelmingly Democratic,
+                non-white, non-solely-English speaking island with massive debt would be allowed
+                into a country on it’s way to being “Great Again”.</opinion>
+        </body_para>
 
-        <body_para> In June of this year, President Obama signed a bill that would “rescue” Puerto
-            Rico from our economic crisis. This bill, the the Puerto Rico Oversight, Management, and
-            Economic Stability Act (PROMESA) puts the entire economy in charge of a
-            yet-to-be-appointed seven person board. The board is supposed to oversee negotiations
-            with the Island’s creditors, create of a fiscal plan (which must include the funding of
-            the island’s pensions, currently underfunded by more than $40 billion), and restructure
-            our debt, among other things. The passing of this bill strips the residents and
-            officials of the island of the very little control they have, and provides them with
-            basically no control over the commonwealth's future. This is exactly the opposite of
-            what the island really needs. While PROMESA may help whittle away at the island’s
-            enormous debt, it doesn’t put the island on a path toward the sort of economic growth
-            that could help the island thrive on its own. </body_para>
+        <body_para>
+            <situation>In June of this year, President Obama signed a bill that would “rescue”
+                Puerto Rico from our economic crisis.</situation>
+            <bg_info><evidence type="supporting"> This bill, the the Puerto Rico Oversight,
+                    Management, and Economic Stability Act (PROMESA) puts the entire economy in
+                    charge of a yet-to-be-appointed seven person board. The board is supposed to
+                    oversee negotiations with the Island’s creditors, create of a fiscal plan (which
+                    must include the funding of the island’s pensions, <evidence type="statistics"
+                        >currently underfunded by more than $40 billion</evidence>), and restructure
+                    our debt, among other things.</evidence>
+            </bg_info>
+            <opinion type="general">The passing of this bill strips the residents and officials of
+                the island of the very little control they have, and provides them with basically no
+                control over the commonwealth's future. This is exactly the opposite of what the
+                island really needs. While PROMESA may help whittle away at the island’s enormous
+                debt, it doesn’t put the island on a path toward the sort of economic growth that
+                could help the island thrive on its own.</opinion>
+        </body_para>
 
-        <body_para> I think independence is the long term solution to the island’s problems, as not
+        <body_para> <opinion type="critique">I think independence is the long term solution to the island’s problems, as not
             feasible as it seems right now. Independence would allow Puerto Rico to deal with the
             debt crisis on its own terms and let its residents have a say in the way the crisis is
             handled. It would allow elected officials at all levels of government make decisions
             with lasting effects, this would give power back to the people who actually live on the
-            island. </body_para>
+            island. </opinion></body_para>
 
         <conclusion>For too long, Puerto Ricans have been victims to the United States. We have
             chosen to stay in a broken yet comfortable state because we are afraid of revolutionary
             change. A slow but steady transition to independence, like that of Singapore and the
             Philippines, would allow both the U.S. and P.R. to adjust to a new and improved,
             self-governing Puerto Rico. </conclusion>
+
+        <source>
+            <citation>http://www.reuters.com/investigates/special-report/usa-puertorico-pensions/</citation>
+            <citation>https://www.congress.gov/bill/114th-congress/house-bill/5278/text </citation>
+            <citation> http://www.enciclopediapr.org/ing/article.cfm?ref=06102005</citation>
+            <citation>http://www.huffingtonpost.com/maritza-stanchich-phd/ten-years-after-ousting-u_b_3243449.html</citation>
+        </source>
 
 
     </op_ed>
