@@ -1,8 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <article>
+
+        <header>
+            <article_title>New York's 24th Annual Pigeon Race Interrupted By Annoying Anti-Trump
+                Protestors</article_title>
+            <author xml:id="bu.an">Andrew T. Burcham</author>
+            <category>NEWS IN BRIEF</category>
+            <date>November 22nd, 2016</date>
+            <identification type="volume">16</identification>
+            <identification type="issue">11</identification>
+            <tags> New York | Pigeon | Donald Trump | Protests | Mayor de Blasio</tags>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+        </header>
+        <body>
+            <image url="http://i.imgur.com/IglLyTZ.jpg"/>
+            <p>
+                <location>NEW YORK CITY</location> – New York City's annual pigeon last Saturday was
+                ended prematurely this pass weekend after a large group of anti-Trump protestors
+                crowded the streets, spooking the pigeons away. The pigeon race, founded by pigeon
+                enthusiast, Henry J. Columbidae, in 1992 when he released 56 of his pet pigeons out
+                into the street to see which one was the fastest. Since then, the Pigeon Race has
+                been a New York City tradition where locals would join Columbidae by releasing their
+                own pet pigeons in the race, the winner being crowned the "Winged Rat King of New
+                York". More and more participate in the race each year, and it has even been
+                supported officially as a state-holiday and televised on national television. This
+                year, however, the race was stopped by a group of anti-Trump protestors who were
+                solely looking to get on TV to rant about president-elect, Donald J. Trump. In their
+                efforts, hundreds of trained pigeons became scared and flew away, causing widespread
+                panic and a shortage of bread crumbs in the city. Mayor of New York City, Bill de
+                Blasio, who took his daughter to watch the event, had this to say about it:
+                    <quote>"It is a real shame that these folks would ruin such a wholesome,
+                    family-friendly event to get their 15 minutes of fame. The pigeon race really
+                    has become something of a national holiday, free from the divisiveness of
+                    politics, and really should be treated with more respect."</quote> There is
+                currently no word on whether or the not the Pigeon Race will be moved to a later
+                date, but Columbidae has high hopes that this is a one-time event. <quote>"I know,
+                    just after the elections, it is a very stressful time in America,"</quote> says
+                Columbidae, <quote>"But like the pigeons that surround us in this great city, we
+                    must fly above our past lest we become the white bird poo that ruins someone’s
+                    day."</quote>
+            </p>
+        </body>
+        <footer>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links
+                url="http://www.theonion.com/article/longtime-reader-lib-slavesinfo-sick-mainstream-bia-54745"
+                >Longtime Reader Of Lib-Slaves.info Sick Of Mainstream Bias On Sites Like
+                WideAwakePatriot.com</related_links>
+        </footer>
+
+    </article>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
