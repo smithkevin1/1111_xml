@@ -1,110 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<DOC><article>
-    
-    
-    <header>
-        <!-- make changes to the document header as necessary (based on your genre) -->
-        <article_title>Growing up, but not really</article_title>
-        <author xml:id="san.jh"/>
-        <category></category>
-        <date>11/22/16</date>
-        <identification type="volume"></identification>
-        <identification type="issue"></identification>
-        <tags></tags>
-        <share type="facebook"></share>
-        <share type="twitter"></share>
-        <share type="email"></share>
-        <share type="other"></share>
-    </header>       
-    <body>   <image url=""></image>   
-        <p>   <note type="peer"> I do not think that image tag is optional and I would rather have an
-        amendment to that before you decide not to include it. You also never included the identification types.
-        No tags either.</note>  
-            <location>Boston, Ma</location> 
-             Everyone is looking forward to their last year of high school can not wait until prom, and graduation and finally becoming an adult. All the teachers expect us to
-                become adults in a couple of days, so do our parents and the younger ones around us. Oh wait,
-                let me ask my teacher for a pass to go to the bathroom. Is it not absurd that I have to go to
-                ask to go to the bathroom but in a couple of months I am expected to make all my important life
-                decisions.<note type="peer">? not .</note> I see the transition there. 
-                Things get more serious when you are an adult, but not<note type="peer"> You just changed from high school to
-                college, and your title did not even indicate you would make that change. Furthermore, I do not understand
-                if in this satire, the point being made is from a high school author, or a college freshman.</note>
-                really. You get to college and you decide on what you are going to eat, what classes you are
-                going to take, who you hang out with, and all these who, what, when, where, why, and how. But
-                let me tell you something, when it comes to staying on campus for a weekend, “You are not grown,<note type="peer">I know that 
-                it is implied who the quote is coming from but, I would still like to know if this is the author 
-                recalling their parent through inner monologue.</note>
-                you can not stay on campus, you can not make all your life decisions on your own.” Wow, see what
-                I mean.<note type="peer"> ? not . </note> 
-                How about the fact that I am taking my own loans, and in the future when I am “grown” I
-                am required to find ways to pay my loans, bankruptcy is not an option. Yet I am required to have
-                my “Parent/Guardian” sign my loans, what happened to growing up? <note type="peer"> I don't know if the 
-                    lapse of judgement here was intentional, but I feel that parents or gurdians sign loans as an 
-                    ensurer of payment.</note> I thought we had a deal. So
-                they make the decisions and all I have to do is take them, that is the best thing that can
-                happen to an “adult.” 
-                I am an adult but am I really? I need a new pair of jeans, “You are grown
-                and you can start buying your own things.” I am not going home this weekend I am planning on
-                going out with some friend, “You are coming home, you are my daughter and you are not old enough
-                to make your decisions, you have no business going out.” So hear me out, I am only grown
-                sometimes, I figured it out. It all makes sense, while at the same time, it makes absolutely no
-                sense. Well, we are not here to understand grown ups anyways. Wait, I just confused myself.<note type="peer"> I feel like
-                the whole joke of this is flying by me because I have to critique it.</note>
-        </p>
-    </body>
-    <image url=""></image>
-      
-    <footer>
-        <share type=""></share>
-        <related_links url=""></related_links>
-    </footer>   
-    </body>
-    <footer>
-        <share type="facebook"></share>
-        <share type="twitter"></share>
-        <share type="email"></share>
-        <share type="other"></share>
-        <related_links url=""></related_links>
-    </footer>
-    
-</article></DOC> 
-    
-       <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+<DOC>
+    <article>
+
+
+        <header>
+            <!-- make changes to the document header as necessary (based on your genre) -->
+            <article_title>Growing up, but not really</article_title>
+            <author xml:id="san.jh"></author>
+            <category></category>
+            <date>11/22/16</date>
+            <identification type="volume"></identification>
+            <identification type="issue"></identification>
+            <tags></tags>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+        </header>
+        <body>
+            <image url=""><note type="peer"> I do not think that image tag is optional and I would
+                    rather have an amendment to that before you decide not to include it. You also
+                    never included the identification types. No tags either.</note>
+            </image>
+            <p>
+                <location>Boston, Ma</location> Everyone is looking forward to their last year of
+                high school can not wait until prom, and graduation and finally becoming an adult.
+                All the teachers expect us to become adults in a couple of days, so do our parents
+                and the younger ones around us. Oh wait, let me ask my teacher for a pass to go to
+                the bathroom. Is it not absurd that I have to go to ask to go to the bathroom but in
+                a couple of months I am expected to make all my important life decisions.<note
+                    type="peer">? not .</note> I see the transition there. Things get more serious
+                when you are an adult, but not<note type="peer"> You just changed from high school
+                    to college, and your title did not even indicate you would make that change.
+                    Furthermore, I do not understand if in this satire, the point being made is from
+                    a high school author, or a college freshman.</note> really. You get to college
+                and you decide on what you are going to eat, what classes you are going to take, who
+                you hang out with, and all these who, what, when, where, why, and how. But let me
+                tell you something, when it comes to staying on campus for a weekend, “You are not
+                    grown,<note type="peer">I know that it is implied who the quote is coming from
+                    but, I would still like to know if this is the author recalling their parent
+                    through inner monologue.</note> you can not stay on campus, you can not make all
+                your life decisions on your own.” Wow, see what I mean.<note type="peer"> ? not .
+                </note> How about the fact that I am taking my own loans, and in the future when I
+                am “grown” I am required to find ways to pay my loans, bankruptcy is not an option.
+                Yet I am required to have my “Parent/Guardian” sign my loans, what happened to
+                growing up? <note type="peer"> I don't know if the lapse of judgement here was
+                    intentional, but I feel that parents or gurdians sign loans as an ensurer of
+                    payment.</note> I thought we had a deal. So they make the decisions and all I
+                have to do is take them, that is the best thing that can happen to an “adult.” I am
+                an adult but am I really? I need a new pair of jeans, “You are grown and you can
+                start buying your own things.” I am not going home this weekend I am planning on
+                going out with some friend, “You are coming home, you are my daughter and you are
+                not old enough to make your decisions, you have no business going out.” So hear me
+                out, I am only grown sometimes, I figured it out. It all makes sense, while at the
+                same time, it makes absolutely no sense. Well, we are not here to understand grown
+                ups anyways. Wait, I just confused myself.<note type="peer"> I feel like the whole
+                    joke of this is flying by me because I have to critique it.</note>
+            </p>
+        </body>
+
+
+        <footer>
+            <share type="facebook"></share>
+            <share type="twitter"></share>
+            <share type="email"></share>
+            <share type="other"></share>
+            <related_links url=""></related_links>
+        </footer>
+
+    </article>
+
+    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
+    <docReview>
         <reviewer type="peer" xml:id="Ga.ar"> Arlen Gaba</reviewer>
         <report type="peer" who="#Ga.ar">
-            <p> I understand from the title that someone is grown up, but not really. The paragraph, discusses the  
-                transition from high school dependence to pseudo independence of college and the financial responsibility that comes with it
-                .It's an inner monologue, that in satirical fashion denounces parent's approach to their children's independence. 
-                
-                As for the critique, at your starting paragraph about high school and then succeeding paragraphs it seems
-                like a change in tense. You're also missing a lot of the things that make a satirical, online article what it is. 
-                Essentially, complete the required tags, sharing links, and make up a some volume issues. The 
-                group that presented this genre to us, told us exactly why titles are so important, and claimed the joke should be in the title
-                To me, this title does not reveal much, it cannot play to my whit or my knowledge of how being grown is nothing like it is advertised. 
-                Also this resembles an inner monologue, and as far as I have seen, perhaps, I never encountered one used 
-                online to make satire on websites like The Oninon. Before you decide not to use an image, I hope you think
-                of the implications of breaking the genre rules. The purpose of this genre was to get it shared, 
-                create false realities that make us laugh, and generate revenue. An image makes it more likely to get it clicked.
-                The grammar that does not seem to work, and almost seems intentional, forgive me if it is intentional, is when 
-                posing questions to the reader through the "monologue/dialogue." It is almost always declarative, when in theory
-                they should end with question marks. Furthermore, there should be an interplay between the title and 
-                the paragraph(s). If it is not explaining the joke in a way that does not give it away completely, or enhance
-                the comedic effect of the title, then it is not correctly doing its job. I believe if you just focused on capturing 
-                the joke in the title, you wouldn't have to change the paragraphs much. Perhaps a revision of the documentation or schema could 
-                also make it possible to embrace your version of this genre. Consider that the addition of the bathroom, 
-                hallroom pass argument for satire is not universal. Also if you are writing this from a high school students perspective 
-                as is implied from the first paragraph, I do not believe they would be asking to stay on campus ...
-                
-                Essentially I understand that it written in this way because it is satire of a situation that involves parents
-                but I need to see that in the title. "Parent(s) give(s) 21 year old daughter permission....
-                
-            </p>
+            <p> I understand from the title that someone is grown up, but not really. The paragraph,
+                discusses the transition from high school dependence to pseudo independence of
+                college and the financial responsibility that comes with it .It's an inner
+                monologue, that in satirical fashion denounces parent's approach to their children's
+                independence. As for the critique, at your starting paragraph about high school and
+                then succeeding paragraphs it seems like a change in tense. You're also missing a
+                lot of the things that make a satirical, online article what it is. Essentially,
+                complete the required tags, sharing links, and make up a some volume issues. The
+                group that presented this genre to us, told us exactly why titles are so important,
+                and claimed the joke should be in the title To me, this title does not reveal much,
+                it cannot play to my whit or my knowledge of how being grown is nothing like it is
+                advertised. Also this resembles an inner monologue, and as far as I have seen,
+                perhaps, I never encountered one used online to make satire on websites like The
+                Oninon. Before you decide not to use an image, I hope you think of the implications
+                of breaking the genre rules. The purpose of this genre was to get it shared, create
+                false realities that make us laugh, and generate revenue. An image makes it more
+                likely to get it clicked. The grammar that does not seem to work, and almost seems
+                intentional, forgive me if it is intentional, is when posing questions to the reader
+                through the "monologue/dialogue." It is almost always declarative, when in theory
+                they should end with question marks. Furthermore, there should be an interplay
+                between the title and the paragraph(s). If it is not explaining the joke in a way
+                that does not give it away completely, or enhance the comedic effect of the title,
+                then it is not correctly doing its job. I believe if you just focused on capturing
+                the joke in the title, you wouldn't have to change the paragraphs much. Perhaps a
+                revision of the documentation or schema could also make it possible to embrace your
+                version of this genre. Consider that the addition of the bathroom, hallroom pass
+                argument for satire is not universal. Also if you are writing this from a high
+                school students perspective as is implied from the first paragraph, I do not believe
+                they would be asking to stay on campus ... Essentially I understand that it written
+                in this way because it is satire of a situation that involves parents but I need to
+                see that in the title. "Parent(s) give(s) 21 year old daughter permission.... </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
             <p>Instructor comments will go here.</p>
         </report>
     </docReview>
-
+</DOC>
