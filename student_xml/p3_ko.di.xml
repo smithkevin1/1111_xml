@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <article>
+        <header>
+            <article_title>Behind the scenes: What led to Cyrus Mistry ouster </article_title>
+            <author xml:id="ko.di">Divit Koradia</author>
+            <category>World News</category>
+            <date>November 20, 2016</date>
+            <identification type="volume">69</identification>
+            <identification type="issue">96</identification>
+            <tags>Business</tags>
+            <tags>Corporate</tags>
+            <tags>International</tags>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+        </header>
+        <body>
+            <image url="http://www.oneindia.com/img/2016/11/cyrus-mistry-04-1478268036.jpg">Cyrus
+                Mistry pondering as to why he didn't come up with a new Tata Indica</image>
+            <p>
+                <location>Tata Group Headqauter's</location>Tata Indica is a supermini car produced
+                by Tata Motors (who are a part of Tata Group, which is a multinational conglomerate
+                holding company, headquartered in India). The Indica is India’s first indigenously
+                developed passenger car in 1998 and was unveiled by Ratan Tata (ex, now interim,
+                chairman of Tata Group). </p>
+            <p>During his time as CEO, Ratan Tata had made great endeavours to promote the Indica as
+                the best reasonable priced hatchback for the common man. In fact, Tata motors were
+                so focused on reinventing the Indica that they forgot about producing and launching
+                different cars like every other sane automobile company would do. For 17 years, they
+                kept on remaking and relaunching the Tata Indica with new names like Indica V1,
+                Indica V2, Vista V2 etc. However, things changed when Cyrus Mistry didn’t bother
+                upgrading the Indica which has been the status symbol for the Tatas since years.
+                Cyrus turned a blind-eye towards the company’s rich heritage of remaking the Indica
+                and that is why the board decided to bring back the experienced ex-chairman Ratan
+                Tata on board.</p>
+            <p>Rumours are surfacing that Ratan Tata’s first big project is to design a new and
+                exciting model of the Indica, which will help recall the value of the Tata brand and
+                get their customer’s excited once again.</p>
+            <p>For now, it is ‘Tata’ for Cyrus Mistry!</p>
+
+        </body>
+        <footer>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links url=""/>
+        </footer>
+
+    </article>
+
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
