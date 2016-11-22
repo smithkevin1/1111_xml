@@ -44,7 +44,8 @@
                     just after the elections, it is a very stressful time in America,"</quote> says
                 Columbidae, <quote>"But like the pigeons that surround us in this great city, we
                     must fly above our past lest we become the white bird poo that ruins someone’s
-                    day."</quote>
+                        day."<note type="peer">I don't understand the last line. Maybe it could be a
+                        little clearer or maybe I am not understanding it.</note></quote>
             </p>
         </body>
         <footer>
@@ -60,9 +61,22 @@
 
     </article>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="ko.di"> Divit Koradia</reviewer>
+        <report type="peer" who="ko.di">
+            <p>The above satirical article talks about how Anti-Trump protestors have interrupted
+                the infamous pigeon race that is held in New York every year. Right of the bat I
+                think that you’ve done a good job in writing a hysterical article. Your title is a
+                bit lengthy but apt for the article. I like the fact that you’ve provided your
+                readers with a little history on how the pigeon race initially begun and became so
+                famous, because I had no idea something like this existed before I read your
+                article. I believe you’ve done a good job at following the schema which is why your
+                article is, in my opinion, very well written. You’ve used every tag there is to
+                which is nice, however I feel you need to break down your article into an
+                introduction, main body and conclusion. Also, one think I did not understand was the
+                very last sentence of your conclusion which is a quote. From what I understand, I do
+                not think it is quite relevant to the article. Otherwise, I think your article is
+                nice. I enjoyed reading it! Just look at breaking down your article into distinct
+                paragraphs. It will, I think, enhance the presentation.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
