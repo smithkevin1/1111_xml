@@ -7,67 +7,51 @@
 
         <header>
             <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title>Growing up, but not really</article_title>
-            <author xml:id="san.jh"></author>
-            <category></category>
+            <article_title>United Nations votes for mass deportation in the United States of
+                America</article_title>
+            <author xml:id="san.jh"/>
+            <category/>
             <date>11/22/16</date>
-            <identification type="volume"></identification>
-            <identification type="issue"></identification>
-            <tags></tags>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
+            <identification type="volume">1</identification>
+            <identification type="issue">1</identification>
+            <tags/>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
         </header>
         <body>
-            <image url=""><note type="peer"> I do not think that image tag is optional and I would
-                    rather have an amendment to that before you decide not to include it. You also
-                    never included the identification types. No tags either.</note>
-            </image>
+            <image url=""
+                >http://tomun.eu/wp-content/uploads/2014/09/Barack_Obama_chairs_a_United_Nations_Security_Council_meeting.jpg </image>
             <p>
-                <location>Boston, Ma</location> Everyone is looking forward to their last year of
-                high school can not wait until prom, and graduation and finally becoming an adult.
-                All the teachers expect us to become adults in a couple of days, so do our parents
-                and the younger ones around us. Oh wait, let me ask my teacher for a pass to go to
-                the bathroom. Is it not absurd that I have to go to ask to go to the bathroom but in
-                a couple of months I am expected to make all my important life decisions.<note
-                    type="peer">? not .</note> I see the transition there. Things get more serious
-                when you are an adult, but not<note type="peer"> You just changed from high school
-                    to college, and your title did not even indicate you would make that change.
-                    Furthermore, I do not understand if in this satire, the point being made is from
-                    a high school author, or a college freshman.</note> really. You get to college
-                and you decide on what you are going to eat, what classes you are going to take, who
-                you hang out with, and all these who, what, when, where, why, and how. But let me
-                tell you something, when it comes to staying on campus for a weekend, “You are not
-                    grown,<note type="peer">I know that it is implied who the quote is coming from
-                    but, I would still like to know if this is the author recalling their parent
-                    through inner monologue.</note> you can not stay on campus, you can not make all
-                your life decisions on your own.” Wow, see what I mean.<note type="peer"> ? not .
-                </note> How about the fact that I am taking my own loans, and in the future when I
-                am “grown” I am required to find ways to pay my loans, bankruptcy is not an option.
-                Yet I am required to have my “Parent/Guardian” sign my loans, what happened to
-                growing up? <note type="peer"> I don't know if the lapse of judgement here was
-                    intentional, but I feel that parents or gurdians sign loans as an ensurer of
-                    payment.</note> I thought we had a deal. So they make the decisions and all I
-                have to do is take them, that is the best thing that can happen to an “adult.” I am
-                an adult but am I really? I need a new pair of jeans, “You are grown and you can
-                start buying your own things.” I am not going home this weekend I am planning on
-                going out with some friend, “You are coming home, you are my daughter and you are
-                not old enough to make your decisions, you have no business going out.” So hear me
-                out, I am only grown sometimes, I figured it out. It all makes sense, while at the
-                same time, it makes absolutely no sense. Well, we are not here to understand grown
-                ups anyways. Wait, I just confused myself.<note type="peer"> I feel like the whole
-                    joke of this is flying by me because I have to critique it.</note>
+                <location>New York City, NY</location> United Nations headquarters found themselves
+                in what seemed to be a non controversial matter this past Friday. Samantha Power,
+                United States ambassador for the United Nations, addressed the elephant in the room;
+                undocumented immigrants. After an ongoing debate of two hours that mainly consisted
+                of the different nations’ representatives averring the question brought up by the US
+                representative, it was decided that mass deportation would be the solution to the
+                different drawbacks that illegal immigrants were bringing. It was said by the
+                secretary Ban Ki-moon that the reform would begin in the upcoming April of 2017. It
+                was decided upon April because they wanted to make sure people pay their taxes
+                before vacating the United States. Those that may be affecte consist of those of
+                European descent whose ancestors illegally immigrate to the United States after
+                1492. It was also said that Those with Spaniards descent whose ancestors began
+                migrating to the United States in the years that followed 1492. Nothing has been
+                said about African descent since their ancestors were brought here against their
+                will. Although the different nations that now make up Europe argued against this
+                reform, the democracy once again won and there was nothing they could do but take
+                back their people. More news will be given to the public once the bills have been
+                signed and when the United States finds the resources to deport 300 million people.
             </p>
         </body>
 
 
         <footer>
-            <share type="facebook"></share>
-            <share type="twitter"></share>
-            <share type="email"></share>
-            <share type="other"></share>
-            <related_links url=""></related_links>
+            <share type="facebook"/>
+            <share type="twitter"/>
+            <share type="email"/>
+            <share type="other"/>
+            <related_links url=""/>
         </footer>
 
     </article>
