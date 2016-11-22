@@ -18,8 +18,7 @@
             <intro><p>
                     <synopsis type="themes"> The story of Outsourced begins with the main character, Todd Anderson, being let go from his current job as the manager of a call center. His boss tells him his job is being outsourced and he'll need to go to India to train the man that will eventually replace him. He is initially against this idea, but his boss says he'll lose his employee and health benefits if he doesn't so he flies to Mumbai to live there until the employees at the new call center are trained.
                 </synopsis>
-                    <synopsis type="plot points"> As Todd begins to learn more about Indian culture, and the members of the call center learn more about his own culture, the audience gets to see an example of people from two very different backgrounds communicating and relating. The movie does a great job of highlighting the experiences of both someone moving to a new place with a much different culture, and the experiences of people that have someone from another culture interact with theirs. The relationship between Todd and Asha serves as the centerpiece of the movie, and details an endearing story of learning to live with loving someone that was raised much differently than you.
-                <synopsis type="plot_points"/>
+                    <synopsis type="plot_points"> As Todd begins to learn more about Indian culture, and the members of the call center learn more about his own culture, the audience gets to see an example of people from two very different backgrounds communicating and relating. The movie does a great job of highlighting the experiences of both someone moving to a new place with a much different culture, and the experiences of people that have someone from another culture interact with theirs. The relationship between Todd and Asha serves as the centerpiece of the movie, and details an endearing story of learning to live with loving someone that was raised much differently than you.
                 </synopsis>
                 </p>
             </intro>
@@ -39,9 +38,10 @@
                     Todd’s boss arrives in India, he informs Todd that the call center jobs are
                     being outsourced to China. The employees are all let go, but they’ve been
                     trained well enough to pursue jobs for other companies. Todd refuses to go to
-                    China, but he Puro to go in his place. Asha tells Todd that if she doesn’t love
-                    the man she is engaged to she will come to the USA. At the end of the movie,
-                    Todd gets a call from Asha in his apartment back home. </p>
+                    China, <note type="peer">this sentence seems incomplete</note>but he Puro to go
+                    in his place. Asha tells Todd that if she doesn’t love the man she is engaged to
+                    she will come to the USA. At the end of the movie, Todd gets a call from Asha in
+                    his apartment back home. </p>
                 <p>
                     <opinions type="reaction">The pacing may seem slow towards the beginning of the
                         movie, but gradually the speed picks up and we begin to learn more about
@@ -68,9 +68,31 @@
 
     </movie_review>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="we.sp">Spencer Webb</reviewer>
+        <report type="peer" who="#we.sp">
+            <p>Your movie review is on a movie called Outsourced, which is about a man named Todd
+                Anderson who loses his job in America and is forced to go to India to train call
+                center employees under threat of losing benefits. The movie shows the culture clash
+                and how people from very different backgrounds can get along, and even fall in love.
+                Much of the first body paragraph is still a synopsis of the movie and I think could
+                be moved to the intro. Most of your review focuses on what happened in the movie and
+                almost feels more like a movie analysis than a movie review. I like the opinions and
+                conclusion paragraphs as they focus on what you liked and disliked about the movie,
+                as well as what you thought the movie's greatest strengths were. I think you could
+                improve the review by having your reactions being dispersed within the synopsis of
+                the movie as the review feels a bit chunky right now. For example, you could bring
+                up specific parts you liked and disliked while talking about what happened. I also
+                had a little trouble picturing the movie and movie style, so I think it is important
+                to have a section on aesthetics which was outlined in the schema. Even just a few
+                sentences describing the styles of filming and scene shooting I think would help
+                paint a better picture on what the movie experience is like. Also adding the
+                director as well as main actors would help to determine if I (the reader of the
+                movie review) would want to go see the movie after reading your review. I noticed
+                you also cut out some of the conclusion tags that would be easy to throw in such as
+                the budget, movie gross, and release date. I know you have the release date in the
+                header, but I think adding it again in the end would help place the movie
+                chronologically in reader's heads. I really like your title too; it sounds like a
+                real review of the movie and definitely would draw people in.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
