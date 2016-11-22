@@ -1,16 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
-    <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
-        </report>
-        <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
-        <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
-        </report>
-    </docReview>
+    <movie_review>
+        <header>
+            <title type="title_review"> Billy Madison </title>
+            <title type="title_movie">Billy Madison</title>
+            <author xml:id="ga.ar"> Mohit Dhinakaran</author>
+            <date type="review_date">November 21 2016</date>
+            <date type="movie_premiere">February 10 1995</date>
+            <contact_info>dhinakaran.m@husky.neu.edu</contact_info>
+        </header>
+
+        <content>
+            <intro><p>
+                    <synopsis type="themes"> Released in 1995, Tamra Davis’ Billy Madison is considered a cult film, 
+                        and to many fans, one of the best in the genre of comedy. 
+                        It stars Adam Sandler, Bradley Whitford, Bridgette Wilson, Norm Macdonald and Darren McGavin. 
+                        It was written by Sandler and Robert Simonds. In a nutshell, 
+                        the movie is about a 27 year old man (Billy Madison) 
+                        who is the heir to a company built by his father. 
+                        A spoilt brat, Billy wastes his life with drinking and shenanigans. 
+                        When his father finally has enough, he decides to name a different successor to his millions, 
+                        instead of his son. This urges Billy to reconsider his life and prove to his father that he is capable 
+                        to handling the inheritance by repeating grades 1-12.  </synopsis></p>
+            </intro>
+
+            <body>
+                <p> The movie is does not hide the fact that it is a classic, dumb humour kind of
+                    movie. And thats why I like it. After reviewing nearly 400 titles on imdb, I
+                    have never seen a film that has made me laugh this much. This movie doesnt
+                    attempt to be a polished attempt at intelligent humour. Its slapstick, vulgar,
+                    and unquestionably hilarious. Many fans have watched this movie with varying
+                    levels of sobriety, all to interesting results.</p>
+
+                <p> It's hard to write a serious review about a movie which isn't serious for a
+                    minute. If you tried, you'd probably laugh at the end credits too. </p>
+                <p>
+                    <aesthetics>Big, brash and bold. These words perfectly describe the aesthetics
+                        in this movie. Think of any lewd or vulgar action, and this movie probably
+                        has it. </aesthetics>
+                </p>
+
+            </body>
+            <conclusion>
+                <p>
+                    <opinions type="reaction">I would strongly advise parents to avoid watching this
+                        movie with their children, though the trailer might seem friendly, it is by
+                        no means a family movie.</opinions> Definitely not a one time watch, I would
+                    encourage all viewers to watch this hidden gem of a film, as many times as
+                    possible. Switch off your logic, and sit back and enjoy the 1 hour and 30
+                    minutes of non stop comedy. </p>
+            </conclusion>
+        </content>
+    </movie_review>
 </DOC>
