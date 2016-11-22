@@ -59,6 +59,21 @@
                         </p>
                   </section>
                 </article>
+                <article>
+                      <header>
+                        <h2>Project 3</h1>
+                      </header>
+                      <section>
+                        <p>
+                          <ul class="students">
+                            <?php
+                            $proj=3;
+                            include('list_students.php')
+                            ?>
+                          </ul>
+                        </p>
+                  </section>
+                </article>
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
