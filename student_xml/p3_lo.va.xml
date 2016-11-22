@@ -3,92 +3,119 @@
 <DOC>
     <movie_review>
         <header>
-            <title type = "title_review">Café Society: Woody Allen's Latest Hit?</title>
-            <title type = "title_movie">Café Society</title>
+            <title type="title_review">Café Society: Woody Allen's Latest Hit?</title>
+            <title type="title_movie">Café Society</title>
             <author xml:id="lo.va">Valentina Longcroft </author>
-            <date type = "review_date"> November 21st, 2016</date>
-            <date type = "movie_premiere">July 15th, 2016</date>
-            <contact_info></contact_info>
+            <date type="review_date"> November 21st, 2016</date>
+            <date type="movie_premiere">July 15th, 2016</date>
+            <contact_info/>
         </header>
-        
+
         <content>
             <intro>
-                <p>  Woody Allen’s Café Society opens onto a beautiful poolside party scene of a
-                Hollywood agent’s beachside mansion. Elegantly dressed people sit by the pool,
-                discussing their latest adventures in the movie industry. Allen, and his
-                production designer Santo Loquasto have a particular vision about the
-                industry in the 1930’s, and that definitely comes across in the cinematography,
-                the work of Vittorio Storaro. What is really striking at the beginning of the
-                movie is the narration, which describes various backstories throughout the movie.
-                Mr. Allen's literal voice describes, in this case, the story of Phil Stern, played by Steve Carrell, who
-                is very busy trying to tell everyone how important he is and how amazing his life
-                is. <opinions type="reaction">When one watches a Woody Allen movie, there are always certain expectations, and 
-                one is fascinated to see what he will have come up with next. The question is - does
-                his new film live up to the hype?</opinions> <note type="instructor">Maybe write a scentence near the beggining 
-                    that tells the reader whether this will be a positive or negative review. </note>
-            
+                <p> Woody Allen’s Café Society opens onto a beautiful poolside party scene of a
+                    Hollywood agent’s beachside mansion. Elegantly dressed people sit by the pool,
+                    discussing their latest adventures in the movie industry. Allen, and his
+                    production designer Santo Loquasto have a particular vision about the industry
+                    in the 1930’s, and that definitely comes across in the cinematography, the work
+                    of Vittorio Storaro. What is really striking at the beginning of the movie is
+                    the narration, which describes various backstories throughout the movie. Mr.
+                    Allen's literal voice describes, in this case, the story of Phil Stern, played
+                    by Steve Carrell, who is very busy trying to tell everyone how important he is
+                    and how amazing his life is. <opinions type="reaction">When one watches a Woody
+                        Allen movie, there are always certain expectations, and one is fascinated to
+                        see what he will have come up with next. The question is - does his new film
+                        live up to the hype?</opinions>
+                    <note type="instructor">Maybe write a scentence near the beggining that tells
+                        the reader whether this will be a positive or negative review. </note>
                 </p>
-                <p> Poolside, Phil Stern receives a phone call, which he expects is to be Ginger Rogers
-                    on the line, but instead is his sister Rose, who informs him that <synopsis type = "themes">her youngest son,
-                    Bobby, is moving out west,</synopsis> and begs him to help him find his feet. Phil could not be 
-                    less interested in helping his nephew out, and doesn't meet with him for a long three weeks
-                    after Bobby arrives. However, once he does see him, he makes him his errand boy, and introduces 
-                    him to the beautiful Veronica, a secretary working at the agency, played by Kristen Stewart,
-                    in a role one would not ususally expect her to play, given her previous filmography <note type="peer"> you could elaborate and say that she has acted i really dark movies in the past</note>. 
-                    <synopsis type = "plot_points">Jesse Eisenberg plays Bobby Dorfman, akin to a young Allen himself - who moves to Hollywood 
-                    in search of a more interesting life, having left the family business.</synopsis> However, having thought that
-                    he wanted to leave New York, living in Hollywood helps him realise that he doesn't belong anywhere
-                    else but home, and after a whirlwind romance, asks Veronica to marry him and move to New York. 
-                </p>
+                <p> Poolside, Phil Stern receives a phone call, which he expects is to be Ginger
+                    Rogers on the line, but instead is his sister Rose, who informs him that
+                    <synopsis type="themes">her youngest son,
+                    Bobby, is moving out west,</synopsis>
+                    and begs him to help him find his feet. Phil could not be less interested in
+                    helping his nephew out, and doesn't meet with him for a long three weeks after
+                    Bobby arrives. However, once he does see him, he makes him his errand boy, and
+                    introduces him to the beautiful Veronica, a secretary working at the agency,
+                    played by Kristen Stewart, in a role one would not ususally expect her to play,
+                    given her previous filmography <note type="peer"> you could elaborate and say
+                        that she has acted i really dark movies in the past</note>.
+                    <synopsis type="plot_points">Jesse Eisenberg plays Bobby Dorfman, akin to a young Allen himself - who moves to Hollywood 
+                    in search of a more interesting life, having left the family business.</synopsis>
+                    However, having thought that he wanted to leave New York, living in Hollywood
+                    helps him realise that he doesn't belong anywhere else but home, and after a
+                    whirlwind romance, asks Veronica to marry him and move to New York. </p>
             </intro>
             <body>
                 <p>
                     <!-- Further context about the film usually follows the synopsis or is disperesed throughout the body.-->
-                    <context type = "director">Like most of Allen's work, the film takes place in a world that he knows all too well. Some like to
-                    say that Allen 'recycles' his old themes, and make them into new ones, hence why viewers always 
-                    find similarities and links between his projects.</context> However, with the help of his talented production designer,
-                    Loquasto, and cinematographer Storaro, <aesthetics>the film has a very obvious golden glow surrounding it.<aesthetics> It almost seems
-                    like everything is bathed in light, which gives the film a soft, yet still exciting setting. Where we really
-                    start to see Allen's old storylines come out, however, is in the love triangle that unfolds, between Bobby, 
-                    his uncle and Veronica, which includes, obviously, the love of a younger woman for an older man. <context type = "actor">Kristen Stewart's
-                    performance, which is stunningly glamourous, yet balanced with the small town girl that her character really is,
-                    carries the movie, </context> <opinions type="critique">but maybe exposes how thin the rest of the performances are.</opinions>
+                    <context type="director">Like most of Allen's work, the film takes place in a
+                        world that he knows all too well. Some like to say that Allen 'recycles' his
+                        old themes, and make them into new ones, hence why viewers always find
+                        similarities and links between his projects.</context> However, with the
+                    help of his talented production designer, Loquasto, and cinematographer Storaro,
+                        <aesthetics>the film has a very obvious golden glow surrounding
+                        it.</aesthetics> It almost seems like everything is bathed in light, which
+                    gives the film a soft, yet still exciting setting. Where we really start to see
+                    Allen's old storylines come out, however, is in the love triangle that unfolds,
+                    between Bobby, his uncle and Veronica, which includes, obviously, the love of a
+                    younger woman for an older man. <context type="actor">Kristen Stewart's
+                        performance, which is stunningly glamourous, yet balanced with the small
+                        town girl that her character really is, carries the movie, </context>
+                    <opinions type="critique">but maybe exposes how thin the rest of the
+                        performances are.</opinions>
                 </p>
-                
-                <p>
-                Aesthetically, this film is very enjoyable to look at. Sets and costumes are what one would describe
-                as 'accurate' and the way that all these elegany people are put together is actually quite wonderful.
-                Even when the movie returns to New York, near the end, some of the glow is gone, but the outfits make up
-                for it, with stunning gowns and white tie parading around the Dorfman's nightclub, with all the accessories 
-                to match. One must congratulate the production team on this, as the aesthetic makes every scene 
-                seem that much more realistic. 
-                </p>
-                   
-                    <conclusion><p>
-                Though this movie is definitely comparable to other Allen works, it is definitely not his worst 
-                movie. <opinions type="critique">I feel that some of his themes should be retired in favour of new ones, and some plotlines
-                    put on the backburner</opinions><note type="peer"> if you could expand on which themes and which plotlines you're talking about that would be great</note>, but in general, it is always a pleasure to see what Allen produces.<comparison type="movie"> Café Society 
-                    is not "Radio Days" or "Bullets over Broadway"</comparison>, but it does have a certain shine, and though some of the casting
-                may seem questionable, Kristen Stewart is a very well-cast role. I think that this movie is still a good watch,
-                and would recommend seeing it, even if it is just to see the latest Woody Allen movie. <summary type = "gross_income">Coming in at just over $11 Million,</summary> it was not his
-                most popular piece, but is worth seeing it anyway. 
-                    </p>
-                </conclusion>
-             
-          
-                   
-            
+
+                <p> Aesthetically, this film is very enjoyable to look at. Sets and costumes are
+                    what one would describe as 'accurate' and the way that all these elegany people
+                    are put together is actually quite wonderful. Even when the movie returns to New
+                    York, near the end, some of the glow is gone, but the outfits make up for it,
+                    with stunning gowns and white tie parading around the Dorfman's nightclub, with
+                    all the accessories to match. One must congratulate the production team on this,
+                    as the aesthetic makes every scene seem that much more realistic. </p>
+
+                <p><conclusion> Though this movie is definitely comparable to other Allen works, it
+                        is definitely not his worst movie. <opinions type="critique">I feel that
+                            some of his themes should be retired in favour of new ones, and some
+                            plotlines put on the backburner</opinions><note type="peer"> if you
+                            could expand on which themes and which plotlines you're talking about
+                            that would be great</note>, but in general, it is always a pleasure to
+                        see what Allen produces.<comparison type="movie"> Café Society is not "Radio
+                            Days" or "Bullets over Broadway"</comparison>, but it does have a
+                        certain shine, and though some of the casting may seem questionable, Kristen
+                        Stewart is a very well-cast role. I think that this movie is still a good
+                        watch, and would recommend seeing it, even if it is just to see the latest
+                        Woody Allen movie. <summary type="gross_income">Coming in at just over $11
+                            Million,</summary> it was not his most popular piece, but is worth
+                        seeing it anyway. </conclusion></p>
+
+
+
+
+            </body>
         </content>
     </movie_review>
-    
+
     <docReview>
         <reviewer type="peer" xml:id="to.fr"> Francheska Torres</reviewer>
         <report type="peer" who="#to.fr">
-            <p>This is a review about Woodie Allen's latest movie "Cafe society". It talks about the films characters, production staff, and cinematography.
-            I feel like this could be a very good review, if you fleshed it out more. I was sort of confused with your placement of the themes tag, so maybe you could
-            explain why a theme is a theme. In general, seeing a few more of the tags used would be nice (i.e. the actors tag). I would also like to see more on the background
-            of the actors. I think that you should add a sentence near the top that also clarifies all of the points that you are going to talk about instead of just going in for 
-            the kill because it makes the review feel unstructured. </p>
+            <p>This is a review about Woody Allen's latest movie "Cafe society". It talks about the
+                film's characters, production staff, and cinematography and compares it to other
+                Woody Allen films. The point of the movie review is to inform he reader of whether
+                or not they should go watch the movie. I feel like this could be a very good review,
+                if you fleshed it out more. I was sort of confused with your placement of the themes
+                tag, so maybe you could explain why the themes you chose are themes in the movie.
+                Also, I think the review needs to be more sructured because right now it feels like
+                it goes from one point to another without connecting. You mention Allen's other
+                works but never specifically compare one movie to another, or specify which works
+                you are referencing. I think it would be a good addition to the review. In general,
+                seeing a few more of the tags used would be nice (i.e. the actors tag, comparison
+                tag). I would also like to see more on the background of the actors. I think that
+                you should add a sentence near the top that also clarifies all of the points that
+                you are going to talk about instead of just going in for the kill because it makes
+                the review feel unstructured. I think this review does a good job of encompassing
+                some of the major parts of a movie review and would be even better with a little bit
+                of work. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
@@ -96,5 +123,3 @@
         </report>
     </docReview>
 </DOC>
- 
-    
