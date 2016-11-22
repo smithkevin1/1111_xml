@@ -1,8 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <movie_review>
+        <header>
+            <title type="title_review">Wes Anderson's Dream Sequence</title>
+            <title type="title_movie">Moonrise Kingdom</title>
+            <title type="photo_movie"
+                >https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_SY1000_CR0,0,674,1000_AL_.jpg</title>
+            <author xml:id="we.sp">Spencer Webb</author>
+            <date type="review_date">22 November 2016</date>
+            <date type="movie_premiere">29 June 2012</date>
+            <contact_info/>
+        </header>
+
+        <!-- This is an example of how a Movie Review COULD be formatted, not how all are. -->
+        <!-- A lot of tags are optional and be placed anywhere in many different ways. -->
+        <!-- This example uses most of the tags included in the schema in a common pattern for movie reviews. -->
+        <content>
+            <intro>
+                <p>
+                    <!-- Generally a short introduction that gives an idea of the author's opinions on the movie. -->
+                    <opinions type="reaction">Wes Anderson's 2012 film is wondrous in nature and
+                        evokes a nostalgic feeling of childhood.</opinions>
+                </p>
+                <p>
+                    <!-- The synopsis can either be in the intro or first few body paragraphs. -->
+                    Moonrise Kingdom explores adventure, romance, and mysticism through a child's
+                    point of view. The movie takes place in 1965 on an island called New Penzance.
+                    On one side of the island resides Camp Ivanhoe and Troop 55.
+                    <synopsis type="plot_points">Early in the film, one of the scouts Sam goes missing.</synopsis>
+                    On the other side of the island, a young girl named Suzy who is often looking
+                    through her binoculars lives with her dysfunctional family.
+                    <synopsis type="plot_points">She disappears as well. Shortly
+                    after, we learn that the reason for the disappearance of the two is each other.</synopsis>
+                    The film follows them as they traverse the island looking for a remote cove
+                    using Sam's acquired outdoor skills.
+                    <synopsis type="plot_points">We see Sam and Suzy have their first kiss and express what they feel is love for each other.
+                    They decide that they don't like the map's name for the cove so they rename it.</synopsis>
+                    Soon after, they are discovered by the island officer Captain Sharp, as well as
+                    Suzy's parents and the Scout Master Ward.
+                    <synopsis type="plot_points">We learn that Sam is orphaned and his foster parents don't want him back.</synopsis>
+                    They are separated and Captain Sharp learns that Sam will have to be taken into
+                    Social Services. Sam is staying with Captain Sharp in the time being. The troop
+                    sneaks Sam out and they row to a neighbor island and camp.
+                    <synopsis type="plot_points">There Sam and Suzy have a pseudo-marriage from a troop member’s cousin,
+                        which has no legal binding, but has emotional ties.</synopsis>
+                    They then begin their escape as a storm is brewing in the background. They are
+                    spotted and chased as fugitives. While running, Sam is struck by lightning but
+                    miraculously recovers almost instantly. The storm picks up drastically and
+                    everyone including the Social Service Agent, the troop and Scout Master Ward,
+                    Captain Sharp, Suzy's parents, and Sam and Suzy themselves take cover in the
+                    church where Sam and Suzy first met. Sam and Suzy escape to the church steeple,
+                    expecting to be separated upon capture.
+                    <synopsis type="plot_points">Concerned about their well-being,
+                    Captain Sharp offers to take Sam in after having spent time with him earlier.</synopsis>
+                    Sam agrees. Some time later we see Sam sneaking into Suzy's home in an island
+                    officer uniform with a painting of the remote cove they stayed at.
+                    <synopsis type="plot_points">We learn that they 
+                    decided to name the cove 'Moonrise Kingdom'.</synopsis>
+                </p>
+            </intro>
+            <body>
+                <p>
+                    <!-- Further context about the film usually follows the synopsis or is disperesed throughout the body.-->
+                    <context type="director">Wes Anderson</context> is popular for his unique
+                    directing style. Often his films follow an almost dreamlike sequence. This movie
+                    is no different and provides a strange sense of wonder that is hard to pinpoint,
+                    but that viewers can attest to. The isolated setting of an island allows for a
+                    community with values and oddities of any sort, which Anderson loves doing. The
+                    cast isn't an all-star cast my any means. <context type="actor">Bruce
+                        Willis</context> is cast as Captain Sharp in a role that almost feels out of
+                    place for the traditional action movie star, but his performance is remarkable
+                    and emotional, as to be expected from such a high-profile actor. <context
+                        type="actor">Bill Murray</context> is cast as Suzy's father which I think
+                    works well as he can play any role where the director wants a little bit of sort
+                    of cool-strangeness that comes out in any character Bill Murray plays. </p>
+
+                <p>
+                    <!-- Aesthetics is typically spoken about in a short, one paragraph opinion. -->
+                    <aesthetics>Wes Anderson employs long and shifting camera pans which helps to
+                        give the movie a mystical feel. There is also an almost sepia color filter
+                        over the whole movie which adds to the artistic value of the shots. There is
+                        a lot of color contrast throughout the film which changes as the movie goes
+                        on and the storm brews <opinions type="reaction">which I think helps the
+                            viewer adjust to the mood change.</opinions> There is also constantly
+                        light, fast-paced music playing in the background which smooths the
+                        transitions and reminds the viewer that much of the movie is from a child's
+                        point of view. There are also many intentionally silly effects such as when
+                        Sam is struck by lightning and when Scout Master Ward jumps over the flood.
+                        This serves to add to the dreamlike feel of the film. </aesthetics>
+                </p>
+                <p>
+                    <!-- Most reviews will spend some time comparing the film to another similar one or the book it is based on. -->
+                    Another Wes Anderson film I recently watched was <comparison type="movie"
+                        >Fantastic Mr. Fox</comparison> which was released three years prior.
+                    Fantastic Mr. Fox was an entirely animated film while Moonrise Kingdom only had
+                    occasional cuts to animation, however it also showed many of the artistic
+                    creativities demonstrated in Moonrise Kingdom. Both films embodied the sense of
+                    dreaminess and mysticism and did a wonderful job evoking a deep nostalgic wonder
+                    despite the drastic difference in actual content. <opinions type="critique">One
+                        thing I would have liked to have seen more in Moonrise Kingdom was character
+                        background.</opinions> We know Sam is a somewhat troubled orphan but not
+                    much else about his relations with his troop and Scout Master. </p>
+            </body>
+            <conclusion>
+                <p>
+                    <!-- A short closer summing up the author's opinions and typically gives either a recommendation to see or not to see the movie. -->
+                    <opinions type="reaction">Overall, the artistic value alone makes this movie
+                        worth seeing. I have grown to love Wes Anderson's style as it gives me the
+                        sense of wonder I was talking about more than many other movie types. I
+                        would compare the sense of wonder as similar to that of Studio Ghibli
+                        movies, which I am a big fan of as well.</opinions>
+                </p>
+                <p>
+                    <!-- Some reviews will give some basic information on the movie at the very end. -->
+                    This film had an estimated budget of 16 million dollars, and grossed <summary
+                        type="gross_income">a little over 45 and a half million</summary>, making it
+                    quite successful. It premiered in the United States on <date
+                        type="movie_premiere">June 29th</date> and collected almost 523,000 dollars
+                    on it's opening weekend. </p>
+            </conclusion>
+        </content>
+    </movie_review>
+
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
