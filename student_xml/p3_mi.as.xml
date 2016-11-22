@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<DOC>
-    <!-- paste your genre here, after <DOC> and before the <docReview> section -->
+<>
+    <title>Trump's Triumph and Climate Change</title>
+    <author xml:id="lo.va">Ashwin Misra</author>
+    <date>November 22nd 2016</date>
+    </docHead>
+    
+    <intro>-	Trump’s win came as a surprise to most of us
+        -	Many do not agree on his strong, right wing views on topics such as immigration and social services (healthcare, education)
+        -	Trump denies the issue of climate change, which is a major issue facing today’s society, and believes that it is a hoax perpetrated by the Chinese
+        -	How will this impact Climate change in America over the coming years?</intro>
+    
+    <body_para>-	Trump’s specific quotes about climate change, why he denies it
+        -	People who are for and people who are against Trump’s views</body_para>
+    
+    <body_para>What the outcome of his policies will mean for our environment</body_para>
+       
+    <body_para>Organizations and charities that serve to reduce the effects of climate change</body_para>
+    
+    <conclusion></conclusion>
     
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
@@ -13,4 +30,4 @@
             <p>Instructor comments will go here.</p>
         </report>
     </docReview>
-</DOC>
+</>
