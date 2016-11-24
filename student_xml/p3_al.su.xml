@@ -1,8 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <!-- begin genre -->
+    <resume>
+        <title>Sutlan Aldabal</title>
+        <header>Contact Information</header>
+        <contact_information>
+            <contact type="address">197-205 Brompton Road</contact>
+            <contact type="address">25 Ovington Court</contact>
+            <contact type="address">London, SW31LB</contact>
+            <contact type="address">United Kingdom</contact>
+            <contact type="phone">+447554454455</contact>
+            <contact type="email">saldabal@hotmail.com</contact>
+        </contact_information>
+        <header>Objectives</header>
+        <objectives> Intelectually curious M.D psychiatrist seeking to apply to a Children's
+            Psychiatry Ward in London, United Kingdom. I would like to gain experiences in the
+            facility for about 3-4 years, then start my own personal practice outside. Focuses
+            include improving the mental health of adolecents. My passions include helping others,
+            problem solving people's issues, and advocating for self care.</objectives>
+        <header>Qualifications</header>
+        <qualifications>
+            <work_experience>
+                <job>
+                    <job_title>Research Assistant
+                    <job_date>2003 - 2005</job_date></job_title>
+                    <job_summary> Ran sub-set of experiments involving the cognition of adolecents
+                        and childrn ages 8-18. Expanded on many theories on sense perception and
+                        child development. Utilized many modern equipment and can easily learn how
+                        to operate new devices. Mastered time management, record keeping, writing
+                        research papers.</job_summary>
+                </job>
+                <job>
+                    <job_title> Research Assistant <job_date>2005-2008</job_date>
+                    </job_title>
+                    <job_summary> Expanded on theories involving mental illnesses and disabilities
+                        in adults aged 18-25 and children aged 11-17. Lead weekly group discussions.
+                        Ran a class once a week in fall 2006 as a T.A.; developmental psychology.
+                        Mastered newer techonology. Funding from Saudi Government started in October
+                        2005. Won the David Shakow Early Career Award for Distinguished Scientific
+                        Contributions to Clinical Psychology in 2008.</job_summary>
+                </job>
+                <job>
+                    <job_title>Lab Technician <job_date>2006-2008</job_date>
+                    </job_title>
+                    <job_summary>Conducted expirements on the cells that control behaivior in
+                        humans. Discovered many different functions of different
+                        brain cells</job_summary>
+                </job>
+            </work_experience>
+            <header>Education</header>
+            <education>B.A. in Behaivioral Neuroscience in Northeastern University, Boston MA</education>
+            <education>PhD in Stanford University, Stanford, CA</education>
+            <header>Affiliations</header>
+            <affiliations> 
+                <affiliation>Saudi Arabian Society of Clinical Psychology since 2005</affiliation>
+                <affiliation>International Association of Analytial Psychology</affiliation>
+                <affiliation> Dammam Doctors Union</affiliation>
+            </affiliations>
+            <additional_information/>
+        </qualifications>
+    </resume>
+    <!-- end genre -->
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">

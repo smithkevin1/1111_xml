@@ -48,7 +48,7 @@
         <conclusion>America currently emits 15% of global CO2 emissions, and having Trump as
             commander-in-chief will only increase that number. Being a traditionalist, Trump wants
             the same jobs in the manufacturing industry to be kept as they are because he believes
-            that, with the increase in renewable energy, there will be greater job loss. So what
+            that, with an increase in renewable energy usage, there will be greater job loss for certain people. So what
             impact will this disregard to climate change by the Trump Administration have for
             America? Only time will tell. Our best bet to make America great again is to bank won
             Trump’s changing views.</conclusion>
@@ -59,9 +59,34 @@
 
 
     <docReview>
+        
+<HEAD></HEAD>
         <reviewer type="peer" xml:id=""/>
         <report type="peer" who="">
             <p/>
+=======
+        <reviewer type="peer" xml:id="li.em"/>
+        <report type="peer" who="mi.as">
+            <p>First of all, you made a few statements without any cited sources. At this point,
+                what we know about Trump and climate concerns are all talk. Even so, where are your
+                sources for this statement, "Donald Trump’s surprise win means that climate change
+                funding will be reduced dramatically." You need something to back up that claim.
+                Like a quote from Trump or one of his associates. You can definitely get some quotes
+                from Trump saying he will lax the energy emissions laws, etc. Also you cannot source
+                Wikipedia! Even though it will almost always be accurate and have some good basic
+                info, it is sill not an acceptable source to pull from. But, if you look at the
+                sources that were cited in that article, you can definitely use those.</p>
+
+            <p>You mentioned how Trump said his tweets was a joke. I think you should really expand
+                on the idea that Trump was able to mobilize all these people by saying what they
+                would want to hear, and then going back on those claims once he was elected. I think
+                there is a lot to talk about in terms of him playing to people's angers, an dhow
+                damaging that can become, especially with an issue as pressing and dire as climate
+                change. Overall, you have a solid piece with a relevant and interesting topic. Just
+                do some more research and find more sophisticated sources. Maybe look at some
+                opinions pieces on the same topic, and check out the info they looked at and used.
+            </p>
+>>>>>>> origin/master
         </report>
 
         <reviewer type="instructor" xml:id="smi.ke"/>
