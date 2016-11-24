@@ -59,8 +59,8 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="al.su"/>
-        <report type="peer" who="al.su">
+        <reviewer type="peer" xml:id=""/>
+        <report type="peer" who="">
             <p/>
         </report>
 
