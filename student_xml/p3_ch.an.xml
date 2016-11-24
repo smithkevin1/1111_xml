@@ -27,7 +27,7 @@
     <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
     </op_ed>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="al.su"> Sultan Aldabal </reviewer>
         <report type="peer" who="#id_here">
             <p>Peer review report will go here.</p>
         </report>
