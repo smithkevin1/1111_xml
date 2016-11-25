@@ -10,56 +10,52 @@
             <contact type="email">lindberg.e@husky.neu.edu</contact>
             <contact type="phone">(603) 714-8396</contact>
         </contact_information>
-        <header>Objective</header> 
-        <objectives>I am seeking a cooperative position in the field of advertising
-         to gain experience and demonstrate the skills I have learned through previous job experience
-         and formal education</objectives>
+        <header>Objective</header>
+        <objectives>I am seeking a cooperative position in the field of advertising to gain
+            experience and demonstrate the skills I have learned through previous job experience and
+            formal education</objectives>
         <header>Experience</header>
         <work_experience>
-                <job>
-                    <job_title>
-                        <job_date/>
-                    </job_title>
-                    <job_summary/>
-                </job>
-            </work_experience>
-        
-    </resume> 
-    
-    Model at Maggie Inc.
-    April 2013–Present Boston, MA 
-    Work with international brands in the Greater Boston area for e-commerce use. 
-    Work closely with photographers, fashion
+            <job>
+                <job_title>
+                    <job_date/>
+                </job_title>
+                <job_summary/>
+            </job>
+        </work_experience>
+
+    </resume> Model at Maggie Inc. April 2013–Present Boston, MA Work with international brands in
+    the Greater Boston area for e-commerce use. Work closely with photographers, fashion
     coordinators, directors, producers, stylists, makeup artists, other models, and clients to
-    produce the desired looks, and to finish photo shoots on schedule. 
-    
-    Receptionist at Turnstyle
-    Cycle Studios April 2016–Present Boston, MA 
-    Check in customers and assist with bike set-up
-    Create a warm and welcoming environment for customers 
-    
-    Caller at University of San Diego
-    Telefunding September 2015–December 2015 
-    Utilized effective sales skills to raise money in the
-    form of donations to USD. Brought in 15 new donors within 3 months.
-    Raised a total of $7215.00
-    as of December 1st, 2015. 
-    
-    Education Northeastern University 2019 
-    Communication Studies
-    Anticipated Minors in Media Production and Business Anticipated 
-    
-    University of San Diego
-    (Previous) 
-    
-    Extracurricular 
-    Surfrider Foundation member. Participate in beach cleanups &
-    fundraising events. July 2015- Present. 
-    
-    <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+    produce the desired looks, and to finish photo shoots on schedule. Receptionist at Turnstyle
+    Cycle Studios April 2016–Present Boston, MA Check in customers and assist with bike set-up
+    Create a warm and welcoming environment for customers Caller at University of San Diego
+    Telefunding September 2015–December 2015 Utilized effective sales skills to raise money in the
+    form of donations to USD. Brought in 15 new donors within 3 months. Raised a total of $7215.00
+    as of December 1st, 2015. Education Northeastern University 2019 Communication Studies
+    Anticipated Minors in Media Production and Business Anticipated University of San Diego
+    (Previous) Extracurricular Surfrider Foundation member. Participate in beach cleanups &
+    fundraising events. July 2015- Present. <docReview>
+        <reviewer type="peer" xml:id="mi.as">Ashwin Misra</reviewer>
+        <report type="peer" who="#li.em">
+            <p>Overall, I found that your resumé is very appropriate and contains most necessary
+                elements needed in a resumé such as past experience, objective and contact
+                information. The first critique I have of your resumé is your objective. I feel that
+                if you are interested in finding employment in the advertising field then you must
+                demonstrate some sort of background to the field or a greater understanding. In the
+                objective line, “advertising” can be replaced with any other field of work and the
+                objective will still make sense. What I am trying to say is that you should show
+                more expertise by briefly talking about, for example, what in advertising you are
+                most interested in.<p>
+                
+                <p>I understand why you have listed all your work experiences and
+                roles you’ve done in the past. The intentions for it are supposedly to show your
+                potential employer the array of roles you have taken. However, I feel that there
+                should only be jobs which will help with your intended field of work (advertising in
+                your case). For example, would the potential employer find it helpful to know that
+                you were a receptionist at Turnstyle? Other than these few points, you have produced
+                a solid resumé which includes all necessary elements. Maybe include a picture
+                too?</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
