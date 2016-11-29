@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-
-    <!-- begin genre -->
+    
+    <!--<This template file shows the elements commonly found in Op Eds. Not all Op Eds are formatted the same way or include all of the elements.>-->
+    
     <op_ed>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
+        
+        <!--<The elements within the header are required elements.>-->
+        <header>
+                <title/>
+                <author xml:id="id"/>
+                <date/>
+        </header>
+        
+        <body>
+            <!--<This element can go anywhere within body, but not in a paragraph.>-->
+            <picture></picture>
+            
+            <!--<This shows the tags that can be found in the introductory paragraph. They are all optional.>-->
+            <p type="intro">
+                    <opinion></opinion>
+                    <evidence></evidence>
+                    <bg_info></bg_info>
+           </p>
+            
+            <!--<This shows all the types of opinions there are.-->
+            <p type="body">
+                    <opinion type="main"></opinion>
+                    <opinion type="opposing"></opinion>
+                    <opinion type="general"></opinion>
+                    <opinion type="critique"></opinion>
+            </p>
+            
+            <!--<This shows all the types of opinions there are.-->
+            <p>
+                    <evidence type="statistics"></evidence>
+                    <evidence type="anecdote"></evidence>
+                    <evidence type="supporting"></evidence>
+            </p>
+              
+            <!--<This includes the other tags that can go anywhere in the Op Ed (including within other elements).-->
+            <p>
+                <bg_info></bg_info>
+                <quote></quote>
+                <situation></situation>
+            
+           <!--<This shows what tends to be included in the cincluding paragraph.-->     
+            <p type="conclusion">
+                <opinion></opinion>
+                <evidence></evidence>
+                <bg_info></bg_info>
+            </p>
 
-        <docHead>
-            <!-- make changes to the document header as necessary (based on your genre) -->
-            <title/>
-            <author xml:id="id"/>
-            <date/>
-        </docHead>
-        
-        <intro>
-            <opinion type="main"></opinion>
-        </intro>
-        
-        <body_para>
-            <opinion type="opposing"></opinion>
-            <!--<counter_opposing></counter_opposing> delete becasue of documentation changes-->
-            <picture url="#url_here"></picture>
-            <evidence type="other"></evidence>
-            <bg_info></bg_info>
-            <!--<statistics></statistics>-->
-            <quote></quote>
-            <!--<per_experience></per_experience>-->
-            <example></example>
-            <situation></situation>
-        </body_para>
-        
-        <conclusion></conclusion>
-        <source></source>
-
-        <!-- THE REST OF YOUR DOCUMENT STRUCTURE HERE; WHAT FOLLOWS THE HEADER IN YOUR GENRE? for example, body, or text, or whatever -->
+        <!--<This is where the author would cite his/her sources. They are in list format. It is an optional element.-->             
+        <source><source/>
 
     </op_ed>
-    <!-- end genre -->
-
 
 
     <!-- leave this section for peer review and assessment -->
