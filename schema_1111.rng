@@ -870,6 +870,16 @@
                     <a:documentation>An attribute of opinion of how the author thinks the movie
                         could be better. It might be a simple complaint, or a detailed analysis of
                         how the director could improve their work in some way. </a:documentation>
+                    <value>first_impressions</value>
+                    <a:documentation>An attribute of an opinion of how the author initially reacted
+                        to the movie. A way to discuss first thoughts, or opening statements for the
+                        movie review.</a:documentation>
+                    <value>recommendation</value>
+                    <a:documentation>An attribute of an opinion for the author telling the reader
+                        whether or not to see the film. Basically sums up the opinions the author
+                        has.</a:documentation>
+                    <value/>
+                    <a:documentation/>
                 </choice>
             </attribute>
             <ref name="macro.reviewParaContent"/>
