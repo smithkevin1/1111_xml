@@ -126,9 +126,23 @@
 
     </op_ed>
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="lo.va">Valentina Longcroft</reviewer>
         <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+            <p>This Op-Ed describes the current economic and emergent state in Puerto Rico. 
+                The main opinion stated here is that the economic situation is so dire because of
+                Puerto Rico's status as a colony, which disables them from seeking help from institutions such
+                as the IMF. My overall opinion of this Op-Ed is that it is a current global problem, and therefore
+                a very interesting read. I find that the fact that this article comes from personal 
+                experience makes me want to read on, and though the bulk of the article is factual, 
+                the first paragraph is a definite hook and made me want to read about the state of Puerto Rico,
+                and why so many families make the difficult decision to move to America. The xml tags that have been
+                put in are well placed. As for critique, I would suugest that she include a photo, as that
+                would be a great addition to the piece. I also think that maybe including a little bit 
+                more towards the end referring back to her personal experiences would take this article full circle 
+                and the one piece of advice I would give is to make us of the background
+                tag, and the evidence tags, particularly statistics, as there are alot of those included in the piece.
+                I would also suggest that some of the paragraphs be pushed together a bit more, as sometimes
+                it can seem a bit spread out.</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">

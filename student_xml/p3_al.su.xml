@@ -1,12 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
-    
+    <!-- begin genre -->
+    <resume>
+        <title>Sutlan Aldabal</title>
+        <header>Contact Information</header>
+        <contact_information>
+            <contact type="address">197-205 Brompton Road</contact>
+            <contact type="address">25 Ovington Court</contact>
+            <contact type="address">London, SW31LB</contact>
+            <contact type="address">United Kingdom</contact>
+            <contact type="phone">+447554454455</contact>
+            <contact type="email">saldabal@hotmail.com</contact>
+        </contact_information>
+        <header>Objectives</header>
+        <objectives> Intellectually curious M.D psychiatrist seeking to apply to a Children's
+            Psychiatry Ward in London, United Kingdom. I would like to gain experiences in the
+            facility for about 3-4 years, then start my own personal practice outside. Focuses
+            include improving the mental health of adolescents. My passions include helping others,
+            problem solving people's issues, and advocating for self care.</objectives>
+        <header>Qualifications</header>
+        <qualifications>
+            <work_experience>
+                <job>
+                    <job_title>Research Assistant <job_date>2003 - 2005</job_date></job_title>
+                    <job_summary> Ran sub-set of experiments involving the cognition of adolecents
+                        and children ages 8-18. Expanded on many theories on sense perception and
+                        child development. Utilized many modern equipment and can easily learn how
+                        to operate new devices. Mastered time management, record keeping, writing
+                        research papers.</job_summary>
+                </job>
+                <job>
+                    <job_title> Research Assistant <job_date>2005-2008</job_date>
+                    </job_title>
+                    <job_summary> Expanded on theories involving mental illnesses and disabilities
+                        in adults aged 18-25 and children aged 11-17. Lead weekly group discussions.
+                        Ran a class once a week in fall 2006 as a T.A.; developmental psychology.
+                        Mastered newer technology. Funding from Saudi Government started in October
+                        2005. Won the David Shakow Early Career Award for Distinguished Scientific
+                        Contributions to Clinical Psychology in 2008.</job_summary>
+                </job>
+                <job>
+                    <job_title>Lab Technician <job_date>2006-2008</job_date>
+                    </job_title>
+                    <job_summary>Conducted experiments on the cells that control behaviour in
+                        humans. Discovered many different functions of different brain
+                        cells</job_summary>
+                </job>
+            </work_experience>
+            <header>Education</header>
+            <education>B.A. in Behavioural Neuroscience in Northeastern University, Boston
+                MA</education>
+            <education>PhD in Stanford University, Stanford, CA</education>
+            <header>Affiliations</header>
+            <affiliations>
+                <affiliation>Saudi Arabian Society of Clinical Psychology since 2005</affiliation>
+                <affiliation>International Association of Analytial Psychology</affiliation>
+                <affiliation> Dammam Doctors Union</affiliation>
+            </affiliations>
+            <additional_information/>
+        </qualifications>
+    </resume>
+    <!-- end genre -->
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
-        <report type="peer" who="#id_here">
-            <p>Peer review report will go here.</p>
+        <reviewer type="peer" xml:id="li_em"> Emma Lindberg</reviewer>
+        <report type="peer" who="#li_em">
+            <p>Your resume is clear, well-formatted and is ordered in a way that makes sense. One
+                thing you can focus on for revisions is rewording some vague statements. Under
+                "Research Assistant," you wrote, "utilized many modern equipment and can easily
+                learn how to operate new devices." If this was actually to be presented to a
+                potential employer, they may question exactly what you mean by that. Instead, you
+                could say something like "learned and mastered (some relevant type of equipment) in
+                (some amount of time). It is conveying the same message but it sounds for credible
+                because it is listing a specific thing in a specific time.</p>
+
+            <p> Another thing to maybe take a second look at is your objective, which I think could
+                be a little more focused and tailored for the desired position. I do not know much
+                better than you, but it could be off-putting to an employer if you say up front that
+                you only want to work there for a max fours years, until you get the knowledge you
+                need to open your own practice. As a student still in school, looking to gain
+                experience is an expected objective. But for someone who is already and established
+                doctor, you should present a goal that goes past just looking for experience. Maybe
+                say something more on the lines of "seeking to bring my skills and experience to
+                your hospital in order to help patients throughout their recovery experience. Or,
+                instead of an objective (or an addition to an objective) you could have a summary of
+                why you are a great psychiatrist by saying something "X amount o years of experience
+                dedicated to children's recovery through extensive research, acute attention to
+                individual patients' needs, and collaborating with colleagues to reach solutions to
+                various problems."</p>
+
+            <p>Since the resume is so basic and familiar, and because you clearly have a solid
+                draft, I looked at more subtle things that could be improved. But overall, a very good draft!</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
