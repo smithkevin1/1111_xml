@@ -4,14 +4,14 @@
 
     <!-- begin genre -->
     <resume>
+    <title></title>
         <header>Contact Information</header>
         <contact_information>
             <contact type="address"></contact>
         </contact_information>
         <header>Objectives</header>
         <objectives></objectives>
-        <header>Qualifications</header>
-        <qualifications>
+        <header>Work Experience</header>
             <work_experience>
                 <job>
                     <job_title></job_title>
@@ -20,12 +20,15 @@
                     <job_summary></job_summary>
                 </job>
             </work_experience>
-            <education></education>
-            <affiliations>
-                <affiliation></affiliation>
-            </affiliations>
+            <education>
+                <school></school>
+                <school_location></school_location>
+                <graduation_date></graduation_date>
+                <degree></degree>
+            </education>
+            <qualifications></qualifications>
+            <affiliations></affiliations>
             <additional_information></additional_information>
-        </qualifications>
         </resume>
     <!-- end genre -->
 
