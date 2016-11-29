@@ -6,61 +6,107 @@
     <movie_review>
         <header>
             <title type="title_review">Indie Comedy Inspires Better Understanding of Culture in
-               "Outsourced" </title>
+                "Outsourced" </title>
             <title type="title_movie">Outsourced</title>
             <title type="photo_movie"
                 >http://static.rogerebert.com/uploads/movie/movie_poster/outsourced-2007/large_fv3nicRKDT0EJ9pmwYxPeRtaB6h.jpg</title>
             <author xml:id="ho.jo">John Hoyt</author>
             <date type="review_date">Publishing Date: November 22, 2016</date>
-            <date type="movie_premiere">Movie Premiere: September 28, 2007</date>
+            <date type="movie_premiere">Movie Premiere: September 12, 2006</date>
             <contact_info>hoyt.j@husky.neu.edu</contact_info>
         </header>
         <content>
             <intro><p>
-                    <synopsis type="themes"> The story of Outsourced begins with the main character, Todd Anderson, being let go from his current job as the manager of a call center. His boss tells him his job is being outsourced and he'll need to go to India to train the man that will eventually replace him. He is initially against this idea, but his boss says he'll lose his employee and health benefits if he doesn't so he flies to Mumbai to live there until the employees at the new call center are trained.
-                </synopsis>
-                    <synopsis type="plot_points"> As Todd begins to learn more about Indian culture, and the members of the call center learn more about his own culture, the audience gets to see an example of people from two very different backgrounds communicating and relating. The movie does a great job of highlighting the experiences of both someone moving to a new place with a much different culture, and the experiences of people that have someone from another culture interact with theirs. The relationship between Todd and Asha serves as the centerpiece of the movie, and details an endearing story of learning to live with loving someone that was raised much differently than you.
-                </synopsis>
-                </p>
-            </intro>
-
-            <body>
-                <p>Todd experiences culture shock instantly upon arriving in India, and has trouble
-                    with viewing their culture in relation to his own. Todd views his way of doing
-                    things as the default and normal way, and struggles to adapt. As he begins to
-                    understand Indian culture more, he gains respect for the employees and appoints
-                    a woman named Asha to be Puro’s assistant. Todd convinces his boss to start
+                    <synopsis type="themes"> The story of Outsourced begins with the main character, Todd Anderson, 
+                        being let go from his current job as the manager of a call center. His boss tells him his job 
+                        is being outsourced and he'll need to go to India to train the man that will eventually replace
+                        him. He is initially against this idea, but his boss says he'll lose his employee and health 
+                        benefits if he doesn't so he flies to Mumbai to live there until the employees at the new call
+                        center are trained.</synopsis>
+                    <synopsis type="plot_points"> Todd experiences culture shock instantly upon arriving in India, and has trouble
+                    with viewing their culture in relation to his own.</synopsis>
+                    Todd views his way of doing things as the default and normal way, and struggles
+                    to adapt. As he begins to understand Indian culture more, he gains respect for
+                    the employees and appoints a woman named Asha to be Puro’s assistant. <opinions
+                        type="reaction">The pacing may seem slow towards the beginning of the movie,
+                        but gradually the speed picks up and we begin to learn more about Todd and
+                        the way the employees interact with each other. The scenes highlighting the
+                        misunderstandings between Todd and the employees about the origin of the
+                        products they're selling or how to relate to the customers they're talking
+                        to back in the US help display this and are some of the most interesting
+                        parts of the movie.</opinions>
+                    <synopsis type="plot_points">Todd convinces his boss to start
                     sending the company’s products to India so the employees can be rewarded for
-                    their work and their business can grow in another country. The products are sent
-                    to an island also called Gharapuri, and Todd and Asha have to retrieve them. The
-                    ferry they were going to take back to land catches on fire, and Todd and Asha
+                    their work and their business can grow in another country.</synopsis>
+                    The products are sent to an island also called Gharapuri, and Todd and Asha have
+                    to retrieve them.
+                    <synopsis type="plot_points">The ferry they were going to take back to land catches on fire, and Todd and Asha
                     have to stay at a hotel, where they begin to fall in love. Later Asha explains
                     to Todd that her marriage has already been arranged since she was young. When
                     Todd’s boss arrives in India, he informs Todd that the call center jobs are
                     being outsourced to China. The employees are all let go, but they’ve been
                     trained well enough to pursue jobs for other companies. Todd refuses to go to
-                    China, <note type="peer">this sentence seems incomplete</note>but he Puro to go
-                    in his place. Asha tells Todd that if she doesn’t love the man she is engaged to
+                    China, but he sends Puro to go in his place. Asha tells Todd that if she doesn’t love the man she is engaged to
                     she will come to the USA. At the end of the movie, Todd gets a call from Asha in
-                    his apartment back home. </p>
-                <p>
-                    <opinions type="reaction">The pacing may seem slow towards the beginning of the
-                        movie, but gradually the speed picks up and we begin to learn more about
-                        Todd and the employees interact with each other. The scenes highlighting the
-                        misunderstandings between Todd and the employees about the origin of the
-                        products they're selling or how to relate to the customers they're talking
-                        to back in the US help display this and are some of the most interesting
-                        parts of the movie.</opinions>
+                    his apartment back home.</synopsis>
                 </p>
+            </intro>
+
+            <body>
+                <p>
+                    <opinions type="reaction">As Todd begins to learn more about Indian culture, and
+                        the members of the call center learn more about his own culture, the
+                        audience gets to see an example of people from two very different
+                        backgrounds communicating and relating. The movie does a great job of
+                        highlighting the experiences of both someone moving to a new place with a
+                        much different culture, and the experiences of people that have someone from
+                        another culture interact with theirs. Some of the main events could be
+                        perceived as unrealistic, such as the ferry catching on fire, but the
+                        relationships formed by Todd and those around him are the primary focus of
+                        the film. The relationship between Todd and Asha serves as the centerpiece
+                        of the movie, and details an endearing story of learning to live with loving
+                        someone that was raised much differently than you.</opinions>
+                </p>
+                <p> One of the biggest strengths of Outsourced is that the relationships of the main
+                    characters seem genuine. The conversations and misunderstandings Todd has with
+                    his employees are realistic and relatable, and the love affair between Todd and
+                    Asha draws the audience in. This can be credited to stellar performances by
+                        <context type="actor">Josh Hamilton</context> and <context type="actor">
+                        Ayesha Dharker</context> in their portrayals of Todd and Asha respectively. </p>
+                <p>
+                    <aesthetics>Some of the visuals of this film can be lackluster, but for an indie
+                        film of this variety, graphical effects aren't necessary. Filming took place
+                        in Mumbai and Seattle, which are the real settings of the movie. The camera
+                        is often focused on Todd, and great care is taken to show his facial
+                        expressions and responses to the situations around him. Music is played
+                        minimally, because throughout the film there is almost always dialogue that
+                        needs to have the audience's full attention.</aesthetics>
+                </p>
+                <p> Although Outsourced is his most popular movie, director <context type="director"
+                        >John Jeffcoat</context> is also known for his more recent film <comparison
+                        type="movie">Big in Japan.</comparison> It details a Seattle rock band
+                    pursuing their dreams of touring in Japan. <style type="italics">Big in
+                        Japan</style> doesn't make as many meaningful statements about people and
+                    their differences as Outsourced, but it's easy to follow and comedic. </p>
 
             </body>
             <conclusion>
-                <p> Outsourced has its biggest strength in its ability to accurately portray the
-                    experiences of individuals learning about and living with another culture. The
-                    interactions between Todd and the people he meets in India are natural, and the
-                    relationship between Todd and Asha is both believable and relatable. The plot
-                    may seem forced or outlandish at times, but the movie's best attributes are
-                    apparent in the dialogue and development of characters. </p>
+                <p>
+                    <opinions type="reaction">Outsourced shines in its ability to accurately portray
+                        the experiences of individuals learning about and living with another
+                        culture. The interactions between Todd and the people he meets in India are
+                        natural, and the relationship between Todd and Asha is both believable and
+                        relatable. The plot may seem forced or outlandish at times, but the movie's
+                        best attributes are apparent in the dialogue and development of characters.
+                    </opinions>
+                </p>
+                <p> Outsourced was released in select theaters in the United States on <summary
+                        type="release date">September 12, 2006.</summary> It only grossed <summary
+                        type="gross_income">$700,000</summary> during its limited release, despite
+                    its budget of $5 million. Although it wasn't financially successful, it inspired
+                    a TV series of the same name. The film is thought-provoking and captivating,
+                    making it worthy of an <summary type="rating">8.5/10 rating.</summary>
+                </p>
             </conclusion>
         </content>
 

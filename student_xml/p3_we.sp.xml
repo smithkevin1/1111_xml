@@ -3,14 +3,14 @@
 <DOC>
     <movie_review>
         <header>
-            <title type="title_review">Wes Anderson's Dream Sequence</title>
+            <title type="title_review">Wes Anderson's Dream Sequence: Moonrise Kingdom</title>
             <title type="title_movie">Moonrise Kingdom</title>
             <title type="photo_movie"
                 >https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_SY1000_CR0,0,674,1000_AL_.jpg</title>
             <author xml:id="we.sp">Spencer Webb</author>
             <date type="review_date">22 November 2016</date>
-            <date type="movie_premiere">29 June 2012</date>
-            <contact_info/>
+            <date type="movie_premiere">25 May 2012</date>
+            <contact_info>webb.s@husky.neu.edu</contact_info>
         </header>
 
         <!-- This is an example of how a Movie Review COULD be formatted, not how all are. -->
@@ -28,13 +28,14 @@
                     Moonrise Kingdom explores adventure, romance, and mysticism through a child's
                     point of view. The movie takes place in 1965 on an island called New Penzance.
                     On one side of the island resides Camp Ivanhoe and Troop 55.
-                    <synopsis type="plot_points">Early in the film, one of the scouts Sam goes missing.</synopsis>
-                    On the other side of the island, a young girl named Suzy who is often looking
-                    through her binoculars lives with her dysfunctional family. <note type="peer" who="#ho.jo">Although you mention later that there isn't much initial character background, I think it could be beneficial to formally introduce the characters, or at least Sam and Suzy, right before this.</note>
+                    <synopsis type="plot_points">Early in the film, the least popular scout of Troop 55, Sam, goes missing.</synopsis>
+                    On the other side of the island lives a young girl named Suzy who is often
+                    looking through her binoculars. She is twelve years old, the same as Sam, and
+                    lives with her dysfunctional family.
                     <synopsis type="plot_points">She disappears as well. Shortly
                     after, we learn that the reason for the disappearance of the two is each other.</synopsis>
                     The film follows them as they traverse the island looking for a remote cove
-                    using Sam's acquired outdoor skills.
+                    using the outdoor skills Sam acquired during his time in Troop 55.
                     <synopsis type="plot_points">We see Sam and Suzy have their first kiss and express what they feel is love for each other.
                     They decide that they don't like the map's name for the cove so they rename it.</synopsis>
                     Soon after, they are discovered by the island officer Captain Sharp, as well as
@@ -106,30 +107,50 @@
             <conclusion>
                 <p>
                     <!-- A short closer summing up the author's opinions and typically gives either a recommendation to see or not to see the movie. -->
-                    <opinions type="reaction">Overall, the artistic value alone makes this movie
-                        worth seeing. I have grown to love Wes Anderson's style as it gives me the
-                        sense of wonder I was talking about more than many other movie types. I
-                        would compare the sense of wonder as similar to that of Studio Ghibli
-                        movies, which I am a big fan of as well.<note type="peer" who="#ho.jo">You could add more to the conclusion that backs up what you've said before about the movie. Specifically I think it would be best to reference the qualities of the movie that make it good that you mentioned before, and then you could also talk about aesthetics/actors/comparisons to other movies.</note></opinions>
+                    <opinions type="reaction">The artistic value alone makes this movie worth
+                        seeing. I have grown to love Wes Anderson's style as it gives me the sense
+                        of wonder I was talking about more than many other movie types. I would
+                        compare the sense of wonder as similar to that of Studio Ghibli movies,
+                        which I am a big fan of as well. Anyone looking for a unique, mystical,
+                        nostalgia-provoking movie experience should definitely give this movie a
+                        watch. <note type="peer" who="#ho.jo">You could add more to the conclusion
+                            that backs up what you've said before about the movie. Specifically I
+                            think it would be best to reference the qualities of the movie that make
+                            it good that you mentioned before, and then you could also talk about
+                            aesthetics/actors/comparisons to other movies.</note></opinions>
                 </p>
                 <p>
                     <!-- Some reviews will give some basic information on the movie at the very end. -->
                     This film had an estimated budget of 16 million dollars, and grossed <summary
                         type="gross_income">a little over 45 and a half million</summary>, making it
                     quite successful. It premiered in the United States on <date
-                        type="movie_premiere">June 29th</date> and collected almost 523,000 dollars
-                    on it's opening weekend. </p>
+                        type="movie_premiere">May 25th</date> and collected almost 523,000 dollars
+                    during its opening weekend. </p>
             </conclusion>
         </content>
     </movie_review>
 
     <docReview>
-        <reviewer type="peer" xml:id="ho.jo> Jack Hoyt</reviewer>
+        <reviewer type="peer" xml:id="ho.jo">Jack Hoyt</reviewer>
         <report type="peer" who="#ho.jo">
-            <p>The draft is reviewing the Wes Anderson film Moonrise Kingdom. The plot is explained, the film is analyzed in the context of the director and main actors, the aesthetics of the movie are reviewed, and it is compared to another film, Fantastic Mr. Fox.
-                The plot is explained very well, and my only complaint is that I think you could add one or two sentences at the beginning to explain the background behind the setting or the characters. (Later you did mention that there wasn’t much background information given on the characters, but at least a short description of what is known about them will help). The next paragraph refers to the director, Wes Anderson, and the actors. I like the referencing of Wes Anderson throughout the review because it adds perspective and it also seems more credible when you can compare this movie with his other work. I think analyzing specific plot points or events of the movie is a good idea, because most of your analysis is in the form of comparisons or more general statements about the film. 
-                More of a defined statement can be made in the conclusion, because I don’t think it reinforces the rest of the review as well as it could. Overall I think what you wrote was very strong, and you mostly need to add more opinions/reactions/analysis relating to the synopsis, modify the conclusion to address your previous paragraphs and claims you made, and to smooth out the beginning of the synopsis.
-            </p>
+            <p>The draft is reviewing the Wes Anderson film Moonrise Kingdom. The plot is explained,
+                the film is analyzed in the context of the director and main actors, the aesthetics
+                of the movie are reviewed, and it is compared to another film, Fantastic Mr. Fox.
+                The plot is explained very well, and my only complaint is that I think you could add
+                one or two sentences at the beginning to explain the background behind the setting
+                or the characters. (Later you did mention that there wasn’t much background
+                information given on the characters, but at least a short description of what is
+                known about them will help). The next paragraph refers to the director, Wes
+                Anderson, and the actors. I like the referencing of Wes Anderson throughout the
+                review because it adds perspective and it also seems more credible when you can
+                compare this movie with his other work. I think analyzing specific plot points or
+                events of the movie is a good idea, because most of your analysis is in the form of
+                comparisons or more general statements about the film. More of a defined statement
+                can be made in the conclusion, because I don’t think it reinforces the rest of the
+                review as well as it could. Overall I think what you wrote was very strong, and you
+                mostly need to add more opinions/reactions/analysis relating to the synopsis, modify
+                the conclusion to address your previous paragraphs and claims you made, and to
+                smooth out the beginning of the synopsis. </p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
