@@ -2,12 +2,9 @@
 <?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
 
-    <!-- begin genre -->
     <article>
-        <!-- YOUR ROOT ELEMENT GOES HERE (NAME OF YOUR GENRE), FOR EXAMPLE, "essay" or "obit" -->
 
         <header>
-            <!-- make changes to the document header as necessary (based on your genre) -->
             <article_title></article_title>
             <author xml:id=""/>
             <category></category>
@@ -23,7 +20,14 @@
         <body>
             <image url=""></image>
             <p>
+                <!-- All of the following tags are optional. -->
+                <!-- Location is usually placed at the very begining of the article. -->
                 <location></location>
+                <!-- Any of the following tags can be used in any order, although a hyperlink will typically follow a website source. -->
+                <source type="person"></source>
+                <source type="website"></source>
+                <Hyperlinks></Hyperlinks>
+                <!-- Most articles will use multiple quotes or pieces of information from different sources. -->
                 <quote></quote>
             </p>
         </body>
@@ -36,11 +40,8 @@
         </footer>
 
             </article>
-    <!-- end genre -->
 
 
-
-    <!-- leave this section for peer review and assessment -->
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
