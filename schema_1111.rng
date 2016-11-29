@@ -1016,12 +1016,16 @@
     </define>
     <define name="article.hyperlinks">
         <element name="hyperlink">
-            <a:documentation>a hyperlink will typically follow a website source</a:documentation>
+            <a:documentation>a hyperlink will typically follow a website source; these were deemed
+                to be an effective way that satirical articles circulated</a:documentation>
             <ref name="macro.specialParaContent"/>
         </element>
     </define>
     <define name="article.source">
         <element name="source">
+            <a:documentation>attributing information from a specific website or a person without
+                having direct quotes. Typically any source given would be fake, or, if the source
+                was real, then the information from there would be fake</a:documentation>
             <ref name="macro.specialParaContent"/>
             <attribute name="type">
                 <choice>
