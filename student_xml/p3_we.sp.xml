@@ -2,6 +2,7 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
     <movie_review>
+
         <header>
             <title type="title_review">Wes Anderson's Dream Sequence: Moonrise Kingdom</title>
             <title type="title_movie">Moonrise Kingdom</title>
@@ -13,19 +14,17 @@
             <contact_info>webb.s@husky.neu.edu</contact_info>
         </header>
 
-        <!-- This is an example of how a Movie Review COULD be formatted, not how all are. -->
-        <!-- A lot of tags are optional and be placed anywhere in many different ways. -->
-        <!-- This example uses most of the tags included in the schema in a common pattern for movie reviews. -->
+
         <content>
+
             <intro>
+
                 <p>
-                    <!-- Generally a short introduction that gives an idea of the author's opinions on the movie. -->
-                    <opinions type="reaction">Wes Anderson's 2012 film is wondrous in nature and
-                        evokes a nostalgic feeling of childhood.</opinions>
+                    <opinions type="first_impressions">Wes Anderson's 2012 film is wondrous in
+                        nature and evokes a nostalgic feeling of childhood.</opinions>
                 </p>
-                <p>
-                    <!-- The synopsis can either be in the intro or first few body paragraphs. -->
-                    Moonrise Kingdom explores adventure, romance, and mysticism through a child's
+
+                <p> Moonrise Kingdom explores adventure, romance, and mysticism through a child's
                     point of view. The movie takes place in 1965 on an island called New Penzance.
                     On one side of the island resides Camp Ivanhoe and Troop 55.
                     <synopsis type="plot_points">Early in the film, the least popular scout of Troop 55, Sam, goes missing.</synopsis>
@@ -60,10 +59,11 @@
                     <synopsis type="plot_points">We learn that they 
                     decided to name the cove 'Moonrise Kingdom'.<note type="peer" who="#ho.jo">I like the use of the plot points. It makes the events of the movie easier to read and understand.</note></synopsis>
                 </p>
+
             </intro>
+
             <body>
                 <p>
-                    <!-- Further context about the film usually follows the synopsis or is disperesed throughout the body.-->
                     <context type="director">Wes Anderson</context> is popular for his unique
                     directing style. Often his films follow an almost dreamlike sequence. This movie
                     is no different and provides a strange sense of wonder that is hard to pinpoint,
@@ -78,7 +78,6 @@
                     of cool-strangeness that comes out in any character Bill Murray plays. </p>
 
                 <p>
-                    <!-- Aesthetics is typically spoken about in a short, one paragraph opinion. -->
                     <aesthetics>Wes Anderson employs long and shifting camera pans which helps to
                         give the movie a mystical feel. There is also an almost sepia color filter
                         over the whole movie which adds to the artistic value of the shots. There is
@@ -91,9 +90,12 @@
                         Sam is struck by lightning and when Scout Master Ward jumps over the flood.
                         This serves to add to the dreamlike feel of the film. </aesthetics>
                 </p>
-                <p>
-                    <!-- Most reviews will spend some time comparing the film to another similar one or the book it is based on. -->
-                    Another Wes Anderson film I recently watched was <comparison type="movie"
+
+            </body>
+
+            <conclusion>
+
+                <p> Another Wes Anderson film I recently watched was <comparison type="movie"
                         >Fantastic Mr. Fox</comparison> which was released three years prior.
                     Fantastic Mr. Fox was an entirely animated film while Moonrise Kingdom only had
                     occasional cuts to animation, however it also showed many of the artistic
@@ -103,31 +105,31 @@
                         thing I would have liked to have seen more in Moonrise Kingdom was character
                         background.</opinions> We know Sam is a somewhat troubled orphan but not
                     much else about his relations with his troop and Scout Master. </p>
-            </body>
-            <conclusion>
+
                 <p>
-                    <!-- A short closer summing up the author's opinions and typically gives either a recommendation to see or not to see the movie. -->
-                    <opinions type="reaction">The artistic value alone makes this movie worth
+                    <opinions type="recommendation">The artistic value alone makes this movie worth
                         seeing. I have grown to love Wes Anderson's style as it gives me the sense
                         of wonder I was talking about more than many other movie types. I would
                         compare the sense of wonder as similar to that of Studio Ghibli movies,
                         which I am a big fan of as well. Anyone looking for a unique, mystical,
                         nostalgia-provoking movie experience should definitely give this movie a
-                        watch. <note type="peer" who="#ho.jo">You could add more to the conclusion
-                            that backs up what you've said before about the movie. Specifically I
-                            think it would be best to reference the qualities of the movie that make
-                            it good that you mentioned before, and then you could also talk about
-                            aesthetics/actors/comparisons to other movies.</note></opinions>
+                        watch. </opinions><note type="peer" who="#ho.jo">You could add more to the
+                        conclusion that backs up what you've said before about the movie.
+                        Specifically I think it would be best to reference the qualities of the
+                        movie that make it good that you mentioned before, and then you could also
+                        talk about aesthetics/actors/comparisons to other movies.</note>
                 </p>
-                <p>
-                    <!-- Some reviews will give some basic information on the movie at the very end. -->
-                    This film had an estimated budget of 16 million dollars, and grossed <summary
-                        type="gross_income">a little over 45 and a half million</summary>, making it
-                    quite successful. It premiered in the United States on <date
+
+                <p> Moonrise Kingdom had an estimated budget of 16 million dollars, and grossed
+                        <summary type="gross_income">a little over 45 and a half million</summary>,
+                    making it quite successful. It premiered in the United States on <date
                         type="movie_premiere">May 25th</date> and collected almost 523,000 dollars
                     during its opening weekend. </p>
+
             </conclusion>
+
         </content>
+
     </movie_review>
 
     <docReview>

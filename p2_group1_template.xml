@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="./schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <DOC>
-
+    
     <movie_review>
+        
         <header>
             <title type = "title_review"></title>
             <title type = "title_movie"></title>
@@ -13,61 +14,57 @@
             <contact_info></contact_info>
         </header>
         
-        <!-- This is an example of how a Movie Review COULD be formatted, not how all are. -->
-        <!-- A lot of tags are optional and be placed anywhere in many different ways. -->
-        <!-- This example uses most of the tags included in the schema in a common pattern for movie reviews. -->
         <content>
+            
             <intro>
                 <p>
-                    <!-- Generally a short introduction that gives an idea of the author's opinions on the movie. -->
-                    <opinions type="reaction"></opinions>
-                </p>
-                <p>
-                    <!-- The synopsis can either be in the intro or first few body paragraphs. -->
+                    <!-- Short introduction of author's initial impressions on the movie -->
+                    <opinions type="first_impressions"></opinions>
+                    
+                    <!-- Quick summary of the movie's key points and/or themes -->
                     <synopsis type = "plot_points"></synopsis>
                     <synopsis type = "themes"></synopsis>
                 </p>
                 
             </intro>
+            
             <body>
+                <!-- Use as many paragraphs as necessary in the body. Structure appropriately -->            
                 <p>
-                    <!-- Further context about the film usually follows the synopsis or is disperesed throughout the body.-->
+                    <!-- Important to mention relevant context for the movie and how it ties in to possible bias/expectations of the film -->
                     <context type = "actor"></context>
                     <context type = "director"></context>
                     <context type = "franchise_history"></context>
-                </p>
-                <p>
-                    <!-- Opinions can go anywhere. -->
+                    
+                    <!-- Opinions can go anywhere -->
                     <opinions type="reaction"></opinions>
                     <opinions type="critique"></opinions>
-                </p>
-                <p>
-                    <!-- Aesthetics is typically spoken about in a short, one paragraph opinion. -->
-                    <aesthetics>
-                        <opinions type="reaction"></opinions>
-                    </aesthetics>
-                </p>
-                <p>
-                    <!-- Most reviews will spend some time comparing the film to another similar one or the book it is based on. -->
-                    <comparison type="movie"></comparison>
-                    <opinions type="critique"></opinions>
+                    
+                    <!-- Important to comment on the visual style/appeal of the film -->
+                    <aesthetics></aesthetics>
+                    
                 </p>
             </body>
+            
             <conclusion>
                 <p>
-                    <!-- A short closer summing up the author's opinions and typically gives either a recommendation to see or not to see the movie. -->
-                    <opinions type="reaction"></opinions>
-                </p>
-                <p>
-                    <!-- Some reviews will give some basic information on the movie at the very end. -->
+                    <!-- Many reviews draw a quick comparison to a similar film to compare and contrast -->
+                    <comparison type="movie"></comparison>
+                    
+                    <!-- Recommendation on whether or not the film is worth seeing and which audience it's suited for -->
+                    <opinions type="recommendation"></opinions>
+                    
+                    <!-- Optional to add relevant information about the film's success and release -->
                     <summary type = "gross_income"></summary>
                     <summary type = "rating"></summary>
                     <date type = "movie_premiere"></date>
                 </p>
             </conclusion>
+            
         </content>
+        
     </movie_review>
-
+    
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
