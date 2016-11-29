@@ -2,56 +2,45 @@
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
-
-
-
-
+    
+    
+    
+    
     <resume>
         <title>Jack Hoyt</title>
-        <header>Contact Information</header>
+        <header><style type="underline">Contact Information</style></header>
         <contact_information>
             <contact type="address">10 Forsyth St, Boston MA</contact>
             <contact type="email">hoyt.j@husky.neu.edu</contact>
             <contact type="phone">1-978-852-9221</contact>
         </contact_information>
-        <header>Objectives</header>
-        <objectives>My goal is to gain more practical knowledge and contribute in a team of software
-            or mobile application developers.<note type="instructor">this language looks a lot
-                different than your fellow group members (especially use of "my" here</note></objectives>
-        <header>Qualifications</header>
+        <header><style type="underline">Objectives</style></header>
+        <objectives>Seeking a forward-thinking company to complement my skills as a mobile application developer. My aim is to gain more practical knowledge and experience in the Computer Science field by contributing in a team of software
+            developers. </objectives>
+        <header><style type="underline">Qualifications</style></header>
         <qualifications>
             <work_experience>
                 <job>
-                    <job_title>Mobile Application Development Intern at Assembly Co in Manchester,
+                    <job_title><style type="bold">Occupation</style>Mobile Application Development Intern at Assembly Co in Manchester,
                         NH <job_date>May 2015 - September 2015, May 2016 - August 2016 </job_date>
                     </job_title>
-                    <job_summary>Helped<note type="instructor">My understanding is that these
-                            summary elements should start with action verbs that indicate your
-                            responsibility to enable quick reading for skills/experience; for
-                            example, "Devloped mobile applications for vaior companies (what kinds
-                            of companies) as a part of a team.</note> make mobile applications for
-                        various companies in the Manchester, New Hampshire area. Primarily<note
-                            type="instructor">Again, a better version of this summary would begin
-                            with the verb indicating your responsibilties/skills "Refactored and
-                            programmed (what? applications?)</note> focused on program refactoring
-                        and debugging. Contributed to the development of three applications that are
-                        still used by businesses in the area today. Two applications implemented
-                        group messaging and planning, allowing employees within a company to
-                        communicate and organize more efficiently. Helped build an application for
-                        Williamson's Finances to connect its customers to their information at any
-                            time.<note type="instructor">these should be broken up into separate
-                            job_summary elements (as I reminded your group in
-                        email)</note></job_summary>
+                    <job_summary>Developed mobile applications used for company communication and planning by financial businesses in the Manchester, New Hampshire area as part of a team.</job_summary>
+                    <job_summary>Refactored and programmed the code for a website built for Williamson's Finances to connect its customers to their information.</job_summary>
+                    
+                    
                 </job>
             </work_experience>
-            <education>Andover High School Class of 2016<note type="instructor">missing
-                    header</note></education>
+            <header><style type="underline">Education</style></header>
+            <education>Andover High School Class of 2016</education>
             <education>Northeastern University Class of 2020, Computer Science B.S.</education>
-            <additional_information><note type="instructor">missing header</note>Programming
+            
+            <header><style type="underline">Additional Information</style></header>
+            <additional_information>Programming
                 experience in C++, C#, and Java</additional_information>
+            <additional_information>Member of Andover's Engineering Externship Club</additional_information>
         </qualifications>
     </resume>
-
+    
     <docReview>
         <reviewer type="peer" xml:id="ch.an"> Anders Chen</reviewer>
         <report type="peer" who="#id_here"> </report>
