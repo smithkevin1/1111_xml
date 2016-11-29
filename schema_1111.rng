@@ -1167,53 +1167,76 @@
             <ref name="macro.specialParaContent"/>
         </element>
     </define>
-    <define name="op.conclusion">
+    <!--    <define name="op.conclusion">
         <element name="conclusion">
             <a:documentation>The conclusion </a:documentation>
             <ref name="macro.specialParaContent"/>
         </element>
-    </define>
+    </define>-->
     <define name="op.situation">
         <element name="situation">
-            <a:documentation>a current event that relates to the main opinion </a:documentation>
-            <ref name="macro.specialParaContent"/>
-        </element>
-    </define>
-    <define name="op.example">
-        <element name="example">
-            <a:documentation>An example used to express the main opinion </a:documentation>
-            <ref name="macro.specialParaContent"/>
+            <a:documentation>This tag describes a current event that relates to the author’s main
+                opinion. It is tied to the reason the author is writing the Op Ed. This tag can be
+                used anywhere, within any tag. </a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="model.op.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="op.quote">
         <element name="quote">
-            <a:documentation>A quote of what a notable person said </a:documentation>
-            <ref name="macro.specialParaContent"/>
+            <a:documentation>Container element of quotes of what a notable person relevant to the
+                situation being written about said. This tag can be used anywhere, within any
+                tag</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="model.op.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="op.bg_info">
         <element name="bg_info">
-            <a:documentation>Background info to help explain more about a topic </a:documentation>
-            <ref name="macro.specialParaContent"/>
+            <a:documentation>Container element of background information that helps the reader to
+                understand a certain topic. This tag can be used anywhere, within any other
+                tag.</a:documentation>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="model.op.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="op.evidence">
         <element name="evidence">
-            <a:documentation>Evidence that supports the main opinion [requires @type attribute with
-                suggested values: statistics, pers_exp]</a:documentation>
+            <a:documentation>Container element for evidence that supports any of the types of
+                opinions. This tag can be used anywhere, within any other tag, even within itself
+                [requires @type attribute] </a:documentation>
             <attribute name="type">
                 <choice>
                     <value>statistics</value>
                     <a:documentation>Any type of statistics or numbers relating to information </a:documentation>
-                    <value>pers_exp</value>
-                    <a:documentation>An experience the writer had that can be related to the main
-                        opinion </a:documentation>
+                    <value>anecdote</value>
+                    <a:documentation>Describes personal experience of the author or of other people </a:documentation>
+                    <value>supporting</value>
+                    <a:documentation>General tag for evidence that supports an
+                        opinion</a:documentation>
                     <data type="token">
                         <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                     </data>
                 </choice>
             </attribute>
-            <ref name="macro.specialParaContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="model.op.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
     <define name="op.picture">
@@ -1223,75 +1246,124 @@
             <ref name="macro.specialParaContent"/>
         </element>
     </define>
-    <define name="op.opinion.other">
+    <define name="op.opinion">
         <element name="opinion">
-            <a:documentation>(opinion)</a:documentation>
+            <a:documentation>Element that contains the author’s stance on a certain subject or
+                situation. This tag can be used anywhere, within any other tag [requires @type
+                attribute] </a:documentation>
             <attribute name="type">
                 <choice>
                     <value>main</value>
-                    <a:documentation> the main opinion</a:documentation>
+                    <a:documentation>The main opinion on which the Op Ed is based
+                        around</a:documentation>
                     <value>opposing</value>
-                    <a:documentation>an opinion that directly opposes the main
+                    <a:documentation>An opinion that directly opposes the author’s main
                         opinion</a:documentation>
+                    <value>general</value>
+                    <a:documentation>A general tag for most types of opinions</a:documentation>
+                    <value>critique</value>
+                    <a:documentation>An opinion on how the author thinks the situation could be
+                        improved</a:documentation>
                 </choice>
             </attribute>
-            <ref name="macro.specialParaContent"/>
+            <oneOrMore>
+                <choice>
+                    <ref name="macro.specialParaContent"/>
+                    <ref name="model.op.content"/>
+                </choice>
+            </oneOrMore>
         </element>
     </define>
-    <define name="model.op.body_para">
+    <define name="model.op.content">
         <zeroOrMore>
             <choice>
-                <ref name="op.opinion.other"/>
-                <ref name="op.picture"/>
+                <ref name="op.opinion"/>
                 <ref name="op.evidence"/>
                 <ref name="op.quote"/>
                 <ref name="op.bg_info"/>
-                <ref name="op.example"/>
                 <ref name="op.situation"/>
                 <ref name="macro.specialParaContent"/>
             </choice>
         </zeroOrMore>
     </define>
-    <define name="op.body_para">
-        <element name="body_para">
-            <a:documentation>A body paragraph </a:documentation>
-            <ref name="model.op.body_para"/>
-        </element>
-    </define>
-    <define name="op.opinion.main">
-        <element name="opinion">
-            <a:documentation>(opinion)</a:documentation>
+    <define name="model.op.body">
+        <optional>
+            <ref name="op.picture"/>
+        </optional>
+        <element name="p">
+            <a:documentation> A paragraph, the container element of bg_info, opinion, evidence,
+                quote, and situation. Can be used in body. None of its sub elements are required,
+                they are all optional [requires @type attribute]</a:documentation>
             <attribute name="type">
-                <value>main</value>
-                <a:documentation> the main opinion</a:documentation>
+                <value>intro</value>
+                <a:documentation>Introductory paragraph of the Op Ed. There can only be one of
+                    these.</a:documentation>
             </attribute>
-            <ref name="macro.specialParaContent"/>
+            <ref name="model.op.content"/>
+        </element>
+        <optional>
+            <ref name="op.picture"/>
+        </optional>
+        <oneOrMore>
+            <element name="p">
+                <a:documentation> A paragraph, the container element of bg_info, opinion, evidence,
+                    quote, and situation. Can be used in body. None of its sub elements are
+                    required, they are all optional [requires @type attribute]</a:documentation>
+                <attribute name="type">
+                    <value>body</value>
+                    <a:documentation>Body paragraphs of the Op Ed. There can be several of these.
+                    </a:documentation>
+                </attribute>
+                <ref name="model.op.content"/>
+            </element>
+            <optional>
+                <ref name="op.picture"/>
+            </optional>
+        </oneOrMore>
+        <element name="p">
+            <a:documentation> A paragraph, the container element of bg_info, opinion, evidence,
+                quote, and situation. Can be used in body. None of its sub elements are required,
+                they are all optional [requires @type attribute]</a:documentation>
+            <attribute name="type">
+                <value>conclusion</value>
+                <a:documentation>Concluding paragraph of the Op Ed. There is only one of
+                    these.</a:documentation>
+            </attribute>
+            <ref name="model.op.content"/>
+        </element>
+        <optional>
+            <ref name="op.picture"/>
+        </optional>
+        <zeroOrMore>
+            <ref name="op.source"/>
+        </zeroOrMore>
+    </define>
+    <define name="op.body">
+        <element name="body">
+            <ref name="model.op.body"/>
         </element>
     </define>
-    <define name="op.intro">
-        <element name="intro">
-            <a:documentation>The introduction</a:documentation>
-            <zeroOrMore>
-                <ref name="macro.specialParaContent"/>
-            </zeroOrMore>
-            <ref name="op.opinion.main"/>
-            <zeroOrMore>
-                <ref name="macro.specialParaContent"/>
-            </zeroOrMore>
+    <define name="op.header">
+        <element name="header">
+            <a:documentation>Container element for author, title, and date</a:documentation>
+            <group>
+                <interleave>
+                    <ref name="title"/>
+                    <ref name="author"/>
+                    <ref name="date"/>
+                    <zeroOrMore>
+                        <ref name="model.global"/>
+                    </zeroOrMore>
+                </interleave>
+            </group>
         </element>
     </define>
     <define name="op_ed">
         <element name="op_ed">
-            <a:documentation/>
-            <ref name="docHead"/>
-            <ref name="op.intro"/>
-            <oneOrMore>
-                <ref name="op.body_para"/>
-            </oneOrMore>
-            <ref name="op.conclusion"/>
-            <zeroOrMore>
-                <ref name="op.source"/>
-            </zeroOrMore>
+            <a:documentation>Container element for the elements that make up the Op
+                Ed</a:documentation>
+            <ref name="op.header"/>
+            <ref name="op.body"/>
         </element>
     </define>
 

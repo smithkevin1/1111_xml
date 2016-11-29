@@ -15,12 +15,12 @@
         
         <body>
             <!--<This element can go anywhere within body, but not in a paragraph.>-->
-            <picture></picture>
+            <picture url="#id"></picture>
             
             <!--<This shows the tags that can be found in the introductory paragraph. They are all optional.>-->
             <p type="intro">
-                    <opinion></opinion>
-                    <evidence></evidence>
+                    <opinion type="main"></opinion>
+                    <evidence type="statistics"></evidence>
                     <bg_info></bg_info>
            </p>
             
@@ -33,28 +33,30 @@
             </p>
             
             <!--<This shows all the types of opinions there are.-->
-            <p>
+            <p type="body">
                     <evidence type="statistics"></evidence>
                     <evidence type="anecdote"></evidence>
                     <evidence type="supporting"></evidence>
             </p>
               
             <!--<This includes the other tags that can go anywhere in the Op Ed (including within other elements).-->
-            <p>
+            <p type="body">
                 <bg_info></bg_info>
                 <quote></quote>
                 <situation></situation>
+            </p>
             
            <!--<This shows what tends to be included in the cincluding paragraph.-->     
             <p type="conclusion">
-                <opinion></opinion>
-                <evidence></evidence>
+                <opinion type="general"></opinion>
+                <evidence type="supporting"></evidence>
                 <bg_info></bg_info>
             </p>
 
         <!--<This is where the author would cite his/her sources. They are in list format. It is an optional element.-->             
-        <source><source/>
-
+        <source></source>
+       
+        </body>
     </op_ed>
 
 
