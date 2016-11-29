@@ -6,7 +6,7 @@
 
         <header>
             <article_title></article_title>
-            <author xml:id=""/>
+            <author xml:id="id_here"/>
             <category></category>
             <date></date>
             <identification type="volume"></identification>
@@ -26,7 +26,7 @@
                 <!-- Any of the following tags can be used in any order, although a hyperlink will typically follow a website source. -->
                 <source type="person"></source>
                 <source type="website"></source>
-                <Hyperlinks></Hyperlinks>
+                <hyperlink></hyperlink>
                 <!-- Most articles will use multiple quotes or pieces of information from different sources. -->
                 <quote></quote>
             </p>
@@ -43,7 +43,7 @@
 
 
     <docReview>
-        <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
+        <reviewer type="peer" xml:id="id"> Name of Reviewer</reviewer>
         <report type="peer" who="#id_here">
             <p>Peer review report will go here.</p>
         </report>

@@ -1014,8 +1014,31 @@
             </oneOrMore>-->
         </element>
     </define>
+    <define name="article.hyperlinks">
+        <element name="hyperlink">
+            <a:documentation>a hyperlink will typically follow a website source</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="article.source">
+        <element name="source">
+            <ref name="macro.specialParaContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>person</value>
+                    <a:documentation>an individual whose used as a source for the satire at their
+                        expense or to enhance the satire</a:documentation>
+                    <value>website</value>
+                    <a:documentation>a website that is used as source material for
+                        satire</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
     <define name="article.location">
         <element name="location">
+            <a:documentation>(optional) Articles always start with the city and state that the
+                article is based in</a:documentation>
             <ref name="macro.specialParaContent"/>
         </element>
     </define>
@@ -1026,13 +1049,22 @@
             <ref name="macro.specialParaContent"/>
         </element>
     </define>
+    <define name="model.article.p.content">
+        <zeroOrMore>
+            <choice>
+                <ref name="article.quote"/>
+                <ref name="article.source"/>
+                <ref name="article.hyperlinks"/>
+            </choice>
+        </zeroOrMore>
+    </define>
     <define name="article.other.p">
         <element name="p">
             <a:documentation>body paragraph</a:documentation>
             <oneOrMore>
                 <choice>
                     <ref name="macro.specialParaContent"/>
-                    <ref name="article.quote"/>
+                    <ref name="model.article.p.content"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1041,11 +1073,13 @@
         <element name="p">
             <a:documentation>first body paragraph (must have location as first
                 child)</a:documentation>
-            <ref name="article.location"/>
+            <optional>
+                <ref name="article.location"/>
+            </optional>
             <oneOrMore>
                 <choice>
                     <ref name="macro.specialParaContent"/>
-                    <ref name="article.quote"/>
+                    <ref name="model.article.p.content"/>
                 </choice>
             </oneOrMore>
         </element>
@@ -1368,6 +1402,14 @@
     </define>
 
     <!-- GROUP 4: RESUMES -->
+    <define name="resume.qualifications">
+        <element name="qualifications">
+            <a:documentation>Container element for all relevant qualifications; should include work
+                experience, may include certifications, associations, education, unpaid/volunteer
+                work, languages spoken, etc. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
     <define name="additional_information">
         <element name="additional_information">
             <a:documentation>Optional element; applicant may include relevant hobbies and interests
@@ -1385,45 +1427,77 @@
     </define>
     <define name="affiliations">
         <element name="affiliations">
-            <a:documentation>Container element for affiliations, sub-element for qualifications,
-                optional element, can have multiple affiliation elements; A list of any associations
-                the applicant is a member of</a:documentation>
+            <a:documentation>Container element for affiliations, optional element, can have multiple
+                affiliation elements; A list of any associations the applicant is a member
+                of</a:documentation>
             <oneOrMore>
                 <ref name="affiliation"/>
             </oneOrMore>
         </element>
     </define>
+    <define name="education.degree">
+        <element name="degree">
+            <a:documentation>Container element for the type of degree earned/to be earned [requires
+                @type attribute]</a:documentation>
+            <ref name="macro.specialParaContent"/>
+            <attribute name="type">
+                <choice>
+                    <value>high_school</value>
+                    <a:documentation>attribute to degree type</a:documentation>
+                    <value>ged</value>
+                    <a:documentation>attribute to degree type</a:documentation>
+                    <value>associate</value>
+                    <a:documentation>attribute to degree type</a:documentation>
+                    <value>bachelor</value>
+                    <a:documentation>attribute to degree type</a:documentation>
+                    <value>master</value>
+                    <a:documentation>attribute to degree type</a:documentation>
+                    <value>doctorate</value>
+                    <a:documentation>attribute to degree type</a:documentation>
+                </choice>
+            </attribute>
+        </element>
+    </define>
+    <define name="education.graduation.date">
+        <element name="graduation_date">
+            <a:documentation>When the applicant did or will earn their degree(s) [optional @type for
+                anticipated date]</a:documentation>
+            <ref name="macro.specialParaContent"/>
+            <optional>
+                <attribute name="type">
+                    <value>anticipated</value>
+                    <a:documentation>Optional attribute. Used if currently in school for a degree
+                        specified in resume.</a:documentation>
+                </attribute>
+            </optional>
+        </element>
+    </define>
+    <define name="education.school.location">
+        <element name="school_location">
+            <a:documentation>Container element for the city and state of the
+                school.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="education.school">
+        <element name="school">
+            <a:documentation>Container element for the name of the school. Can be used for secondary
+                school or higher education. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="model.education.content">
+        <ref name="education.school"/>
+        <ref name="education.school.location"/>
+        <ref name="education.graduation.date"/>
+        <ref name="education.degree"/>
+    </define>
     <define name="education">
         <element name="education">
-            <a:documentation>Container element for education, sub-element for qualifications,
-                optional element; where the applicant matriculated, degree(s) earned, and year they
-                earned their degree(s). </a:documentation>
-            <ref name="macro.specialParaContent"/>
-        </element>
-    </define>
-    <define name="model.job.content">
-        <ref name="job.title"/>
-        <oneOrMore>
-            <ref name="job.summary"/>
-        </oneOrMore>
-    </define>
-    <define name="job.date">
-        <element name="job_date">
-            <a:documentation>Container element for start and end dates of job. </a:documentation>
-            <ref name="macro.specialParaContent"/>
-        </element>
-    </define>
-    <define name="job.title">
-        <element name="job_title">
-            <a:documentation>Container element for title of position held at a job; also contains
-                company name and location.</a:documentation>
-            <zeroOrMore>
-                <ref name="macro.specialParaContent"/>
-            </zeroOrMore>
-            <ref name="job.date"/>
-            <zeroOrMore>
-                <ref name="macro.specialParaContent"/>
-            </zeroOrMore>
+            <a:documentation>Container element for education, optional element; where the applicant
+                matriculated, degree(s) earned, and year they earned their
+                degree(s).</a:documentation>
+            <ref name="model.education.content"/>
         </element>
     </define>
     <define name="job.summary">
@@ -1431,6 +1505,41 @@
             <a:documentation>Container element for all summary points per job. </a:documentation>
             <ref name="macro.specialParaContent"/>
         </element>
+    </define>
+    <define name="job.location">
+        <element name="job_location">
+            <a:documentation>Container element for start and end dates of job. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="job.date">
+        <element name="job_date">
+            <a:documentation>Container element for start and end dates of job. </a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="employer">
+        <element name="employer">
+            <a:documentation>Container element for name of the company the applicant has worked for.
+                Sub-element for work experience.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="job.title">
+        <element name="job_title">
+            <a:documentation>Container element for title of position held at a job; also contains
+                company name and location.</a:documentation>
+            <ref name="macro.specialParaContent"/>
+        </element>
+    </define>
+    <define name="model.job.content">
+        <ref name="job.title"/>
+        <ref name="employer"/>
+        <ref name="job.date"/>
+        <ref name="job.location"/>
+        <oneOrMore>
+            <ref name="job.summary"/>
+        </oneOrMore>
     </define>
     <define name="job">
         <element name="job">
@@ -1446,31 +1555,6 @@
             <oneOrMore>
                 <ref name="job"/>
             </oneOrMore>
-        </element>
-    </define>
-    <define name="model.qualifications.content">
-        <interleave>
-            <zeroOrMore>
-                <ref name="resume.header"/>
-            </zeroOrMore>
-            <ref name="work_experience"/>
-            <zeroOrMore>
-                <ref name="education"/>
-            </zeroOrMore>
-            <zeroOrMore>
-                <ref name="affiliations"/>
-            </zeroOrMore>
-            <zeroOrMore>
-                <ref name="additional_information"/>
-            </zeroOrMore>
-        </interleave>
-    </define>
-    <define name="resume.qualifications">
-        <element name="qualifications">
-            <a:documentation>Container element for all relevant qualifications; should include work
-                experience, may include certifications, associations, education, unpaid/volunteer
-                work, languages spoken, etc. </a:documentation>
-            <ref name="model.qualifications.content"/>
         </element>
     </define>
     <define name="resume.objectives">
@@ -1520,7 +1604,24 @@
                 <ref name="resume.objectives"/>
             </optional>
             <ref name="resume.contact_information"/>
-            <ref name="resume.qualifications"/>
+        </interleave>
+        <interleave>
+            <zeroOrMore>
+                <ref name="resume.header"/>
+            </zeroOrMore>
+            <ref name="work_experience"/>
+            <optional>
+                <ref name="education"/>
+            </optional>
+            <zeroOrMore>
+                <ref name="affiliations"/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <ref name="additional_information"/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <ref name="resume.qualifications"/>
+            </zeroOrMore>
         </interleave>
     </define>
     <define name="resume.header">

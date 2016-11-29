@@ -15,7 +15,9 @@
             <work_experience>
                 <job>
                     <job_title></job_title>
+                    <employer></employer>
                     <job_date></job_date>
+                    <job_location></job_location>
                     <job_summary></job_summary>
                 </job>
             </work_experience>
@@ -23,10 +25,12 @@
                 <school></school>
                 <school_location></school_location>
                 <graduation_date></graduation_date>
-                <degree></degree>
+                <degree type="high_school"></degree>
             </education>
             <qualifications></qualifications>
-            <affiliations></affiliations>
+            <affiliations>
+                <affiliation></affiliation>
+            </affiliations>
             <additional_information></additional_information>
         </resume>
     <!-- end genre -->
