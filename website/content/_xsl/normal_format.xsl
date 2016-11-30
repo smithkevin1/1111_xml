@@ -442,7 +442,27 @@
 
         </div>
     </xsl:template>
+    <xsl:template match="DOC/op_ed/header">
+        <div id="op_header">
+            <h1 id="op_title">
+                <xsl:value-of select="./title"/>
+            </h1>
+            <hr/>
+            <p>
+                <xsl:value-of select="./author"/> | <xsl:value-of select="./date"/>
+            </p>
+            <hr/>
+            
+        </div>
+    </xsl:template>
     <xsl:template match="op_ed/intro">
+        <div id="op_intro">
+            <p class="intro">
+                <xsl:apply-templates/>
+            </p>
+        </div>
+    </xsl:template>
+    <xsl:template match="op_ed/body/p[@type='intro']">
         <div id="op_intro">
             <p class="intro">
                 <xsl:apply-templates/>
@@ -451,6 +471,11 @@
     </xsl:template>
 
     <xsl:template match="op_ed/body_para">
+        <p class="op_body">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="op_ed/body/p[@type='body']">
         <p class="op_body">
             <xsl:apply-templates/>
         </p>
@@ -468,10 +493,17 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="op_ed/source">
-        <p class="op_source">
+    <xsl:template match="op_ed/body/p[@type='conclusion']">
+        <p class="op_concl">
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    <xsl:template match="op_ed//source">
+        <ul>
+            <xsl:for-each select="citation">
+                <li><a href="{text()}"><xsl:apply-templates/></a></li>
+            </xsl:for-each>
+        </ul>
     </xsl:template>
 
     <!-- G4: resume templates -->

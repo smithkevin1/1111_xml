@@ -177,6 +177,17 @@
             </span>
         </xsl:if>
     </xsl:template>
+    <xsl:template
+        match="op_ed//p/*[not(self::quote) and not(self::citation) and not(self::note) and not(self::figure) and not(self::picture) and not(self::style)]">
+        <xsl:if test="@type = true()">
+            <span class="{name()} {@type}"> [<xsl:value-of select="name()"/> (type = <xsl:value-of
+                select="@type"/>): <xsl:apply-templates/>] </span>
+        </xsl:if>
+        <xsl:if test="@type = false()">
+            <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
+            </span>
+        </xsl:if>
+    </xsl:template>
 
     <!-- legend builds -->
     <xsl:template name="essay_legend">

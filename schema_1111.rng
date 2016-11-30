@@ -1331,6 +1331,7 @@
                 <ref name="op.quote"/>
                 <ref name="op.bg_info"/>
                 <ref name="op.situation"/>
+                <ref name="op.picture"/>
                 <ref name="macro.specialParaContent"/>
             </choice>
         </zeroOrMore>
@@ -1506,6 +1507,7 @@
         <ref name="education.school.location"/>
         <ref name="education.graduation.date"/>
         <ref name="education.degree"/>
+        <ref name="macro.specialParaContent"/>
     </define>
     <define name="education">
         <element name="education">
