@@ -42,28 +42,28 @@
                 <link rel="stylesheet" type="text/css" href="../website/css/main.css"/>
                 <link rel="stylesheet" type="text/css" href="./website/css/main.css"/>
             </head>-->
-            <xsl:if test="child::essay">
-                <xsl:call-template name="essay_legend"/>
-            </xsl:if>
-            <xsl:if test="child::movie_review">
-                <xsl:call-template name="review_legend"/>
-            </xsl:if>
-            <xsl:if test="child::article">
-                <xsl:call-template name="article_legend"/>
-            </xsl:if>
-            <xsl:if test="child::op_ed">
-                <xsl:call-template name="op_legend"/>
-            </xsl:if>
-            <xsl:if test="child::resume">
-                <xsl:call-template name="any_other_root_legend"/>
-            </xsl:if>
-            
-                <!-- DELETE body after testing -->
-                <div id="contain">
-                    <xsl:apply-templates/>
-                </div>
-            
-       
+        <xsl:if test="child::essay">
+            <xsl:call-template name="essay_legend"/>
+        </xsl:if>
+        <xsl:if test="child::movie_review">
+            <xsl:call-template name="review_legend"/>
+        </xsl:if>
+        <xsl:if test="child::article">
+            <xsl:call-template name="article_legend"/>
+        </xsl:if>
+        <xsl:if test="child::op_ed">
+            <xsl:call-template name="op_legend"/>
+        </xsl:if>
+        <xsl:if test="child::resume">
+            <xsl:call-template name="any_other_root_legend"/>
+        </xsl:if>
+
+        <!-- DELETE body after testing -->
+        <div id="contain">
+            <xsl:apply-templates/>
+        </div>
+
+
     </xsl:template>
 
     <xsl:include href="normal_format.xsl"/>
@@ -143,10 +143,14 @@
             </span>
         </xsl:if>
     </xsl:template>
-    
+
     <!-- satirical article annotation -->
-    <xsl:template match="article//quote"><span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>]
-    </span></xsl:template>
+    <xsl:template match="article//quote">
+        <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>] </span>
+    </xsl:template>
+    <xsl:template match="article//source">
+        <span class="{name()}"> [<xsl:value-of select="name()"/>: <xsl:apply-templates/>] </span>
+    </xsl:template>
 
     <!-- op_ed annotations -->
     <xsl:template
@@ -248,8 +252,14 @@
     <xsl:template name="article_legend">
         <div id="legend">
             <ul>
-                <li class="quote"><strong>quote</strong>: Surrounded by quotation marks, a grouping of words, ranging from
-                    phrases to multiples sentences.</li>
+                <li class="quote"><strong>quote</strong>: Surrounded by quotation marks, a grouping
+                    of words, ranging from phrases to multiples sentences.</li>
+            </ul>
+            <ul>
+                <li class="source"><strong>source</strong>: Attributing information from a specific
+                    website or a person without having direct quotes. Typically any source given
+                    would be fake, or, if the source was real, then the information from there would
+                    be fake.</li>
             </ul>
         </div>
     </xsl:template>
@@ -257,17 +267,27 @@
     <xsl:template name="op_legend">
         <div id="legend">
             <ul>
-                <li class="opinion"><strong>opinion</strong>: (opinion) [requires @type attribute,
-                    values of main : the main opinion; opposing : an opinion that directly opposes
-                    the main opinion]</li>
-                <li class="evidence"><strong>evidence</strong>: Evidence that supports the main
-                    opinion</li>
-                <li class="bg_info"><strong>bg_info</strong>: (background information) Background
-                    info to help explain more about a topic </li>
+                <li class="opinion"><strong>opinion</strong>: Element that contains the author’s
+                    stance on a certain subject or situation. This tag can be used anywhere, within
+                    any other tag. [Has the following @types: main: The main opinion on which the Op
+                    Ed is based around; opposing : An opinion that directly opposes the author’s
+                    main opinion; general: A general tag for most types of opinions; critique: An
+                    opinion on how the author thinks the situation could be improved. </li>
+                <li class="evidence"><strong>evidence</strong>: Container element for evidence that
+                    supports any of the types of opinions. This tag can be used anywhere, within any
+                    other tag, even within itself. [Has the following types: @statistics: Any type
+                    of statistics or numbers relating to relevant information. @anecdote: Describes
+                    personal experience of the author or of other people. @supporting: General tag
+                    for evidence that supports an opinion.] </li>
+                <li class="bg_info"><strong>bg_info</strong>: (background information) Container
+                    element of background information that helps the reader to understand a certain
+                    topic. This tag can be used anywhere, within any other tag. </li>
                 <li class="example"><strong>example</strong>: An example used to express the main
-                    opinion </li>
-                <li class="situation"><strong>situation</strong>: (rhetorical situation) a current
-                    event that relates to the main opinion </li>
+                    opinion (removed in p3 revisions)</li>
+                <li class="situation"><strong>situation</strong>: (rhetorical situation) This tag
+                    describes an event that relates to the author’s main opinion. It is tied to the
+                    reason the author is writing the Op Ed. This tag can be used anywhere, within
+                    any tag. </li>
             </ul>
         </div>
     </xsl:template>

@@ -8,7 +8,7 @@
             <title type = "title_review"></title>
             <title type = "title_movie"></title>
             <title type = "photo_movie"></title>
-            <author xml:id=""></author>
+            <author xml:id="test"></author>
             <date type = "review_date"></date>
             <date type = "movie_premiere"></date>
             <contact_info></contact_info>

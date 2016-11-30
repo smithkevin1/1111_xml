@@ -738,6 +738,7 @@
                 <ref name="macro.reviewParaContent"/>
                 <ref name="review.summary"/>
                 <ref name="review.date"/>
+                <ref name="review.comparison"/>
             </choice>
         </oneOrMore>
     </define>
