@@ -5,7 +5,7 @@
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <!-- begin genre -->
     <resume>
-        <title>Sutlan Aldabal</title>
+        <title>Sultan Aldabal</title>
         <header>Contact Information</header>
         <contact_information>
             <contact type="address">197-205 Brompton Road</contact>
@@ -20,48 +20,69 @@
             Psychiatry Ward in London, United Kingdom. I have obtained 6 years of experience
             dedicated to children's recovery through extensive research and acute attention to
             individual patients' needs.  Focuses
-            include improving the mental health of adolescents. My passions include helping others,
-            problem solving people's issues, and advocating for self care.</objectives>
-        <header>Qualifications</header>
-        <qualifications>
-            <work_experience>
-                <job>
-                    <job_title>Research Assistant <job_date>2003 - 2005</job_date></job_title>
-                    <job_summary> Ran sub-set of experiments involving the cognition of adolecents
-                        and children ages 8-18. Expanded on many theories on sense perception and
-                        child development. Learned and masered new equipment in 2 weeks. Mastered time management, record keeping, writing
-                        research papers.</job_summary>
-                </job>
-                <job>
-                    <job_title> Research Assistant <job_date>2005-2008</job_date>
-                    </job_title>
-                    <job_summary> Expanded on theories involving mental illnesses and disabilities
-                        in adults aged 18-25 and children aged 11-17. Lead weekly group discussions.
-                        Ran a class once a week in fall 2006 as a T.A.; developmental psychology.
-                        Mastered newer technology. Funding from Saudi Government started in October
-                        2005. Won the David Shakow Early Career Award for Distinguished Scientific
-                        Contributions to Clinical Psychology in 2008.</job_summary>
-                </job>
-                <job>
-                    <job_title>Lab Technician <job_date>2006-2008</job_date>
-                    </job_title>
-                    <job_summary>Conducted experiments on the cells that control behaviour in
-                        humans. Discovered many different functions of different brain
-                        cells</job_summary>
-                </job>
-            </work_experience>
-            <header>Education</header>
-            <education>B.A. in Behavioural Neuroscience in Northeastern University, Boston
-                MA</education>
-            <education>PhD in Stanford University, Stanford, CA</education>
-            <header>Affiliations</header>
-            <affiliations>
-                <affiliation>Saudi Arabian Society of Clinical Psychology since 2005</affiliation>
-                <affiliation>International Association of Analytial Psychology</affiliation>
-                <affiliation> Dammam Doctors Union</affiliation>
-            </affiliations>
-            <additional_information/>
-        </qualifications>
+            include improving the mental health of all people, with an emphasis on the mental health of adolescents, finding alternatives to medication. My passions include helping others,
+            helping people with mental disabilities to integrate with society, and advocating for self care.</objectives>
+        <header>Work Experience</header>
+       
+          <work_experience>
+               <job>
+                   <job_title>Research Assistant</job_title>
+                   <employer>Northeastern University</employer>
+                   <job_date>2003-2005</job_date>
+                   <job_location>360 Huntington Ave. Boston, MA</job_location>
+                   <job_summary>Ran sub-set of experiments involving the cognition of adolescents
+                       and children ages 8-18. Expanded on many theories on sense perception and
+                       child development. Learned and mastered new equipment in 2 weeks. Mastered time management, record keeping, writing research papers.</job_summary>
+               </job>
+                
+            <job>
+                <job_title>Research Assistant</job_title>
+                <employer> Northeastern University</employer>
+                <job_date>2005-2008</job_date>
+                <job_location>360 Huntington Ave. Boston, MA</job_location>
+                <job_summary> Expanded on theories involving mental illnesses and disabilities
+                    in adults aged 18-25 and children aged 11-17. Lead weekly group discussions.
+                    Ran a class once a week in fall 2006 as a T.A.; developmental psychology.
+                    Mastered newer technology. Funding from Saudi Government started in October
+                    2005. Won the David Shakow Early Career Award for Distinguished Scientific
+                    Contributions to Clinical Psychology in 2008.</job_summary>
+            </job>
+              <job>
+                  <job_title>Lab Technician</job_title>
+                  <employer> Stanford University</employer>
+                  <job_date>2008-2012</job_date>
+                  <job_location>Stanford, CA</job_location>
+                  <job_summary>Conducted experiments on the cells that control behavior in
+                      humans. Discovered many different functions of different brain
+                      cells</job_summary>
+              </job>
+          </work_experience>
+        <education>
+            <school> Leysin American School</school>
+            <school_location>Leysin, Switzerland</school_location>
+            <graduation_date>2002</graduation_date>
+            <degree type="high_school">American High School Diploma</degree>
+        </education>
+        <education>
+            <school> Northeastern University</school>
+            <school_location>Boston, MA</school_location>
+            <graduation_date>2007</graduation_date>
+            <degree type="bachelor">Behavioral Neuroscience</degree>
+        </education>
+        <education>
+            <school> Stanford University</school>
+            <school_location>Stanford, CA</school_location>
+            <graduation_date>2012</graduation_date>
+            <degree type="doctorate">Psychology</degree>
+        </education>
+        
+        <header>Affiliations</header>
+        <affiliations>
+            <affiliation>Saudi Arabian Society of Clinical Psychology member since 2007</affiliation>
+            <affiliation>International Association of Analytical Psychology</affiliation>
+            <affiliation> Dammam Doctors Union</affiliation>
+        </affiliations>
+        <additional_information/>
     </resume>
     <!-- end genre -->
     <docReview>
