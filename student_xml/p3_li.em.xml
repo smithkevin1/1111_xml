@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     <!-- paste your genre here, after <DOC> and before the <docReview> section -->
     <resume>

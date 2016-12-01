@@ -244,7 +244,9 @@
         </p>
     </xsl:template>
     <xsl:template match="movie_review/content/conclusion">
-        <div id="review_concl"><xsl:apply-templates/></div>
+        <div id="review_concl">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="movie_review/content/conclusion/p">
         <p class="review_conclusion">
@@ -452,7 +454,7 @@
                 <xsl:value-of select="./author"/> | <xsl:value-of select="./date"/>
             </p>
             <hr/>
-            
+
         </div>
     </xsl:template>
     <xsl:template match="op_ed/intro">
@@ -462,7 +464,7 @@
             </p>
         </div>
     </xsl:template>
-    <xsl:template match="op_ed/body/p[@type='intro']">
+    <xsl:template match="op_ed/body/p[@type = 'intro']">
         <div id="op_intro">
             <p class="intro">
                 <xsl:apply-templates/>
@@ -475,7 +477,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="op_ed/body/p[@type='body']">
+    <xsl:template match="op_ed/body/p[@type = 'body']">
         <p class="op_body">
             <xsl:apply-templates/>
         </p>
@@ -493,7 +495,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="op_ed/body/p[@type='conclusion']">
+    <xsl:template match="op_ed/body/p[@type = 'conclusion']">
         <p class="op_concl">
             <xsl:apply-templates/>
         </p>
@@ -501,7 +503,11 @@
     <xsl:template match="op_ed//source">
         <ul>
             <xsl:for-each select="citation">
-                <li><a href="{text()}"><xsl:apply-templates/></a></li>
+                <li>
+                    <a href="{text()}">
+                        <xsl:apply-templates/>
+                    </a>
+                </li>
             </xsl:for-each>
         </ul>
     </xsl:template>
@@ -555,43 +561,43 @@
     </xsl:template>
     <xsl:template match="resume//work_experience">
         <div id="work_exp">
-            <xsl:for-each select="job">
-                <p>
-                    <xsl:apply-templates/>
-                </p>
-            </xsl:for-each>
+            <xsl:apply-templates/>
         </div>
     </xsl:template>
+    <xsl:template match="resume//work_experience/job">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="resume//employer"/>
+    <xsl:template match="resume//job_date"/>
+    <xsl:template match="resume//job_location"/>
+    <xsl:template match="job_summary"/>
     <xsl:template match="job_title">
         <div class="job_head">
             <strong>
                 <xsl:value-of select="text()[1]"/>
+                <xsl:value-of select="../employer"/>
             </strong>
             <span class="resume_date">
+                <xsl:value-of select="../job_date"/>
                 <xsl:value-of select="job_date"/>
             </span>
             <br/>
             <span class="resume_location">
                 <xsl:value-of select="text()[2]"/>
+                <xsl:value-of select="../job_location"/>
             </span>
         </div>
         <ul>
-            <xsl:for-each select="following-sibling::job_summary"><li>
-                <xsl:value-of select="text()"/>
-            </li></xsl:for-each>
-        </ul>
-        
-    </xsl:template>
-    <xsl:template match="job_summary"/>
-<!--    <xsl:template match="job_summary">
-        <ul>
-            <xsl:for-each select="../job_summary">
+            <xsl:for-each select="following-sibling::job_summary">
                 <li>
                     <xsl:value-of select="text()"/>
                 </li>
             </xsl:for-each>
         </ul>
-    </xsl:template>-->
+
+    </xsl:template>
     <xsl:template match="resume//affiliations">
         <ul id="affiliations">
             <xsl:for-each select="affiliation">
@@ -603,9 +609,50 @@
     </xsl:template>
     <xsl:template match="resume//education">
         <p class="education">
-            <xsl:apply-templates/>
+            <xsl:choose>
+                <xsl:when test="school=true()">
+                    <strong>
+                        <xsl:if test="degree[@type = 'bachelor']">
+                            <xsl:text>BA: </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="degree[@type = 'high_school']">
+                            <xsl:text>HS: </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="degree[@type = 'ged']">
+                            <xsl:text>GED: </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="degree[@type = 'associate']">
+                            <xsl:text>AA: </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="degree[@type = 'master']">
+                            <xsl:text>Masters: </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="degree[@type = 'doctorate']">
+                            <xsl:text>PhD: </xsl:text>
+                        </xsl:if>
+                        <xsl:value-of select="degree"/>
+                        </strong>
+                    <span class="resume_date">
+                        <xsl:value-of select="graduation_date"/>
+                        <xsl:if test="graduation_date[@type = 'anticipated']">
+                            <xsl:text> (anticipated)</xsl:text>
+                        </xsl:if>
+                    </span>
+                    <br/>
+                    <xsl:value-of select="school"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="school_location"/>
+                    <br/>
+                       <ul> <li><xsl:apply-templates/></li></ul>
+                </xsl:when>
+                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+            </xsl:choose>
         </p>
     </xsl:template>
+    <xsl:template match="education//school"/>
+    <xsl:template match="education//school_location"/>
+    <xsl:template match="education//degree"/>
+    <xsl:template match="education//graduation_date"/>
     <xsl:template match="resume//additional_information[1]">
         <ul>
             <xsl:for-each select="../additional_information">
@@ -615,7 +662,7 @@
             </xsl:for-each>
         </ul>
     </xsl:template>
-    <xsl:template match="resume//additional_information[position()>1]"/>
+    <xsl:template match="resume//additional_information[position() > 1]"/>
 
 
     <!-- This section processes the reviews/end notes for the document -->
