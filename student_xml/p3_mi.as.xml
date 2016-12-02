@@ -6,6 +6,7 @@
     <op_ed>
         <docHead>
 
+        <header></header>
             <title>Op-Ed: Trump’s Triumph and Climate Change</title>
             <author xml:id="lo.va">Ashwin Misra</author>
             <date>November 22nd 2016</date>
@@ -32,7 +33,11 @@
             noticeable, the fact that non-renewable resources are conserved is a definite plus for
             the environment. </body_para>
 
+<<<<<<< Updated upstream
         <body_para>However, the political environment may soon take a massive U-turn, eliminating
+=======
+        <body_para> However, the political environment may soon  take a massive U-turn, eliminating
+>>>>>>> Stashed changes
             the steps that are currently being taken to make America more environmentally friendly.
             Our President-elect Donald Trump believes that climate change is a “hoax” and plans to
             withdraw from the Paris climate change agreement, <citation> a plan ratified by 112
@@ -49,6 +54,7 @@
         </body_para>
 
         <conclusion>America currently emits 15% of global CO2 emissions, and having Trump as
+<<<<<<< Updated upstream
             commander-in-chief will only increase that number. Being a traditionalist, <citation>
                 Trump wants the same jobs in the manufacturing industry to be kept as they are (NY
                 Times)</citation> because he believes that, with an increase in renewable energy
@@ -56,6 +62,10 @@
             disregard to climate change by the Trump Administration have for America? Only time will
             tell. Our best bet to make America great again is to bank won Trump’s changing
             views.</conclusion>
+=======
+            commander-in-chief will only increase that number. Being a traditionalist, <citation> Trump wants
+                the same jobs in the manufacturing industry to be kept as they are (NY Times)</citation></conclusion>
+>>>>>>> Stashed changes
 
         <source/>
 
