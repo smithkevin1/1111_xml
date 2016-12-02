@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema_1111.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../testing_format.xsl"?>
 <DOC>
     <movie_review>
         <header>
@@ -14,7 +15,7 @@
         <content>
             <intro>
                 <p>
-                    <synopsis type="themes"> Released in 1995, Tamra Davis’ Billy Madison is considered a cult film, and to many fans, one of the best in the genre of comedy. It stars <context type="actor">Adam Sandler, Bradley Whitford, Bridgette Wilson, Norm Macdonald and Darren McGavin</context>. It was written by Sandler and Robert Simonds. In a nutshell, the movie is about a 27 year old man (Billy Madison) who is the heir to a company built by his father. A spoilt brat, Billy wastes his life with drinking and shenanigans. When his father finally has enough, he decides to name a different successor to his millions, instead of his son. This urges Billy to reconsider his life and prove to his father that he is capable to handling the inheritance by repeating grades 1-12.</synopsis>
+                    <synopsis type="themes"> Released in 1995,<context type="director">Tamra Davis’</context> Billy Madison is considered a cult film, and to many fans, one of the best in the genre of comedy. It stars <context type="actor">Adam Sandler, Bradley Whitford, Bridgette Wilson, Norm Macdonald and Darren McGavin</context>. It was written by Sandler and Robert Simonds. In a nutshell, the movie is about a 27 year old man (Billy Madison) who is the heir to a company built by his father. A spoilt brat, Billy wastes his life with drinking and shenanigans. When his father finally has enough, he decides to name a different successor to his millions, instead of his son. This urges Billy to reconsider his life and prove to his father that he is capable to handling the inheritance by repeating grades 1-12.</synopsis>
                 </p>
 
             </intro>
@@ -44,10 +45,10 @@
                     scene where Billy eats dinner with his father's collegues is one of Sandler's
                     best performances to date. <citation> In this scene, Sandler joins the table
                         fashionably late, dressed in a sweatshirt and cap whilst everyone else wore
-                        suits. He sits down and obnoxiously slurps his soup, much to the annoyance
-                        of his father. He then proceeds to bite his colleague, for reasons unknown.
-                        Provoked and disturbed, Billy then commences a dialogue in gibberish, to
-                        hilarious consequences.</citation> This scene is a classic Adam Sandler
+                        suits. </citation> He sits down and obnoxiously slurps his soup, much to the annoyance
+                    of his father. He then proceeds to bite his colleague, for reasons unknown.
+                    Provoked and disturbed, Billy then commences a dialogue in gibberish, to
+                    hilarious consequences.This scene is a classic Adam Sandler
                     piece;loud, nonsensical and absolutley hilarious. This scene is a prelude to the
                     movie's string of gags and scenes. It foreshadows the oncoming onslaught of
                     juvenile humour that is attributed to Sandler's movies.</p>
