@@ -6,7 +6,7 @@
         <header>
             <title type="title_review">Review of "Fargo"</title>
             <title type="title_movie">Fargo</title>
-            <author xml:id="">Dylan Robinson</author>
+            <author xml:id="ro.dy">Dylan Robinson</author>
             <date type="review_date">November 29, 2016</date>
             <date type="movie_premiere">March 8, 1996</date>
             <contact_info>robinson.dy@husky.neu.edu</contact_info>
