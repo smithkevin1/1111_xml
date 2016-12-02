@@ -4,71 +4,58 @@
 <DOC>
 
     <op_ed>
-        <docHead>
+        <header>
+            <title>Opinion: Trump’s Triumph and Climate Change</title>
+            <author>Ashwin Misra</author>
+            <date>12/02/16</date>
+        </header>
+        <body>
+            <p type="intro"><situation>Climate change has been a pressing issue coming into the
+                    2000s, with countless local and global efforts taken to reduce the catastrophic
+                    effects of this problem.</situation> The Obama Administration has taken several
+                steps in the right direction to reduce our dependency on non-renewable resources
+                which would definitely benefit our planet in the long run. <opinion type="main"
+                    >However, Donald Trump’s surprise win means that climate change budget may be
+                    reduced dramatically.</opinion> How will America’s stance on climate change
+                shift over the coming years? </p>
 
-        <header></header>
-            <title>Op-Ed: Trump’s Triumph and Climate Change</title>
-            <author xml:id="lo.va">Ashwin Misra</author>
-            <date>November 22nd 2016</date>
-        </docHead>
+            <p type="body">
+                <opinion type="opposing">Let’s start by discussing the praised efforts of the Obama
+                    Administration with regards to combating the devastating potential effects of
+                    climate change.</opinion> Obama’s two main energy acts, the Clean Energy and the
+                Recovery Act, both include creating new "clean energy" jobs and technologies, making
+                America more energy independent, and reducing carbon emissions (WhiteHouse.gov). In
+                2009, over $80 billion in clean energy investments were provided by the Clean Energy
+                and Recovery Act. These investments were mainly in renewable energy, funding local
+                energy projects and training people for green jobs. Additionally, carbon tax on
+                industry was increased, resulting in fewer pollutants in the air. Although the
+                benefits of the act aren’t always noticeable, the fact that non-renewable resources
+                are conserved is a definite plus for the environment. </p>
 
-        <intro> Climate change has been a pressing issue coming into the 2000s, with numerous local
-            and global efforts taken to reduce the catastrophic effects of this problem. The Obama
-            Administration has taken several steps in the right direction to reduce our dependency
-            on non-renewable resources which can definitely benefit our planet in the long
-                run.<opinion type="main"> However, Donald Trump’s surprise win means that the
-                climate change budget may be reduced dramatically. How will this affect America's
-                stance on climate change over the coming years? </opinion></intro>
+            <p type="body"><opinion type="general">However, the political environment may soon take
+                    a massive U-turn, eliminating the steps that are currently being taken to make
+                    America more environmentally friendly.</opinion>
+                <situation> Our President-elect Donald Trump believes that climate change is a
+                    “hoax” and plans to withdraw from the Paris (Climate Change) Agreement, a plan
+                    ratified by 112 countries aimed at keeping the global average temperature from
+                    increasing by 2 degrees Celsius (The Verge). </situation> Trump tweeted
+                    <quote>“The concept of global warming was created by and for the Chinese in
+                    order to make U.S. manufacturing less competitive” (Twitter) </quote>. Trump
+                claims that this was a joke, however, he believes that the effects of climate change
+                are not adverse (CNN). Many say this is because he wants to keep the hundreds of
+                thousands of US jobs which are centered around manufacturing and are dependent on
+                large amounts of fossil fuels. <opinion type="general">If energy policy tightens,
+                    those currently employed will be at risk of losing their jobs.</opinion>
+            </p>
 
-        <body_para> Let’s start by discussing the praised efforts of the Obama Administration with
-            regards to combating the devastating potential effects of climate change. Obama’s two
-            main energy acts, the Clean Energy and the Recovery Act, both include <citation>
-                creating new "clean energy" jobs and technologies, making America more energy
-                independent, and reducing carbon emissions (whitehouse.gov) </citation>. <evidence
-                type="statistics">In 2009, over $80 billion in clean energy investments were
-                provided by the Clean Energy and Recovery Act.</evidence> These investments were
-            mainly in renewable energy, funding local energy projects and training people for green
-            jobs. <citation> Additionally, carbon tax on industry was increased to ensure fewer
-                pollutants (CNS News) </citation> Although the benefits of the act aren’t always
-            noticeable, the fact that non-renewable resources are conserved is a definite plus for
-            the environment. </body_para>
-
-<<<<<<< Updated upstream
-        <body_para>However, the political environment may soon take a massive U-turn, eliminating
-=======
-        <body_para> However, the political environment may soon  take a massive U-turn, eliminating
->>>>>>> Stashed changes
-            the steps that are currently being taken to make America more environmentally friendly.
-            Our President-elect Donald Trump believes that climate change is a “hoax” and plans to
-            withdraw from the Paris climate change agreement, <citation> a plan ratified by 112
-                countries aimed at keeping the global average temperature from increasing by 2
-                degrees Celsius (The Verge) </citation>. Trump tweeted earlier “The concept
-            of global warming was created by and for the Chinese in order to make U.S. manufacturing
-            less competitive” (Twitter). In an interview by CNS News, Trump claimed that this was a
-            joke, however, this quote does speak to the public in a different way. Hundreds of
-            thousands of US jobs are centered around manufacturing, and if energy policy persists,
-            there is the possibility of those currently employed to lose their jobs.
-                <citation>Furthermore, more than 85% of energy is from non-renewable sources– a
-                change in energy composition will decrease industry revenue as well.
-                (RenewableEnergyWorld)</citation>
-        </body_para>
-
-        <conclusion>America currently emits 15% of global CO2 emissions, and having Trump as
-<<<<<<< Updated upstream
-            commander-in-chief will only increase that number. Being a traditionalist, <citation>
-                Trump wants the same jobs in the manufacturing industry to be kept as they are (NY
-                Times)</citation> because he believes that, with an increase in renewable energy
-            usage, there will be greater job loss for certain people. So what impact will this
-            disregard to climate change by the Trump Administration have for America? Only time will
-            tell. Our best bet to make America great again is to bank won Trump’s changing
-            views.</conclusion>
-=======
-            commander-in-chief will only increase that number. Being a traditionalist, <citation> Trump wants
-                the same jobs in the manufacturing industry to be kept as they are (NY Times)</citation></conclusion>
->>>>>>> Stashed changes
-
-        <source/>
-
+            <p type="conclusion">Barack Obama is doing all he can in his last few months as
+                president to make sure America is in the best place in terms of minimizing the
+                adverse effects of climate change. America currently emits 15% of global CO2
+                emissions, and having Trump as commander-in-chief will, if anything, increase that
+                number. So what impact will this disregard to climate change by the Trump
+                Administration have for America? Only time will tell. Our best bet to make America
+                great again is to bank on Trump’s recent changing views. </p>
+        </body>
     </op_ed>
 
 
