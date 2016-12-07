@@ -16,7 +16,8 @@
             <contact_info>hoyt.j@husky.neu.edu</contact_info>
         </header>
         <content>
-            <intro><p>
+            <intro>
+                <p>
                     <synopsis type="themes"> The story of Outsourced begins with the main character, Todd Anderson, 
                         being let go from his current job as the manager of a call center. His boss tells him his job 
                         is being outsourced and he'll need to go to India to train the man that will eventually replace
@@ -27,10 +28,11 @@
                     with viewing their culture in relation to his own.</synopsis>
                     Todd views his way of doing things as the default and normal way, and struggles
                     to adapt. As he begins to understand Indian culture more, he gains respect for
-                    the employees and appoints a woman named Asha to be Puro’s assistant. <opinions
-                        type="reaction">The pacing may seem slow towards the beginning of the movie,
-                        but gradually the speed picks up and we begin to learn more about Todd and
-                        the way the employees interact with each other. The scenes highlighting the
+                    the employees and appoints a woman named Asha to be Puro’s<note
+                        type="instructor">who is Puro?</note> assistant. <opinions type="reaction"
+                        >The pacing may seem slow towards the beginning of the movie, but gradually
+                        the speed picks up and we begin to learn more about Todd and the way the
+                        employees interact with each other. The scenes highlighting the
                         misunderstandings between Todd and the employees about the origin of the
                         products they're selling or how to relate to the customers they're talking
                         to back in the US help display this and are some of the most interesting
@@ -48,7 +50,7 @@
                     trained well enough to pursue jobs for other companies. Todd refuses to go to
                     China, but he sends Puro to go in his place. Asha tells Todd that if she doesn’t love the man she is engaged to
                     she will come to the USA. At the end of the movie, Todd gets a call from Asha in
-                    his apartment back home.</synopsis>
+                    his apartment back home.<note type="instructor">this intro is a rather long, single paragraph. Are there aspects of the summary that we don't need (or necessarily want) here? Or an you at least break the intro into multiple paragraphs?</note></synopsis>
                 </p>
             </intro>
 
@@ -143,7 +145,11 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is a very well executed review. My one question/critique would be whether or not
+                you want to give away the entire plot in a review, given that people may be reading
+                your review to decide whether to watch the movie or not. Also see my note on the
+                length/structure of your intro paragraph. I think the aspects of the movie you pull
+                out and examne in the body section are well-chosen and appropriate. Nice work.</p>
         </report>
     </docReview>
 </DOC>

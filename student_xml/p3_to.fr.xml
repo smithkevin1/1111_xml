@@ -21,9 +21,9 @@
                 children. So, in July of 2009, they made the hard decision to leave their family and
                 home country to give their children a better chance at life. </evidence>This story
             resonates with the thousands upon thousands of families who have emigrated from Puerto
-            Rico in the past decade because of the Island’s worsening conditions. <opinion
-                type="main">Once La Isla del Encato, my home has now turned into La Isla del
-                Espanto. </opinion></intro>
+            Rico in the past decade because of the Island’s worsening conditions. <note
+                type="instructor">great intro and opinion</note><opinion type="main">Once La Isla
+                del Encato, my home has now turned into La Isla del Espanto. </opinion></intro>
 
         <body_para>
             <picture
@@ -112,8 +112,8 @@
                 Rico to deal with the debt crisis on its own terms while allowing he island's
                 residents to have a say in how the future of their home pans out. It would allow
                 elected officials at all levels of government make decisions with lasting effects,
-                this would give power back to the people who actually live on the island.
-            </opinion></body_para>
+                this would give power back to the people who actually live on the island. </opinion>
+        </body_para>
 
         <conclusion>For too long, Puerto Ricans have been victims to the United States. We have
             chosen to stay in a broken yet comfortable state because we are afraid of revolutionary
@@ -154,7 +154,14 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is a model op-ed. It is a timely, important topic and you provide ample
+                background to establish your claims. You also do a great job with evidence. Really,
+                really nice work. I especially like how you use Spanish, even in a limited way, in
+                your title and body. It is a very effective rhetorical device in this case. I'd love
+                to share this with future classes, if you're willing. On the XML side, it doesn't
+                look like you made any of the changes to your XML document that were a result of the
+                changes to the schema. So you have a bunch of validation errors. These should be
+                easy to fix up.</p>
         </report>
     </docReview>
 </DOC>

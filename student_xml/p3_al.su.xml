@@ -19,44 +19,57 @@
         <objectives> Intellectually curious M.D psychiatrist seeking to apply to a Children's
             Psychiatry Ward in London, United Kingdom. I have obtained 6 years of experience
             dedicated to children's recovery through extensive research and acute attention to
-            individual patients' needs.  Focuses
-            include improving the mental health of all people, with an emphasis on the mental health of adolescents, finding alternatives to medication. My passions include helping others,
-            helping people with mental disabilities to integrate with society, and advocating for self care.</objectives>
+            individual patients' needs. Focuses include improving the mental health of all people,
+            with an emphasis on the mental health of adolescents, finding alternatives to
+                medication<note type="instructor">this list needs one more item or it reads as a
+                fragment</note>. My passions include helping others, helping people with mental
+            disabilities to integrate with society, and advocating for self care.<note
+                type="instructor">Typically, my understanding is that this objectives section is as
+                short as possible; I could imagine you combining the first and second sentences, as
+                well as combining the last two for a more concise objective. The content is well
+                done</note></objectives>
         <header>Work Experience</header>
-       
-          <work_experience>
-               <job>
-                   <job_title>Research Assistant</job_title>
-                   <employer>Northeastern University</employer>
-                   <job_date>2003-2005</job_date>
-                   <job_location>360 Huntington Ave. Boston, MA</job_location>
-                   <job_summary>Ran sub-set of experiments involving the cognition of adolescents
-                       and children ages 8-18. Expanded on many theories on sense perception and
-                       child development. Learned and mastered new equipment in 2 weeks. Mastered time management, record keeping, writing research papers.</job_summary>
-               </job>
-                
+
+        <work_experience>
+            <job>
+                <job_title>Research Assistant</job_title>
+                <employer>Northeastern University</employer>
+                <job_date>2003-2005</job_date>
+                <job_location>360 Huntington Ave. Boston, MA</job_location>
+                <job_summary>Ran sub-set of experiments involving the cognition of adolescents and
+                    children ages 8-18. Expanded on many theories on sense perception and child
+                        development.<note type="instructor">according to the schema, each job
+                        summary element should be separated to produce the bullet-list</note>
+                    Learned and mastered new equipment in 2 weeks. Mastered time management, record
+                    keeping, writing research papers.</job_summary>
+            </job>
+
             <job>
                 <job_title>Research Assistant</job_title>
                 <employer> Northeastern University</employer>
                 <job_date>2005-2008</job_date>
                 <job_location>360 Huntington Ave. Boston, MA</job_location>
-                <job_summary> Expanded on theories involving mental illnesses and disabilities
-                    in adults aged 18-25 and children aged 11-17. Lead weekly group discussions.
-                    Ran a class once a week in fall 2006 as a T.A.; developmental psychology.
-                    Mastered newer technology. Funding from Saudi Government started in October
-                    2005. Won the David Shakow Early Career Award for Distinguished Scientific
-                    Contributions to Clinical Psychology in 2008.</job_summary>
+                <job_summary> Expanded on theories involving mental illnesses and disabilities in
+                    adults aged 18-25 and children aged 11-17<note type="instructor">through
+                        research? publications?</note>. Lead weekly group discussions<note
+                        type="instructor">about what?</note>. Ran a class once a week in fall 2006
+                    as a T.A.; developmental psychology. Mastered newer technology<note
+                        type="instructor">such as?</note>. Funding from Saudi Government started in
+                    October 2005. Won the David Shakow Early Career Award for Distinguished
+                    Scientific Contributions to Clinical Psychology in 2008.</job_summary>
             </job>
-              <job>
-                  <job_title>Lab Technician</job_title>
-                  <employer> Stanford University</employer>
-                  <job_date>2008-2012</job_date>
-                  <job_location>Stanford, CA</job_location>
-                  <job_summary>Conducted experiments on the cells that control behavior in
-                      humans. Discovered many different functions of different brain
-                      cells</job_summary>
-              </job>
-          </work_experience>
+            <job>
+                <job_title>Lab Technician</job_title>
+                <employer> Stanford University</employer>
+                <job_date>2008-2012</job_date>
+                <job_location>Stanford, CA</job_location>
+                <job_summary>Conducted experiments on the cells that control behavior in humans.
+                    Discovered many different functions of different brain cells<note
+                        type="instructor">why so much less on the most recent job? Also aren't jobs
+                        typically in reverse chronological order for resumes (with the most recent
+                        employment listed first)?</note></job_summary>
+            </job>
+        </work_experience>
         <education>
             <school> Leysin American School</school>
             <school_location>Leysin, Switzerland</school_location>
@@ -75,10 +88,11 @@
             <graduation_date>2012</graduation_date>
             <degree type="doctorate">Psychology</degree>
         </education>
-        
+
         <header>Affiliations</header>
         <affiliations>
-            <affiliation>Saudi Arabian Society of Clinical Psychology member since 2007</affiliation>
+            <affiliation>Saudi Arabian Society of Clinical Psychology member since
+                2007</affiliation>
             <affiliation>International Association of Analytical Psychology</affiliation>
             <affiliation> Dammam Doctors Union</affiliation>
         </affiliations>
@@ -113,11 +127,16 @@
                 various problems."</p>
 
             <p>Since the resume is so basic and familiar, and because you clearly have a solid
-                draft, I looked at more subtle things that could be improved. But overall, a very good draft!</p>
+                draft, I looked at more subtle things that could be improved. But overall, a very
+                good draft!</p>
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is a solid start. I made several notes above about specific questions and
+                formatting concerns (which are very important for this genre). My major structural
+                critique is that typically jobs are listed in reverse chronological order (the
+                opposite of what you have here). As far as content is concerned, I think you are on
+                the ball for the most part (see my notes above as well).</p>
         </report>
     </docReview>
 </DOC>

@@ -643,7 +643,7 @@
                     <xsl:text>, </xsl:text>
                     <xsl:value-of select="school_location"/>
                     <br/>
-                       <ul> <li><xsl:apply-templates/></li></ul>
+                       
                 </xsl:when>
                 <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
             </xsl:choose>

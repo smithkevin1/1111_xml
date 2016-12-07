@@ -7,7 +7,8 @@
 
         <header>
             <!-- make changes to the document header as necessary (based on your genre) -->
-            <article_title>La Niña, la pinta and la Santa Maria return to Europe and Spain after 524 years</article_title>
+            <article_title>La Niña, la pinta<note type="instructor">capitalize</note> and la Santa
+                Maria return to Europe and Spain after 524 years</article_title>
             <author xml:id="san.jh"/>
             <category/>
             <date>11/22/16</date>
@@ -20,27 +21,31 @@
             <share type="other"/>
         </header>
         <body>
-            <image url="http://tomun.eu/wp-content/uploads/2014/09/Barack_Obama_chairs_a_United_Nations_Security_Council_meeting.jpg"
-                > </image>
+            <image
+                url="http://tomun.eu/wp-content/uploads/2014/09/Barack_Obama_chairs_a_United_Nations_Security_Council_meeting.jpg"> </image>
             <p>
                 <location>New York City, NY</location> United Nations headquarters found themselves
                 in what seemed to be a non controversial matter this past Friday. Samantha Power,
                 United States ambassador for the United Nations, addressed the elephant in the room;
-                undocumented immigrants. ALthough people seemed to see this as a problem arising now, this issue with illegal immigrants has been going on since 1492. After an ongoing debate of two hours that mainly consisted
-                of the different nations’ representatives averring the question brought up by the US
-                representative, it was decided that deporting all of those who came in the Christopher Colombus voyage and their descendants would be the solution to the
-                different drawbacks that illegal immigrants were bringing. It was said by the
-                secretary Ban Ki-moon that the reform would begin in the upcoming April of 2017. It
-                was decided upon April because they wanted to make sure people pay their taxes
-                before vacating the United States. Those that may be affected consist of those of
-                European descent whose ancestors illegally immigrated to the United States after
-                1492. It was also said that Those with Spaniards descent whose ancestors began
-                immigrating to the United States in the years that followed 1492. Nothing has been said about African descent since their ancestors
-                were brought here against their will. Although the different nations that now make
-                up Europe argued against this reform, the democracy claimed by the US once again won and there was nothing they
-                could do but take back their people. More news will be given to the public once the
-                bills have been signed and when the United States finds the resources to deport 300
-                million people. </p>
+                undocumented immigrants. ALthough people seemed to see this as a problem arising
+                now, this issue with illegal immigrants has been going on since 1492. After an
+                ongoing debate of two hours that mainly consisted of the different nations’
+                representatives averring the question brought up by the US representative, it was
+                decided that deporting all of those who came in the Christopher Colombus voyage and
+                their descendants would be the solution to the different drawbacks that illegal
+                immigrants were bringing. It was said by the secretary Ban Ki-moon that the reform
+                would begin in the upcoming April of 2017. It was decided upon April because they
+                wanted to make sure people pay their taxes before vacating the United States. Those
+                that may be affected consist of those of European descent whose ancestors illegally
+                immigrated to the United States after 1492. It was also said that Those with
+                Spaniards descent whose ancestors began immigrating to the United States in the
+                years that followed 1492. Nothing has been said about African descent since their
+                ancestors were brought here against their will. Although the different nations that
+                now make up Europe argued against this reform, the democracy claimed by the US once
+                again won<note type="instructor">not sure what you mean by this</note> and there was
+                nothing they could do but take back their people. More news will be given to the
+                public once the bills have been signed and when the United States finds the
+                resources to deport 300 million people. </p>
         </body>
 
 
@@ -92,7 +97,11 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>I really like the revisions you made to this piece from the earlier draft. One
+                suggestion, maybe starting the title with "In controversial U.N. Decision, La..." to
+                better set up that your situation will be the UN. There's also a few moments in your
+                article itself I am having trouble following a bit--see comments above. Overall nice
+                work on this revision.. </p>
         </report>
     </docReview>
 </DOC>

@@ -5,7 +5,8 @@
     <movie_review>
         <header>
             <title type="title_review"> Billy Madison </title>
-            <title type="title_movie">Billy Madison</title>
+            <title type="title_movie">Billy Madison<note type="instructor">normally there is a photo
+                    in the header section, according to the schema</note></title>
             <author xml:id="ga.ar"> Mohit Dhinakaran</author>
             <date type="review_date">November 21 2016</date>
             <date type="movie_premiere">February 10 1995</date>
@@ -13,6 +14,7 @@
         </header>
 
         <content>
+
             <intro>
                 <p>
                     <synopsis type="themes"> Released in 1995,<context type="director">Tamra Davis’</context> Billy Madison is considered a cult film, and to many fans, one of the best in the genre of comedy. It stars <context type="actor">Adam Sandler, Bradley Whitford, Bridgette Wilson, Norm Macdonald and Darren McGavin</context>. It was written by Sandler and Robert Simonds. In a nutshell, the movie is about a 27 year old man (Billy Madison) who is the heir to a company built by his father. A spoilt brat, Billy wastes his life with drinking and shenanigans. When his father finally has enough, he decides to name a different successor to his millions, instead of his son. This urges Billy to reconsider his life and prove to his father that he is capable to handling the inheritance by repeating grades 1-12.</synopsis>
@@ -24,9 +26,10 @@
                 <p> The movie is does not hide the fact that it is a classic, dumb humour kind of
                     movie. And thats why I like it. After reviewing nearly 400 titles on imdb, I
                     have never seen a film that has made me laugh this much. This movie doesnt
-                    attempt to be a polished piece with intelligent humour. Its slapstick, vulgar,
-                    and unquestionably hilarious. Many fans have watched this movie with varying
-                    levels of sobriety, all to interesting results.</p>
+                    attempt to be a polished piece with intelligent humour. Its<note
+                        type="instructor">It's or it is</note> slapstick, vulgar, and unquestionably
+                    hilarious. Many fans have watched this movie with varying levels of sobriety,
+                    all to interesting results.</p>
 
                 <p> It's hard to write a serious review about a movie which isn't serious for a
                     minute. If you tried, you'd probably laugh at the end credits too. This movie
@@ -45,13 +48,15 @@
                     scene where Billy eats dinner with his father's collegues is one of Sandler's
                     best performances to date. <citation> In this scene, Sandler joins the table
                         fashionably late, dressed in a sweatshirt and cap whilst everyone else wore
-                        suits. </citation> He sits down and obnoxiously slurps his soup, much to the annoyance
-                    of his father. He then proceeds to bite his colleague, for reasons unknown.
-                    Provoked and disturbed, Billy then commences a dialogue in gibberish, to
-                    hilarious consequences.This scene is a classic Adam Sandler
-                    piece;loud, nonsensical and absolutley hilarious. This scene is a prelude to the
-                    movie's string of gags and scenes. It foreshadows the oncoming onslaught of
-                    juvenile humour that is attributed to Sandler's movies.</p>
+                        suits. </citation><note type="instructor">i'm not sure "citation" is the
+                        right tag here, maybe synopsis? or aesthetics?</note> He sits down and
+                    obnoxiously slurps his soup, much to the annoyance of his father. He then
+                    proceeds to bite his colleague, for reasons unknown. Provoked and disturbed,
+                    Billy then commences a dialogue in gibberish, to hilarious consequences.This
+                    scene is a classic Adam Sandler piece;loud, nonsensical and absolutley
+                    hilarious. This scene is a prelude to the movie's string of gags and scenes. It
+                    foreshadows the oncoming onslaught of juvenile humour that is attributed to
+                    Sandler's movies.</p>
                 <p>
                     <aesthetics>Big, brash and bold. These words perfectly describe the aesthetics
                         in this movie. Think of any lewd or vulgar action, and this movie probably
@@ -94,7 +99,12 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is a solid review. I think you nail the target audience; my only critiques would
+                be 1) at times, odd uses of elements and/or lacking elements where they could be
+                included; and 2) you remain somewhat superficial in your review. This may be the
+                result of the intended publication (on IMDB), which, I gather, encourages shorter
+                reviews than, say, the New York Times. I'm curious why you neglected to include a
+                photo or a more creative title, but again, that may be the conventions of IMDB</p>
         </report>
     </docReview>
 </DOC>

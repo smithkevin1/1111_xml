@@ -22,10 +22,18 @@
                 <employer>Maggie Inc</employer>
                 <job_date>April 2013–Present</job_date>
                 <job_location>Boston, MA</job_location>
-                <job_summary> Work with international brands in the Greater Boston area for
+                <job_summary> Work<note type="instructor">one important aspect of a resume is the
+                        verbs you use to describe your work; you want them to indicate the actions
+                        you undertook in that job (and ideally match them with the necessary skills
+                        for your intended position). For example, instead of "work" (which everyone
+                        does at every job), you might say "Coordinate e-commerce for international
+                        brands." Or, "Manage projects for diverse team of photographers, etc.
+                        etc."</note> with international brands in the Greater Boston area for
                     e-commerce use. Work closely with photographers, fashion coordinators,
                     directors, producers, stylists, makeup artists, other models, and clients to
-                    produce the desired looks, and to finish photo shoots on schedule.
+                    produce the desired looks, and to finish photo shoots on schedule.<note
+                        type="instructor">if you make each of these sentences its own job_summary
+                        element, then they will format as a list under the job</note>
                 </job_summary>
             </job>
             <job>
@@ -33,7 +41,8 @@
                 <employer>Turnstyle Cycle Studios</employer>
                 <job_date>April 2016–Present</job_date>
                 <job_location>Boston, MA</job_location>
-                <job_summary> Check in customers and assist with bike set-up Create a warm and
+                <job_summary> Check in customers and assist<note type="instructor">assist is a good
+                        verb to start your summary with</note> with bike set-up Create a warm and
                     welcoming environment for customers </job_summary>
             </job>
             <job>
@@ -41,17 +50,18 @@
                 <employer>University of San Diego Telefunding</employer>
                 <job_date>September 2015–December 2015</job_date>
                 <job_location>San Diego, CA</job_location>
-                <job_summary> Utilized effective sales skills to raise money in the form of
-                    donations to USD. Brought in 15 new donors within 3 months. Raised a total of
-                    $7215.00 as of December 1st, 2015. </job_summary>
+                <job_summary> Utilized effective sales skills to raise money<note type="instructor"
+                        >I would rephrase as "Raised money using effective sales techniques"</note>
+                    in the form of donations to USD. Brought in 15 new donors within 3 months.
+                    Raised a total of $7215.00 as of December 1st, 2015<note type="instructor">you
+                        might even put this first</note>. </job_summary>
             </job>
         </work_experience>
         <education>
             <school>Northeastern University</school>
             <school_location>Boston, MA</school_location>
             <graduation_date>2019</graduation_date>
-            <degree type="bachelor">Communication Studies. Minors in Media Production and
-                Business
+            <degree type="bachelor">Communication Studies. Minors in Media Production and Business
             </degree>
         </education>
         <additional_information>Surfrider Foundation member. Participate in beach cleanups and
@@ -82,7 +92,9 @@
         </report>
         <reviewer type="instructor" xml:id="smi.ke">Kevin Smith</reviewer>
         <report type="instructor" who="#smi.ke">
-            <p>Instructor comments will go here.</p>
+            <p>This is a really good start. Take a look at the comments above, they are mostly to do
+                with how you phrase your job_summary elements, a key aspect of the resume genre.
+                Nice work overall.</p>
         </report>
     </docReview>
 </DOC>

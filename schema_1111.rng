@@ -1627,9 +1627,9 @@
                 <ref name="resume.header"/>
             </zeroOrMore>
             <ref name="work_experience"/>
-            <optional>
+            <zeroOrMore>
                 <ref name="education"/>
-            </optional>
+            </zeroOrMore>
             <zeroOrMore>
                 <ref name="affiliations"/>
             </zeroOrMore>
