@@ -18,40 +18,47 @@
                 results.<note type="instructor">solid, specific objective here</note>
         </objectives>
         <header><style type="underline">Qualifications</style></header>
-        <qualifications>
-            <work_experience>
-                <job>
-                    <job_title><style type="bold">Title:</style> Software Developer for Fazlani
-                        L'Académie Globale School. <job_date>Duration: November 2015 - April
-                            2016.</job_date>
-                    </job_title>
-                    <job_summary>Developed<note type="instructor">good use of action verb
-                            here</note> a Student Council Voting System for the Sports Department of
-                        my high-school.</job_summary>
-                    <job_summary> Used<note type="instructor">could you be more direct here in using
-                            a verb that indicates your responsibilities/skill/experience? Like
-                            "Programmed in Java and maintained .dat files..."</note> Java as my
-                        primary programming language and .dat files for the systems backend
-                    </job_summary>
-                </job>
-            </work_experience>
-            <header><style type="underline">Education</style></header>
-            <education>Northeastern University Boston Class of 2020 - BS in Computer
-                Science</education>
-            <education>Fazlani L'Académie Globale School (India) Class of 2016 - Diploma in
-                International Baccalaureate </education>
-            <header><style type="underline">Additional Information</style><note type="instructor"
-                    >would it make sense to break this up into two, more cohesive sections? This
-                    section seems long and not thematically related; I could imagine a skills or
-                    software/languages section, maybe a volunteer and other
-                experience</note></header>
-            <additional_information> Proficient in Java, DrRacket and XML.</additional_information>
-            <additional_information>Fluent in English, French and Hindi.</additional_information>
-            <additional_information>Prior leadership roles in sports teams.</additional_information>
-            <additional_information>Hosted my high-school annual concert.</additional_information>
-            <additional_information> Volunteered at Muktangan NGO in India. Directed a play for
-                their school concert with the help of my classmates.</additional_information>
-        </qualifications>
+
+        <work_experience>
+            <job>
+                <job_title><style type="bold">Title:</style> Software Developer.</job_title>
+                <employer>Fazlani L'Académie Globale School</employer>
+                <job_date>Duration: November 2015 - April 2016.</job_date>
+                <job_location>Mumbai, India</job_location>
+                <job_summary>Developed<note type="instructor">good use of action verb here</note> a
+                    Student Council Voting System for the Sports Department of my
+                    high-school.</job_summary>
+                <job_summary>
+                    <note type="instructor">could you be more direct here in using a verb that
+                        indicates your responsibilities/skill/experience? Like "Programmed in Java
+                        and maintained .dat files..."</note> Programmed in Java and                
+                            maintained the backend in .dat files </job_summary>
+            </job>
+        </work_experience>
+        <header><style type="underline">Education</style></header>
+        <education><school>Northeastern University</school>
+            <school_location>Boston, MA</school_location>
+            <graduation_date>2020</graduation_date>
+            <degree type="bachelor">Computer Science with Business
+            Administration</degree></education>
+        <education><school>Fazlani L'Académie Globale School</school>
+            <school_location>Mumbai, India</school_location>
+            <graduation_date>2016</graduation_date>
+            <degree type="high_school">Diploma in International Baccalaureate</degree>
+        </education>
+        <header><style type="underline">Additional Information</style><note type="instructor">would
+                it make sense to break this up into two, more cohesive sections? This section seems
+                long and not thematically related; I could imagine a skills or software/languages
+                section, maybe a volunteer and other experience</note></header>
+        <header>Softwares/Languages</header>
+        <additional_information> Proficient in Java, DrRacket and XML.</additional_information>
+        <additional_information>Fluent in English, French and Hindi.</additional_information>
+        <header>Volunteer/Leadership</header>
+        <additional_information>Prior leadership roles in sports teams.</additional_information>
+        <additional_information>Hosted my high-school annual concert.</additional_information>
+        <additional_information> Volunteered at Muktangan NGO in India. Directed a play for their
+            school concert with the help of my classmates.</additional_information>
+
     </resume>
     <docReview>
         <reviewer type="peer" xml:id="id_here"> Name of Reviewer</reviewer>
