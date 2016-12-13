@@ -4,7 +4,7 @@
 <DOC>
     <movie_review>
         <header>
-            <title type="title_review"> Billy Madison </title>
+            <title type="title_review"> Truly a love it or hate it movie </title>
             <title type="title_movie">Billy Madison<note type="instructor">normally there is a photo
                     in the header section, according to the schema</note></title>
             <author xml:id="ga.ar"> Mohit Dhinakaran</author>
@@ -26,7 +26,7 @@
                 <p> The movie is does not hide the fact that it is a classic, dumb humour kind of
                     movie. And thats why I like it. After reviewing nearly 400 titles on imdb, I
                     have never seen a film that has made me laugh this much. This movie doesnt
-                    attempt to be a polished piece with intelligent humour. Its<note
+                    attempt to be a polished piece with intelligent humour. It is<note
                         type="instructor">It's or it is</note> slapstick, vulgar, and unquestionably
                     hilarious. Many fans have watched this movie with varying levels of sobriety,
                     all to interesting results.</p>
@@ -44,19 +44,28 @@
                     1995. I'm convinced children today are smarter, and they will understand the
                     hidden jokes and sexual humour.</p>
 
+                <p>As far as filmaking is concerned, it is a true revelation. Dialogues are well
+                    written and well performed. In fact, Sandler had ad libbed several dialogues to
+                    great success. He is well know for his improvisation skills, and it is evident
+                    in this movie. Interviews often reveal his unique creative process in
+                    filmmaking. The supporting cast complement him, but it is clear that Sandler is
+                    running the show. Bradley Whitford’s role as the antagonist is memorable, due to
+                    his excellent facial expressions and comic timing. The cast seems to have a
+                    great chemistry, bonded together by a clear cut (if not predictable) script. </p>
+
                 <p>For those still unconvinced, consider a few select scenes from the movie.The
                     scene where Billy eats dinner with his father's collegues is one of Sandler's
-                    best performances to date. <citation> In this scene, Sandler joins the table
+                    best performances to date. In this scene, <synopsis type="">Sandler joins the table
                         fashionably late, dressed in a sweatshirt and cap whilst everyone else wore
-                        suits. </citation><note type="instructor">i'm not sure "citation" is the
-                        right tag here, maybe synopsis? or aesthetics?</note> He sits down and
-                    obnoxiously slurps his soup, much to the annoyance of his father. He then
-                    proceeds to bite his colleague, for reasons unknown. Provoked and disturbed,
-                    Billy then commences a dialogue in gibberish, to hilarious consequences.This
-                    scene is a classic Adam Sandler piece;loud, nonsensical and absolutley
-                    hilarious. This scene is a prelude to the movie's string of gags and scenes. It
-                    foreshadows the oncoming onslaught of juvenile humour that is attributed to
-                    Sandler's movies.</p>
+                        suits.He sits down and obnoxiously slurps his
+                    soup, much to the annoyance of his father. He then proceeds to bite his
+                    colleague, for reasons unknown.</synopsis>
+                    <note type="instructor">i'm not sure "citation" is the right tag here, maybe
+                        synopsis? or aesthetics?</note> Provoked and disturbed, Billy then commences
+                    a dialogue in gibberish, to hilarious consequences.This scene is a classic Adam
+                    Sandler piece;loud, nonsensical and absolutley hilarious. This scene is a
+                    prelude to the movie's string of gags and scenes. It foreshadows the oncoming
+                    onslaught of juvenile humour that is attributed to Sandler's movies.</p>
                 <p>
                     <aesthetics>Big, brash and bold. These words perfectly describe the aesthetics
                         in this movie. Think of any lewd or vulgar action, and this movie probably
